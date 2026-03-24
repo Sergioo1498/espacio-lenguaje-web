@@ -27,6 +27,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...blogUrls,
     {
+      url: `${baseUrl}/sobre-nosotros`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/contacto`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/aviso-legal`,
       lastModified: new Date(),
       changeFrequency: "yearly",

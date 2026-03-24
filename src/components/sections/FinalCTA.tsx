@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
 export default function FinalCTA() {
@@ -82,12 +83,12 @@ export default function FinalCTA() {
 
         {/* CTA button */}
         <AnimatedSection delay={0.15}>
-          <a
-            href="mailto:hola@espaciolenguaje.com"
+          <Link
+            href="/contacto"
             className="btn-primary inline-block text-lg px-10 py-4"
           >
             Escríbenos
-          </a>
+          </Link>
         </AnimatedSection>
 
         {/* Instagram link */}

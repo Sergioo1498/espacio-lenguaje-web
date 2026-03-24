@@ -36,7 +36,7 @@ export default function NewsletterForm({
 
       if (data.success) {
         setStatus("success");
-        setMessage("¡Listo! Revisa tu email para descargar la guía");
+        setMessage("¡Listo! Te hemos enviado la guía a tu email. Revisa tu bandeja de entrada (y spam, por si acaso).");
         setEmail("");
       } else {
         setStatus("error");

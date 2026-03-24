@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "@/components/icons/Logo";
 
 const contenidoLinks = [
@@ -7,8 +8,8 @@ const contenidoLinks = [
 ];
 
 const infoLinks = [
-  { label: "Sobre nosotros", href: "#sobre-nosotros" },
-  { label: "Contacto", href: "mailto:hola@espaciolenguaje.com" },
+  { label: "Sobre nosotros", href: "/sobre-nosotros" },
+  { label: "Contacto", href: "/contacto" },
 ];
 
 const legalLinks = [
@@ -32,12 +33,21 @@ function FooterLinkColumn({
       <ul className="flex flex-col gap-3">
         {links.map((link) => (
           <li key={link.href}>
-            <a
-              href={link.href}
-              className="font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light"
-            >
-              {link.label}
-            </a>
+            {link.href.startsWith("/") ? (
+              <Link
+                href={link.href}
+                className="font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light"
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                href={link.href}
+                className="font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light"
+              >
+                {link.label}
+              </a>
+            )}
           </li>
         ))}
       </ul>
