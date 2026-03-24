@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/ui/AnimatedSection';
+import NewsletterForm from '@/components/ui/NewsletterForm';
 
 const checkItems = [
   'Hitos del lenguaje por edad',
@@ -127,23 +128,9 @@ export default function LeadMagnet() {
             </p>
 
             {/* Form */}
-            <form
-              className="mt-8 flex flex-col sm:flex-row gap-3"
-              onSubmit={(e) => e.preventDefault()}
-            >
-              <input
-                type="email"
-                placeholder="Tu email"
-                required
-                className="flex-1 rounded-pill px-6 py-3.5 text-sm bg-white text-cacao placeholder:text-texto-muted outline-none focus:ring-2 focus:ring-terracota/50"
-              />
-              <button
-                type="submit"
-                className="rounded-pill bg-terracota px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-terracota-dark whitespace-nowrap"
-              >
-                Descargar gratis
-              </button>
-            </form>
+            <div className="mt-8">
+              <NewsletterForm variant="dark" buttonText="Descargar gratis" />
+            </div>
 
             {/* Checklist */}
             <ul className="mt-8 space-y-3">
