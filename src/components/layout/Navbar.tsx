@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import Logo from "@/components/icons/Logo";
 
@@ -44,20 +45,29 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="/" aria-label="Espacio Lenguaje - Inicio">
+        <Link href="/" aria-label="Espacio Lenguaje - Inicio">
           <Logo showText />
-        </a>
+        </Link>
 
         {/* Desktop links */}
         <ul className="hidden items-center gap-8 font-sans text-sm md:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
-              <a
-                href={link.href}
-                className="text-cacao transition-colors duration-200 hover:text-terracota"
-              >
-                {link.label}
-              </a>
+              {link.href.startsWith("/") ? (
+                <Link
+                  href={link.href}
+                  className="text-cacao transition-colors duration-200 hover:text-terracota"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  href={link.href}
+                  className="text-cacao transition-colors duration-200 hover:text-terracota"
+                >
+                  {link.label}
+                </a>
+              )}
             </li>
           ))}
         </ul>
@@ -142,13 +152,23 @@ export default function Navbar() {
               <ul className="flex flex-col gap-6 font-sans text-lg">
                 {navLinks.map((link) => (
                   <li key={link.href}>
-                    <a
-                      href={link.href}
-                      onClick={() => setMobileOpen(false)}
-                      className="text-cacao transition-colors duration-200 hover:text-terracota"
-                    >
-                      {link.label}
-                    </a>
+                    {link.href.startsWith("/") ? (
+                      <Link
+                        href={link.href}
+                        onClick={() => setMobileOpen(false)}
+                        className="text-cacao transition-colors duration-200 hover:text-terracota"
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        onClick={() => setMobileOpen(false)}
+                        className="text-cacao transition-colors duration-200 hover:text-terracota"
+                      >
+                        {link.label}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
