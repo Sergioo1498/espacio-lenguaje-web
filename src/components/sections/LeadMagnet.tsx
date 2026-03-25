@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import NewsletterForm from '@/components/ui/NewsletterForm';
+import LogoIcon from '@/components/icons/LogoIcon';
 
 const checkItems = [
   'Hitos del lenguaje por edad',
@@ -68,21 +69,8 @@ function GuideMockup() {
             <div className="h-1.5 w-3/5 mx-auto rounded-full bg-arena" />
           </div>
 
-          {/* Small icon */}
-          <div className="flex items-center justify-center w-10 h-10 rounded-full bg-verde/15">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 2L12.5 7.5H17.5L13.5 11L15 17L10 13.5L5 17L6.5 11L2.5 7.5H7.5L10 2Z"
-                fill="#8FAE8B"
-              />
-            </svg>
-          </div>
+          {/* Logo icon */}
+          <LogoIcon size={36} />
 
           {/* More decorative lines */}
           <div className="w-full space-y-2 py-1">

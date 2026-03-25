@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionTag from "@/components/ui/SectionTag";
+import LogoIcon from "@/components/icons/LogoIcon";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros",
@@ -15,82 +16,9 @@ export default function SobreNosotrosPage() {
       {/* ── Hero ── */}
       <section className="bg-arena section-padding">
         <div className="container-custom text-center">
-          {/* Decorative SVG — EL initials with organic elements */}
+          {/* Logo icon */}
           <div className="flex justify-center mb-6">
-            <svg
-              width="80"
-              height="80"
-              viewBox="0 0 80 80"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              {/* Decorative leaf top-left */}
-              <path
-                d="M12 18C12 18 18 10 26 14C26 14 20 18 16 22"
-                stroke="#8FAE8B"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                fill="none"
-                opacity="0.5"
-              />
-              {/* Decorative wave bottom */}
-              <path
-                d="M14 64C20 60 26 64 32 60C38 56 44 60 50 56C56 52 62 56 68 52"
-                stroke="#F5EDE3"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                fill="none"
-                opacity="0.6"
-              />
-              {/* Speech bubble top-right */}
-              <path
-                d="M56 12C56 8 60 6 64 6C68 6 72 8 72 12C72 16 68 18 64 18L62 22L60 18C58 18 56 16 56 12Z"
-                stroke="#8FAE8B"
-                strokeWidth="1.5"
-                fill="none"
-                opacity="0.4"
-              />
-              {/* Letter E */}
-              <text
-                x="16"
-                y="52"
-                fontFamily="serif"
-                fontSize="36"
-                fontWeight="bold"
-                fill="#C4745A"
-              >
-                E
-              </text>
-              {/* Letter L */}
-              <text
-                x="42"
-                y="52"
-                fontFamily="serif"
-                fontSize="36"
-                fontWeight="bold"
-                fill="#8FAE8B"
-              >
-                L
-              </text>
-              {/* Decorative leaf bottom-right */}
-              <path
-                d="M68 58C68 58 72 52 70 46"
-                stroke="#8FAE8B"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                fill="none"
-                opacity="0.5"
-              />
-              <path
-                d="M70 46C70 46 66 50 68 58"
-                stroke="#8FAE8B"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                fill="none"
-                opacity="0.3"
-              />
-            </svg>
+            <LogoIcon size={64} />
           </div>
 
           <h1 className="text-4xl md:text-5xl font-serif text-cacao mb-4">

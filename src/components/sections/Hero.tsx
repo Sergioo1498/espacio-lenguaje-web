@@ -129,18 +129,28 @@ function HeroIllustration() {
         <polygon points="292,300 297,306 302,300" fill="#8FAE8B" fillOpacity="0.16" />
       </motion.g>
 
-      {/* Center logo icon — stylized speech bubble with heart */}
+      {/* Center logo icon — speech bubble with EL */}
       <motion.g
         animate={{ scale: [1, 1.04, 1] }}
         transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
         style={{ transformOrigin: "200px 195px" }}
       >
-        <rect x="175" y="172" width="50" height="38" rx="12" fill="#C4745A" />
-        <polygon points="192,210 200,220 208,210" fill="#C4745A" />
-        <path
-          d="M193 188c0-4 3.5-7 7-4.5 3.5-2.5 7 .5 7 4.5 0 5-7 9-7 9s-7-4-7-9z"
-          fill="white"
-        />
+        <rect x="172" y="168" width="56" height="40" rx="11" fill="#C4745A" />
+        <polygon points="185,208 178,222 200,208" fill="#C4745A" />
+        <text
+          x="200"
+          y="190"
+          textAnchor="middle"
+          dominantBaseline="central"
+          fontFamily="'DM Sans', sans-serif"
+          fontWeight="700"
+          fontSize="20"
+          fill="#FDF8F4"
+        >
+          EL
+        </text>
+        <circle cx="182" cy="177" r="2" fill="#FDF8F4" opacity="0.45" />
+        <circle cx="188" cy="174" r="1.5" fill="#FDF8F4" opacity="0.3" />
       </motion.g>
 
       {/* Small floating decorative circles */}

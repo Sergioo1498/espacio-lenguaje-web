@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FDF8F4"/>
+
+  <!-- Decorative blobs -->
+  <circle cx="100" cy="100" r="200" fill="#8FAE8B" opacity="0.06"/>
+  <circle cx="1100" cy="530" r="180" fill="#C4745A" opacity="0.06"/>
+  <circle cx="900" cy="80" r="120" fill="#F5E6D3" opacity="0.3"/>
+
+  <!-- Logo bubble centered -->
+  <rect x="504" y="160" width="192" height="138" rx="39" fill="#C4745A"/>
+  <polygon points="540,298 516,352 618,298" fill="#C4745A"/>
+  <text x="600" y="235" text-anchor="middle" dominant-baseline="central" font-family="'DM Sans', Arial, sans-serif" font-weight="700" font-size="69" fill="#FDF8F4">EL</text>
+  <circle cx="546" cy="190" r="7.5" fill="#FDF8F4" opacity="0.45"/>
+  <circle cx="567" cy="178" r="5.4" fill="#FDF8F4" opacity="0.3"/>
+
+  <!-- Text below -->
+  <text x="600" y="420" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-weight="400" font-size="18" fill="#3D2C2E" letter-spacing="8">ESPACIO</text>
+  <text x="600" y="465" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-weight="700" font-size="42" fill="#3D2C2E">LENGUAJE</text>
+  <text x="600" y="510" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-weight="400" font-size="20" fill="#8FAE8B" letter-spacing="4">logopedia infantil</text>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="570" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-weight="400" font-size="16" fill="#6b5a5c">Donde cada peque encuentra su voz</text>
+</svg>

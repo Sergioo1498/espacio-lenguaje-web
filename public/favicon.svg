@@ -1,0 +1,7 @@
+<svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="4" width="64" height="46" rx="13" fill="#C4745A"/>
+  <polygon points="18,50 10,68 38,50" fill="#C4745A"/>
+  <text x="40" y="29" text-anchor="middle" dominant-baseline="central" font-family="'DM Sans', Arial, sans-serif" font-weight="700" font-size="23" fill="#FDF8F4">EL</text>
+  <circle cx="22" cy="14" r="2.5" fill="#FDF8F4" opacity="0.45"/>
+  <circle cx="29" cy="10" r="1.8" fill="#FDF8F4" opacity="0.3"/>
+</svg>
