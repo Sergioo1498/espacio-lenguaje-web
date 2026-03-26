@@ -1,35 +1,36 @@
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionTag from '@/components/ui/SectionTag';
 
-/* Reemplazar con testimonios reales cuando los tengamos */
+/* TODO: Reemplazar con testimonios reales */
 
 const testimonials = [
   {
     initials: 'MG',
     color: 'bg-verde',
     quote:
-      'Gracias a los recursos de Espacio Lenguaje, entendí que lo que le pasaba a Leo era normal para su edad. Los ejercicios nos ayudaron muchísimo mientras esperábamos la cita con el logopeda.',
-    name: 'María G., mamá de Leo (3 años)',
+      'Los recursos de Espacio Lenguaje nos han ayudado mucho a entender el desarrollo del lenguaje de nuestro hijo. Muy recomendable.',
+    name: 'María G.',
   },
   {
     initials: 'CP',
     color: 'bg-terracota',
     quote:
-      'La guía de hitos fue un antes y un después. Por fin tenía información clara y sin alarmismos. Ahora sé exactamente qué esperar y cómo estimular a mi hija.',
-    name: 'Carlos P., papá de Lucía (2 años)',
+      'La guía de hitos del lenguaje nos dio la tranquilidad que necesitábamos. Información clara y sin alarmismos.',
+    name: 'Carlos P.',
   },
   {
     initials: 'AR',
     color: 'bg-verde',
     quote:
-      'Como maestra de infantil, recomiendo Espacio Lenguaje a todas las familias. El contenido es riguroso pero accesible, y los ejercicios son fáciles de integrar en la rutina.',
-    name: 'Ana R., maestra de educación infantil',
+      'Como profesional de educación infantil, recomiendo Espacio Lenguaje por su rigor y cercanía.',
+    name: 'Ana R.',
   },
 ];
 
 export default function Testimonials() {
   return (
     <section className="bg-arena section-padding">
+      {/* TODO: Reemplazar con testimonios reales */}
       <div className="container-custom">
         {/* Header */}
         <AnimatedSection className="text-center mb-16">

@@ -10,7 +10,7 @@ const services = [
     title: 'Recursos descargables',
     description:
       'Fichas, actividades y materiales listos para imprimir. Diseñados por logopedas para trabajar en casa.',
-    link: { label: 'Explorar →', href: '#' },
+    link: { label: 'Explorar →', href: '/blog' },
     icon: (
       <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
         {/* Document body */}
@@ -57,7 +57,7 @@ const services = [
     title: 'Guías para familias',
     description:
       'Guías paso a paso para familias que quieren ayudar a su peque desde casa.',
-    link: { label: 'Descubrir →', href: '#' },
+    link: { label: 'Descubrir →', href: '#lead-magnet' },
     icon: (
       <svg width="80" height="80" viewBox="0 0 80 80" fill="none" aria-hidden="true">
         {/* Adult hand */}

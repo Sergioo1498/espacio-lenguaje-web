@@ -1,5 +1,4 @@
 const trustBadges = [
-  "Colegiada n.º XXXX",
   "Atención temprana",
   "Logopedia basada en evidencia",
   "Formación continua",
