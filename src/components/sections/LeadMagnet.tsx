@@ -105,10 +105,10 @@ export default function LeadMagnet() {
             >
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/section-guia-gratuita.png"
+                  src="/images/guia-portada.png"
                   alt="Guía gratuita de Espacio Lenguaje: Hitos del lenguaje de 0 a 6 años"
                   width={320}
-                  height={240}
+                  height={427}
                   className="w-full h-auto"
                 />
               </div>
