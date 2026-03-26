@@ -23,7 +23,7 @@ export default function Logo({
         alt="Espacio Lenguaje"
         width={size}
         height={size}
-        className="shrink-0 rounded-full"
+        className="shrink-0"
         style={{ width: size, height: size }}
         priority
       />
