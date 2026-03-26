@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionTag from "@/components/ui/SectionTag";
+import Image from "next/image";
 import LogoIcon from "@/components/icons/LogoIcon";
 
 export const metadata: Metadata = {
@@ -24,10 +25,22 @@ export default function SobreNosotrosPage() {
           <h1 className="text-4xl md:text-5xl font-serif text-cacao mb-4">
             Un espacio donde el lenguaje florece
           </h1>
-          <p className="text-lg text-texto-secundario max-w-2xl mx-auto">
+          <p className="text-lg text-texto-secundario max-w-2xl mx-auto mb-10">
             Logopedia infantil basada en evidencia, cercanía y respeto por cada
             niño.
           </p>
+
+          {/* Hero image */}
+          <div className="relative max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-lg">
+            <Image
+              src="/images/section-about.png"
+              alt="Sala de logopedia infantil con materiales educativos, tarjetas ilustradas y luz natural"
+              width={1200}
+              height={400}
+              className="w-full h-auto max-h-[400px] object-cover"
+              priority
+            />
+          </div>
         </div>
       </section>
 

@@ -1,9 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import NewsletterForm from '@/components/ui/NewsletterForm';
-import LogoIcon from '@/components/icons/LogoIcon';
 
 const checkItems = [
   'Hitos del lenguaje por edad',
@@ -33,65 +33,21 @@ function CheckIcon() {
   );
 }
 
-function GuideMockup() {
-  return (
-    <motion.div
-      className="relative w-full max-w-[280px] mx-auto"
-      style={{
-        transform: 'perspective(800px) rotateY(-8deg)',
-      }}
-      whileHover={{
-        transform: 'perspective(800px) rotateY(-2deg)',
-        transition: { duration: 0.4, ease: 'easeOut' },
-      }}
-    >
-      <div className="rounded-2xl bg-white p-6 shadow-2xl">
-        {/* Cover content */}
-        <div className="flex flex-col items-center text-center space-y-4">
-          {/* Decorative verde badges */}
-          <div className="flex gap-1.5">
-            <span className="inline-block w-3 h-3 rounded-full bg-verde" />
-            <span className="inline-block w-3 h-3 rounded-full bg-verde-light" />
-            <span className="inline-block w-3 h-3 rounded-full bg-verde/50" />
-          </div>
-
-          {/* Title */}
-          <h3 className="font-serif text-lg text-cacao leading-snug">
-            Hitos del lenguaje
-            <br />
-            de 0 a 6 años
-          </h3>
-
-          {/* Decorative content lines */}
-          <div className="w-full space-y-2 py-2">
-            <div className="h-1.5 w-full rounded-full bg-arena" />
-            <div className="h-1.5 w-4/5 mx-auto rounded-full bg-arena" />
-            <div className="h-1.5 w-3/5 mx-auto rounded-full bg-arena" />
-          </div>
-
-          {/* Logo icon */}
-          <LogoIcon size={36} />
-
-          {/* More decorative lines */}
-          <div className="w-full space-y-2 py-1">
-            <div className="h-1.5 w-full rounded-full bg-arena" />
-            <div className="h-1.5 w-5/6 mx-auto rounded-full bg-arena" />
-          </div>
-
-          {/* Subtitle */}
-          <p className="text-xs font-semibold uppercase tracking-wider text-terracota">
-            Espacio Lenguaje
-          </p>
-        </div>
-      </div>
-    </motion.div>
-  );
-}
-
 export default function LeadMagnet() {
   return (
     <section id="lead-magnet" className="section-padding">
       <div className="relative mx-6 max-w-6xl lg:mx-auto rounded-3xl overflow-hidden bg-cacao">
+        {/* Pattern background */}
+        <div
+          className="absolute inset-0 opacity-[0.04]"
+          style={{
+            backgroundImage: "url('/images/pattern-bg.png')",
+            backgroundSize: "300px",
+            backgroundRepeat: "repeat",
+          }}
+          aria-hidden="true"
+        />
+
         {/* Decorative circles */}
         <div
           className="absolute -top-20 -right-20 w-[300px] h-[300px] rounded-full bg-terracota opacity-10 pointer-events-none"
@@ -131,13 +87,32 @@ export default function LeadMagnet() {
             </ul>
           </AnimatedSection>
 
-          {/* Right column */}
+          {/* Right column — Guide image with 3D perspective */}
           <AnimatedSection
             direction="right"
             delay={0.2}
             className="flex items-center justify-center"
           >
-            <GuideMockup />
+            <motion.div
+              className="relative w-full max-w-[320px]"
+              style={{
+                transform: 'perspective(800px) rotateY(-8deg)',
+              }}
+              whileHover={{
+                transform: 'perspective(800px) rotateY(-2deg)',
+                transition: { duration: 0.4, ease: 'easeOut' },
+              }}
+            >
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/section-guia-gratuita.png"
+                  alt="Guía gratuita de Espacio Lenguaje: Hitos del lenguaje de 0 a 6 años"
+                  width={320}
+                  height={240}
+                  className="w-full h-auto"
+                />
+              </div>
+            </motion.div>
           </AnimatedSection>
         </div>
       </div>

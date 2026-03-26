@@ -1,40 +1,23 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllPosts } from '@/lib/mdx';
 import SectionTag from '@/components/ui/SectionTag';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 
-/* SVG illustrations for each card position */
-const illustrations = [
-  // Sound waves
-  (
-    <svg key="waves" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <circle cx="20" cy="40" r="6" stroke="#C4745A" strokeWidth="2" />
-      <path d="M30 28C34 32 34 48 30 52" stroke="#C4745A" strokeWidth="2" strokeLinecap="round" opacity="0.8" />
-      <path d="M38 20C44 28 44 52 38 60" stroke="#C4745A" strokeWidth="2" strokeLinecap="round" opacity="0.5" />
-      <path d="M46 14C54 24 54 56 46 66" stroke="#C4745A" strokeWidth="2" strokeLinecap="round" opacity="0.3" />
-    </svg>
-  ),
-  // Book
-  (
-    <svg key="book" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M12 18C12 18 24 14 40 18C56 22 68 18 68 18V58C68 58 56 62 40 58C24 54 12 58 12 58V18Z" stroke="#8FAE8B" strokeWidth="2.5" strokeLinejoin="round" />
-      <line x1="40" y1="18" x2="40" y2="58" stroke="#8FAE8B" strokeWidth="2" />
-      <path d="M22 28H34" stroke="#8FAE8B" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <path d="M22 34H30" stroke="#8FAE8B" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <path d="M46 30H58" stroke="#8FAE8B" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <path d="M46 36H54" stroke="#8FAE8B" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-    </svg>
-  ),
-  // Pencil
-  (
-    <svg key="pencil" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M52 16L64 28L28 64L12 68L16 52L52 16Z" stroke="#C4745A" strokeWidth="2.5" strokeLinejoin="round" />
-      <path d="M48 20L60 32" stroke="#C4745A" strokeWidth="2" strokeLinecap="round" />
-      <path d="M16 52L28 64" stroke="#C4745A" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
-      <circle cx="62" cy="14" r="2" fill="#C4745A" opacity="0.3" />
-    </svg>
-  ),
-];
+const blogImages: Record<string, { src: string; alt: string }> = {
+  'mi-hijo-no-habla-cuando-preocuparse': {
+    src: '/images/blog-mi-hijo-no-habla.png',
+    alt: 'Manos de un niño señalando un libro ilustrado con animales',
+  },
+  'ejercicios-lenguaje-para-casa': {
+    src: '/images/blog-ejercicios.png',
+    alt: 'Mesa con materiales de logopedia: espejo, tarjetas y pegatinas de recompensa',
+  },
+  'dislexia-en-ninos-como-detectarla': {
+    src: '/images/blog-dislexia.png',
+    alt: 'Letras de madera desordenadas sobre superficie color crema, mano de niño tomando una letra',
+  },
+};
 
 function formatDate(date: string): string {
   return new Date(date).toLocaleDateString('es-ES', {
@@ -63,42 +46,51 @@ export default function BlogPreview() {
 
         {/* Cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post, i) => (
-            <AnimatedSection key={post.slug} delay={i * 0.15}>
-              {/*
-                Hover animations use CSS only (no framer-motion) since this
-                is a server component. The AnimatedSection wrapper handles
-                the entrance animation as a client island.
-              */}
-              <Link
-                href={`/blog/${post.slug}`}
-                className="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:translate-y-[-4px] hover:shadow-lg transition-all duration-300"
-              >
-                {/* Illustration area */}
-                <div className="relative bg-arena flex items-center justify-center h-48">
-                  {illustrations[i % illustrations.length]}
+          {posts.map((post, i) => {
+            const image = blogImages[post.slug];
+            return (
+              <AnimatedSection key={post.slug} delay={i * 0.15}>
+                <Link
+                  href={`/blog/${post.slug}`}
+                  className="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:translate-y-[-4px] hover:shadow-lg transition-all duration-300"
+                >
+                  {/* Image area */}
+                  <div className="relative h-48 overflow-hidden">
+                    {image ? (
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-arena flex items-center justify-center">
+                        <span className="text-texto-muted text-sm">Imagen</span>
+                      </div>
+                    )}
+                    {/* Category badge */}
+                    <span className="absolute bottom-3 left-4 inline-block rounded-full bg-white/90 backdrop-blur-sm text-verde-dark px-3 py-1 text-xs font-semibold uppercase tracking-wider shadow-sm">
+                      {post.category}
+                    </span>
+                  </div>
 
-                  {/* Category badge */}
-                  <span className="absolute bottom-3 left-4 inline-block rounded-full bg-verde/15 text-verde-dark px-3 py-1 text-xs font-semibold uppercase tracking-wider">
-                    {post.category}
-                  </span>
-                </div>
-
-                {/* Content */}
-                <div className="p-6">
-                  <h3 className="font-serif text-lg text-cacao mb-2 group-hover:text-terracota transition-colors duration-200">
-                    {post.title}
-                  </h3>
-                  <p className="text-texto-secundario text-sm leading-relaxed line-clamp-2 mb-4">
-                    {post.excerpt}
-                  </p>
-                  <time className="text-xs text-texto-muted" dateTime={post.date}>
-                    {formatDate(post.date)}
-                  </time>
-                </div>
-              </Link>
-            </AnimatedSection>
-          ))}
+                  {/* Content */}
+                  <div className="p-6">
+                    <h3 className="font-serif text-lg text-cacao mb-2 group-hover:text-terracota transition-colors duration-200">
+                      {post.title}
+                    </h3>
+                    <p className="text-texto-secundario text-sm leading-relaxed line-clamp-2 mb-4">
+                      {post.excerpt}
+                    </p>
+                    <time className="text-xs text-texto-muted" dateTime={post.date}>
+                      {formatDate(post.date)}
+                    </time>
+                  </div>
+                </Link>
+              </AnimatedSection>
+            );
+          })}
         </div>
 
         {/* CTA link */}

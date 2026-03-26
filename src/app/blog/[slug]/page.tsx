@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/mdx";
 
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale: "es_ES",
       url: `https://espaciolenguaje.com/blog/${meta.slug}`,
       siteName: "Espacio Lenguaje",
+      images: meta.image ? [{ url: meta.image, width: 1200, height: 630, alt: meta.title }] : undefined,
     },
   };
 }
@@ -100,6 +102,30 @@ export default async function BlogPostPage({ params }: PageProps) {
           </ol>
         </div>
       </nav>
+
+      {/* Hero image */}
+      {(() => {
+        const blogImages: Record<string, { src: string; alt: string }> = {
+          'mi-hijo-no-habla-cuando-preocuparse': { src: '/images/blog-mi-hijo-no-habla.png', alt: 'Manos de un niño señalando un libro ilustrado' },
+          'ejercicios-lenguaje-para-casa': { src: '/images/blog-ejercicios.png', alt: 'Mesa con materiales de logopedia y tarjetas' },
+          'dislexia-en-ninos-como-detectarla': { src: '/images/blog-dislexia.png', alt: 'Letras de madera desordenadas sobre superficie crema' },
+        };
+        const img = blogImages[slug];
+        return img ? (
+          <div className="container-custom max-w-3xl mt-4">
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={1200}
+                height={630}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
+          </div>
+        ) : null;
+      })()}
 
       {/* Header */}
       <header className="section-padding pb-8 pt-6">

@@ -45,12 +45,21 @@ export const metadata: Metadata = {
     title: "Espacio Lenguaje — Logopedia Infantil",
     description:
       "Donde cada peque encuentra su voz. Recursos, ejercicios y acompañamiento profesional en logopedia infantil.",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Espacio Lenguaje — Logopedia Infantil",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Espacio Lenguaje — Logopedia Infantil",
     description:
       "Donde cada peque encuentra su voz. Recursos, ejercicios y acompañamiento profesional en logopedia infantil.",
+    images: ["/images/og-image.png"],
   },
   robots: {
     index: true,

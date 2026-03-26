@@ -11,6 +11,7 @@ export interface PostMeta {
   excerpt: string;
   category: string;
   readingTime: string;
+  image?: string;
 }
 
 export function getAllPosts(): PostMeta[] {
@@ -27,6 +28,7 @@ export function getAllPosts(): PostMeta[] {
       excerpt: data.excerpt,
       category: data.category,
       readingTime: data.readingTime || "5 min",
+      image: data.image,
     } as PostMeta;
   });
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -44,6 +46,7 @@ export function getPostBySlug(slug: string) {
       excerpt: data.excerpt,
       category: data.category,
       readingTime: data.readingTime || "5 min",
+      image: data.image,
     } as PostMeta,
     content,
   };
