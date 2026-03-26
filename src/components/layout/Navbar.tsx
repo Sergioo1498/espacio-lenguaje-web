@@ -77,12 +77,12 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop CTA */}
-        <a
+        <Link
           href="/#lead-magnet"
           className="hidden rounded-pill bg-terracota px-5 py-2.5 font-sans text-sm font-semibold text-white transition-colors duration-200 hover:bg-terracota-dark md:inline-block"
         >
           Guía gratuita
-        </a>
+        </Link>
 
         {/* Mobile hamburger — min 44x44 touch target */}
         <button
@@ -178,13 +178,13 @@ export default function Navbar() {
               </ul>
 
               {/* Mobile CTA */}
-              <a
+              <Link
                 href="/#lead-magnet"
                 onClick={() => setMobileOpen(false)}
                 className="mt-10 block rounded-pill bg-terracota px-6 py-4 text-center font-sans text-base font-semibold text-white transition-colors duration-200 hover:bg-terracota-dark touch-manipulation"
               >
                 Guía gratuita
-              </a>
+              </Link>
             </motion.div>
           </>
         )}
