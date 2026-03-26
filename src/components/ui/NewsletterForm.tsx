@@ -51,8 +51,8 @@ export default function NewsletterForm({
   const isDark = variant === "dark";
 
   const inputClasses = isDark
-    ? "flex-1 rounded-pill px-6 py-3.5 text-sm bg-white text-cacao placeholder:text-texto-muted outline-none focus:ring-2 focus:ring-terracota/50"
-    : "flex-1 rounded-pill px-6 py-3.5 text-sm bg-white text-cacao placeholder:text-texto-muted outline-none ring-1 ring-cacao/10 focus:ring-2 focus:ring-terracota/50";
+    ? "flex-1 min-w-0 rounded-pill px-5 py-3.5 text-base bg-white text-cacao placeholder:text-texto-muted outline-none focus:ring-2 focus:ring-terracota/50"
+    : "flex-1 min-w-0 rounded-pill px-5 py-3.5 text-base bg-white text-cacao placeholder:text-texto-muted outline-none ring-1 ring-cacao/10 focus:ring-2 focus:ring-terracota/50";
 
   return (
     <div>
@@ -72,7 +72,7 @@ export default function NewsletterForm({
         <button
           type="submit"
           disabled={status === "loading"}
-          className="rounded-pill bg-terracota px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-terracota-dark whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98]"
+          className="rounded-pill bg-terracota px-8 py-3.5 text-base font-semibold text-white transition-all hover:bg-terracota-dark whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto touch-manipulation"
         >
           {status === "loading" ? "Enviando..." : buttonText}
         </button>

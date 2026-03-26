@@ -73,7 +73,7 @@ export default function FinalCTA() {
 
         {/* Heading */}
         <AnimatedSection>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-cacao mb-6">
+          <h2 className="font-serif text-[1.75rem] md:text-4xl lg:text-5xl text-cacao mb-6">
             ¿Tienes dudas sobre el lenguaje de tu peque?
           </h2>
           <p className="text-lg text-texto-secundario max-w-xl mx-auto mb-10">
@@ -85,7 +85,7 @@ export default function FinalCTA() {
         <AnimatedSection delay={0.15}>
           <Link
             href="/contacto"
-            className="btn-primary inline-block text-lg px-10 py-4"
+            className="btn-primary inline-block text-base md:text-lg px-8 md:px-10 py-4 w-full sm:w-auto text-center touch-manipulation"
           >
             Escríbenos
           </Link>

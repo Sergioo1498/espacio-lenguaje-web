@@ -59,7 +59,7 @@ export default function Services() {
                 className="group flex h-full flex-col rounded-3xl bg-white overflow-hidden shadow-sm"
               >
                 {/* Image */}
-                <div className="relative h-[200px] overflow-hidden">
+                <div className="relative h-[180px] md:h-[200px] overflow-hidden">
                   <Image
                     src={service.image}
                     alt={service.imageAlt}

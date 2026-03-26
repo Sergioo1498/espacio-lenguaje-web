@@ -43,7 +43,7 @@ export default function AnimatedCounter({
   }, [isInView, end, duration]);
 
   return (
-    <span ref={ref} className="font-serif text-5xl tabular-nums text-cacao">
+    <span ref={ref} className="font-serif text-[1.75rem] md:text-5xl tabular-nums text-cacao">
       {count}
       {suffix && <span className="text-terracota">{suffix}</span>}
     </span>

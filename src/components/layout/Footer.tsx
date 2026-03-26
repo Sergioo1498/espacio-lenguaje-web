@@ -30,20 +30,20 @@ function FooterLinkColumn({
       <h3 className="mb-4 font-sans text-sm font-semibold uppercase tracking-wider text-white">
         {title}
       </h3>
-      <ul className="flex flex-col gap-3">
+      <ul className="flex flex-col gap-1">
         {links.map((link) => (
           <li key={link.href}>
             {link.href.startsWith("/") ? (
               <Link
                 href={link.href}
-                className="font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light"
+                className="block py-2 font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light touch-manipulation"
               >
                 {link.label}
               </Link>
             ) : (
               <a
                 href={link.href}
-                className="font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light"
+                className="block py-2 font-sans text-sm text-white/70 transition-colors duration-200 hover:text-terracota-light touch-manipulation"
               >
                 {link.label}
               </a>

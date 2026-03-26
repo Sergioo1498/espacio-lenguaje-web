@@ -36,7 +36,7 @@ function CheckIcon() {
 export default function LeadMagnet() {
   return (
     <section id="lead-magnet" className="section-padding">
-      <div className="relative mx-6 max-w-6xl lg:mx-auto rounded-3xl overflow-hidden bg-cacao">
+      <div className="relative mx-4 md:mx-6 max-w-6xl lg:mx-auto rounded-2xl md:rounded-3xl overflow-hidden bg-cacao">
         {/* Pattern background */}
         <div
           className="absolute inset-0 opacity-[0.04]"
@@ -59,7 +59,7 @@ export default function LeadMagnet() {
         />
 
         {/* Content */}
-        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 p-8 md:p-12 lg:p-16">
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 p-5 md:p-12 lg:p-16">
           {/* Left column */}
           <AnimatedSection direction="left" className="flex flex-col justify-center">
             <h2 className="font-serif text-3xl md:text-4xl text-white leading-tight">
@@ -94,7 +94,7 @@ export default function LeadMagnet() {
             className="flex items-center justify-center"
           >
             <motion.div
-              className="relative w-full max-w-[320px]"
+              className="relative w-full max-w-[240px] md:max-w-[320px]"
               style={{
                 transform: 'perspective(800px) rotateY(-8deg)',
               }}
