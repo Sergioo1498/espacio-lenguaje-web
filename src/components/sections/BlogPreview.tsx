@@ -17,6 +17,22 @@ const blogImages: Record<string, { src: string; alt: string }> = {
     src: '/images/blog-dislexia.png',
     alt: 'Letras de madera desordenadas sobre superficie color crema, mano de niño tomando una letra',
   },
+  'estimulacion-del-lenguaje-en-casa': {
+    src: '/images/blog-estimulacion.png',
+    alt: 'Manos de padre e hijo con materiales de estimulación del lenguaje',
+  },
+  'juegos-para-estimular-el-habla': {
+    src: '/images/blog-juegos-habla.png',
+    alt: 'Juegos de logopedia infantil sobre una mesa',
+  },
+  'etapas-desarrollo-del-lenguaje': {
+    src: '/images/blog-etapas-desarrollo.png',
+    alt: 'Bloques de letras y libro abierto simbolizando etapas del lenguaje',
+  },
+  'bilinguismo-infantil-mitos-y-realidades': {
+    src: '/images/blog-bilinguismo.png',
+    alt: 'Libros infantiles en dos idiomas con banderitas',
+  },
 };
 
 function formatDate(date: string): string {

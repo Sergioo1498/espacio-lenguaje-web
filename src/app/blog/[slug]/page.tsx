@@ -4,6 +4,17 @@ import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/mdx";
 import LogoIcon from "@/components/icons/LogoIcon";
+import ShareButtons from "@/components/ui/ShareButtons";
+
+const blogImages: Record<string, { src: string; alt: string }> = {
+  "mi-hijo-no-habla-cuando-preocuparse": { src: "/images/blog-mi-hijo-no-habla.png", alt: "Manos de un niño señalando un libro ilustrado" },
+  "ejercicios-lenguaje-para-casa": { src: "/images/blog-ejercicios.png", alt: "Mesa con materiales de logopedia y tarjetas" },
+  "dislexia-en-ninos-como-detectarla": { src: "/images/blog-dislexia.png", alt: "Letras de madera desordenadas sobre superficie crema" },
+  "estimulacion-del-lenguaje-en-casa": { src: "/images/blog-estimulacion.png", alt: "Manos de padre e hijo con materiales de estimulación del lenguaje" },
+  "juegos-para-estimular-el-habla": { src: "/images/blog-juegos-habla.png", alt: "Juegos de logopedia infantil sobre una mesa" },
+  "etapas-desarrollo-del-lenguaje": { src: "/images/blog-etapas-desarrollo.png", alt: "Bloques de letras y libro abierto simbolizando etapas del lenguaje" },
+  "bilinguismo-infantil-mitos-y-realidades": { src: "/images/blog-bilinguismo.png", alt: "Libros infantiles en dos idiomas con banderitas" },
+};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -17,9 +28,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const { meta } = getPostBySlug(slug);
+  const img = blogImages[slug] || (meta.image ? { src: meta.image } : null);
   return {
     title: meta.title,
     description: meta.excerpt,
+    alternates: {
+      canonical: `https://espaciolenguaje.com/blog/${meta.slug}`,
+    },
     openGraph: {
       title: meta.title,
       description: meta.excerpt,
@@ -27,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale: "es_ES",
       url: `https://espaciolenguaje.com/blog/${meta.slug}`,
       siteName: "Espacio Lenguaje",
-      images: meta.image ? [{ url: meta.image, width: 1200, height: 630, alt: meta.title }] : undefined,
+      images: img ? [{ url: img.src, width: 1200, height: 630, alt: meta.title }] : undefined,
     },
   };
 }
@@ -45,6 +60,8 @@ export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
   const { meta, content } = getPostBySlug(slug);
   const relatedPosts = getRelatedPosts(slug, meta.category);
+  const heroImg = blogImages[slug] || (meta.image ? { src: meta.image, alt: meta.title } : null);
+  const articleUrl = `https://espaciolenguaje.com/blog/${slug}`;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -52,6 +69,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     headline: meta.title,
     description: meta.excerpt,
     datePublished: meta.date,
+    image: heroImg?.src ? `https://espaciolenguaje.com${heroImg.src}` : undefined,
     author: {
       "@type": "Organization",
       name: "Espacio Lenguaje",
@@ -64,7 +82,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://espaciolenguaje.com/blog/${meta.slug}`,
+      "@id": articleUrl,
     },
   };
 
@@ -76,25 +94,15 @@ export default async function BlogPostPage({ params }: PageProps) {
       />
 
       {/* Breadcrumb */}
-      <nav
-        aria-label="Breadcrumb"
-        className="section-padding pb-0 pt-8 md:pt-12"
-      >
+      <nav aria-label="Breadcrumb" className="section-padding pb-0 pt-8 md:pt-12">
         <div className="container-custom">
           <ol className="flex items-center gap-2 text-sm text-texto-muted">
             <li>
-              <Link href="/" className="hover:text-terracota transition-colors">
-                Inicio
-              </Link>
+              <Link href="/" className="hover:text-terracota transition-colors">Inicio</Link>
             </li>
             <li aria-hidden="true">&gt;</li>
             <li>
-              <Link
-                href="/blog"
-                className="hover:text-terracota transition-colors"
-              >
-                Blog
-              </Link>
+              <Link href="/blog" className="hover:text-terracota transition-colors">Blog</Link>
             </li>
             <li aria-hidden="true">&gt;</li>
             <li className="text-cacao font-medium truncate max-w-[200px] md:max-w-none">
@@ -105,28 +113,20 @@ export default async function BlogPostPage({ params }: PageProps) {
       </nav>
 
       {/* Hero image */}
-      {(() => {
-        const blogImages: Record<string, { src: string; alt: string }> = {
-          'mi-hijo-no-habla-cuando-preocuparse': { src: '/images/blog-mi-hijo-no-habla.png', alt: 'Manos de un niño señalando un libro ilustrado' },
-          'ejercicios-lenguaje-para-casa': { src: '/images/blog-ejercicios.png', alt: 'Mesa con materiales de logopedia y tarjetas' },
-          'dislexia-en-ninos-como-detectarla': { src: '/images/blog-dislexia.png', alt: 'Letras de madera desordenadas sobre superficie crema' },
-        };
-        const img = blogImages[slug];
-        return img ? (
-          <div className="container-custom max-w-3xl mt-4">
-            <div className="rounded-2xl overflow-hidden">
-              <Image
-                src={img.src}
-                alt={img.alt}
-                width={1200}
-                height={630}
-                className="w-full h-auto object-cover"
-                priority
-              />
-            </div>
+      {heroImg && (
+        <div className="container-custom max-w-3xl mt-4">
+          <div className="rounded-2xl overflow-hidden">
+            <Image
+              src={heroImg.src}
+              alt={heroImg.alt}
+              width={1200}
+              height={630}
+              className="w-full h-auto max-h-[400px] object-cover"
+              priority
+            />
           </div>
-        ) : null;
-      })()}
+        </div>
+      )}
 
       {/* Header */}
       <header className="section-padding pb-8 pt-6">
@@ -137,10 +137,13 @@ export default async function BlogPostPage({ params }: PageProps) {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif text-cacao mb-4 leading-tight">
             {meta.title}
           </h1>
-          <div className="flex items-center gap-4 text-sm text-texto-muted">
-            <time dateTime={meta.date}>{formatDate(meta.date)}</time>
-            <span aria-hidden="true">·</span>
-            <span>{meta.readingTime} de lectura</span>
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            <div className="flex items-center gap-4 text-sm text-texto-muted">
+              <time dateTime={meta.date}>{formatDate(meta.date)}</time>
+              <span aria-hidden="true">·</span>
+              <span>{meta.readingTime} de lectura</span>
+            </div>
+            <ShareButtons url={articleUrl} title={meta.title} />
           </div>
         </div>
       </header>
@@ -158,7 +161,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
             {/* Sidebar */}
             <aside className="w-full lg:w-80 shrink-0">
-              <div className="lg:sticky lg:top-24">
+              <div className="lg:sticky lg:top-24 space-y-6">
                 <div className="bg-cacao rounded-2xl p-8 text-white">
                   <div className="mb-4 flex justify-center opacity-60">
                     <LogoIcon size={40} className="brightness-0 invert" />
@@ -166,9 +169,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <p className="text-sm font-medium uppercase tracking-wider text-white/70 mb-2">
                     Recurso gratuito
                   </p>
-                  <h3 className="font-serif text-2xl mb-3">
-                    Guía gratuita
-                  </h3>
+                  <h3 className="font-serif text-2xl mb-3">Guía gratuita</h3>
                   <p className="text-white/80 text-sm mb-6 leading-relaxed">
                     Descarga nuestra guía con ejercicios y actividades para
                     estimular el lenguaje de tu peque en casa.
@@ -196,33 +197,49 @@ export default async function BlogPostPage({ params }: PageProps) {
               Artículos relacionados
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
-              {relatedPosts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  className="group block bg-white rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
-                >
-                  <div className="bg-arena py-10 flex items-center justify-center">
-                    <span className="inline-block bg-verde text-white text-xs font-medium px-4 py-1.5 rounded-full">
-                      {post.category}
-                    </span>
-                  </div>
-                  <div className="p-5">
-                    <h3 className="font-serif text-lg text-cacao mb-2 group-hover:text-terracota transition-colors">
-                      {post.title}
-                    </h3>
-                    <p className="text-texto-secundario text-sm line-clamp-2 mb-3">
-                      {post.excerpt}
-                    </p>
-                    <div className="flex items-center justify-between text-xs text-texto-muted">
-                      <time dateTime={post.date}>
-                        {formatDate(post.date)}
-                      </time>
-                      <span>{post.readingTime} de lectura</span>
+              {relatedPosts.map((post) => {
+                const relImg = blogImages[post.slug];
+                return (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="group block bg-white rounded-2xl shadow-sm overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                  >
+                    <div className="relative h-[180px] overflow-hidden">
+                      {relImg ? (
+                        <Image
+                          src={relImg.src}
+                          alt={relImg.alt}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-arena flex items-center justify-center">
+                          <span className="inline-block bg-verde text-white text-xs font-medium px-4 py-1.5 rounded-full">
+                            {post.category}
+                          </span>
+                        </div>
+                      )}
+                      <span className="absolute bottom-3 left-4 inline-block rounded-full bg-white/90 backdrop-blur-sm text-verde-dark px-3 py-1 text-xs font-semibold uppercase tracking-wider shadow-sm">
+                        {post.category}
+                      </span>
                     </div>
-                  </div>
-                </Link>
-              ))}
+                    <div className="p-5">
+                      <h3 className="font-serif text-lg text-cacao mb-2 group-hover:text-terracota transition-colors">
+                        {post.title}
+                      </h3>
+                      <p className="text-texto-secundario text-sm line-clamp-2 mb-3">
+                        {post.excerpt}
+                      </p>
+                      <div className="flex items-center justify-between text-xs text-texto-muted">
+                        <time dateTime={post.date}>{formatDate(post.date)}</time>
+                        <span>{post.readingTime} de lectura</span>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>
