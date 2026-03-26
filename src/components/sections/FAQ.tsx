@@ -9,12 +9,12 @@ const faqs = [
   {
     question: '¿Cuándo debería preocuparme por el lenguaje de mi hijo?',
     answer:
-      'Cada niño tiene su ritmo, pero hay algunas señales que conviene vigilar. Si a los 12 meses no balbucea ni señala, a los 18 meses no dice ninguna palabra, o a los 2 años no combina dos palabras, es recomendable consultar con un logopeda. Esto no significa que haya un problema grave, sino que es mejor valorar pronto para poder actuar si es necesario. [REVISAR POR LOGOPEDA]',
+      'Cada niño tiene su ritmo, pero hay algunas señales que conviene vigilar. Si a los 12 meses no balbucea ni señala, a los 18 meses no dice ninguna palabra, o a los 2 años no combina dos palabras, es recomendable consultar con un logopeda. Esto no significa que haya un problema grave, sino que es mejor valorar pronto para poder actuar si es necesario.',
   },
   {
     question: '¿Qué es un retraso del lenguaje?',
     answer:
-      'Un retraso del lenguaje ocurre cuando un niño no alcanza los hitos esperados de comunicación para su edad. Puede afectar a la comprensión (lo que entiende), a la expresión (lo que dice) o a ambos. Muchos niños con retraso del lenguaje alcanzan a sus iguales con la estimulación adecuada, pero es importante hacer un seguimiento profesional. [REVISAR POR LOGOPEDA]',
+      'Un retraso del lenguaje ocurre cuando un niño no alcanza los hitos esperados de comunicación para su edad. Puede afectar a la comprensión (lo que entiende), a la expresión (lo que dice) o a ambos. Muchos niños con retraso del lenguaje alcanzan a sus iguales con la estimulación adecuada, pero es importante hacer un seguimiento profesional.',
   },
   {
     question: '¿Cómo puedo estimular el lenguaje de mi peque en casa?',
@@ -24,12 +24,12 @@ const faqs = [
   {
     question: '¿Qué diferencia hay entre logopeda y pedagogo?',
     answer:
-      'El logopeda es el profesional sanitario especializado en la evaluación, diagnóstico y tratamiento de los trastornos de la comunicación, el lenguaje, el habla y la voz. El pedagogo se centra en los procesos de aprendizaje y en las dificultades educativas. Ambos pueden trabajar de forma complementaria, pero ante una dificultad específica del lenguaje o el habla, el logopeda es el profesional de referencia. [REVISAR POR LOGOPEDA]',
+      'El logopeda es el profesional sanitario especializado en la evaluación, diagnóstico y tratamiento de los trastornos de la comunicación, el lenguaje, el habla y la voz. El pedagogo se centra en los procesos de aprendizaje y en las dificultades educativas. Ambos pueden trabajar de forma complementaria, pero ante una dificultad específica del lenguaje o el habla, el logopeda es el profesional de referencia.',
   },
   {
     question: '¿A partir de qué edad se puede ir al logopeda?',
     answer:
-      'No hay una edad mínima. De hecho, cuanto antes se detecte y se aborde una dificultad del lenguaje, mejor es el pronóstico. Los programas de atención temprana atienden desde los 0 años. Si tienes dudas, consulta sin esperar: una valoración a tiempo puede marcar la diferencia. [REVISAR POR LOGOPEDA]',
+      'No hay una edad mínima. De hecho, cuanto antes se detecte y se aborde una dificultad del lenguaje, mejor es el pronóstico. Los programas de atención temprana atienden desde los 0 años. Si tienes dudas, consulta sin esperar: una valoración a tiempo puede marcar la diferencia.',
   },
   {
     question: '¿Los recursos descargables son suficientes o necesito un profesional?',

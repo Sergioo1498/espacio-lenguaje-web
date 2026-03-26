@@ -30,19 +30,19 @@ export default function AvisoLegalPage() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   <strong className="text-cacao">Titular:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Espacio Lenguaje
                 </li>
                 <li>
                   <strong className="text-cacao">NIF/CIF:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Pendiente de registro
                 </li>
                 <li>
                   <strong className="text-cacao">Domicilio:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Madrid, España
                 </li>
                 <li>
                   <strong className="text-cacao">Correo electrónico:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  hola@espaciolenguaje.com
                 </li>
                 <li>
                   <strong className="text-cacao">Sitio web:</strong>{" "}

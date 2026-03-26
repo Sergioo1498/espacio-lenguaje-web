@@ -72,9 +72,10 @@ export default function CookiesPage() {
                 utilización que hacen los usuarios del sitio web.
               </p>
               <p>
-                [COMPLETAR: Indicar si se utiliza Google Analytics u otra
-                herramienta de analítica, el nombre de las cookies, su
-                finalidad, la duración y si son propias o de terceros.]
+                Este sitio web utiliza Vercel Analytics, un servicio de
+                analítica web que recopila datos anónimos sobre el uso del
+                sitio sin utilizar cookies. No se almacena información
+                personal identificable.
               </p>
             </div>
           </div>

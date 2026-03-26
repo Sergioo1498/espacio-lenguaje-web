@@ -25,19 +25,19 @@ export default function PrivacidadPage() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   <strong className="text-cacao">Identidad:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Espacio Lenguaje
                 </li>
                 <li>
                   <strong className="text-cacao">NIF/CIF:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Pendiente de registro
                 </li>
                 <li>
                   <strong className="text-cacao">Dirección:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  Madrid, España
                 </li>
                 <li>
                   <strong className="text-cacao">Correo electrónico:</strong>{" "}
-                  [COMPLETAR CON DATOS REALES]
+                  hola@espaciolenguaje.com
                 </li>
               </ul>
             </div>
@@ -122,7 +122,7 @@ export default function PrivacidadPage() {
               </ul>
               <p>
                 Para ejercer cualquiera de estos derechos, puedes enviarnos un
-                correo electrónico a [COMPLETAR CON DATOS REALES] indicando el
+                correo electrónico a hola@espaciolenguaje.com indicando el
                 derecho que deseas ejercer y adjuntando copia de tu documento
                 de identidad.
               </p>

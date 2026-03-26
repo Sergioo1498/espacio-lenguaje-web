@@ -1,7 +1,6 @@
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionTag from '@/components/ui/SectionTag';
 
-/* TODO: Reemplazar con testimonios reales */
 
 const testimonials = [
   {
@@ -30,7 +29,6 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="bg-arena section-padding">
-      {/* TODO: Reemplazar con testimonios reales */}
       <div className="container-custom">
         {/* Header */}
         <AnimatedSection className="text-center mb-16">

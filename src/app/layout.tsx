@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import CookieBanner from "@/components/ui/CookieBanner";
 
 const dmSerifDisplay = DM_Serif_Display({
   weight: "400",
@@ -83,7 +84,7 @@ const organizationSchema = {
   email: "hola@espaciolenguaje.com",
   description:
     "Logopedia infantil: recursos, ejercicios y acompañamiento profesional para estimulación del lenguaje, dislexia y tartamudez.",
-  sameAs: ["https://instagram.com/espaciolenguaje"],
+  sameAs: ["https://instagram.com/espaciolenguaje", "https://tiktok.com/@espaciolenguaje"],
 };
 
 export default function RootLayout({
@@ -105,6 +106,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <CookieBanner />
         <Analytics />
         <SpeedInsights />
       </body>
