@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import Logo from "@/components/icons/Logo";
+import LogoIcon from "@/components/icons/LogoIcon";
 
 const navLinks = [
   { label: "Blog", href: "/blog" },
@@ -44,9 +45,17 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Logo */}
+        {/* Logo — Full seal on desktop, icon only on mobile */}
         <Link href="/" aria-label="Espacio Lenguaje - Inicio">
-          <Logo showText />
+          <span className="hidden md:block">
+            <Logo showText size={44} />
+          </span>
+          <span className="flex items-center gap-2 md:hidden">
+            <LogoIcon size={36} />
+            <span className="flex flex-col leading-none">
+              <span className="font-serif text-[16px] font-bold text-cacao">LENGUAJE</span>
+            </span>
+          </span>
         </Link>
 
         {/* Desktop links */}

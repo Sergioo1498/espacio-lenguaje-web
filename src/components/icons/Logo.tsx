@@ -4,24 +4,28 @@ interface LogoProps {
   className?: string;
   showText?: boolean;
   variant?: "light" | "dark";
+  size?: number;
 }
 
 export default function Logo({
   className = "",
   showText = true,
   variant = "light",
+  size = 44,
 }: LogoProps) {
   const textColor = variant === "dark" ? "#FDF8F4" : "#3D2C2E";
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      {/* Logo icon from generated image */}
+      {/* Logo V5 "El Sello" — full circular badge */}
       <Image
         src="/images/logo-chosen.png"
         alt="Espacio Lenguaje"
-        width={40}
-        height={40}
-        className="h-10 w-10 shrink-0 rounded-full"
+        width={size}
+        height={size}
+        className="shrink-0 rounded-full"
+        style={{ width: size, height: size }}
+        priority
       />
 
       {showText && (

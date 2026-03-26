@@ -64,7 +64,7 @@ export default function Footer() {
           {/* Brand column */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4">
-              <Logo showText variant="dark" />
+              <Logo showText variant="dark" size={56} />
             </div>
             <p className="max-w-xs font-sans text-sm leading-relaxed text-white/70">
               Donde cada peque encuentra su voz. Recursos y acompañamiento

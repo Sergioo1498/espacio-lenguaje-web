@@ -3,7 +3,7 @@ import Link from "next/link";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionTag from "@/components/ui/SectionTag";
 import Image from "next/image";
-import LogoIcon from "@/components/icons/LogoIcon";
+import Logo from "@/components/icons/Logo";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros",
@@ -17,9 +17,9 @@ export default function SobreNosotrosPage() {
       {/* ── Hero ── */}
       <section className="bg-arena section-padding">
         <div className="container-custom text-center">
-          {/* Logo icon */}
+          {/* Logo sello completo */}
           <div className="flex justify-center mb-6">
-            <LogoIcon size={64} />
+            <Logo showText={false} size={80} />
           </div>
 
           <h1 className="text-4xl md:text-5xl font-serif text-cacao mb-4">

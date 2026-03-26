@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/mdx";
+import LogoIcon from "@/components/icons/LogoIcon";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -159,6 +160,9 @@ export default async function BlogPostPage({ params }: PageProps) {
             <aside className="w-full lg:w-80 shrink-0">
               <div className="lg:sticky lg:top-24">
                 <div className="bg-cacao rounded-2xl p-8 text-white">
+                  <div className="mb-4 flex justify-center opacity-60">
+                    <LogoIcon size={40} className="brightness-0 invert" />
+                  </div>
                   <p className="text-sm font-medium uppercase tracking-wider text-white/70 mb-2">
                     Recurso gratuito
                   </p>
