@@ -17,42 +17,46 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
       body: JSON.stringify({
         sender: { name: "Espacio Lenguaje", email: "hola@espaciolenguaje.com" },
         to: [{ email }],
-        subject: "¡Bienvenid@ a Espacio Lenguaje! 🌱",
-        htmlContent: `
-<!DOCTYPE html>
+        subject: "🌱 Tu guía de Hitos del Lenguaje está aquí",
+        htmlContent: `<!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8"></head>
-<body style="font-family: system-ui, -apple-system, sans-serif; color: #3D2C2E; line-height: 1.6; max-width: 560px; margin: 0 auto; padding: 24px;">
-  <div style="text-align: center; margin-bottom: 24px;">
-    <span style="font-size: 20px; font-weight: bold; color: #3D2C2E;">espacio</span><span style="font-size: 20px; color: #C4745A;">lenguaje</span>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="font-family:system-ui,-apple-system,sans-serif;color:#3D2C2E;line-height:1.6;max-width:560px;margin:0 auto;padding:24px;background:#FDF8F4;">
+  <div style="text-align:center;margin-bottom:24px;">
+    <img src="https://espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
   </div>
 
-  <p style="font-size: 16px;">¡Hola! 👋</p>
+  <p style="font-size:16px;">¡Hola! 👋</p>
 
   <p>Gracias por unirte a la comunidad de <strong>Espacio Lenguaje</strong>.</p>
 
-  <p>Estamos preparando la <strong>Guía de Hitos del Lenguaje de 0 a 6 años</strong>. Te la enviaremos a este email en cuanto esté lista.</p>
+  <p>Aquí tienes tu guía de <strong>Hitos del Lenguaje de 0 a 6 años</strong>:</p>
 
-  <p>Mientras tanto, puedes visitar nuestro blog con artículos sobre logopedia infantil:</p>
-
-  <p style="text-align: center; margin: 24px 0;">
-    <a href="https://espaciolenguaje.com/blog" style="display: inline-block; background-color: #C4745A; color: white; padding: 12px 28px; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 14px;">Visitar el blog</a>
+  <p style="text-align:center;margin:28px 0;">
+    <a href="https://espaciolenguaje.com/descargar-guia" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar guía</a>
   </p>
 
-  <p>También puedes seguirnos en Instagram para consejos diarios:</p>
-  <p style="text-align: center;">
-    <a href="https://instagram.com/espaciolenguaje" style="color: #C4745A; text-decoration: none; font-weight: 600;">@espaciolenguaje</a>
+  <p style="font-size:13px;color:#6b5a5c;">También puedes descargarla directamente: <a href="https://espaciolenguaje.com/downloads/guia-hitos-lenguaje-espacio-lenguaje.pdf" style="color:#C4745A;">enlace al PDF</a></p>
+
+  <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
+
+  <p>¿Quieres más recursos? Visita nuestro <a href="https://espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a> con artículos sobre logopedia infantil.</p>
+
+  <p style="font-size:14px;">Síguenos en redes:<br/>
+    <a href="https://instagram.com/espaciolenguaje" style="color:#C4745A;text-decoration:none;font-weight:600;">Instagram @espaciolenguaje</a><br/>
+    <a href="https://tiktok.com/@espaciolenguaje" style="color:#C4745A;text-decoration:none;font-weight:600;">TikTok @espaciolenguaje</a>
   </p>
 
-  <hr style="border: none; border-top: 1px solid #F5E6D3; margin: 32px 0;" />
+  <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p style="color: #6b5a5c; font-size: 14px;">Un abrazo,<br /><strong>El equipo de Espacio Lenguaje</strong></p>
+  <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>El equipo de Espacio Lenguaje</strong></p>
+
+  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Madrid, España<br/>hola@espaciolenguaje.com</p>
 </body>
 </html>`,
       }),
     });
   } catch (err) {
-    // Don't fail the subscription if welcome email fails
     console.error("Failed to send welcome email:", err);
   }
 }
@@ -93,14 +97,12 @@ export async function POST(request: Request) {
     });
 
     if (res.ok || res.status === 201) {
-      // New contact created — send welcome email
       await sendWelcomeEmail(email, apiKey);
       return NextResponse.json({ success: true });
     }
 
     const data = await res.json().catch(() => null);
 
-    // Contact already exists — not an error, but don't send welcome email again
     if (data?.code === "duplicate_parameter") {
       return NextResponse.json({ success: true });
     }

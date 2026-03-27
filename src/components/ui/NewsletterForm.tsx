@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface NewsletterFormProps {
@@ -14,6 +15,7 @@ export default function NewsletterForm({
   variant = "dark",
   buttonText = "Descargar gratis",
 }: NewsletterFormProps) {
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -38,6 +40,7 @@ export default function NewsletterForm({
         setStatus("success");
         setMessage("¡Listo! Te hemos enviado la guía a tu email. Revisa tu bandeja de entrada (y spam, por si acaso).");
         setEmail("");
+        router.push("/descargar-guia");
       } else {
         setStatus("error");
         setMessage(data.error || "Ha ocurrido un error. Inténtalo de nuevo.");
