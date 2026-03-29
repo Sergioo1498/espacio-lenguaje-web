@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/sections/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contacto",
+  title: "Contacto — Logopedia Infantil",
   description:
-    "Contacta con Espacio Lenguaje. ¿Tienes dudas sobre el lenguaje de tu peque? Escríbenos y te orientamos sin compromiso.",
+    "¿Dudas sobre el lenguaje de tu hijo? Contacta con Espacio Lenguaje. Respondemos en 24-48h. Email: hola@espaciolenguaje.com",
 };
 
 export default function ContactoPage() {

@@ -36,6 +36,10 @@ const blogImages: Record<string, { src: string; alt: string }> = {
   "juegos-para-estimular-el-habla": { src: "/images/blog-juegos-habla.png", alt: "Juegos de logopedia infantil sobre una mesa" },
   "etapas-desarrollo-del-lenguaje": { src: "/images/blog-etapas-desarrollo.png", alt: "Bloques de letras ABC y libro abierto simbolizando etapas del lenguaje" },
   "bilinguismo-infantil-mitos-y-realidades": { src: "/images/blog-bilinguismo.png", alt: "Libros infantiles en dos idiomas con banderitas" },
+  "ejercicios-de-soplo-para-ninos": { src: "/images/blog-ejercicios-soplo.png", alt: "Ejercicios de soplo para niños con plumas y pompas" },
+  "a-que-edad-debe-hablar-un-nino": { src: "/images/blog-edad-hablar.png", alt: "Manos de niño con bloques de letras y hitos del habla" },
+  "tartamudez-infantil-cuando-preocuparse": { src: "/images/blog-tartamudez.png", alt: "Manos de niño con burbuja de diálogo y tarjetas" },
+  "como-ensenar-la-r-a-un-nino": { src: "/images/blog-ensenar-r.png", alt: "Letra R de madera con materiales de articulación" },
 };
 
 function formatDate(dateStr: string): string {

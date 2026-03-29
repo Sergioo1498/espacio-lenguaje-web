@@ -74,6 +74,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
+  verification: { google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || '' },
 };
 
 const organizationSchema = {
@@ -81,10 +82,21 @@ const organizationSchema = {
   "@type": "Organization",
   name: "Espacio Lenguaje",
   url: "https://espaciolenguaje.com",
+  logo: "https://espaciolenguaje.com/images/logo-chosen.png",
   email: "hola@espaciolenguaje.com",
   description:
     "Logopedia infantil: recursos, ejercicios y acompañamiento profesional para estimulación del lenguaje, dislexia y tartamudez.",
   sameAs: ["https://instagram.com/espaciolenguaje", "https://tiktok.com/@espaciolenguaje"],
+  areaServed: { "@type": "Country", name: "Spain" },
+  knowsAbout: ["Logopedia infantil", "Estimulación del lenguaje", "Dislexia", "Tartamudez", "Desarrollo del habla"],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Espacio Lenguaje",
+  url: "https://espaciolenguaje.com",
+  description: "Logopedia infantil — Recursos y acompañamiento profesional",
 };
 
 export default function RootLayout({
@@ -99,6 +111,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
           }}
         />
       </head>

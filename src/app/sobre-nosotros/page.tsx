@@ -6,9 +6,9 @@ import Image from "next/image";
 import Logo from "@/components/icons/Logo";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros",
+  title: "Sobre nosotros — Quiénes somos",
   description:
-    "Conoce Espacio Lenguaje: un equipo especializado en logopedia infantil. Recursos basados en evidencia para estimulación del lenguaje, dislexia y tartamudez.",
+    "Espacio Lenguaje: logopedia infantil basada en evidencia, enfoque familiar y acompañamiento con cariño. Especializados en retrasos del lenguaje, dislexia y tartamudez.",
 };
 
 export default function SobreNosotrosPage() {
