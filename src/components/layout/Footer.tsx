@@ -3,8 +3,9 @@ import Logo from "@/components/icons/Logo";
 
 const contenidoLinks = [
   { label: "Blog", href: "/blog" },
-  { label: "Recursos", href: "#servicios" },
-  { label: "Guías gratuitas", href: "#lead-magnet" },
+  { label: "Recursos", href: "/recursos" },
+  { label: "Recomendaciones", href: "/recomendaciones" },
+  { label: "Guías gratuitas", href: "/#lead-magnet" },
 ];
 
 const infoLinks = [

@@ -11,7 +11,7 @@ const services = [
     title: 'Recursos descargables',
     description:
       'Fichas, actividades y materiales listos para imprimir. Diseñados por logopedas para trabajar en casa.',
-    link: { label: 'Explorar →', href: '/blog' },
+    link: { label: 'Explorar →', href: '/recursos' },
     image: '/images/section-recursos.png',
     imageAlt: 'Fichas y tarjetas de logopedia infantil sobre una mesa de madera con la mano de un niño',
   },
@@ -27,7 +27,7 @@ const services = [
     title: 'Guías para familias',
     description:
       'Guías paso a paso para familias que quieren ayudar a su peque desde casa.',
-    link: { label: 'Descubrir →', href: '#lead-magnet' },
+    link: { label: 'Descubrir →', href: '/recursos' },
     image: '/images/section-guias.png',
     imageAlt: 'Manos de padre e hijo haciendo ejercicios de logopedia con tarjetas ilustradas',
   },
