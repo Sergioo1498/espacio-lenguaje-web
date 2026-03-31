@@ -40,10 +40,11 @@ export async function POST(request: Request) {
     });
 
     return NextResponse.json({ url: session.url });
-  } catch (err) {
-    console.error('Checkout error:', err);
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    console.error('Checkout error:', message);
     return NextResponse.json(
-      { error: 'Error al crear la sesión de pago.' },
+      { error: 'Error al crear la sesión de pago.', detail: message },
       { status: 500 }
     );
   }
