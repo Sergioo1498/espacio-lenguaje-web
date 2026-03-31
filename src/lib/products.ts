@@ -4,6 +4,7 @@ export interface Product {
   description: string;
   price: number; // céntimos
   currency: string;
+  stripePriceId: string;
   file: string;
   files?: string[];
   image: string;
@@ -21,6 +22,7 @@ export const products: Product[] = [
       '30 fichas imprimibles con ejercicios de articulación para cada fonema del español. Instrucciones claras para padres.',
     price: 490,
     currency: 'eur',
+    stripePriceId: 'price_1TH8iyQW6wP4sOaT227NPevw',
     file: '/downloads/productos/pack-fichas-articulacion.pdf',
     image: '/images/producto-fichas-articulacion.png',
     category: 'padres',
@@ -33,6 +35,7 @@ export const products: Product[] = [
       '20 actividades organizadas por edad para estimular el lenguaje de tu bebé desde casa.',
     price: 590,
     currency: 'eur',
+    stripePriceId: 'price_1TH8izQW6wP4sOaTD0V3QzRu',
     file: '/downloads/productos/cuaderno-estimulacion-0-3.pdf',
     image: '/images/producto-cuaderno-0-3.png',
     category: 'padres',
@@ -44,6 +47,7 @@ export const products: Product[] = [
       '20 actividades para desarrollar vocabulario, articulación y conciencia fonológica.',
     price: 590,
     currency: 'eur',
+    stripePriceId: 'price_1TH8izQW6wP4sOaTO1skrEJG',
     file: '/downloads/productos/cuaderno-estimulacion-3-6.pdf',
     image: '/images/producto-cuaderno-3-6.png',
     category: 'padres',
@@ -55,6 +59,7 @@ export const products: Product[] = [
       '15 ejercicios progresivos de soplo con materiales caseros y tabla de seguimiento.',
     price: 390,
     currency: 'eur',
+    stripePriceId: 'price_1TH8j0QW6wP4sOaTZRjBMjmO',
     file: '/downloads/productos/kit-ejercicios-soplo.pdf',
     image: '/images/producto-kit-soplo.png',
     category: 'padres',
@@ -66,6 +71,7 @@ export const products: Product[] = [
       'Todos los recursos en un solo pack con descuento. Fichas + Cuadernos + Kit de Soplo + Bonus: Calendario Semanal.',
     price: 1490,
     currency: 'eur',
+    stripePriceId: 'price_1TH8j0QW6wP4sOaTw0RX9f5D',
     originalPrice: 2060,
     file: 'multiple',
     files: [
@@ -86,6 +92,7 @@ export const products: Product[] = [
       'Todo sobre dislexia: detección, ejercicios, adaptaciones escolares y checklist para tutores.',
     price: 990,
     currency: 'eur',
+    stripePriceId: 'price_1TH8j1QW6wP4sOaT9hROWMo3',
     file: '/downloads/productos/guia-dislexia.pdf',
     image: '/images/producto-guia-dislexia.png',
     category: 'mixto',
@@ -97,6 +104,7 @@ export const products: Product[] = [
       'Guía completa para familias: tipos de tartamudez, qué hacer, ejercicios de fluidez y cuándo consultar.',
     price: 990,
     currency: 'eur',
+    stripePriceId: 'price_1TH8j2QW6wP4sOaT6B9BENkV',
     file: '/downloads/productos/guia-tartamudez.pdf',
     image: '/images/producto-guia-tartamudez.png',
     category: 'mixto',

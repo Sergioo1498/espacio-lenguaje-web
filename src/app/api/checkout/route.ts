@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getStripeClient } from '@/lib/stripe';
-import { getProduct, formatPrice } from '@/lib/products';
+import { getProduct } from '@/lib/products';
 
 export async function POST(request: Request) {
   try {
@@ -28,15 +28,7 @@ export async function POST(request: Request) {
       mode: 'payment',
       line_items: [
         {
-          price_data: {
-            currency: product.currency,
-            product_data: {
-              name: product.name,
-              description: product.description,
-              images: [`https://espaciolenguaje.com${product.image}`],
-            },
-            unit_amount: product.price,
-          },
+          price: product.stripePriceId,
           quantity: 1,
         },
       ],
