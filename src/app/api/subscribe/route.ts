@@ -23,7 +23,7 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="font-family:system-ui,-apple-system,sans-serif;color:#3D2C2E;line-height:1.6;max-width:560px;margin:0 auto;padding:24px;background:#FDF8F4;">
   <div style="text-align:center;margin-bottom:24px;">
-    <img src="https://espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
+    <img src="https://www.espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
   </div>
 
   <p style="font-size:16px;">¡Hola! 👋</p>
@@ -33,14 +33,14 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
   <p>Aquí tienes tu guía de <strong>Hitos del Lenguaje de 0 a 6 años</strong>:</p>
 
   <p style="text-align:center;margin:28px 0;">
-    <a href="https://espaciolenguaje.com/descargar-guia" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar guía</a>
+    <a href="https://www.espaciolenguaje.com/descargar-guia" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar guía</a>
   </p>
 
-  <p style="font-size:13px;color:#6b5a5c;">También puedes descargarla directamente: <a href="https://espaciolenguaje.com/downloads/guia-hitos-lenguaje-espacio-lenguaje.pdf" style="color:#C4745A;">enlace al PDF</a></p>
+  <p style="font-size:13px;color:#6b5a5c;">También puedes descargarla directamente: <a href="https://www.espaciolenguaje.com/downloads/guia-hitos-lenguaje-espacio-lenguaje.pdf" style="color:#C4745A;">enlace al PDF</a></p>
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p>¿Quieres más recursos? Visita nuestro <a href="https://espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a> con artículos sobre logopedia infantil.</p>
+  <p>¿Quieres más recursos? Visita nuestro <a href="https://www.espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a> con artículos sobre logopedia infantil.</p>
 
   <p style="font-size:14px;">Síguenos en redes:<br/>
     <a href="https://instagram.com/espaciolenguaje" style="color:#C4745A;text-decoration:none;font-weight:600;">Instagram @espaciolenguaje</a><br/>

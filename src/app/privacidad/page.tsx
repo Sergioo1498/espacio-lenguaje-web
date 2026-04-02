@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Política de Privacidad",
   description:
     "Política de privacidad de Espacio Lenguaje. Información sobre el tratamiento de datos personales, derechos del usuario y política de cookies.",
+  alternates: { canonical: "https://www.espaciolenguaje.com/privacidad" },
 };
 
 export default function PrivacidadPage() {

@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Recomendaciones para Estimular el Lenguaje',
   description:
     'Los mejores libros, juguetes y materiales recomendados por logopedas para estimular el desarrollo del lenguaje infantil.',
+  alternates: { canonical: 'https://www.espaciolenguaje.com/recomendaciones' },
 };
 
 interface Recommendation {

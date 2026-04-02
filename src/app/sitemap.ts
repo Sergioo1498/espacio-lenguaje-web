@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/mdx";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://espaciolenguaje.com";
+  const baseUrl = "https://www.espaciolenguaje.com";
 
   const posts = getAllPosts();
   const blogUrls = posts.map((post) => ({

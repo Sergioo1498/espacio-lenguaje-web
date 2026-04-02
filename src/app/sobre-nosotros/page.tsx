@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Sobre nosotros — Quiénes somos",
   description:
     "Espacio Lenguaje: logopedia infantil basada en evidencia, enfoque familiar y acompañamiento con cariño. Especializados en retrasos del lenguaje, dislexia y tartamudez.",
+  alternates: { canonical: "https://www.espaciolenguaje.com/sobre-nosotros" },
 };
 
 export default function SobreNosotrosPage() {

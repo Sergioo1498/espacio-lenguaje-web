@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Contacto — Logopedia Infantil",
   description:
     "¿Dudas sobre el lenguaje de tu hijo? Contacta con Espacio Lenguaje. Respondemos en 24-48h. Email: hola@espaciolenguaje.com",
+  alternates: { canonical: "https://www.espaciolenguaje.com/contacto" },
 };
 
 export default function ContactoPage() {

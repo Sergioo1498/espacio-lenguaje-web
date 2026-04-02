@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Aviso Legal",
   description:
     "Aviso legal de Espacio Lenguaje. Información sobre datos identificativos, condiciones de uso, propiedad intelectual y limitación de responsabilidad.",
+  alternates: { canonical: "https://www.espaciolenguaje.com/aviso-legal" },
 };
 
 export default function AvisoLegalPage() {

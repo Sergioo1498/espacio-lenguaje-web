@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://espaciolenguaje.com"),
+  metadataBase: new URL("https://www.espaciolenguaje.com"),
   title: {
     default: "Espacio Lenguaje — Logopedia Infantil",
     template: "%s | Espacio Lenguaje",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://espaciolenguaje.com",
+    url: "https://www.espaciolenguaje.com",
     siteName: "Espacio Lenguaje",
     title: "Espacio Lenguaje — Logopedia Infantil",
     description:
@@ -81,8 +81,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Espacio Lenguaje",
-  url: "https://espaciolenguaje.com",
-  logo: "https://espaciolenguaje.com/images/logo-chosen.png",
+  url: "https://www.espaciolenguaje.com",
+  logo: "https://www.espaciolenguaje.com/images/logo-chosen.png",
   email: "hola@espaciolenguaje.com",
   description:
     "Logopedia infantil: recursos, ejercicios y acompañamiento profesional para estimulación del lenguaje, dislexia y tartamudez.",
@@ -95,7 +95,7 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Espacio Lenguaje",
-  url: "https://espaciolenguaje.com",
+  url: "https://www.espaciolenguaje.com",
   description: "Logopedia infantil — Recursos y acompañamiento profesional",
 };
 

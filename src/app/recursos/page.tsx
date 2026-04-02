@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Recursos de Logopedia Infantil',
   description:
     'Material profesional para estimular el lenguaje de tu peque en casa. Fichas, cuadernos y guías descargables creados por logopedas.',
+  alternates: { canonical: 'https://www.espaciolenguaje.com/recursos' },
   openGraph: {
     title: 'Recursos de Logopedia Infantil | Espacio Lenguaje',
     description:

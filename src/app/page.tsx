@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import Hero from "@/components/sections/Hero";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://www.espaciolenguaje.com" },
+};
 import TrustBar from "@/components/sections/TrustBar";
 import Stats from "@/components/sections/Stats";
 import Services from "@/components/sections/Services";

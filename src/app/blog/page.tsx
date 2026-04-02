@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog de Logopedia Infantil",
   description:
     "Artículos sobre desarrollo del lenguaje, señales de alerta, ejercicios de logopedia para niños, dislexia y estimulación del habla. Información basada en evidencia para familias.",
-  alternates: { canonical: "https://espaciolenguaje.com/blog" },
+  alternates: { canonical: "https://www.espaciolenguaje.com/blog" },
 };
 
 export default function BlogPage() {

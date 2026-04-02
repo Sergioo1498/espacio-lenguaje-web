@@ -37,14 +37,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: meta.title,
     description: meta.excerpt,
     alternates: {
-      canonical: `https://espaciolenguaje.com/blog/${meta.slug}`,
+      canonical: `https://www.espaciolenguaje.com/blog/${meta.slug}`,
     },
     openGraph: {
       title: meta.title,
       description: meta.excerpt,
       type: "article",
       locale: "es_ES",
-      url: `https://espaciolenguaje.com/blog/${meta.slug}`,
+      url: `https://www.espaciolenguaje.com/blog/${meta.slug}`,
       siteName: "Espacio Lenguaje",
       images: img ? [{ url: img.src, width: 1200, height: 630, alt: meta.title }] : undefined,
     },
@@ -65,7 +65,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const { meta, content } = getPostBySlug(slug);
   const relatedPosts = getRelatedPosts(slug, meta.category);
   const heroImg = blogImages[slug] || (meta.image ? { src: meta.image, alt: meta.title } : null);
-  const articleUrl = `https://espaciolenguaje.com/blog/${slug}`;
+  const articleUrl = `https://www.espaciolenguaje.com/blog/${slug}`;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -73,19 +73,19 @@ export default async function BlogPostPage({ params }: PageProps) {
     headline: meta.title,
     description: meta.excerpt,
     datePublished: meta.date,
-    image: heroImg?.src ? `https://espaciolenguaje.com${heroImg.src}` : undefined,
+    image: heroImg?.src ? `https://www.espaciolenguaje.com${heroImg.src}` : undefined,
     author: {
       "@type": "Organization",
       name: "Espacio Lenguaje",
-      url: "https://espaciolenguaje.com",
+      url: "https://www.espaciolenguaje.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Espacio Lenguaje",
-      url: "https://espaciolenguaje.com",
+      url: "https://www.espaciolenguaje.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://espaciolenguaje.com/images/logo-chosen.png",
+        url: "https://www.espaciolenguaje.com/images/logo-chosen.png",
       },
     },
     mainEntityOfPage: {

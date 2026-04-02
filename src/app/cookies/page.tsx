@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Política de Cookies",
   description:
     "Política de cookies de Espacio Lenguaje. Información sobre los tipos de cookies que utilizamos y cómo gestionarlas.",
+  alternates: { canonical: "https://www.espaciolenguaje.com/cookies" },
 };
 
 export default function CookiesPage() {

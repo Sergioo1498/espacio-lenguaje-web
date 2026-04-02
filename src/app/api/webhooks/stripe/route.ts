@@ -33,7 +33,7 @@ async function sendPurchaseEmail(
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="font-family:system-ui,-apple-system,sans-serif;color:#3D2C2E;line-height:1.6;max-width:560px;margin:0 auto;padding:24px;background:#FDF8F4;">
   <div style="text-align:center;margin-bottom:24px;">
-    <img src="https://espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
+    <img src="https://www.espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
   </div>
 
   <p style="font-size:16px;">¡Hola! 👋</p>
@@ -48,7 +48,7 @@ async function sendPurchaseEmail(
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p>¿Quieres más recursos? Visita nuestra <a href="https://espaciolenguaje.com/recursos" style="color:#C4745A;font-weight:600;text-decoration:none;">tienda</a> o nuestro <a href="https://espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a>.</p>
+  <p>¿Quieres más recursos? Visita nuestra <a href="https://www.espaciolenguaje.com/recursos" style="color:#C4745A;font-weight:600;text-decoration:none;">tienda</a> o nuestro <a href="https://www.espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a>.</p>
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
@@ -95,7 +95,7 @@ export async function POST(request: Request) {
       const product = getProduct(productId);
       if (product) {
         const baseUrl =
-          process.env.NEXT_PUBLIC_URL || 'https://espaciolenguaje.com';
+          process.env.NEXT_PUBLIC_URL || 'https://www.espaciolenguaje.com';
         const downloadUrl =
           product.file === 'multiple'
             ? `${baseUrl}/compra-exitosa?session_id=${session.id}`
