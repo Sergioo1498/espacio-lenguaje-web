@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { getStripeClient } from '@/lib/stripe';
 import { getProduct } from '@/lib/products';
 
+const BASE_URL = 'https://www.espaciolenguaje.com';
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -32,10 +34,12 @@ export async function POST(request: Request) {
           quantity: 1,
         },
       ],
-      success_url: `${process.env.NEXT_PUBLIC_URL || 'https://espaciolenguaje.com'}/compra-exitosa?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.NEXT_PUBLIC_URL || 'https://espaciolenguaje.com'}/recursos`,
+      success_url: `${BASE_URL}/compra-exitosa?session_id={CHECKOUT_SESSION_ID}&product=${product.id}`,
+      cancel_url: `${BASE_URL}/recursos`,
       metadata: {
         productId: product.id,
+        productName: product.name,
+        downloadFile: product.file,
       },
     });
 
