@@ -15,6 +15,7 @@ interface Recommendation {
   whyWeRecommend: string;
   ageRange: string;
   affiliateUrl: string;
+  image: string;
 }
 
 const books: Recommendation[] = [
@@ -27,6 +28,7 @@ const books: Recommendation[] = [
       'Amplía el vocabulario emocional, que es una de las áreas más difíciles del lenguaje. Los niños aprenden a poner nombre a lo que sienten, lo que reduce la frustración y mejora la comunicación.',
     ageRange: '3-6 años',
     affiliateUrl: 'https://amzn.to/4cdFshL',
+    image: '/images/recomendacion-01.jpg',
   },
   {
     name: '¿A qué sabe la luna?',
@@ -37,6 +39,7 @@ const books: Recommendation[] = [
       'Los cuentos acumulativos son una herramienta terapéutica: trabajan memoria secuencial, anticipación y vocabulario de animales. El niño puede "predecir" qué viene después, lo que refuerza la comprensión narrativa.',
     ageRange: '2-5 años',
     affiliateUrl: 'https://amzn.to/4dDuHHL',
+    image: '/images/recomendacion-02.jpg',
   },
   {
     name: 'La pequeña oruga glotona',
@@ -47,6 +50,7 @@ const books: Recommendation[] = [
       'Trabaja vocabulario de alimentos, días de la semana, números y secuencias temporales. Las páginas troqueladas invitan a señalar y tocar, ideal para niños con retraso del lenguaje que necesitan apoyo multisensorial.',
     ageRange: '1-4 años',
     affiliateUrl: 'https://amzn.to/3PYkgF6',
+    image: '/images/recomendacion-03.jpg',
   },
   {
     name: 'Elmer',
@@ -57,6 +61,7 @@ const books: Recommendation[] = [
       'Excelente para trabajar colores, emociones y lenguaje descriptivo. La estructura repetitiva ayuda a los niños a anticipar y participar activamente en la lectura. Además, permite hablar sobre las diferencias de forma natural.',
     ageRange: '2-5 años',
     affiliateUrl: 'https://amzn.to/4mfhc3a',
+    image: '/images/recomendacion-04.jpg',
   },
   {
     name: 'Adivina cuánto te quiero',
@@ -67,6 +72,7 @@ const books: Recommendation[] = [
       'Ideal para trabajar conceptos comparativos (más alto, más lejos, más grande), lenguaje figurado y expresión afectiva. Fomenta que el niño practique estructuras como "Te quiero hasta..." seguido de su propia idea.',
     ageRange: '2-5 años',
     affiliateUrl: 'https://amzn.to/47SnVdD',
+    image: '/images/recomendacion-05.jpg',
   },
 ];
 
@@ -80,6 +86,7 @@ const materials: Recommendation[] = [
       'El espejo es la herramienta número uno para ejercicios de articulación y praxias. El niño necesita ver cómo coloca la lengua y los labios para poder corregirlo. También sirve para ejercicios de imitación orofacial.',
     ageRange: '3-8 años',
     affiliateUrl: 'https://amzn.to/4e8O1gb',
+    image: '/images/recomendacion-06.jpg',
   },
   {
     name: 'Letras de madera Montessori',
@@ -90,6 +97,7 @@ const materials: Recommendation[] = [
       'Tocar y manipular letras activa la memoria multisensorial, facilitando el aprendizaje de la lectoescritura. Ideal para niños con dificultades de conciencia fonológica o riesgo de dislexia: asocian el sonido con la forma de la letra de forma táctil.',
     ageRange: '3-6 años',
     affiliateUrl: 'https://amzn.to/4dIqX85',
+    image: '/images/recomendacion-07.jpg',
   },
   {
     name: 'Tarjetas de vocabulario',
@@ -100,6 +108,7 @@ const materials: Recommendation[] = [
       'Las tarjetas con imágenes reales (no dibujos) son más efectivas para la generalización del vocabulario. Permiten trabajar denominación, categorización, descripción y juegos de memoria. Las usamos en casi todas las sesiones.',
     ageRange: '1-6 años',
     affiliateUrl: 'https://amzn.to/48EpIDh',
+    image: '/images/recomendacion-08.jpg',
   },
   {
     name: 'Pompas de jabón',
@@ -110,6 +119,7 @@ const materials: Recommendation[] = [
       'Las pompas requieren un soplo suave y sostenido — exactamente lo que fortalece la musculatura orofacial necesaria para articular sonidos como la F, S, CH. Además, el niño se divierte y no lo percibe como "ejercicio".',
     ageRange: '2-6 años',
     affiliateUrl: 'https://amzn.to/41VqKqG',
+    image: '/images/recomendacion-09.jpg',
   },
   {
     name: 'Molinillo de viento',
@@ -120,12 +130,22 @@ const materials: Recommendation[] = [
       'Permite trabajar la regulación de la intensidad del soplo: soplo suave = giro lento, soplo fuerte = giro rápido. Esta graduación del soplo es fundamental para la articulación de fricativas y para niños con incompetencia velofaríngea.',
     ageRange: '2-6 años',
     affiliateUrl: 'https://amzn.to/4cfVmbl',
+    image: '/images/recomendacion-10.jpg',
   },
 ];
 
 function ProductCard({ item }: { item: Recommendation }) {
   return (
     <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
+      <div className="relative h-[180px] overflow-hidden bg-crema">
+        <Image
+          src={item.image}
+          alt={item.name}
+          fill
+          className="object-cover"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
+      </div>
       <div className="flex flex-1 flex-col p-6">
         <div className="mb-3 flex items-center justify-between">
           <span className="rounded-full bg-cacao/80 px-3 py-1 font-sans text-xs text-white">
