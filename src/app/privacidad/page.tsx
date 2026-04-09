@@ -145,6 +145,58 @@ export default function PrivacidadPage() {
             </div>
           </div>
 
+          {/* Terceros y encargados del tratamiento */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-serif text-cacao mb-4">
+              Terceros y encargados del tratamiento
+            </h2>
+            <div className="text-texto-secundario leading-relaxed space-y-3">
+              <p>
+                Para la prestación de nuestros servicios, trabajamos con los
+                siguientes proveedores que pueden acceder a tus datos personales
+                como encargados del tratamiento:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  <strong className="text-cacao">Stripe, Inc.</strong> — Pasarela
+                  de pago para procesar transacciones con tarjeta. Stripe actúa
+                  como encargado del tratamiento de los datos de pago. Política
+                  de privacidad:{" "}
+                  <a href="https://stripe.com/es/privacy" target="_blank" rel="noopener noreferrer" className="text-terracota underline decoration-terracota/30 underline-offset-2 hover:decoration-terracota">
+                    stripe.com/privacy
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-cacao">Brevo (Sendinblue)</strong> —
+                  Plataforma de email marketing para enviar correos
+                  transaccionales y newsletters. Almacena tu dirección de email
+                  y gestiona el envío de comunicaciones. Política de privacidad:{" "}
+                  <a href="https://www.brevo.com/es/legal/privacypolicy/" target="_blank" rel="noopener noreferrer" className="text-terracota underline decoration-terracota/30 underline-offset-2 hover:decoration-terracota">
+                    brevo.com/privacy
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-cacao">Vercel, Inc.</strong> —
+                  Plataforma de alojamiento web. Utilizamos Vercel Analytics y
+                  Vercel Speed Insights para recopilar datos anónimos de
+                  rendimiento y uso del sitio. No se recopilan datos personales
+                  identificativos a través de estas herramientas. Política de
+                  privacidad:{" "}
+                  <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-terracota underline decoration-terracota/30 underline-offset-2 hover:decoration-terracota">
+                    vercel.com/privacy
+                  </a>
+                </li>
+                <li>
+                  <strong className="text-cacao">Amazon EU S.à r.l.</strong> —
+                  Programa de afiliados. Algunos enlaces de la página de
+                  recomendaciones son enlaces de afiliado. Amazon puede utilizar
+                  cookies para rastrear las compras realizadas a través de estos
+                  enlaces.
+                </li>
+              </ul>
+            </div>
+          </div>
+
           {/* Política de cookies */}
           <div>
             <h2 className="text-xl md:text-2xl font-serif text-cacao mb-4">

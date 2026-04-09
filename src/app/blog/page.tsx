@@ -3,9 +3,9 @@ import { getAllPosts } from "@/lib/mdx";
 import BlogFilterGrid from "@/components/sections/BlogFilterGrid";
 
 export const metadata: Metadata = {
-  title: "Blog de Logopedia Infantil",
+  title: "Blog de Logopedia Infantil — Artículos y Ejercicios",
   description:
-    "Artículos sobre desarrollo del lenguaje, señales de alerta, ejercicios de logopedia para niños, dislexia y estimulación del habla. Información basada en evidencia para familias.",
+    "Artículos sobre desarrollo del lenguaje infantil, señales de alerta, ejercicios de logopedia para niños, dislexia y estimulación del habla. Basados en evidencia.",
   alternates: { canonical: "https://www.espaciolenguaje.com/blog" },
 };
 

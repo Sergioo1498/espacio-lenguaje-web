@@ -4,9 +4,9 @@ import { products, formatPrice } from '@/lib/products';
 import BuyButton from './BuyButton';
 
 export const metadata: Metadata = {
-  title: 'Recursos de Logopedia Infantil',
+  title: 'Recursos de Logopedia Infantil — Material Descargable',
   description:
-    'Material profesional para estimular el lenguaje de tu peque en casa. Fichas, cuadernos y guías descargables creados por logopedas.',
+    'Material profesional de logopedia infantil: fichas de articulación, cuadernos de estimulación, guías de dislexia y tartamudez. Descarga inmediata. Desde 3,90€.',
   alternates: { canonical: 'https://www.espaciolenguaje.com/recursos' },
   openGraph: {
     title: 'Recursos de Logopedia Infantil | Espacio Lenguaje',

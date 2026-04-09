@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/descargar-guia"],
+      disallow: ["/api/", "/descargar-guia", "/compra-exitosa"],
     },
     sitemap: "https://www.espaciolenguaje.com/sitemap.xml",
   };
