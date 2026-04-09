@@ -15,7 +15,6 @@ interface Recommendation {
   whyWeRecommend: string;
   ageRange: string;
   affiliateUrl: string;
-  image: string;
 }
 
 const books: Recommendation[] = [
@@ -23,155 +22,139 @@ const books: Recommendation[] = [
     name: 'El monstruo de colores',
     category: 'Libro infantil',
     description:
-      'Un clásico para trabajar emociones y vocabulario emocional con los más pequeños.',
+      'El clásico de Anna Llenas para identificar y nombrar emociones. Cada color representa un sentimiento diferente.',
     whyWeRecommend:
-      'Perfecto para ampliar vocabulario de emociones y fomentar la expresión oral a partir de 3 años.',
+      'Amplía el vocabulario emocional, que es una de las áreas más difíciles del lenguaje. Los niños aprenden a poner nombre a lo que sienten, lo que reduce la frustración y mejora la comunicación.',
     ageRange: '3-6 años',
-    affiliateUrl: '#', // Actualizar con enlace de afiliado de Amazon
-    image: '/images/producto-cuaderno-0-3.png',
+    affiliateUrl: 'https://amzn.to/4cdFshL',
   },
   {
     name: '¿A qué sabe la luna?',
     category: 'Libro infantil',
     description:
-      'Cuento acumulativo ideal para trabajar memoria secuencial y vocabulario de animales.',
+      'Cuento acumulativo donde los animales se suben unos encima de otros para alcanzar la luna. Cada página repite y amplía la secuencia.',
     whyWeRecommend:
-      'Los cuentos acumulativos son excelentes para la memoria auditiva y la estructura narrativa.',
+      'Los cuentos acumulativos son una herramienta terapéutica: trabajan memoria secuencial, anticipación y vocabulario de animales. El niño puede "predecir" qué viene después, lo que refuerza la comprensión narrativa.',
     ageRange: '2-5 años',
-    affiliateUrl: '#',
-    image: '/images/producto-cuaderno-0-3.png',
+    affiliateUrl: 'https://amzn.to/4dDuHHL',
   },
   {
-    name: 'De la cabeza a los pies (Eric Carle)',
+    name: 'La pequeña oruga glotona',
     category: 'Libro infantil',
     description:
-      'Libro interactivo que invita al movimiento y la imitación.',
+      'Eric Carle cuenta la historia de una oruga que come diferentes alimentos a lo largo de la semana hasta convertirse en mariposa.',
     whyWeRecommend:
-      'Combina lenguaje con movimiento corporal, ideal para niños con retraso del lenguaje.',
+      'Trabaja vocabulario de alimentos, días de la semana, números y secuencias temporales. Las páginas troqueladas invitan a señalar y tocar, ideal para niños con retraso del lenguaje que necesitan apoyo multisensorial.',
     ageRange: '1-4 años',
-    affiliateUrl: '#',
-    image: '/images/producto-cuaderno-0-3.png',
+    affiliateUrl: 'https://amzn.to/3PYkgF6',
   },
   {
-    name: 'Mis primeras 100 palabras',
-    category: 'Libro de vocabulario',
+    name: 'Elmer',
+    category: 'Libro infantil',
     description:
-      'Libro de imágenes reales organizadas por categorías.',
+      'La historia de un elefante de colores que es diferente a los demás. Un cuento sobre aceptar la diversidad.',
     whyWeRecommend:
-      'Las imágenes reales (no dibujos) ayudan al reconocimiento y aprendizaje de vocabulario básico.',
-    ageRange: '1-3 años',
-    affiliateUrl: '#',
-    image: '/images/producto-cuaderno-0-3.png',
+      'Excelente para trabajar colores, emociones y lenguaje descriptivo. La estructura repetitiva ayuda a los niños a anticipar y participar activamente en la lectura. Además, permite hablar sobre las diferencias de forma natural.',
+    ageRange: '2-5 años',
+    affiliateUrl: 'https://amzn.to/4mfhc3a',
   },
   {
     name: 'Adivina cuánto te quiero',
     category: 'Libro infantil',
     description:
-      'Clásico para trabajar conceptos de tamaño, comparación y expresión afectiva.',
+      'Una liebre pequeña y una grande compiten por decir cuánto se quieren usando comparaciones cada vez más grandes.',
     whyWeRecommend:
-      'Ideal para trabajar conceptos comparativos y fomentar el diálogo sobre emociones.',
+      'Ideal para trabajar conceptos comparativos (más alto, más lejos, más grande), lenguaje figurado y expresión afectiva. Fomenta que el niño practique estructuras como "Te quiero hasta..." seguido de su propia idea.',
     ageRange: '2-5 años',
-    affiliateUrl: '#',
-    image: '/images/producto-cuaderno-0-3.png',
+    affiliateUrl: 'https://amzn.to/47SnVdD',
   },
 ];
 
-const toys: Recommendation[] = [
+const materials: Recommendation[] = [
   {
-    name: 'Juego de soplo con molinillos',
-    category: 'Material de soplo',
-    description:
-      'Set de molinillos de colores para ejercicios de control del soplo.',
-    whyWeRecommend:
-      'El soplo es fundamental para la articulación. Los molinillos motivan a los niños a practicar.',
-    ageRange: '2-6 años',
-    affiliateUrl: '#',
-    image: '/images/producto-kit-soplo.png',
-  },
-  {
-    name: 'Lotto de imágenes (animales/objetos)',
-    category: 'Juego educativo',
-    description:
-      'Juego de asociación con imágenes reales de animales y objetos cotidianos.',
-    whyWeRecommend:
-      'Excelente para trabajar vocabulario, categorización semántica y turnos de comunicación.',
-    ageRange: '2-5 años',
-    affiliateUrl: '#',
-    image: '/images/producto-fichas-articulacion.png',
-  },
-  {
-    name: 'Plastilina Play-Doh (pack colores)',
-    category: 'Material sensorial',
-    description:
-      'Pack de plastilina en múltiples colores para actividades de motricidad y lenguaje.',
-    whyWeRecommend:
-      'La plastilina permite trabajar vocabulario de acciones (aplastar, estirar, cortar) y colores.',
-    ageRange: '2-6 años',
-    affiliateUrl: '#',
-    image: '/images/producto-kit-soplo.png',
-  },
-  {
-    name: 'Espejo infantil irrompible',
+    name: 'Espejo de logopedia',
     category: 'Material de logopedia',
     description:
-      'Espejo de seguridad para que el niño observe su boca al articular sonidos.',
+      'Espejo de seguridad para que el niño observe su boca al articular sonidos. Imprescindible en cualquier sesión de logopedia.',
     whyWeRecommend:
-      'Herramienta esencial para ejercicios de articulación: el niño ve cómo coloca la lengua y los labios.',
+      'El espejo es la herramienta número uno para ejercicios de articulación y praxias. El niño necesita ver cómo coloca la lengua y los labios para poder corregirlo. También sirve para ejercicios de imitación orofacial.',
     ageRange: '3-8 años',
-    affiliateUrl: '#',
-    image: '/images/producto-fichas-articulacion.png',
+    affiliateUrl: 'https://amzn.to/4e8O1gb',
   },
   {
-    name: 'Pompero gigante para burbujas',
+    name: 'Letras de madera Montessori',
+    category: 'Material educativo',
+    description:
+      'Set de letras de madera con colores y texturas para manipular, ordenar y formar palabras de forma sensorial.',
+    whyWeRecommend:
+      'Tocar y manipular letras activa la memoria multisensorial, facilitando el aprendizaje de la lectoescritura. Ideal para niños con dificultades de conciencia fonológica o riesgo de dislexia: asocian el sonido con la forma de la letra de forma táctil.',
+    ageRange: '3-6 años',
+    affiliateUrl: 'https://amzn.to/4dIqX85',
+  },
+  {
+    name: 'Tarjetas de vocabulario',
+    category: 'Material de logopedia',
+    description:
+      'Set de tarjetas con imágenes reales organizadas por categorías semánticas: animales, alimentos, objetos, acciones.',
+    whyWeRecommend:
+      'Las tarjetas con imágenes reales (no dibujos) son más efectivas para la generalización del vocabulario. Permiten trabajar denominación, categorización, descripción y juegos de memoria. Las usamos en casi todas las sesiones.',
+    ageRange: '1-6 años',
+    affiliateUrl: 'https://amzn.to/48EpIDh',
+  },
+  {
+    name: 'Pompas de jabón',
     category: 'Material de soplo',
     description:
-      'Pompero con diferentes tamaños de anilla para ejercicios de soplo.',
+      'Set de pompas de jabón con diferentes tamaños de aro para practicar ejercicios de soplo controlado.',
     whyWeRecommend:
-      'Las burbujas requieren control de soplo sostenido y dirección, ideal para fortalecer musculatura orofacial.',
+      'Las pompas requieren un soplo suave y sostenido — exactamente lo que fortalece la musculatura orofacial necesaria para articular sonidos como la F, S, CH. Además, el niño se divierte y no lo percibe como "ejercicio".',
     ageRange: '2-6 años',
-    affiliateUrl: '#',
-    image: '/images/producto-kit-soplo.png',
+    affiliateUrl: 'https://amzn.to/41VqKqG',
+  },
+  {
+    name: 'Molinillo de viento',
+    category: 'Material de soplo',
+    description:
+      'Molinillos de colores para ejercicios de control de soplo. El niño sopla y ve cómo gira: feedback visual inmediato.',
+    whyWeRecommend:
+      'Permite trabajar la regulación de la intensidad del soplo: soplo suave = giro lento, soplo fuerte = giro rápido. Esta graduación del soplo es fundamental para la articulación de fricativas y para niños con incompetencia velofaríngea.',
+    ageRange: '2-6 años',
+    affiliateUrl: 'https://amzn.to/4cfVmbl',
   },
 ];
 
 function ProductCard({ item }: { item: Recommendation }) {
   return (
     <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow duration-300 hover:shadow-md">
-      <div className="relative h-[160px] overflow-hidden bg-crema">
-        <Image
-          src={item.image}
-          alt={item.name}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-        <span className="absolute left-3 top-3 rounded-full bg-cacao/80 px-3 py-1 font-sans text-xs text-white">
-          {item.category}
-        </span>
-      </div>
-      <div className="flex flex-1 flex-col p-5">
-        <h3 className="mb-1 font-serif text-base font-semibold text-cacao">
-          {item.name}
-        </h3>
-        <p className="mb-2 text-sm text-texto-secundario">{item.description}</p>
-        <div className="mb-4 rounded-xl bg-verde/5 p-3">
-          <p className="text-xs font-medium text-verde-dark">
-            🗣️ Por qué lo recomendamos: {item.whyWeRecommend}
-          </p>
-        </div>
-        <div className="mt-auto flex items-center justify-between">
+      <div className="flex flex-1 flex-col p-6">
+        <div className="mb-3 flex items-center justify-between">
+          <span className="rounded-full bg-cacao/80 px-3 py-1 font-sans text-xs text-white">
+            {item.category}
+          </span>
           <span className="rounded-full bg-arena px-2.5 py-1 font-sans text-xs text-cacao">
             {item.ageRange}
           </span>
+        </div>
+        <h3 className="mb-2 font-serif text-lg font-semibold text-cacao">
+          {item.name}
+        </h3>
+        <p className="mb-3 text-sm text-texto-secundario">{item.description}</p>
+        <div className="mb-4 rounded-xl bg-verde/5 p-4">
+          <p className="text-sm text-verde-dark">
+            <span className="font-semibold">Por qué lo recomendamos:</span>{' '}
+            {item.whyWeRecommend}
+          </p>
+        </div>
+        <div className="mt-auto">
           <a
             href={item.affiliateUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="inline-flex items-center gap-1 rounded-pill bg-terracota px-4 py-2 font-sans text-xs font-semibold text-white transition-colors hover:bg-terracota-dark"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-pill bg-terracota px-5 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-terracota-dark"
           >
             Ver en Amazon
             <svg
-              className="h-3 w-3"
+              className="h-4 w-4"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
@@ -210,15 +193,18 @@ export default function RecomendacionesPage() {
         </div>
       </section>
 
-      {/* Affiliate disclosure */}
-      <section className="px-6">
+      {/* Hero image */}
+      <section className="px-6 pb-8">
         <div className="container-custom">
-          <div className="rounded-2xl bg-arena/50 p-4 text-center">
-            <p className="font-sans text-xs text-texto-muted">
-              Este artículo contiene enlaces de afiliado. Si compras a través de
-              ellos, recibimos una pequeña comisión sin coste adicional para ti.
-              Esto nos ayuda a seguir creando contenido gratuito.
-            </p>
+          <div className="relative h-[200px] md:h-[300px] overflow-hidden rounded-2xl">
+            <Image
+              src="/images/recomendaciones-hero.jpg"
+              alt="Libros infantiles y materiales educativos de madera sobre superficie crema"
+              fill
+              className="object-cover"
+              sizes="100vw"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -227,10 +213,12 @@ export default function RecomendacionesPage() {
       <section className="section-padding py-12">
         <div className="container-custom">
           <h2 className="mb-2 font-serif text-2xl font-bold text-cacao md:text-3xl">
-            📚 Libros recomendados
+            Libros recomendados
           </h2>
           <p className="mb-8 text-texto-secundario">
-            Cuentos y libros que trabajan el lenguaje de forma natural.
+            Cuentos que trabajan el lenguaje de forma natural. Cada uno está
+            seleccionado por su valor terapéutico, no solo porque sea
+            &quot;bonito&quot;.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {books.map((book) => (
@@ -240,19 +228,19 @@ export default function RecomendacionesPage() {
         </div>
       </section>
 
-      {/* Toys Section */}
+      {/* Materials Section */}
       <section className="section-padding py-12 bg-verde/5">
         <div className="container-custom">
           <h2 className="mb-2 font-serif text-2xl font-bold text-cacao md:text-3xl">
-            🧸 Juguetes y materiales
+            Materiales de logopedia
           </h2>
           <p className="mb-8 text-texto-secundario">
             Materiales que usamos en sesiones de logopedia y que puedes tener en
-            casa.
+            casa. Todos son asequibles y fáciles de encontrar.
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {toys.map((toy) => (
-              <ProductCard key={toy.name} item={toy} />
+            {materials.map((mat) => (
+              <ProductCard key={mat.name} item={mat} />
             ))}
           </div>
         </div>
@@ -266,14 +254,32 @@ export default function RecomendacionesPage() {
           </h2>
           <p className="mb-6 text-texto-secundario">
             Nuestros cuadernos y fichas están diseñados específicamente por
-            logopedas.
+            logopedas para trabajar en casa.
           </p>
           <a
             href="/recursos"
             className="inline-flex items-center justify-center rounded-pill bg-terracota px-6 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-terracota-dark"
           >
-            Ver recursos de logopedia →
+            Ver recursos de logopedia
           </a>
+        </div>
+      </section>
+
+      {/* Affiliate disclosure */}
+      <section className="px-6 pb-12">
+        <div className="container-custom">
+          <div className="rounded-2xl bg-arena/50 p-6">
+            <p className="font-sans text-xs leading-relaxed text-texto-muted">
+              <strong className="text-texto-secundario">
+                Aviso sobre enlaces de afiliado:
+              </strong>{' '}
+              Esta página contiene enlaces de afiliado de Amazon. Si compras a
+              través de ellos, recibimos una pequeña comisión sin coste
+              adicional para ti. Solo recomendamos productos que usamos o que
+              consideramos útiles para el desarrollo del lenguaje. Esta comisión
+              nos ayuda a seguir creando contenido gratuito para familias.
+            </p>
+          </div>
         </div>
       </section>
     </div>
