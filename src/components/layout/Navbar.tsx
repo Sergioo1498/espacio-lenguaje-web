@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import Logo from "@/components/icons/Logo";
 
@@ -14,17 +15,21 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const isLanding = pathname.startsWith("/lp/");
 
   useEffect(() => {
+    if (isLanding) return;
     const onScroll = () => setScrolled(window.scrollY > 10);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isLanding]);
 
   useEffect(() => {
+    if (isLanding) return;
     if (mobileOpen) {
       document.body.style.overflow = "hidden";
     } else {
@@ -33,7 +38,9 @@ export default function Navbar() {
     return () => {
       document.body.style.overflow = "";
     };
-  }, [mobileOpen]);
+  }, [mobileOpen, isLanding]);
+
+  if (isLanding) return null;
 
   return (
     <header

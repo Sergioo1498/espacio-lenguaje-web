@@ -52,12 +52,44 @@ const faqs = [
   },
 ];
 
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Recursos de Logopedia Infantil',
+  description: 'Material profesional de logopedia infantil descargable',
+  url: 'https://www.espaciolenguaje.com/recursos',
+  numberOfItems: products.length,
+  itemListElement: products.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Product',
+      name: p.name,
+      description: p.description,
+      image: `https://www.espaciolenguaje.com${p.image}`,
+      url: 'https://www.espaciolenguaje.com/recursos',
+      brand: { '@type': 'Organization', name: 'Espacio Lenguaje' },
+      offers: {
+        '@type': 'Offer',
+        price: (p.price / 100).toFixed(2),
+        priceCurrency: 'EUR',
+        availability: 'https://schema.org/InStock',
+        url: 'https://www.espaciolenguaje.com/recursos',
+      },
+    },
+  })),
+};
+
 export default function RecursosPage() {
   const featuredProduct = products.find((p) => p.id === 'pack-completo')!;
   const regularProducts = products.filter((p) => p.id !== 'pack-completo');
 
   return (
     <div className="pt-24 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       {/* Hero */}
       <section className="section-padding pb-8">
         <div className="container-custom text-center">

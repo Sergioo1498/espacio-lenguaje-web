@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Logo from "@/components/icons/Logo";
 
 const contenidoLinks = [
@@ -57,6 +60,9 @@ function FooterLinkColumn({
 }
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname.startsWith("/lp/")) return null;
+
   return (
     <footer className="bg-cacao">
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16">
