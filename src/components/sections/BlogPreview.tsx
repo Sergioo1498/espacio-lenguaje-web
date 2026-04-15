@@ -49,6 +49,38 @@ const blogImages: Record<string, { src: string; alt: string }> = {
     src: '/images/blog-ensenar-r.png',
     alt: 'Letra R de madera con materiales de articulación',
   },
+  'fichas-logopedia-gratis-imprimir': {
+    src: '/images/blog-fichas-logopedia.jpg',
+    alt: 'Fichas de logopedia infantil imprimibles sobre mesa de madera',
+  },
+  'praxias-bucofaciales-ninos': {
+    src: '/images/blog-praxias.jpg',
+    alt: 'Espejo y materiales para praxias bucofaciales infantiles',
+  },
+  'conciencia-fonologica-actividades': {
+    src: '/images/blog-conciencia-fonologica.jpg',
+    alt: 'Letras y tarjetas de sílabas para trabajar la conciencia fonológica',
+  },
+  'tel-trastorno-especifico-lenguaje': {
+    src: '/images/blog-tel.jpg',
+    alt: 'Cuaderno de evaluación con materiales sobre trastorno específico del lenguaje',
+  },
+  'actividades-ninos-2-anos-lenguaje': {
+    src: '/images/blog-actividades-2-anos.jpg',
+    alt: 'Juguetes y materiales para estimular el lenguaje en niños de 2 años',
+  },
+  'vocabulario-ninos-como-ampliar': {
+    src: '/images/blog-vocabulario.jpg',
+    alt: 'Diccionario infantil con tarjetas de vocabulario para niños',
+  },
+  'atencion-temprana-que-es': {
+    src: '/images/blog-atencion-temprana.jpg',
+    alt: 'Materiales clínicos para atención temprana infantil',
+  },
+  'mi-hijo-de-3-anos-no-habla-bien': {
+    src: '/images/blog-3-anos-no-habla.jpg',
+    alt: 'Manos de niño de 3 años con bloques numéricos y tarjetas',
+  },
 };
 
 function formatDate(date: string): string {
