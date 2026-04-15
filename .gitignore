@@ -43,3 +43,6 @@ next-env.d.ts
 # google oauth credentials (NEVER commit)
 google-oauth-client.json
 google-oauth-token.json
+
+# IndexNow local state (key is public anyway but kept out of git for hygiene)
+.indexnow-key
