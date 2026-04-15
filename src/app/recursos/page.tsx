@@ -52,6 +52,15 @@ const faqs = [
   },
 ];
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: 'https://www.espaciolenguaje.com' },
+    { '@type': 'ListItem', position: 2, name: 'Recursos', item: 'https://www.espaciolenguaje.com/recursos' },
+  ],
+};
+
 const productSchema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -86,6 +95,10 @@ export default function RecursosPage() {
 
   return (
     <div className="pt-24 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}

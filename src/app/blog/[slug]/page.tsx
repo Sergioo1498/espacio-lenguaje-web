@@ -18,6 +18,10 @@ const blogImages: Record<string, { src: string; alt: string }> = {
   "a-que-edad-debe-hablar-un-nino": { src: "/images/blog-edad-hablar.png", alt: "Manos de niño con bloques de letras y hitos del habla" },
   "tartamudez-infantil-cuando-preocuparse": { src: "/images/blog-tartamudez.png", alt: "Manos de niño con burbuja de diálogo y tarjetas" },
   "como-ensenar-la-r-a-un-nino": { src: "/images/blog-ensenar-r.png", alt: "Letra R de madera con materiales de articulación" },
+  "fichas-logopedia-gratis-imprimir": { src: "/images/blog-fichas-logopedia.jpg", alt: "Fichas de logopedia infantil imprimibles sobre mesa de madera" },
+  "praxias-bucofaciales-ninos": { src: "/images/blog-praxias.jpg", alt: "Espejo y materiales para praxias bucofaciales infantiles" },
+  "conciencia-fonologica-actividades": { src: "/images/blog-conciencia-fonologica.jpg", alt: "Letras y tarjetas de sílabas para trabajar la conciencia fonológica" },
+  "tel-trastorno-especifico-lenguaje": { src: "/images/blog-tel.jpg", alt: "Cuaderno de evaluación con materiales sobre trastorno específico del lenguaje" },
 };
 
 interface PageProps {
@@ -94,11 +98,40 @@ export default async function BlogPostPage({ params }: PageProps) {
     },
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Inicio",
+        item: "https://www.espaciolenguaje.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://www.espaciolenguaje.com/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: meta.title,
+        item: articleUrl,
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* Breadcrumb */}

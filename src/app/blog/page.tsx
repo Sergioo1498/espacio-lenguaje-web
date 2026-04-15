@@ -9,11 +9,24 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.espaciolenguaje.com/blog" },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: "https://www.espaciolenguaje.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.espaciolenguaje.com/blog" },
+  ],
+};
+
 export default function BlogPage() {
   const posts = getAllPosts();
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="bg-arena section-padding">
         <div className="container-custom text-center">
