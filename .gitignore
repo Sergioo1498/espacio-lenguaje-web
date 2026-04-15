@@ -39,3 +39,7 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# google oauth credentials (NEVER commit)
+google-oauth-client.json
+google-oauth-token.json
