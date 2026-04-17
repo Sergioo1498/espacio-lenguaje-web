@@ -26,6 +26,10 @@ const blogImages: Record<string, { src: string; alt: string }> = {
   "vocabulario-ninos-como-ampliar": { src: "/images/blog-vocabulario.jpg", alt: "Diccionario infantil con tarjetas de vocabulario para niños" },
   "atencion-temprana-que-es": { src: "/images/blog-atencion-temprana.jpg", alt: "Materiales clínicos para atención temprana infantil" },
   "mi-hijo-de-3-anos-no-habla-bien": { src: "/images/blog-3-anos-no-habla.jpg", alt: "Manos de niño de 3 años con bloques numéricos y tarjetas" },
+  "ejercicios-para-la-r-fuerte": { src: "/images/blog-r-fuerte.jpg", alt: "Espejo de logopedia con letra R y materiales para trabajar la vibración lingual" },
+  "frenillo-lingual-sintomas": { src: "/images/blog-frenillo.jpg", alt: "Materiales de evaluación oral: espejo y depresores linguales sobre superficie crema" },
+  "logopedia-online-como-funciona": { src: "/images/blog-logopedia-online.jpg", alt: "Portátil con sesión de logopedia online y cuaderno de anotaciones" },
+  "dislalia-infantil-tipos": { src: "/images/blog-dislalia.jpg", alt: "Tarjetas de articulación con los fonemas R, S, L sobre mesa de madera" },
 };
 
 interface PageProps {
