@@ -23,169 +23,450 @@ export const metadata: Metadata = {
   },
 };
 
-export default function LandingGuiaGratis() {
+function CheckIcon({ className = '' }: { className?: string }) {
   return (
-    <div className="min-h-screen bg-crema">
-      {/* Minimal header — logo only */}
-      <header className="flex justify-center py-6">
-        <Link href="/" aria-label="Espacio Lenguaje - Inicio">
+    <svg
+      className={className}
+      width="13"
+      height="13"
+      viewBox="0 0 20 20"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M6 10.5L8.5 13L14 7.5"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function PdfMockup({ className = '' }: { className?: string }) {
+  return (
+    <div className={`mockup ${className}`}>
+      <div className="mockup-cover">
+        <div>
+          <div className="mockup-kicker">Guía gratuita</div>
+          <h2 className="mockup-title">
+            Hitos del lenguaje
+            <br />
+            0–6 años
+          </h2>
+          <div className="mockup-rule"></div>
+          <p className="mockup-subtitle">
+            Qué debería decir tu peque
+            <br />y cuándo consultar
+          </p>
+        </div>
+        <div className="mockup-seal-wrap">
+          <span className="mockup-pages">11 páginas</span>
           <Image
-            src="/images/logo-chosen.png"
-            alt="Espacio Lenguaje"
+            src="/images/logo-icon.png"
+            alt=""
             width={56}
             height={56}
-            className="rounded-full"
+            className="h-14 w-14"
           />
-        </Link>
-      </header>
+        </div>
+      </div>
+      <div className="mockup-badge-evidence">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path
+            d="M6 10.5L8.5 13L14 7.5"
+            stroke="#6D8D69"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        Basada en evidencia
+      </div>
+      <div className="mockup-badge-logo">
+        <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path
+            d="M10 2l2.2 5.2L18 8l-4.2 3.8L15 18l-5-3-5 3 1.2-6.2L2 8l5.8-.8z"
+            fill="#C4745A"
+          />
+        </svg>
+        Creada por logopedas
+      </div>
+    </div>
+  );
+}
 
-      <main className="mx-auto max-w-xl px-6 pb-16">
-        {/* HERO */}
-        <section className="text-center">
-          <span className="inline-block rounded-full bg-verde/10 px-4 py-1.5 font-sans text-sm font-medium text-verde-dark">
-            100% gratuita
-          </span>
-          <h1 className="mt-4 font-serif text-3xl font-bold leading-tight text-cacao md:text-4xl">
-            Guía de Hitos del Lenguaje
-            <br />
-            <span className="text-terracota">de 0 a 6 años</span>
-          </h1>
-          <p className="mt-4 text-texto-secundario">
-            Descubre qué debería decir tu peque a cada edad, las señales de
-            alerta y ejercicios para hacer en casa.
-          </p>
+export default function LandingGuiaGratis() {
+  return (
+    <>
+      <style>{`
+        .hero-blob::before {
+          content: '';
+          position: absolute;
+          top: -10%;
+          right: -15%;
+          width: 520px;
+          height: 520px;
+          border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+          background: #F5E6D3;
+          opacity: 0.5;
+          z-index: 0;
+        }
+        .mockup-wrap { perspective: 1200px; }
+        .mockup {
+          position: relative;
+          width: min(320px, 78vw);
+          aspect-ratio: 3 / 4;
+          transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg);
+          transform-style: preserve-3d;
+          animation: mockup-float 5s ease-in-out infinite;
+          filter: drop-shadow(0 40px 60px rgba(61,44,46,0.35));
+        }
+        .mockup.side { width: min(280px, 70vw); transform: rotateY(12deg) rotate(2deg); animation-duration: 6s; }
+        @keyframes mockup-float {
+          0%, 100% { transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg) translateY(0); }
+          50%      { transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg) translateY(-10px); }
+        }
+        .mockup-cover {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(135deg, #F5E6D3 0%, #D4917A 55%, #C4745A 100%);
+          border-radius: 8px 12px 12px 8px;
+          padding: 28px 26px 24px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          overflow: hidden;
+        }
+        .mockup-cover::before {
+          content: '';
+          position: absolute;
+          left: 0; top: 0; bottom: 0; width: 14px;
+          background: linear-gradient(90deg, rgba(0,0,0,0.25), transparent);
+        }
+        .mockup-cover::after {
+          content: '';
+          position: absolute;
+          right: -6px; top: 6px; bottom: 6px; width: 6px;
+          background: repeating-linear-gradient(0deg, #fff 0 2px, #EFE3D4 2px 3px);
+          border-radius: 0 4px 4px 0;
+          box-shadow: 2px 0 4px rgba(0,0,0,0.15);
+        }
+        .mockup-kicker { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: rgba(61,44,46,0.65); }
+        .mockup-title { font-family: var(--font-dm-serif), Georgia, serif; color: #3D2C2E; font-size: 28px; line-height: 1.1; margin-top: 10px; }
+        .mockup-rule { width: 40px; height: 3px; background: #3D2C2E; border-radius: 2px; margin-top: 14px; }
+        .mockup-subtitle { margin-top: 14px; font-family: var(--font-dm-serif), Georgia, serif; font-style: italic; color: rgba(61,44,46,0.78); font-size: 15px; line-height: 1.4; }
+        .mockup-seal-wrap { display: flex; justify-content: space-between; align-items: flex-end; }
+        .mockup-pages { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(61,44,46,0.6); font-weight: 600; }
+        .mockup-badge-evidence, .mockup-badge-logo {
+          position: absolute;
+          background: #fff;
+          padding: 8px 14px;
+          border-radius: 999px;
+          box-shadow: 0 10px 24px rgba(61,44,46,0.22);
+          font-size: 12px;
+          font-weight: 600;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          transform: translateZ(60px);
+        }
+        .mockup-badge-evidence { top: -14px; left: -24px; color: #6D8D69; }
+        .mockup-badge-logo { bottom: 40px; right: -32px; color: #a85f48; }
+        @media (prefers-reduced-motion: reduce) { .mockup { animation: none !important; } }
 
-          {/* Guide mockup */}
-          <div className="relative mx-auto mt-8 h-[240px] w-[200px]">
+        .final-cta-bg::before, .final-cta-bg::after {
+          content: ''; position: absolute; border-radius: 50%; filter: blur(4px);
+        }
+        .final-cta-bg::before { width: 280px; height: 280px; background: rgba(196,116,90,0.15); top: -80px; right: -60px; }
+        .final-cta-bg::after { width: 200px; height: 200px; background: rgba(143,174,139,0.10); bottom: -70px; left: -50px; }
+      `}</style>
+
+      <div className="min-h-screen bg-crema text-cacao">
+        {/* Topbar — logo only */}
+        <header className="flex items-center justify-center px-5 py-5">
+          <Link href="/" aria-label="Espacio Lenguaje - Inicio">
             <Image
-              src="/images/guia-portada.png"
-              alt="Guía de Hitos del Lenguaje de 0 a 6 años"
-              fill
-              className="rounded-lg object-contain drop-shadow-xl"
-              priority
+              src="/images/logo-icon.png"
+              alt="Espacio Lenguaje"
+              width={48}
+              height={48}
+              className="block"
             />
-          </div>
+          </Link>
+        </header>
 
-          {/* Form */}
-          <div className="mt-8">
-            <LandingForm />
-            <p className="mt-3 font-sans text-xs text-texto-muted">
-              Gratis · PDF · Enviamos a tu email · Sin spam
-            </p>
+        {/* HERO */}
+        <section className="hero-blob relative overflow-hidden pb-16 pt-4 md:pb-24 md:pt-12">
+          <div className="relative z-10 mx-auto grid max-w-5xl items-center gap-12 px-5 md:grid-cols-[1.15fr_1fr] md:gap-16">
+            <div>
+              <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-verde/15 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-widest text-verde-dark">
+                <span className="h-1.5 w-1.5 rounded-full bg-verde"></span>
+                Guía gratuita · PDF
+              </span>
+              <h1 className="text-balance font-serif text-4xl leading-tight text-cacao md:text-5xl lg:text-[56px]">
+                Descubre si el lenguaje de tu peque va por{' '}
+                <em className="not-italic text-terracota">buen camino</em>
+              </h1>
+              <p className="mt-5 max-w-lg text-base leading-relaxed text-texto-secundario md:text-lg">
+                Una guía clara y sin alarmismos para saber qué debería decir tu
+                hijo en cada etapa, de 0 a 6 años, y cuándo merece la pena
+                consultar.
+              </p>
+
+              <div className="mt-7 max-w-lg">
+                <LandingForm />
+                <p className="mt-3 font-sans text-xs text-texto-muted">
+                  Sin spam. Puedes darte de baja en cualquier momento.{' '}
+                  <Link href="/privacidad" className="text-terracota hover:underline">
+                    Política de privacidad
+                  </Link>
+                  .
+                </p>
+              </div>
+
+              <div className="mt-8 flex items-center gap-4">
+                <div className="flex">
+                  {[
+                    { bg: '#C4745A', letter: 'M' },
+                    { bg: '#8FAE8B', letter: 'A' },
+                    { bg: '#D4917A', letter: 'L' },
+                    { bg: '#6D8D69', letter: 'S' },
+                  ].map((avatar, i) => (
+                    <span
+                      key={avatar.letter}
+                      className="inline-flex h-9 w-9 items-center justify-center rounded-full border-2 border-crema font-sans text-xs font-bold text-white"
+                      style={{
+                        background: avatar.bg,
+                        marginLeft: i === 0 ? 0 : '-10px',
+                      }}
+                      aria-hidden="true"
+                    >
+                      {avatar.letter}
+                    </span>
+                  ))}
+                </div>
+                <p className="font-sans text-sm text-texto-secundario">
+                  <strong className="font-semibold text-cacao">
+                    +2.500 familias
+                  </strong>{' '}
+                  ya la han descargado
+                </p>
+              </div>
+            </div>
+
+            <div className="mockup-wrap flex items-center justify-center py-5">
+              <PdfMockup />
+            </div>
           </div>
         </section>
 
         {/* PAIN POINTS */}
-        <section className="mt-16 grid gap-4 sm:grid-cols-3">
-          {[
-            { number: '7%', text: 'de los niños tiene un trastorno del lenguaje' },
-            { number: '308', text: 'días de espera media en atención temprana' },
-            { number: '4x', text: 'más efectiva es la intervención temprana' },
-          ].map((stat) => (
-            <div
-              key={stat.number}
-              className="rounded-2xl bg-white p-5 text-center shadow-sm"
-            >
-              <span className="block font-serif text-2xl font-bold text-terracota">
-                {stat.number}
-              </span>
-              <span className="mt-1 block font-sans text-xs text-texto-secundario">
-                {stat.text}
-              </span>
-            </div>
-          ))}
-        </section>
-
-        {/* WHAT'S INCLUDED */}
-        <section className="mt-16">
-          <h2 className="text-center font-serif text-2xl font-bold text-cacao">
-            ¿Qué incluye la guía?
-          </h2>
-          <ul className="mt-6 space-y-3">
-            {[
-              'Hitos del lenguaje organizados por edad (0-6 años)',
-              'Señales de alerta claras para cada etapa',
-              'Un ejercicio práctico para hacer en casa en cada franja',
-              'Cuándo consultar a un logopeda',
-              'Creada por logopedas colegiadas',
-            ].map((item) => (
-              <li key={item} className="flex items-start gap-3">
-                <svg
-                  className="mt-0.5 h-5 w-5 shrink-0 text-verde"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2.5}
-                  stroke="currentColor"
+        <section className="bg-white py-20">
+          <div className="mx-auto max-w-5xl px-5">
+            <h2 className="text-balance mx-auto max-w-xl text-center font-serif text-3xl text-cacao md:text-4xl">
+              ¿Te suena alguna de estas situaciones?
+            </h2>
+            <p className="mx-auto mb-12 mt-3 max-w-lg text-center text-lg text-texto-secundario">
+              No estás sola. Miles de familias pasan por estas dudas cada
+              semana.
+            </p>
+            <div className="grid gap-6 md:grid-cols-3">
+              {[
+                {
+                  title: '"Los niños de su edad ya hablan mucho más"',
+                  text: 'Te comparas con primos, compis del parque o niños de Instagram y empieza la inquietud.',
+                  icon: (
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 2" />
+                    </svg>
+                  ),
+                },
+                {
+                  title: '"El pediatra me dice que espere"',
+                  text: 'Pero por dentro sientes que algo podrías estar haciendo ya, sin esperar a los 3 años.',
+                  icon: (
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M21 11.5c0 4.142-4.03 7.5-9 7.5-1.3 0-2.53-.23-3.65-.65L3 20l1.5-4.15C3.55 14.6 3 13.1 3 11.5 3 7.358 7.03 4 12 4s9 3.358 9 7.5z" />
+                    </svg>
+                  ),
+                },
+                {
+                  title: '"Quiero ayudarle, pero no sé por dónde empezar"',
+                  text: 'Buscas en internet y encuentras información contradictoria, alarmista o muy técnica.',
+                  icon: (
+                    <svg
+                      width="28"
+                      height="28"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M12 2l2.5 6 6.5.5-5 4.5L18 20l-6-3.5L6 20l2-6.5-5-4.5L9.5 8z" />
+                    </svg>
+                  ),
+                },
+              ].map((card) => (
+                <article
+                  key={card.title}
+                  className="rounded-3xl bg-crema p-7"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 12.75l6 6 9-13.5"
-                  />
-                </svg>
-                <span className="font-sans text-sm text-cacao">{item}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* SECOND CTA */}
-        <section className="mt-16 rounded-2xl bg-white p-8 text-center shadow-sm">
-          <h2 className="font-serif text-xl font-bold text-cacao">
-            Descárgala ahora
-          </h2>
-          <p className="mt-2 text-sm text-texto-muted">
-            Más de 2.500 familias ya la tienen
-          </p>
-          <div className="mt-6">
-            <LandingForm />
+                  <div className="mb-5 inline-flex h-13 w-13 items-center justify-center rounded-2xl bg-terracota/10 p-3 text-terracota">
+                    {card.icon}
+                  </div>
+                  <h3 className="mb-2 font-serif text-xl text-cacao">
+                    {card.title}
+                  </h3>
+                  <p className="text-[15px] leading-relaxed text-texto-secundario">
+                    {card.text}
+                  </p>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* TESTIMONIALS */}
-        <section className="mt-16 space-y-4">
-          {[
-            {
-              text: 'La guía de hitos nos dio la tranquilidad que necesitábamos. Muy clara y práctica.',
-              author: 'Carlos P.',
-            },
-            {
-              text: 'Información clara y sin alarmismos. Muy recomendable para cualquier padre primerizo.',
-              author: 'María G.',
-            },
-          ].map((t) => (
-            <blockquote
-              key={t.author}
-              className="rounded-2xl bg-white p-6 shadow-sm"
-            >
-              <p className="font-sans text-sm italic text-texto-secundario">
-                &ldquo;{t.text}&rdquo;
-              </p>
-              <footer className="mt-3 font-sans text-xs font-semibold text-cacao">
-                — {t.author}
-              </footer>
-            </blockquote>
-          ))}
-        </section>
-      </main>
+        {/* INCLUDES */}
+        <section className="relative overflow-hidden bg-arena py-20">
+          <div className="mx-auto max-w-5xl px-5">
+            <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
+              <div>
+                <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-verde/15 px-4 py-1.5 font-sans text-xs font-semibold uppercase tracking-widest text-verde-dark">
+                  <span className="h-1.5 w-1.5 rounded-full bg-verde"></span>
+                  Qué incluye la guía
+                </span>
+                <h2 className="text-balance font-serif text-3xl text-cacao md:text-[40px] md:leading-tight">
+                  11 páginas claras, prácticas y sin alarmismos
+                </h2>
+                <p className="mt-4 max-w-md text-lg leading-relaxed text-texto-secundario">
+                  Hemos condensado lo esencial que una familia necesita para
+                  observar, acompañar y tomar decisiones con confianza.
+                </p>
+                <ul className="mt-7 flex flex-col gap-4">
+                  {[
+                    {
+                      strong: 'Hitos por edad',
+                      rest: '— qué esperar a los 12, 18, 24 meses y cada año hasta los 6.',
+                    },
+                    {
+                      strong: 'Señales de alerta',
+                      rest: '— cuáles son normales y cuáles merecen una consulta profesional.',
+                    },
+                    {
+                      strong: 'Ejercicios para casa',
+                      rest: '— actividades sencillas por edad, con pocos materiales y cinco minutos.',
+                    },
+                    {
+                      strong: 'Errores comunes',
+                      rest: 'que frenan el lenguaje sin que nos demos cuenta.',
+                    },
+                    {
+                      strong: 'Cuándo consultar',
+                      rest: 'a un logopeda y qué esperar de esa primera visita.',
+                    },
+                  ].map((item) => (
+                    <li
+                      key={item.strong}
+                      className="flex items-start gap-3.5 text-[15.5px] leading-snug text-cacao"
+                    >
+                      <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-verde text-white">
+                        <CheckIcon />
+                      </span>
+                      <span>
+                        <strong className="font-semibold text-cacao">
+                          {item.strong}
+                        </strong>{' '}
+                        <span className="text-texto-secundario">{item.rest}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-      {/* Minimal footer */}
-      <footer className="border-t border-cacao/5 bg-crema py-6 text-center">
-        <p className="font-sans text-xs text-texto-muted">
-          Espacio Lenguaje · Logopedia Infantil
-        </p>
-        <div className="mt-2 flex justify-center gap-4 font-sans text-xs text-texto-muted">
-          <Link href="/aviso-legal" className="hover:text-terracota">
-            Aviso legal
-          </Link>
-          <Link href="/privacidad" className="hover:text-terracota">
-            Privacidad
-          </Link>
-        </div>
-        <p className="mt-2 font-sans text-xs text-texto-muted">
-          &copy; 2026 Espacio Lenguaje
-        </p>
-      </footer>
-    </div>
+              <div className="mockup-wrap flex justify-center">
+                <PdfMockup className="side" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FINAL CTA */}
+        <section className="final-cta-bg relative overflow-hidden bg-cacao py-20 text-crema md:py-24">
+          <div className="relative z-10 mx-auto max-w-xl px-5 text-center">
+            <h2 className="text-balance font-serif text-3xl text-crema md:text-[40px] md:leading-tight">
+              Descárgala ahora y sal de dudas esta semana
+            </h2>
+            <p className="mt-4 text-base text-crema/75 md:text-[17px]">
+              PDF de 11 páginas · Lo recibes en tu email en 1 minuto.
+            </p>
+            <div className="mt-7">
+              <LandingForm />
+            </div>
+            <div className="mt-7 flex flex-wrap items-center justify-center gap-5 font-sans text-sm text-crema/80">
+              {[
+                '100% gratuito',
+                'Sin spam',
+                'Creada por logopedas',
+              ].map((item) => (
+                <span key={item} className="inline-flex items-center gap-1.5">
+                  <span className="text-verde-light">
+                    <CheckIcon className="text-verde-light" />
+                  </span>
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FOOTER */}
+        <footer className="border-t border-cacao/5 bg-crema py-8 text-center">
+          <p className="font-sans text-[13px] text-texto-muted">
+            <strong className="font-semibold text-cacao">Espacio Lenguaje</strong>{' '}
+            — logopedia infantil
+          </p>
+          <div className="mt-2 flex justify-center gap-5 font-sans text-[13px] text-texto-secundario">
+            <Link href="/aviso-legal" className="hover:text-terracota">
+              Aviso legal
+            </Link>
+            <Link href="/privacidad" className="hover:text-terracota">
+              Privacidad
+            </Link>
+            <Link href="/contacto" className="hover:text-terracota">
+              Contacto
+            </Link>
+          </div>
+          <p className="mt-3 font-sans text-xs text-texto-muted">
+            © 2026 · Hecho con cariño para las familias que más lo necesitan
+          </p>
+        </footer>
+      </div>
+    </>
   );
 }
