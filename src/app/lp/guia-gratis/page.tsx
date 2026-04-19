@@ -44,34 +44,23 @@ function CheckIcon({ className = '' }: { className?: string }) {
   );
 }
 
-function PdfMockup({ className = '' }: { className?: string }) {
+function PdfMockup({
+  className = '',
+  priority = false,
+}: {
+  className?: string;
+  priority?: boolean;
+}) {
   return (
     <div className={`mockup ${className}`}>
-      <div className="mockup-cover">
-        <div>
-          <div className="mockup-kicker">Guía gratuita</div>
-          <h2 className="mockup-title">
-            Hitos del lenguaje
-            <br />
-            0–6 años
-          </h2>
-          <div className="mockup-rule"></div>
-          <p className="mockup-subtitle">
-            Qué debería decir tu peque
-            <br />y cuándo consultar
-          </p>
-        </div>
-        <div className="mockup-seal-wrap">
-          <span className="mockup-pages">11 páginas</span>
-          <Image
-            src="/images/logo-icon.png"
-            alt=""
-            width={56}
-            height={56}
-            className="h-14 w-14"
-          />
-        </div>
-      </div>
+      <Image
+        src="/images/guia-portada.png"
+        alt="Guía gratuita: Hitos del lenguaje de 0 a 6 años — Espacio Lenguaje"
+        width={600}
+        height={800}
+        priority={priority}
+        className="mockup-img"
+      />
       <div className="mockup-badge-evidence">
         <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
           <path
@@ -93,6 +82,7 @@ function PdfMockup({ className = '' }: { className?: string }) {
         </svg>
         Creada por logopedas
       </div>
+      <div className="mockup-pages-badge">11 páginas · PDF</div>
     </div>
   );
 }
@@ -113,53 +103,27 @@ export default function LandingGuiaGratis() {
           opacity: 0.5;
           z-index: 0;
         }
-        .mockup-wrap { perspective: 1200px; }
+        .mockup-wrap { perspective: 1400px; }
         .mockup {
           position: relative;
-          width: min(320px, 78vw);
-          aspect-ratio: 3 / 4;
+          width: min(340px, 82vw);
           transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg);
           transform-style: preserve-3d;
           animation: mockup-float 5s ease-in-out infinite;
-          filter: drop-shadow(0 40px 60px rgba(61,44,46,0.35));
+          filter: drop-shadow(0 30px 50px rgba(61,44,46,0.30)) drop-shadow(0 10px 20px rgba(61,44,46,0.15));
         }
-        .mockup.side { width: min(280px, 70vw); transform: rotateY(12deg) rotate(2deg); animation-duration: 6s; }
+        .mockup.side { width: min(300px, 72vw); transform: rotateY(12deg) rotate(2deg); animation-duration: 6s; }
         @keyframes mockup-float {
           0%, 100% { transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg) translateY(0); }
           50%      { transform: rotateY(-14deg) rotateX(6deg) rotate(-1.5deg) translateY(-10px); }
         }
-        .mockup-cover {
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(135deg, #F5E6D3 0%, #D4917A 55%, #C4745A 100%);
-          border-radius: 8px 12px 12px 8px;
-          padding: 28px 26px 24px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          overflow: hidden;
+        .mockup-img {
+          display: block;
+          width: 100%;
+          height: auto;
+          border-radius: 6px;
         }
-        .mockup-cover::before {
-          content: '';
-          position: absolute;
-          left: 0; top: 0; bottom: 0; width: 14px;
-          background: linear-gradient(90deg, rgba(0,0,0,0.25), transparent);
-        }
-        .mockup-cover::after {
-          content: '';
-          position: absolute;
-          right: -6px; top: 6px; bottom: 6px; width: 6px;
-          background: repeating-linear-gradient(0deg, #fff 0 2px, #EFE3D4 2px 3px);
-          border-radius: 0 4px 4px 0;
-          box-shadow: 2px 0 4px rgba(0,0,0,0.15);
-        }
-        .mockup-kicker { font-size: 10px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: rgba(61,44,46,0.65); }
-        .mockup-title { font-family: var(--font-dm-serif), Georgia, serif; color: #3D2C2E; font-size: 28px; line-height: 1.1; margin-top: 10px; }
-        .mockup-rule { width: 40px; height: 3px; background: #3D2C2E; border-radius: 2px; margin-top: 14px; }
-        .mockup-subtitle { margin-top: 14px; font-family: var(--font-dm-serif), Georgia, serif; font-style: italic; color: rgba(61,44,46,0.78); font-size: 15px; line-height: 1.4; }
-        .mockup-seal-wrap { display: flex; justify-content: space-between; align-items: flex-end; }
-        .mockup-pages { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(61,44,46,0.6); font-weight: 600; }
-        .mockup-badge-evidence, .mockup-badge-logo {
+        .mockup-badge-evidence, .mockup-badge-logo, .mockup-pages-badge {
           position: absolute;
           background: #fff;
           padding: 8px 14px;
@@ -171,9 +135,18 @@ export default function LandingGuiaGratis() {
           align-items: center;
           gap: 8px;
           transform: translateZ(60px);
+          white-space: nowrap;
         }
         .mockup-badge-evidence { top: -14px; left: -24px; color: #6D8D69; }
-        .mockup-badge-logo { bottom: 40px; right: -32px; color: #a85f48; }
+        .mockup-badge-logo { bottom: 32px; right: -40px; color: #a85f48; }
+        .mockup-pages-badge {
+          bottom: -14px; left: 50%;
+          transform: translateX(-50%) translateZ(60px);
+          color: #3D2C2E;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          font-size: 11px;
+        }
         @media (prefers-reduced-motion: reduce) { .mockup { animation: none !important; } }
 
         .final-cta-bg::before, .final-cta-bg::after {
@@ -257,7 +230,7 @@ export default function LandingGuiaGratis() {
             </div>
 
             <div className="mockup-wrap flex items-center justify-center py-5">
-              <PdfMockup />
+              <PdfMockup priority />
             </div>
           </div>
         </section>
