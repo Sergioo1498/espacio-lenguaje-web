@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import { products, formatPrice } from '@/lib/products';
 import BuyButton from './BuyButton';
 
@@ -131,7 +132,9 @@ export default function RecursosPage() {
                   Ahorra un 28%
                 </span>
                 <h2 className="mt-4 font-serif text-3xl font-bold text-cacao md:text-4xl">
-                  {featuredProduct.name}
+                  <Link href={`/recursos/${featuredProduct.id}`} className="hover:text-terracota transition-colors">
+                    {featuredProduct.name}
+                  </Link>
                 </h2>
                 <p className="mt-3 text-texto-secundario">
                   {featuredProduct.description}
@@ -146,8 +149,14 @@ export default function RecursosPage() {
                     </span>
                   )}
                 </div>
-                <div className="mt-6">
+                <div className="mt-6 flex flex-wrap items-center gap-3">
                   <BuyButton productId={featuredProduct.id} size="large" />
+                  <Link
+                    href={`/recursos/${featuredProduct.id}`}
+                    className="inline-flex items-center justify-center rounded-pill border border-cacao/20 px-6 py-3 font-sans text-sm font-semibold text-cacao transition-colors hover:border-terracota hover:text-terracota"
+                  >
+                    Ver detalle →
+                  </Link>
                 </div>
               </div>
               <div className="relative aspect-[3/2]">
@@ -176,8 +185,8 @@ export default function RecursosPage() {
                 key={product.id}
                 className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg"
               >
-                {/* Image */}
-                <div className="relative h-[200px] overflow-hidden">
+                {/* Image — linked */}
+                <Link href={`/recursos/${product.id}`} className="relative block h-[200px] overflow-hidden" aria-label={`Ver detalle de ${product.name}`}>
                   <Image
                     src={product.image}
                     alt={product.name}
@@ -195,12 +204,14 @@ export default function RecursosPage() {
                       Popular
                     </span>
                   )}
-                </div>
+                </Link>
 
                 {/* Content */}
                 <div className="flex flex-1 flex-col p-6">
                   <h3 className="mb-2 font-serif text-lg font-semibold text-cacao">
-                    {product.name}
+                    <Link href={`/recursos/${product.id}`} className="hover:text-terracota transition-colors">
+                      {product.name}
+                    </Link>
                   </h3>
                   <p className="mb-4 flex-1 text-sm text-texto-secundario">
                     {product.description}

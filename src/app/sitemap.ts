@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/mdx";
+import { products } from "@/lib/products";
 
 const BUILD_TIME = new Date();
 
@@ -12,6 +13,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.updatedAt || post.date),
     changeFrequency: "weekly" as const,
     priority: 0.8,
+  }));
+
+  const productUrls = products.map((product) => ({
+    url: `${baseUrl}/recursos/${product.id}`,
+    lastModified: BUILD_TIME,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
   }));
 
   return [
@@ -34,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    ...productUrls,
     {
       url: `${baseUrl}/recomendaciones`,
       lastModified: BUILD_TIME,
