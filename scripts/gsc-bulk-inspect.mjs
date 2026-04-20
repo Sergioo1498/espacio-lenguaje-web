@@ -9,6 +9,7 @@ import { getSearchConsoleClient, SITE_URL } from './_gsc-client.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = path.join(__dirname, '..', 'content');
+const PRODUCTS_FILE = path.join(__dirname, '..', 'src', 'lib', 'products.ts');
 const BASE = SITE_URL.replace(/\/$/, '');
 
 const STATIC_URLS = [
@@ -26,7 +27,13 @@ const blogSlugs = fs
   .filter((f) => f.endsWith('.mdx'))
   .map((f) => '/blog/' + f.replace(/\.mdx$/, ''));
 
-const all = [...STATIC_URLS, ...blogSlugs];
+// Parse product IDs from products.ts (avoids importing a TS file from Node)
+const productsSource = fs.readFileSync(PRODUCTS_FILE, 'utf8');
+const productIds = [...productsSource.matchAll(/^\s*id:\s*'([^']+)'/gm)].map(
+  (m) => '/recursos/' + m[1]
+);
+
+const all = [...STATIC_URLS, ...blogSlugs, ...productIds];
 
 const sc = getSearchConsoleClient();
 
