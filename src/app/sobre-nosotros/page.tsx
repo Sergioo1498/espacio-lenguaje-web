@@ -10,6 +10,13 @@ export const metadata: Metadata = {
   description:
     "Espacio Lenguaje: logopedia infantil basada en evidencia, enfoque familiar y acompañamiento profesional. Especializadas en retrasos del lenguaje, dislexia y tartamudez.",
   alternates: { canonical: "https://www.espaciolenguaje.com/sobre-nosotros" },
+  openGraph: {
+    title: "Sobre Nosotros — Espacio Lenguaje",
+    description:
+      "Logopedia infantil basada en evidencia. Conoce al equipo detrás de Espacio Lenguaje y nuestro enfoque familiar y cercano.",
+    url: "https://www.espaciolenguaje.com/sobre-nosotros",
+    type: "website",
+  },
 };
 
 export default function SobreNosotrosPage() {

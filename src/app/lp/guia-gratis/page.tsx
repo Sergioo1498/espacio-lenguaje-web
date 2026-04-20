@@ -87,9 +87,32 @@ function PdfMockup({
   );
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Inicio',
+      item: 'https://www.espaciolenguaje.com',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Guía gratuita de hitos del lenguaje',
+      item: 'https://www.espaciolenguaje.com/lp/guia-gratis',
+    },
+  ],
+};
+
 export default function LandingGuiaGratis() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <style>{`
         .hero-blob::before {
           content: '';

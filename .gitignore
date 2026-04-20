@@ -47,6 +47,9 @@ google-oauth-token.json
 # IndexNow local state (key is public anyway but kept out of git for hygiene)
 .indexnow-key
 
+# GSC bulk inspect output (regenerated on demand)
+.gsc-bulk-inspect.json
+
 # Archived old logos (kept locally only — avoid confusing AI design tools that scan the repo)
 public/_archive-logos/
 public/images/_archive-logos/

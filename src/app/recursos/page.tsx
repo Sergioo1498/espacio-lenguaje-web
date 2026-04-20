@@ -4,14 +4,16 @@ import { products, formatPrice } from '@/lib/products';
 import BuyButton from './BuyButton';
 
 export const metadata: Metadata = {
-  title: 'Recursos de Logopedia Infantil — Material Descargable',
+  title: 'Material logopédico para imprimir: fichas y cuadernos de logopedia',
   description:
-    'Material profesional de logopedia infantil: fichas de articulación, cuadernos de estimulación, guías de dislexia y tartamudez. Descarga inmediata. Desde 3,90€.',
+    'Material logopédico infantil para imprimir: fichas de articulación, cuadernos de estimulación del lenguaje, guías de dislexia y tartamudez. PDF de descarga inmediata desde 3,90€.',
   alternates: { canonical: 'https://www.espaciolenguaje.com/recursos' },
   openGraph: {
-    title: 'Recursos de Logopedia Infantil | Espacio Lenguaje',
+    title: 'Material logopédico para imprimir | Espacio Lenguaje',
     description:
-      'Material profesional para estimular el lenguaje de tu peque en casa.',
+      'Fichas, cuadernos y guías de logopedia infantil diseñadas por logopedas. PDF imprimibles de descarga inmediata.',
+    url: 'https://www.espaciolenguaje.com/recursos',
+    type: 'website',
   },
 };
 

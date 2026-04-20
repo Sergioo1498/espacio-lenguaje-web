@@ -85,6 +85,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     headline: meta.title,
     description: meta.excerpt,
     datePublished: meta.date,
+    dateModified: meta.updatedAt || meta.date,
+    inLanguage: "es-ES",
     image: heroImg?.src ? `https://www.espaciolenguaje.com${heroImg.src}` : undefined,
     author: {
       "@type": "Organization",

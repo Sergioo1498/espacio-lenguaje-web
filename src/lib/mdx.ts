@@ -8,6 +8,7 @@ export interface PostMeta {
   title: string;
   slug: string;
   date: string;
+  updatedAt?: string;
   excerpt: string;
   category: string;
   readingTime: string;
@@ -25,6 +26,7 @@ export function getAllPosts(): PostMeta[] {
       title: data.title,
       slug,
       date: data.date,
+      updatedAt: data.updatedAt,
       excerpt: data.excerpt,
       category: data.category,
       readingTime: data.readingTime || "5 min",
@@ -43,6 +45,7 @@ export function getPostBySlug(slug: string) {
       title: data.title,
       slug,
       date: data.date,
+      updatedAt: data.updatedAt,
       excerpt: data.excerpt,
       category: data.category,
       readingTime: data.readingTime || "5 min",
