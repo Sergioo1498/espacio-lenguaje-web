@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Recomendaciones para Estimular el Lenguaje',
@@ -276,12 +277,12 @@ export default function RecomendacionesPage() {
             Nuestros cuadernos y fichas están diseñados específicamente por
             logopedas para trabajar en casa.
           </p>
-          <a
+          <Link
             href="/recursos"
             className="inline-flex items-center justify-center rounded-pill bg-terracota px-6 py-3 font-sans text-sm font-semibold text-white transition-colors hover:bg-terracota-dark"
           >
             Ver recursos de logopedia
-          </a>
+          </Link>
         </div>
       </section>
 
