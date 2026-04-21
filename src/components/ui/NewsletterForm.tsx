@@ -16,6 +16,7 @@ export default function NewsletterForm({
   buttonText = "Descargar gratis",
 }: NewsletterFormProps) {
   const router = useRouter();
+  const [nombre, setNombre] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -31,7 +32,7 @@ export default function NewsletterForm({
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email, nombre: nombre.trim() || undefined }),
       });
 
       const data = await res.json();
@@ -59,26 +60,38 @@ export default function NewsletterForm({
 
   return (
     <div>
-      <form className="flex flex-col sm:flex-row gap-3" onSubmit={handleSubmit}>
+      <form className="flex flex-col gap-3" onSubmit={handleSubmit}>
         <input
-          type="email"
-          value={email}
-          onChange={(e) => {
-            setEmail(e.target.value);
-            if (status === "error") setStatus("idle");
-          }}
-          placeholder="Tu email"
-          required
+          type="text"
+          value={nombre}
+          onChange={(e) => setNombre(e.target.value)}
+          placeholder="Tu nombre (opcional)"
+          autoComplete="given-name"
           disabled={status === "loading"}
           className={`${inputClasses} ${status === "loading" ? "opacity-60" : ""}`}
         />
-        <button
-          type="submit"
-          disabled={status === "loading"}
-          className="rounded-pill bg-terracota px-8 py-3.5 text-base font-semibold text-white transition-all hover:bg-terracota-dark whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto touch-manipulation"
-        >
-          {status === "loading" ? "Enviando..." : buttonText}
-        </button>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              if (status === "error") setStatus("idle");
+            }}
+            placeholder="Tu email"
+            autoComplete="email"
+            required
+            disabled={status === "loading"}
+            className={`${inputClasses} ${status === "loading" ? "opacity-60" : ""}`}
+          />
+          <button
+            type="submit"
+            disabled={status === "loading"}
+            className="rounded-pill bg-terracota px-8 py-3.5 text-base font-semibold text-white transition-all hover:bg-terracota-dark whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed hover:scale-[1.02] active:scale-[0.98] w-full sm:w-auto touch-manipulation"
+          >
+            {status === "loading" ? "Enviando..." : buttonText}
+          </button>
+        </div>
       </form>
 
       <AnimatePresence mode="wait">

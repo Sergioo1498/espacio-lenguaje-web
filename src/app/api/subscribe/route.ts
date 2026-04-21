@@ -5,7 +5,8 @@ const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
 const BREVO_SMTP_URL = "https://api.brevo.com/v3/smtp/email";
 const BREVO_LIST_ID = 2;
 
-async function sendWelcomeEmail(email: string, apiKey: string) {
+async function sendWelcomeEmail(email: string, nombre: string | undefined, apiKey: string) {
+  const saludo = nombre ? `¡Hola ${nombre}! 👋` : "¡Hola! 👋";
   try {
     await fetch(BREVO_SMTP_URL, {
       method: "POST",
@@ -16,7 +17,7 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
       },
       body: JSON.stringify({
         sender: { name: "Espacio Lenguaje", email: "hola@espaciolenguaje.com" },
-        to: [{ email }],
+        to: [{ email, name: nombre }],
         subject: "🌱 Tu guía de Hitos del Lenguaje está aquí",
         htmlContent: `<!DOCTYPE html>
 <html lang="es">
@@ -26,7 +27,7 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
     <img src="https://www.espaciolenguaje.com/images/logo-chosen.png" alt="Espacio Lenguaje" width="80" height="80" style="border-radius:50%;" />
   </div>
 
-  <p style="font-size:16px;">¡Hola! 👋</p>
+  <p style="font-size:16px;">${saludo}</p>
 
   <p>Gracias por unirte a la comunidad de <strong>Espacio Lenguaje</strong>.</p>
 
@@ -40,18 +41,11 @@ async function sendWelcomeEmail(email: string, apiKey: string) {
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p>¿Quieres más recursos? Visita nuestro <a href="https://www.espaciolenguaje.com/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a> con artículos sobre logopedia infantil.</p>
+  <p>En los próximos días te escribiré un par de veces con ideas concretas para aplicar en casa — nada de teoría densa, solo cosas que funcionan de verdad.</p>
 
-  <p style="font-size:14px;">Síguenos en redes:<br/>
-    <a href="https://instagram.com/espaciolenguaje" style="color:#C4745A;text-decoration:none;font-weight:600;">Instagram @espaciolenguaje</a><br/>
-    <a href="https://tiktok.com/@espaciolenguaje" style="color:#C4745A;text-decoration:none;font-weight:600;">TikTok @espaciolenguaje</a>
-  </p>
+  <p>Un abrazo,<br/><strong>Espacio Lenguaje</strong></p>
 
-  <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
-
-  <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>El equipo de Espacio Lenguaje</strong></p>
-
-  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Madrid, España<br/>hola@espaciolenguaje.com</p>
+  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Madrid, España · hola@espaciolenguaje.com</p>
 </body>
 </html>`,
       }),
@@ -65,6 +59,8 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+    const nombre =
+      typeof body.nombre === "string" && body.nombre.trim() ? body.nombre.trim().slice(0, 80) : undefined;
 
     if (!email || !EMAIL_REGEX.test(email)) {
       return NextResponse.json(
@@ -82,6 +78,14 @@ export async function POST(request: Request) {
       );
     }
 
+    const today = new Date().toISOString().slice(0, 10);
+    const attributes: Record<string, string | boolean> = {
+      FUENTE_LEAD: "guia-gratis",
+      FECHA_SUSCRIPCION: today,
+      COMPRO_PRODUCTO: false,
+    };
+    if (nombre) attributes.NOMBRE = nombre;
+
     const res = await fetch(BREVO_CONTACTS_URL, {
       method: "POST",
       headers: {
@@ -93,11 +97,12 @@ export async function POST(request: Request) {
         email,
         listIds: [BREVO_LIST_ID],
         updateEnabled: true,
+        attributes,
       }),
     });
 
     if (res.ok || res.status === 201) {
-      await sendWelcomeEmail(email, apiKey);
+      await sendWelcomeEmail(email, nombre, apiKey);
       return NextResponse.json({ success: true });
     }
 

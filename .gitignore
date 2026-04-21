@@ -53,3 +53,5 @@ google-oauth-token.json
 # Archived old logos (kept locally only — avoid confusing AI design tools that scan the repo)
 public/_archive-logos/
 public/images/_archive-logos/
+
+.env*.local
