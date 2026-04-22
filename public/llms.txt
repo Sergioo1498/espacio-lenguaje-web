@@ -1,0 +1,66 @@
+# Espacio Lenguaje
+
+> Proyecto de divulgación clínica sobre logopedia infantil basado en evidencia. Contenido para familias con niños de 0 a 8 años (con o sin dificultades del lenguaje), supervisado por logopeda colegiada en la Comunitat Valenciana con formación especializada en Atención Temprana.
+
+Este sitio sigue un proceso editorial con referencias a guías oficiales (GAT, AEP, DSM-5, ASHA, Plena Inclusión). Cada artículo indica fecha de publicación, fecha de revisión y credenciales institucionales del equipo editorial. Ver metodología y fuentes en [/sobre-nosotros](https://www.espaciolenguaje.com/sobre-nosotros).
+
+## Páginas clave
+
+- [Sobre nosotros — Equipo editorial y metodología](https://www.espaciolenguaje.com/sobre-nosotros): credenciales, proceso de revisión, guías clínicas de referencia.
+- [Blog](https://www.espaciolenguaje.com/blog): artículos de divulgación clínica por categorías.
+- [Recursos descargables](https://www.espaciolenguaje.com/recursos): cuadernos y guías creados por logopedas para trabajar en casa.
+- [Guía gratuita de hitos del lenguaje](https://www.espaciolenguaje.com/lp/guia-gratis): PDF descargable con los hitos de 0 a 6 años y señales de alerta.
+
+## Blog — Desarrollo del lenguaje
+
+- [¿A qué edad debe hablar un niño? Hitos del lenguaje mes a mes (0-5 años)](https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino): ¿A qué edad empiezan a hablar los niños? Hitos del lenguaje mes a mes de los 0 a los 5 años, señales de alerta y cuándo consultar con un logopeda.
+- [Bilingüismo infantil: mitos y realidades sobre el desarrollo del lenguaje](https://www.espaciolenguaje.com/blog/bilinguismo-infantil-mitos-y-realidades): ¿El bilingüismo retrasa el habla? ¿Es mejor hablar solo un idioma? Desmontamos los mitos más comunes.
+- [Etapas del desarrollo del lenguaje de 0 a 6 años: guía mes a mes](https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje): ¿Qué debería decir tu hijo a cada edad? Guía completa de las etapas del lenguaje de 0 a 6 años: hitos mes a mes, señales de alerta y cuándo consultar con un logopeda.
+
+## Blog — Dislexia
+
+- [Dislexia en niños: cómo detectarla a tiempo](https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla): ¿Cómo saber si tu hijo tiene dislexia? Señales por edad, mitos vs realidad y cómo ayudar desde casa. Guía basada en evidencia.
+
+## Blog — Ejercicios
+
+- [5 ejercicios de lenguaje para hacer en casa hoy](https://www.espaciolenguaje.com/blog/ejercicios-lenguaje-para-casa): Ejercicios de logopedia infantil fáciles y divertidos para estimular el habla de tu hijo en la rutina diaria. Actividades prácticas por edades.
+- [8 ejercicios de soplo para niños: fáciles, divertidos y para qué sirven](https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos): ¿Tu hijo no pronuncia bien? Los ejercicios de soplo fortalecen los músculos del habla. Te explico para qué sirven, desde qué edad empezar y 8 actividades fáciles para casa.
+- [Cómo enseñar la R a un niño: ejercicios de articulación](https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino): La R es uno de los sonidos más difíciles. Conoce a qué edad se espera, ejercicios progresivos y cuándo acudir al logopeda.
+- [Ejercicios para enseñar la R fuerte (RR) paso a paso](https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte): La R fuerte es uno de los fonemas más complejos. Aprende a trabajarla con tu peque de forma progresiva: praxias, ejercicios y juegos divertidos.
+- [Praxias bucofaciales para niños: 15 ejercicios con espejo](https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos): Las praxias bucofaciales son ejercicios que mejoran el control de labios, lengua y mejillas. Descubre 15 ejercicios divertidos para practicar en casa.
+
+## Blog — Estimulación
+
+- [10 juegos para estimular el habla que ya tienes en casa](https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla): No necesitas materiales especiales. Con estos juegos caseros puedes trabajar el lenguaje de tu peque de forma divertida.
+- [Actividades para niños de 2 años: 12 juegos para desarrollar el lenguaje](https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje): 12 actividades sencillas para estimular el lenguaje de tu peque de 2 años. Sin material especial, basadas en evidencia y creadas por logopedas.
+- [Cómo ampliar el vocabulario de un niño: 8 técnicas que funcionan](https://www.espaciolenguaje.com/blog/vocabulario-ninos-como-ampliar): El vocabulario es la base del lenguaje. Descubre 8 técnicas prácticas y basadas en evidencia para ampliar el vocabulario de tu peque desde casa.
+- [Conciencia fonológica: qué es y 10 actividades para casa](https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades): La conciencia fonológica es la base de la lectoescritura. Descubre qué es, cómo detectar dificultades y 10 actividades para trabajarla en casa.
+- [Estimulación del lenguaje en casa: 30 actividades por edad (0-6 años)](https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa): 30 actividades fáciles y probadas por logopedas para estimular el habla de tu peque hoy mismo en casa. Organizadas por edad (0-6 años), sin material especial.
+
+## Blog — Información práctica
+
+- [Atención temprana: qué es, cuándo solicitarla y cómo funciona en España](https://www.espaciolenguaje.com/blog/atencion-temprana-que-es): Guía completa sobre atención temprana en España: qué es, qué profesionales intervienen, cómo solicitarla y por qué la intervención antes de los 6 años es clave.
+- [Logopedia online para niños: cómo funciona y cuándo es efectiva](https://www.espaciolenguaje.com/blog/logopedia-online-como-funciona): ¿La logopedia online funciona con niños? Te explicamos cómo son las sesiones, qué necesitas en casa y en qué casos es tan efectiva como la presencial.
+
+## Blog — Recursos
+
+- [Fichas de logopedia gratis para imprimir (guía 2026)](https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir): Dónde encontrar fichas de logopedia infantil gratuitas y de calidad para imprimir en casa. Seleccionadas por logopedas con ejercicios por edad.
+
+## Blog — Señales de alerta
+
+- [Dislalia infantil: tipos, causas y cómo tratarla](https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos): La dislalia es la dificultad articulatoria más común en niños. Descubre los 4 tipos, sus causas y el tratamiento que funciona, explicado por logopedas.
+- [Frenillo lingual corto: síntomas, diagnóstico y tratamiento](https://www.espaciolenguaje.com/blog/frenillo-lingual-sintomas): El frenillo lingual corto afecta al 5% de los niños. Te explicamos cómo detectarlo, qué síntomas da en el habla y cuándo se necesita intervención.
+- [Mi hijo de 3 años no habla bien: ¿es normal o debo preocuparme?](https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien): A los 3 años, un niño debería ser comprensible al 75%. Te explicamos qué es normal, qué es alerta y qué hacer si tu peque de 3 años no habla bien.
+- [Mi hijo no habla: 7 señales de alerta y qué hacer ahora](https://www.espaciolenguaje.com/blog/mi-hijo-no-habla-cuando-preocuparse): ¿Mi hijo no habla y debería? 7 señales de alerta por edad, cuándo ir al logopeda y ejercicios para estimular el habla en casa. Guía clara y sin alarmismos.
+- [Tartamudez infantil: cuándo es normal y cuándo consultar](https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse): La tartamudez es frecuente entre los 2 y 5 años. Aprende a distinguir la disfluencia evolutiva de la que necesita atención.
+- [TEL (Trastorno Específico del Lenguaje): señales, causas y tratamiento](https://www.espaciolenguaje.com/blog/tel-trastorno-especifico-lenguaje): El TEL afecta al 7% de los niños. Aprende a identificarlo, qué lo causa y cómo se trata. Guía completa para familias basada en evidencia.
+
+## Recursos descargables
+
+- [Pack de Fichas de Articulación](https://www.espaciolenguaje.com/recursos/fichas-articulacion): 30 fichas imprimibles con ejercicios de articulación para cada fonema del español. Instrucciones claras para padres.
+- [Cuaderno de Estimulación 0-3 años](https://www.espaciolenguaje.com/recursos/cuaderno-0-3): 20 actividades organizadas por edad para estimular el lenguaje de tu bebé desde casa.
+- [Cuaderno de Estimulación 3-6 años](https://www.espaciolenguaje.com/recursos/cuaderno-3-6): 20 actividades para desarrollar vocabulario, articulación y conciencia fonológica.
+- [Kit de Ejercicios de Soplo](https://www.espaciolenguaje.com/recursos/kit-soplo): 15 ejercicios progresivos de soplo con materiales caseros y tabla de seguimiento.
+- [Pack Completo: Todo para Estimular el Lenguaje](https://www.espaciolenguaje.com/recursos/pack-completo): Todos los recursos en un solo pack con descuento. Fichas + Cuadernos + Kit de Soplo + Bonus: Calendario Semanal.
+- [Guía de Dislexia en Edad Escolar](https://www.espaciolenguaje.com/recursos/guia-dislexia): Todo sobre dislexia: detección, ejercicios, adaptaciones escolares y checklist para tutores.
+- [Guía de Tartamudez Infantil](https://www.espaciolenguaje.com/recursos/guia-tartamudez): Guía completa para familias: tipos de tartamudez, qué hacer, ejercicios de fluidez y cuándo consultar.
