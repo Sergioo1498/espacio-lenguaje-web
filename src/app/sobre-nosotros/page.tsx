@@ -209,18 +209,6 @@ export default function SobreNosotrosPage() {
                 </div>
               </dl>
 
-              <p className="mt-8 text-sm text-texto-muted border-t border-cacao/10 pt-6">
-                <strong className="text-cacao">¿Por qué no mostramos nombres, caras ni números de colegiación?</strong>{" "}
-                La divulgación pública en internet tiene una responsabilidad
-                legal y profesional distinta a la consulta clínica individual.
-                Optamos por comunicar nuestras titulaciones y colegiación a
-                nivel institucional —lo que te permite verificar la coherencia
-                de la formación que hay detrás—, manteniendo al mismo tiempo
-                la privacidad del equipo y la de los niños que aparecen en
-                nuestros materiales. Si en algún momento necesitas una
-                valoración personalizada, busca un profesional colegiado en
-                tu ciudad: cada caso requiere evaluación individual.
-              </p>
             </div>
           </AnimatedSection>
         </div>
