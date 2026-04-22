@@ -142,7 +142,7 @@ export const productsContent: Record<string, ProductContent> = {
       { title: '20 actividades en 4 bloques', description: 'Vocabulario, articulación, morfosintaxis y conciencia fonológica.' },
       { title: 'Progresión por dificultad', description: 'Desde actividades básicas hasta niveles de 1º de primaria.' },
       { title: 'Material visual incluido', description: 'Tarjetas, láminas y fichas listas para recortar o usar en pantalla.' },
-      { title: 'Compatible con dislexia', description: 'El bloque de conciencia fonológica incluye adaptaciones para niños con sospecha de dislexia.' },
+      { title: 'Adaptaciones para conciencia fonológica', description: 'El bloque incluye actividades graduadas que pueden ser útiles en peques con dificultades en el inicio de la lectoescritura.' },
       { title: 'Guía para el adulto', description: 'Explica qué hace cada actividad y por qué es importante.' },
     ],
     whatYouGet: [
@@ -159,11 +159,11 @@ export const productsContent: Record<string, ProductContent> = {
     faqs: [
       {
         q: '¿Cubre la preparación para la lectoescritura?',
-        a: 'Sí. El bloque de conciencia fonológica es exactamente lo que los niños necesitan dominar antes de aprender a leer. Es la misma progresión que trabajamos en logopedia preventiva.',
+        a: 'Sí. El bloque de conciencia fonológica es exactamente lo que los niños necesitan dominar antes de aprender a leer. Es la misma progresión que trabajamos en estimulación del lenguaje en casa.',
       },
       {
         q: '¿Mi peque tiene TEL, ¿le sirve?',
-        a: 'Sirve como apoyo complementario al tratamiento especializado. En TEL es esencial que un logopeda dirija el plan principal, pero este tipo de actividades estructuradas en casa suman mucho.',
+        a: 'Este cuaderno NO sustituye la intervención logopédica en TEL. Es un material de refuerzo general que puede usarse en casa como apoyo, siempre bajo el plan principal de la logopeda responsable del caso.',
       },
       {
         q: '¿Puedo usarlo en aula?',
@@ -181,22 +181,22 @@ export const productsContent: Record<string, ProductContent> = {
   'kit-soplo': {
     seoTitle: 'Kit de ejercicios de soplo para niños: 15 actividades progresivas (PDF)',
     seoDescription:
-      'Kit de 15 ejercicios de soplo para niños con materiales caseros. Fortalece los músculos del habla con actividades progresivas diseñadas por logopedas. PDF desde 3,90€.',
+      '15 ejercicios progresivos de respiración y soplo con materiales caseros. Pensados para juego compartido, control respiratorio y apoyo en casos específicos (respiración bucal persistente, deglución atípica) bajo indicación profesional.',
     subtitle: '15 ejercicios progresivos con materiales de casa',
     pageCount: 22,
     longDescription: [
-      'El soplo es la base de muchos fonemas del español — especialmente la S, la F, la CH, la Z y, de forma indirecta, la R. Un niño que no controla bien el flujo de aire tiene más dificultades para articular con claridad, y su habla suele ser menos inteligible para personas ajenas a la familia.',
-      'Este **kit de ejercicios de soplo para niños** recopila los 15 ejercicios que usamos en consulta y que mejor funcionan para trabajar en casa. Están organizados por **dificultad progresiva**: empezamos con soplo libre (soplar velas, pompas, plumas), pasamos a soplo dirigido (guiar una pelotita por un circuito, hacer volar papeles), y terminamos con soplo controlado (soplo sostenido, intercalar inspiración y espiración, jugar con silbatos).',
-      'La clave del entrenamiento de soplo es la **progresión**. Muchos padres bien intencionados empiezan con silbatos o globos — que son de los ejercicios más difíciles — y se frustran cuando su peque no lo consigue. Con la secuencia correcta, en 3-4 semanas de práctica diaria de 5 minutos, se ven resultados evidentes.',
-      'Cada ejercicio incluye: material necesario (todo casero), edad recomendada, objetivo específico (qué músculos trabaja), pasos claros para el adulto, y una variante más fácil y otra más difícil. Así puedes adaptar el ejercicio al momento exacto de tu peque, sin frustración.',
-      'El kit también incluye una **tabla de seguimiento** para marcar qué ejercicio dominó cada semana, y consejos sobre cuándo es el mejor momento del día para practicar (spoiler: antes del desayuno o antes de dormir, cuando están descansados y con atención disponible).',
-      'Es un material útil tanto como refuerzo del trabajo en consulta como de forma preventiva. Trabajar el soplo en familias con niños de 3-5 años ayuda al desarrollo de una articulación clara, mejora la resistencia respiratoria y — de forma indirecta — favorece el desarrollo de la musculatura orofacial que también interviene en la masticación y la deglución.',
+      'El soplo y la respiración funcional son áreas en las que muchas familias quieren acompañar a su peque: ya sea porque disfrutan del juego compartido con pompas y molinillos, porque la logopeda les ha pedido trabajar la respiración en casa, o porque quieren tener actividades estructuradas que involucren consciencia oral sin pantallas.',
+      'Este **kit de ejercicios de soplo para niños** recopila 15 actividades organizadas por **dificultad progresiva**: empezamos con soplo libre (soplar velas, pompas, plumas), pasamos a soplo dirigido (guiar una pelotita por un circuito, hacer volar papeles), y terminamos con soplo controlado (soplo sostenido, intercalar inspiración y espiración, jugar con silbatos). Son propuestas de juego compartido entre peque y adulto de referencia.',
+      '**Aviso importante sobre evidencia**: la investigación actual (ASHA 2013; Lof & Watson 2008) **no respalda** que los ejercicios de soplo mejoren directamente la articulación de fonemas (/s/, /f/, /ch/, /z/, /r/). Si tu peque tiene dificultades específicas de pronunciación, esas dificultades requieren trabajo fonético específico supervisado por una logopeda colegiada — no se resuelven soplando. El kit no promete mejorar la articulación.',
+      '¿Entonces para qué sirve este material? Está pensado para: (1) **juego compartido** entre peque y adulto, con actividades estructuradas que no dependen de pantallas; (2) **control respiratorio** de forma lúdica (inspiración-espiración conscientes, sostenimiento del flujo, graduación de intensidad); (3) **apoyo complementario en casos de respiración bucal persistente o deglución atípica**, siempre bajo indicación profesional previa; (4) **consciencia oral** (notar cómo se coloca la boca, sentir el aire, regular la fuerza del soplo).',
+      'Cada actividad incluye: material necesario (todo casero), edad recomendada, objetivo funcional, pasos claros para el adulto y una variante más fácil y otra más difícil. También incluye una **tabla de seguimiento** semanal y orientaciones sobre el mejor momento del día para jugar (cuando el peque está descansado y con atención disponible).',
+      'Si una logopeda está llevando el caso de tu peque, comparte el kit con ella antes de introducirlo: podrá indicarte qué ejercicios encajan con el plan y cuáles conviene dejar de lado. Este kit es un complemento lúdico, nunca un sustituto de intervención profesional.',
     ],
     features: [
       { title: '15 ejercicios progresivos', description: 'De soplo libre a soplo controlado, con variantes por dificultad.' },
       { title: 'Material casero', description: 'Velas, pompas, pajitas, plumas, algodones. Todo lo tienes en casa.' },
       { title: 'Tabla de seguimiento', description: 'Registra el progreso semanal y celebra los logros.' },
-      { title: 'Sesiones cortas', description: '5 minutos al día son suficientes para ver mejoras en 3-4 semanas.' },
+      { title: 'Enfoque de juego compartido', description: 'Actividades para hacer con el adulto de referencia, no para dejar al peque solo.' },
       { title: 'Edad recomendada por ejercicio', description: 'Sabrás exactamente por dónde empezar según la edad de tu peque.' },
     ],
     whatYouGet: [
@@ -206,9 +206,9 @@ export const productsContent: Record<string, ProductContent> = {
       'Descarga inmediata',
     ],
     audience: [
-      'Familias con peques de 3 a 6 años que tienen articulación poco clara',
-      'Padres de niños con rotacismo (dificultad con la R) o dislalias en fonemas fricativos',
-      'Maestras de infantil que quieren trabajar la musculatura orofacial en grupo',
+      'Familias que buscan actividades de juego compartido con control respiratorio',
+      'Familias con indicación profesional de trabajar respiración bucal persistente o deglución atípica en casa',
+      'Maestras de infantil que quieren propuestas de respiración y consciencia oral en grupo',
     ],
     faqs: [
       {
@@ -220,8 +220,12 @@ export const productsContent: Record<string, ProductContent> = {
         a: 'Es normal al principio si hace muchas repeticiones seguidas. Por eso recomendamos sesiones cortas (5 minutos) y con pausas.',
       },
       {
-        q: '¿El soplo solo mejora la articulación?',
-        a: 'No solo. También mejora la respiración, la capacidad pulmonar, la fuerza de la musculatura orofacial y, en algunos casos, incluso la alimentación (si hay problemas de masticación o babeo).',
+        q: '¿Este kit mejora la articulación de fonemas como la /s/, /f/, /ch/, /z/ o /r/?',
+        a: 'No de forma directa. La evidencia actual (ASHA 2013, Lof & Watson 2008) no respalda que los ejercicios de soplo mejoren la articulación de fonemas. El control respiratorio sí tiene indicación en casos específicos (respiración bucal persistente, deglución atípica), pero las dificultades de articulación requieren trabajo fonético específico supervisado por una logopeda colegiada.',
+      },
+      {
+        q: '¿Para qué sí sirve realmente el kit?',
+        a: 'Para juego compartido entre peque y adulto, para actividades de control respiratorio lúdico, como apoyo complementario en casos de respiración bucal persistente o deglución atípica (siempre bajo indicación profesional) y para trabajar consciencia oral de forma divertida.',
       },
     ],
     relatedProductIds: ['fichas-articulacion', 'cuaderno-3-6', 'pack-completo'],
@@ -240,7 +244,7 @@ export const productsContent: Record<string, ProductContent> = {
     pageCount: 116,
     longDescription: [
       'Si te gusta lo que hacemos y quieres tener **todo el material de logopedia infantil en casa**, el pack completo es tu mejor opción. Incluye las fichas de articulación, los dos cuadernos de estimulación (0-3 y 3-6 años), el kit de ejercicios de soplo y un bonus: un calendario semanal para organizar el trabajo con tu peque sin frustración.',
-      'El pack completo ahorra un **28% respecto a la compra individual** de cada recurso (20,60€ → 14,90€) y te da una biblioteca de logopedia infantil que cubre desde el primer balbuceo (0 meses) hasta la entrada a primaria (6 años). Es el material que usarías si tu logopeda te encargara "qué hacer en casa" durante un año entero.',
+      'El pack completo ahorra un **28% respecto a la compra individual** de cada recurso (20,60€ → 14,90€) y te da una biblioteca de materiales de lenguaje infantil que cubre desde el primer balbuceo (0 meses) hasta la entrada a primaria (6 años). Son materiales complementarios que pueden formar parte del trabajo en casa, siempre bajo plan profesional si existe intervención clínica.',
       'Es especialmente útil si: tienes más de un peque (te cubre distintas edades), tu hijo tiene varias áreas a trabajar (articulación + vocabulario + soplo), o quieres invertir una sola vez y tener material para años. También si eres profesional (logopeda o maestra) que busca material variado para trabajar con diferentes niños.',
       'Cada recurso incluido es el mismo que vendemos individualmente. No hay material "de relleno" ni versiones reducidas: recibes los 4 PDFs completos más el bonus del calendario semanal.',
       'El **calendario semanal bonus** es una plantilla imprimible para organizar las actividades de tu peque por días de la semana. Incluye una propuesta de "plan tipo" para distintos perfiles (peque con dificultades de articulación, con vocabulario escaso, con retraso leve del lenguaje, preparación para lectoescritura). Es exactamente lo que decimos a las familias en consulta: "hagan X los lunes, Y los miércoles, Z los viernes", pero ya hecho.',
@@ -250,7 +254,7 @@ export const productsContent: Record<string, ProductContent> = {
       { title: 'Pack de fichas de articulación', description: '30 fichas imprimibles por fonema (34 páginas).' },
       { title: 'Cuaderno de estimulación 0-3 años', description: '20 actividades organizadas por edad (28 páginas).' },
       { title: 'Cuaderno de estimulación 3-6 años', description: '20 actividades en 4 bloques (32 páginas).' },
-      { title: 'Kit de ejercicios de soplo', description: '15 ejercicios progresivos con materiales caseros (22 páginas).' },
+      { title: 'Kit de ejercicios de soplo', description: '15 ejercicios progresivos de respiración y juego compartido con materiales caseros (22 páginas). Enfoque de control respiratorio y consciencia oral, no de mejora articulatoria.' },
       { title: 'BONUS: Calendario semanal', description: 'Plantilla para organizar el trabajo por días de la semana.' },
       { title: 'Actualizaciones gratuitas', description: 'Cuando mejoramos un recurso, recibes la nueva versión.' },
     ],
@@ -262,7 +266,7 @@ export const productsContent: Record<string, ProductContent> = {
     ],
     audience: [
       'Familias con más de un peque en edades diferentes',
-      'Familias con peques que tienen varias áreas a trabajar (articulación + vocabulario + soplo)',
+      'Familias con peques que quieren cubrir varias áreas (articulación, vocabulario, control respiratorio)',
       'Maestras y logopedas que quieren una biblioteca de referencia a mano',
     ],
     faqs: [

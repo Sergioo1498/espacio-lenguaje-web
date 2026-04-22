@@ -84,7 +84,7 @@ const materials: Recommendation[] = [
     description:
       'Espejo de seguridad para que el niño observe su boca al articular sonidos. Imprescindible en cualquier sesión de logopedia.',
     whyWeRecommend:
-      'El espejo es la herramienta número uno para ejercicios de articulación y praxias. El niño necesita ver cómo coloca la lengua y los labios para poder corregirlo. También sirve para ejercicios de imitación orofacial.',
+      'El espejo puede ser útil para que el peque tome consciencia de cómo coloca su boca ante ciertos fonemas, siempre dentro del trabajo fonético específico que dirija su logopeda. No es un instrumento de autocorrección autónoma.',
     ageRange: '3-8 años',
     affiliateUrl: 'https://amzn.to/4e8O1gb',
     image: '/images/recomendacion-06.jpg',
@@ -106,7 +106,7 @@ const materials: Recommendation[] = [
     description:
       'Set de tarjetas con imágenes reales organizadas por categorías semánticas: animales, alimentos, objetos, acciones.',
     whyWeRecommend:
-      'Las tarjetas con imágenes reales (no dibujos) son más efectivas para la generalización del vocabulario. Permiten trabajar denominación, categorización, descripción y juegos de memoria. Las usamos en casi todas las sesiones.',
+      'Algunos estudios sugieren que las fotografías pueden favorecer la generalización del vocabulario a entornos reales. No hay consenso absoluto, pero es una opción razonable para ampliar léxico con imágenes del día a día. Permiten trabajar denominación, categorización, descripción y juegos de memoria.',
     ageRange: '1-6 años',
     affiliateUrl: 'https://amzn.to/48EpIDh',
     image: '/images/recomendacion-08.jpg',
@@ -117,7 +117,7 @@ const materials: Recommendation[] = [
     description:
       'Set de pompas de jabón con diferentes tamaños de aro para practicar ejercicios de soplo controlado.',
     whyWeRecommend:
-      'Las pompas requieren un soplo suave y sostenido — exactamente lo que fortalece la musculatura orofacial necesaria para articular sonidos como la F, S, CH. Además, el niño se divierte y no lo percibe como "ejercicio".',
+      'Las pompas son un juego estupendo para momentos compartidos con tu peque y para practicar control respiratorio de forma divertida. No esperamos que mejoren directamente la articulación de fonemas.',
     ageRange: '2-6 años',
     affiliateUrl: 'https://amzn.to/41VqKqG',
     image: '/images/recomendacion-09.jpg',
@@ -128,7 +128,7 @@ const materials: Recommendation[] = [
     description:
       'Molinillos de colores para ejercicios de control de soplo. El niño sopla y ve cómo gira: feedback visual inmediato.',
     whyWeRecommend:
-      'Permite trabajar la regulación de la intensidad del soplo: soplo suave = giro lento, soplo fuerte = giro rápido. Esta graduación del soplo es fundamental para la articulación de fricativas y para niños con incompetencia velofaríngea.',
+      'Los molinillos son juguetes divertidos que permiten al peque experimentar cómo su respiración mueve el mundo. Úsalos como juego compartido, sin expectativas clínicas específicas.',
     ageRange: '2-6 años',
     affiliateUrl: 'https://amzn.to/4cfVmbl',
     image: '/images/recomendacion-10.jpg',

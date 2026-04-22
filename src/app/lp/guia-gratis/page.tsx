@@ -71,7 +71,7 @@ function PdfMockup({
             strokeLinejoin="round"
           />
         </svg>
-        Basada en evidencia
+        Revisada por logopeda colegiada
       </div>
       <div className="mockup-badge-logo">
         <svg width="14" height="14" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -245,9 +245,9 @@ export default function LandingGuiaGratis() {
                 </div>
                 <p className="font-sans text-sm text-texto-secundario">
                   <strong className="font-semibold text-cacao">
-                    +2.500 familias
+                    Para familias como la tuya
                   </strong>{' '}
-                  ya la han descargado
+                  con peques de 0 a 6 años
                 </p>
               </div>
             </div>
