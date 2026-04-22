@@ -54,9 +54,16 @@ if (senders.senders) {
 console.log("\n=== LISTAS DE CONTACTOS ===");
 if (lists.lists) {
   console.log(`Total listas: ${lists.count}`);
+  const listCounts = await Promise.all(
+    lists.lists.map(async (l) => {
+      const r = await get(`/contacts/lists/${l.id}/contacts?limit=1&offset=0`);
+      return { id: l.id, realCount: r.count ?? 0 };
+    })
+  );
+  const countMap = Object.fromEntries(listCounts.map((c) => [c.id, c.realCount]));
   lists.lists.forEach((l) =>
     console.log(
-      `  [${l.id}] "${l.name}" · ${l.totalSubscribers} suscritos · ${l.totalBlacklisted} baja · folderId=${l.folderId}`
+      `  [${l.id}] "${l.name}" · ${countMap[l.id]} suscritos reales · ${l.totalBlacklisted} baja · folderId=${l.folderId}`
     )
   );
 } else console.log(lists);

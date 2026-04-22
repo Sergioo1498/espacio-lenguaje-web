@@ -26,12 +26,18 @@ const oAuth2Client = new google.auth.OAuth2(
 oAuth2Client.setCredentials(tokens);
 
 // All URLs that need indexing
-const STATIC = ['/', '/blog', '/recursos', '/recomendaciones', '/sobre-nosotros', '/contacto'];
+const STATIC = ['/', '/blog', '/recursos', '/recomendaciones', '/sobre-nosotros', '/contacto', '/lp/guia-gratis'];
 const slugs = fs.readdirSync(CONTENT_DIR)
   .filter(f => f.endsWith('.mdx'))
   .map(f => '/blog/' + f.replace(/\.mdx$/, ''));
 
-const urls = [...STATIC, ...slugs].map(p => BASE + (p === '/' ? '' : p));
+const PRODUCTS_FILE = path.join(ROOT, 'src', 'lib', 'products.ts');
+const productsSource = fs.readFileSync(PRODUCTS_FILE, 'utf8');
+const productPaths = [...productsSource.matchAll(/^\s*id:\s*'([^']+)'/gm)].map(
+  (m) => '/recursos/' + m[1]
+);
+
+const urls = [...STATIC, ...slugs, ...productPaths].map(p => BASE + (p === '/' ? '' : p));
 
 console.log(`\n=== INDEXING API — ${urls.length} URLs ===\n`);
 

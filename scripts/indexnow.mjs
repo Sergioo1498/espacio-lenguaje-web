@@ -30,11 +30,18 @@ fs.writeFileSync(verificationFile, KEY);
 console.log(`✓ Verification file: public/${KEY}.txt`);
 
 // Build URL list
-const STATIC = ['/', '/blog', '/recursos', '/recomendaciones', '/sobre-nosotros', '/contacto'];
+const STATIC = ['/', '/blog', '/recursos', '/recomendaciones', '/sobre-nosotros', '/contacto', '/lp/guia-gratis'];
 const slugs = fs.readdirSync(CONTENT_DIR)
   .filter(f => f.endsWith('.mdx'))
   .map(f => '/blog/' + f.replace(/\.mdx$/, ''));
-const urlList = [...STATIC, ...slugs].map(p => BASE + (p === '/' ? '' : p));
+
+const PRODUCTS_FILE = path.join(ROOT, 'src', 'lib', 'products.ts');
+const productsSource = fs.readFileSync(PRODUCTS_FILE, 'utf8');
+const productPaths = [...productsSource.matchAll(/^\s*id:\s*'([^']+)'/gm)].map(
+  (m) => '/recursos/' + m[1]
+);
+
+const urlList = [...STATIC, ...slugs, ...productPaths].map(p => BASE + (p === '/' ? '' : p));
 
 console.log(`\n=== IndexNow — notificando ${urlList.length} URLs ===\n`);
 
