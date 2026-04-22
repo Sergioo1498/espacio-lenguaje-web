@@ -42,10 +42,11 @@ function CredentialSummary({ member }: { member: TeamMember }) {
           .
         </>
       )}
-      {mainDegree.year > 0 && (
+      {!mainDegree.institution.includes("[X]") && (
         <>
           {" "}
-          {mainDegree.title} ({mainDegree.institution}, {mainDegree.year}).
+          {mainDegree.title} ({mainDegree.institution}
+          {mainDegree.year > 0 && `, ${mainDegree.year}`}).
         </>
       )}
     </p>

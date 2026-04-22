@@ -182,10 +182,11 @@ export default function SobreNosotrosPage() {
                     {lead.degrees.map((d) => (
                       <div key={d.title + d.institution}>
                         {d.title}
-                        {d.year > 0 && (
+                        {!d.institution.includes("[X]") && (
                           <>
                             {" · "}
-                            {d.institution}, {d.year}
+                            {d.institution}
+                            {d.year > 0 && `, ${d.year}`}
                           </>
                         )}
                       </div>

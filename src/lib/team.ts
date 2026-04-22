@@ -66,39 +66,33 @@ export const team: TeamMember[] = [
     publicName: "Logopeda colegiada del equipo de Espacio Lenguaje",
     jobTitle: "Logopeda clínica · Autora y revisora editorial",
 
-    // TODO Bea: rellenar con datos reales antes de deploy
-    collegeNumber: "PENDIENTE",
-    collegeName: "Colegio Profesional de Logopedas de [Comunidad]",
-    collegeUrl: "https://example.com/directorio-colegiados", // TODO: URL real del directorio del colegio
+    // Datos aportados por Bea (22 abr 2026). Años omitidos a petición suya
+    // para minimizar exposición pública; la lógica del componente oculta
+    // automáticamente todo lo que tenga year=0.
+    collegeNumber: "461825",
+    collegeName: "Colegio Profesional de Logopedas de la Comunitat Valenciana",
+    collegeUrl: "https://colegiologopedas-cv.org/",
 
     degrees: [
       {
-        title: "Máster en Atención Temprana", // TODO Bea: nombre exacto
-        institution: "Universidad [X]", // TODO Bea
-        year: 0, // TODO Bea: año de finalización
+        title: "Máster en Intervención Logopédica Especializada en Atención Temprana",
+        institution: "Universidad Católica de Valencia",
+        year: 0, // omitido a petición de Bea
       },
       {
-        title: "Grado en Logopedia", // TODO Bea: confirmar si tiene Grado o Diplomatura
-        institution: "Universidad [X]", // TODO Bea
-        year: 0, // TODO Bea
+        title: "Grado en Logopedia",
+        institution: "Universidad de Valencia",
+        year: 0, // omitido a petición de Bea
       },
     ],
 
-    yearsOfExperience: 0, // TODO Bea: años de práctica
+    // yearsOfExperience omitido a petición de Bea
     specialties: [
+      "Atención temprana (0-6 años)",
       "Retrasos del lenguaje",
-      "Dislalia y trastornos del habla",
-      "Dislexia en edad escolar",
-      "Tartamudez infantil",
-      "Estimulación del lenguaje 0-6 años",
+      "Estimulación del lenguaje en contextos familiares",
     ],
-    sectors: [
-      // TODO Bea: seleccionar los que apliquen de:
-      // "Hospital", "CDIAT (Centro de Desarrollo Infantil y Atención Temprana)",
-      // "Centro educativo", "Consulta privada"
-      "CDIAT",
-      "Consulta privada",
-    ],
+    sectors: ["CDIAT (Centro de Desarrollo Infantil y Atención Temprana)"],
 
     profileUrl: "https://www.espaciolenguaje.com/sobre-nosotros#logopeda-principal",
   },
@@ -121,12 +115,14 @@ export function defaultReviewer(): TeamMember {
 }
 
 /**
- * Devuelve true si alguno de los campos TODO críticos sigue sin rellenar.
- * Úsalo en scripts de build para bloquear deploy hasta que Bea pase los datos.
+ * Devuelve true si faltan datos CRÍTICOS (no los omitidos intencionalmente).
+ * Los años en 0 se consideran omisión deliberada por privacidad, no error.
+ * Úsalo en scripts de build para bloquear deploy si faltan datos verificables.
  */
 export function hasPendingCredentials(member: TeamMember = team[0]): boolean {
   return (
     member.collegeNumber === "PENDIENTE" ||
-    member.degrees.some((d) => d.year === 0 || d.institution.includes("[X]"))
+    member.collegeUrl.includes("example.com") ||
+    member.degrees.some((d) => d.institution.includes("[X]"))
   );
 }
