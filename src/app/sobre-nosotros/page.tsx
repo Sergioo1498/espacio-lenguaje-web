@@ -155,13 +155,10 @@ export default function SobreNosotrosPage() {
                   <dt className="font-medium text-cacao">Colegiación profesional</dt>
                   <dd className="text-texto-secundario">
                     {pendingData ? (
-                      <span className="italic">
-                        Colegiada en el Colegio Profesional de Logopedas.
-                        Número pendiente de publicar.
-                      </span>
+                      <span className="italic">Colegio profesional pendiente de publicar.</span>
                     ) : (
                       <>
-                        Nº <span className="font-medium">{lead.collegeNumber}</span>,{" "}
+                        Colegiada en el{" "}
                         <a
                           href={lead.collegeUrl}
                           target="_blank"
@@ -213,12 +210,16 @@ export default function SobreNosotrosPage() {
               </dl>
 
               <p className="mt-8 text-sm text-texto-muted border-t border-cacao/10 pt-6">
-                <strong className="text-cacao">¿Por qué no mostramos caras ni nombres propios?</strong>{" "}
-                Protegemos tanto la privacidad del equipo como la de los niños
-                que aparecen en los contenidos. El número de colegiación es
-                información pública consultable en el directorio oficial del
-                colegio profesional; ahí puedes verificar que existe una
-                profesional real detrás de este proyecto.
+                <strong className="text-cacao">¿Por qué no mostramos nombres, caras ni números de colegiación?</strong>{" "}
+                La divulgación pública en internet tiene una responsabilidad
+                legal y profesional distinta a la consulta clínica individual.
+                Optamos por comunicar nuestras titulaciones y colegiación a
+                nivel institucional —lo que te permite verificar la coherencia
+                de la formación que hay detrás—, manteniendo al mismo tiempo
+                la privacidad del equipo y la de los niños que aparecen en
+                nuestros materiales. Si en algún momento necesitas una
+                valoración personalizada, busca un profesional colegiado en
+                tu ciudad: cada caso requiere evaluación individual.
               </p>
             </div>
           </AnimatedSection>

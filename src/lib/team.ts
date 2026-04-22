@@ -32,15 +32,22 @@ export interface TeamMember {
   id: string;
   /** Rol editorial en el proyecto */
   role: "author" | "reviewer" | "author-reviewer";
-  /** Alias público. Nivel 2: "Logopeda colegiada del equipo" (sin nombre propio) */
+  /** Alias público. Nivel 1.5: "Logopeda colegiada del equipo" (sin nombre propio) */
   publicName: string;
   /** jobTitle para schema.org Person */
   jobTitle: string;
-  /** Número oficial de colegiación profesional */
-  collegeNumber: string;
+  /**
+   * Número oficial de colegiación profesional.
+   *
+   * ⚠️ Decidido NO exponer en Nivel 1.5: el número permite mapear individualmente
+   * en el directorio del colegio y convierte cada post en "firmado personalmente"
+   * por la profesional, con los riesgos disciplinarios y civiles asociados. Se
+   * mantiene opcional por si en el futuro la profesional autoriza exponerlo.
+   */
+  collegeNumber?: string;
   /** Nombre del colegio profesional (ej: "Colegio Profesional de Logopedas de Madrid") */
   collegeName: string;
-  /** URL oficial del colegio para verificación pública */
+  /** URL raíz del colegio — verificación institucional, no personal */
   collegeUrl: string;
   /** Titulaciones académicas ordenadas de más a menos recientes */
   degrees: Degree[];
@@ -66,10 +73,11 @@ export const team: TeamMember[] = [
     publicName: "Logopeda colegiada del equipo de Espacio Lenguaje",
     jobTitle: "Logopeda clínica · Autora y revisora editorial",
 
-    // Datos aportados por Bea (22 abr 2026). Años omitidos a petición suya
-    // para minimizar exposición pública; la lógica del componente oculta
-    // automáticamente todo lo que tenga year=0.
-    collegeNumber: "461825",
+    // Nivel 1.5 acordado el 22 abr 2026: credenciales institucionales SIN
+    // número de colegiada (para no exponer identidad individual ni convertir
+    // cada post en "firmado personalmente"). Ver decisión en memoria del
+    // proyecto. Años académicos y experiencia también omitidos a petición.
+    // collegeNumber: intencionalmente omitido.
     collegeName: "Colegio Profesional de Logopedas de la Comunitat Valenciana",
     collegeUrl: "https://colegiologopedas-cv.org/",
 
@@ -116,13 +124,14 @@ export function defaultReviewer(): TeamMember {
 
 /**
  * Devuelve true si faltan datos CRÍTICOS (no los omitidos intencionalmente).
- * Los años en 0 se consideran omisión deliberada por privacidad, no error.
+ * Lo ausente por decisión (número de colegiada, años) NO se considera pending.
  * Úsalo en scripts de build para bloquear deploy si faltan datos verificables.
  */
 export function hasPendingCredentials(member: TeamMember = team[0]): boolean {
   return (
-    member.collegeNumber === "PENDIENTE" ||
+    !member.collegeName ||
     member.collegeUrl.includes("example.com") ||
+    member.degrees.length === 0 ||
     member.degrees.some((d) => d.institution.includes("[X]"))
   );
 }

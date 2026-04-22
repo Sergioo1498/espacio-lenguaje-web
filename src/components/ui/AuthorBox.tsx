@@ -26,11 +26,10 @@ function CredentialSummary({ member }: { member: TeamMember }) {
   return (
     <p className="text-sm text-texto-secundario leading-relaxed">
       {member.jobTitle}.
-      {member.collegeNumber !== "PENDIENTE" && (
+      {member.collegeName && (
         <>
           {" "}
-          Colegiada nº <span className="font-medium">{member.collegeNumber}</span>
-          {" "}en el{" "}
+          Colegiada en el{" "}
           <a
             href={member.collegeUrl}
             target="_blank"
@@ -42,7 +41,7 @@ function CredentialSummary({ member }: { member: TeamMember }) {
           .
         </>
       )}
-      {!mainDegree.institution.includes("[X]") && (
+      {mainDegree && !mainDegree.institution.includes("[X]") && (
         <>
           {" "}
           {mainDegree.title} ({mainDegree.institution}
@@ -136,6 +135,15 @@ export default function AuthorBox({
                 cuéntanoslo
               </Link>
               .
+            </p>
+
+            <p className="mt-3 text-xs text-texto-muted italic border-t border-cacao/5 pt-3">
+              Aviso: este artículo es material divulgativo de orientación para
+              familias. <strong className="not-italic">No sustituye la valoración clínica individual</strong> de
+              un logopeda colegiado, y ninguna afirmación debe usarse para
+              diagnosticar ni tratar casos concretos. Si tu hijo o hija
+              presenta dificultades específicas, consulta con una profesional
+              de tu localidad.
             </p>
           </div>
         </div>
