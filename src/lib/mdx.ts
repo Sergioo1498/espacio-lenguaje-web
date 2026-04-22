@@ -13,6 +13,10 @@ export interface PostMeta {
   category: string;
   readingTime: string;
   image?: string;
+  /** Id del miembro del equipo (ver src/lib/team.ts). Fallback: defaultAuthor() */
+  authorId?: string;
+  /** Id del revisor. Solo relevante cuando difiere del autor. Fallback: defaultReviewer() */
+  reviewerId?: string;
 }
 
 export function getAllPosts(): PostMeta[] {
@@ -31,6 +35,8 @@ export function getAllPosts(): PostMeta[] {
       category: data.category,
       readingTime: data.readingTime || "5 min",
       image: data.image,
+      authorId: data.authorId,
+      reviewerId: data.reviewerId,
     } as PostMeta;
   });
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -50,6 +56,8 @@ export function getPostBySlug(slug: string) {
       category: data.category,
       readingTime: data.readingTime || "5 min",
       image: data.image,
+      authorId: data.authorId,
+      reviewerId: data.reviewerId,
     } as PostMeta,
     content,
   };

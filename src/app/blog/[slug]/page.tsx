@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/mdx";
+import { getTeamMember, defaultAuthor, defaultReviewer } from "@/lib/team";
+import AuthorBox from "@/components/ui/AuthorBox";
 import LogoIcon from "@/components/icons/LogoIcon";
 import ShareButtons from "@/components/ui/ShareButtons";
 
@@ -79,6 +81,34 @@ export default async function BlogPostPage({ params }: PageProps) {
   const heroImg = blogImages[slug] || (meta.image ? { src: meta.image, alt: meta.title } : null);
   const articleUrl = `https://www.espaciolenguaje.com/blog/${slug}`;
 
+  const author = meta.authorId ? getTeamMember(meta.authorId) : defaultAuthor();
+  const reviewer = meta.reviewerId ? getTeamMember(meta.reviewerId) : defaultReviewer();
+
+  function personSchema(member: typeof author) {
+    return {
+      "@type": "Person",
+      "@id": member.profileUrl,
+      name: member.publicName,
+      jobTitle: member.jobTitle,
+      url: member.profileUrl,
+      alumniOf: member.degrees.map((d) => ({
+        "@type": "EducationalOrganization",
+        name: d.institution,
+      })),
+      memberOf: {
+        "@type": "Organization",
+        name: member.collegeName,
+        url: member.collegeUrl,
+      },
+      knowsAbout: member.specialties,
+      worksFor: {
+        "@type": "Organization",
+        name: "Espacio Lenguaje",
+        url: "https://www.espaciolenguaje.com",
+      },
+    };
+  }
+
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -88,11 +118,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     dateModified: meta.updatedAt || meta.date,
     inLanguage: "es-ES",
     image: heroImg?.src ? `https://www.espaciolenguaje.com${heroImg.src}` : undefined,
-    author: {
-      "@type": "Organization",
-      name: "Espacio Lenguaje",
-      url: "https://www.espaciolenguaje.com",
-    },
+    author: personSchema(author),
+    reviewedBy: personSchema(reviewer),
     publisher: {
       "@type": "Organization",
       name: "Espacio Lenguaje",
@@ -208,6 +235,12 @@ export default async function BlogPostPage({ params }: PageProps) {
               <div className="prose-article">
                 <MDXRemote source={content} />
               </div>
+              <AuthorBox
+                authorId={meta.authorId}
+                reviewerId={meta.reviewerId}
+                publishedAt={meta.date}
+                reviewedAt={meta.updatedAt}
+              />
             </article>
 
             {/* Sidebar */}
