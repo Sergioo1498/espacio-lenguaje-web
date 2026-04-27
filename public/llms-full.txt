@@ -8,9 +8,18 @@ Todo el contenido está supervisado por logopeda colegiada en la Comunitat Valen
 
 # Desarrollo del lenguaje
 
-## ¿A qué edad debe hablar un niño? Hitos del lenguaje mes a mes (0-5 años)
+## ¿A qué edad debe hablar un niño? Hitos mes a mes y señales de alerta
 URL: https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino
-Publicado: 2026-03-25 · Actualizado: 2026-04-20
+Publicado: 2026-03-25 · Actualizado: 2026-04-27
+
+> **En resumen** — hitos clave por edad (Fenson et al., MacArthur-Bates CDI; Bosch, 2004; AEP):
+> - **12 meses**: primeras palabras con intención ("mamá", "papá").
+> - **18 meses**: 5-20 palabras, sigue instrucciones simples.
+> - **24 meses**: 50+ palabras y **combina 2** ("mamá agua"). Menos de 50 = "hablante tardío" (Rescorla, 2011).
+> - **3 años**: 200-1.000 palabras, frases de 3, **75% inteligible** para extraños (Coplan & Gleason, 1988).
+> - **5-6 años**: lenguaje prácticamente completo. La /r/ vibrante puede extenderse hasta los 6-7 años (Bosch, 2004).
+>
+> Aproximadamente **20-30% de los hablantes tardíos** persisten con dificultades a los 3-4 años (Rescorla, 2011), por lo que consultar con logopeda colegiada cuando hay señales claras no es alarmismo.
 
 Es probablemente una de las preguntas que más escucho en consulta: **"¿A qué edad debería hablar mi hijo?"** Y detrás de esa pregunta suele haber una preocupación real, una comparación con el hijo de la vecina que ya dice frases completas, o un comentario de la abuela que ha sembrado la duda.
 
@@ -138,7 +147,7 @@ El niño ya domina las bases del lenguaje y ahora refina su uso.
 - **Narra historias con estructura** (inicio, nudo, desenlace).
 - **Usa el lenguaje para razonar, explicar y argumentar**: "No me lo como porque no me gusta y la otra vez me dolió la barriga."
 - **Comprende y usa el humor verbal**: Chistes sencillos, juegos de palabras.
-- **Articulación completa hacia los 5-6 años**: A esta edad, todos los sonidos del español deberían estar adquiridos, incluida la /r/ vibrante.
+- **Articulación completa hacia los 5-6 años**: Hacia los 5-6 años suelen estar adquiridos todos los sonidos; la /r/ vibrante puede extenderse hasta los 6-7 años en algunos niños (Bosch, 2004) y sigue considerándose variante normal.
 - **Lenguaje completamente inteligible** para cualquier persona.
 
 ---
@@ -193,9 +202,17 @@ Mientras observas el desarrollo de tu hijo, hay muchas cosas que puedes hacer pa
 - **Responde a sus intentos comunicativos**, aunque no use palabras. Si señala y dice "ah", respóndele: "Ah, quieres el osito. Toma, aquí tienes el osito."
 - **Amplía lo que dice**: Si dice "agua", tú respondes "Sí, quieres agua fresquita."
 - **No le presiones** para que repita palabras ni para que hable. El lenguaje florece en un entorno relajado y afectuoso. Si buscas ideas concretas, consulta nuestros [ejercicios prácticos](/blog/ejercicios-lenguaje-para-casa) para hacer en el día a día.
-- **Reduce el tiempo de pantallas** en favor de la interacción humana. Las pantallas no enseñan a hablar; las personas sí.
+- **Reduce el tiempo de pantallas** en favor de la interacción humana. Las pantallas no enseñan a hablar; las personas sí (American Academy of Pediatrics, 2016).
 
 ---
+
+## Referencias
+
+- Fenson, L., Marchman, V. A., Thal, D. J., Dale, P. S., Reznick, J. S., & Bates, E. (2007). *MacArthur-Bates Communicative Development Inventories: User's Guide and Technical Manual* (2nd ed.). Paul H. Brookes Publishing.
+- Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
+- Rescorla, L. (2011). Late talkers: Do good predictors of outcome exist? *Developmental Disabilities Research Reviews*, 17(2), 141-150.
+- Coplan, J., & Gleason, J. R. (1988). Unclear speech: Recognition and significance of unintelligible speech in preschool children. *Pediatrics*, 82(3), 447-452.
+- American Academy of Pediatrics (2016). Media and Young Minds. *Pediatrics*, 138(5), e20162591.
 
 ## Descarga tu guía gratuita
 
@@ -205,9 +222,20 @@ Mientras observas el desarrollo de tu hijo, hay muchas cosas que puedes hacer pa
 
 ---
 
-## Etapas del desarrollo del lenguaje de 0 a 6 años: guía mes a mes
+## Etapas del desarrollo del lenguaje 0-6 años: hitos mes a mes (guía completa)
 URL: https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje
-Publicado: 2026-03-24 · Actualizado: 2026-04-20
+Publicado: 2026-03-24 · Actualizado: 2026-04-25
+
+> **En resumen** — hitos clave (referencias: Haizea-Llevant; Bosch, 2004; MacArthur-Bates CDI; AEP):
+> - **0-6 meses**: balbuceo, sonríe a la voz humana, gira la cabeza al sonido.
+> - **6-12 meses**: balbuceo repetitivo (mamama), responde al nombre, primeras palabras hacia los 12m.
+> - **12-18 meses**: 5-20 palabras, sigue instrucciones simples, señala partes del cuerpo.
+> - **18-24 meses**: vocabulario crece a 50+ palabras, **combina 2 palabras** ("mamá agua").
+> - **2-3 años**: 200-1.000 palabras, frases de 2-3, comprensible al 50-75% para extraños.
+> - **3-4 años**: frases de 4-5, narra historias sencillas, le entienden la mayor parte del tiempo.
+> - **4-6 años**: lenguaje prácticamente completo, /r/ vibrante puede extenderse hasta 6-7 años (Bosch, 2004).
+>
+> **Cada niño tiene su propio ritmo**: estas son referencias orientativas, no exámenes. Si te preocupa algo, consulta con logopeda colegiada — es preferible tranquilizarse con una valoración a esperar "a ver si se le pasa".
 
 Si estás leyendo esto, probablemente te preguntas si el desarrollo del lenguaje de tu hijo va por buen camino. Es una de las preocupaciones más frecuentes entre padres y madres — y tiene todo el sentido, porque el lenguaje es la puerta a la comunicación, el aprendizaje y las relaciones sociales.
 
@@ -320,7 +348,7 @@ Entre los 2 y los 3 años, el lenguaje pasa de ser funcional (pedir cosas) a ser
 ### Qué puedes esperar
 
 - **Narrativa:** puede contar una historia con principio, nudo y desenlace. Inventa cuentos.
-- **Fonemas complejos:** a los 5-6 años ya debería dominar la /r/ vibrante, la /s/ y los grupos consonánticos (pra, bla, tre). Si no, conviene consultar.
+- **Fonemas complejos:** hacia los 5-6 años suele estar adquirida la /r/ vibrante, aunque puede extenderse hasta los 6-7 años dentro de variantes normales (Bosch, 2004). También se espera la /s/ y los grupos consonánticos (pra, bla, tre). Si persisten dificultades, conviene consultar.
 - **Conciencia fonológica:** identifica rimas, cuenta sílabas ("ma-ri-po-sa tiene 4"), reconoce el sonido inicial de las palabras. Esta habilidad es clave para aprender a leer.
 - **Vocabulario:** 2.000-5.000+ palabras.
 - **Metalenguaje:** empieza a reflexionar sobre el propio lenguaje: "¿Qué significa 'enorme'?", corrige a otros.
@@ -354,7 +382,7 @@ Aunque cada niño lleva su ritmo, hay señales que indican que conviene pedir un
 - **A los 24 meses:** dice menos de 50 palabras, no combina 2 palabras, no le entienden sus cuidadores habituales.
 - **A los 3 años:** no hace frases de 3 palabras, los desconocidos no le entienden, no hace preguntas.
 - **A los 4 años:** no puede contar algo que le ha pasado, la articulación es muy difícil de entender, no juega con otros niños usando el lenguaje.
-- **A los 5-6 años:** no domina la /r/ ni los grupos consonánticos, dificultades importantes con la conciencia fonológica, problemas para seguir instrucciones complejas.
+- **A los 5-6 años:** si a los 6;6-7 años aún no articula la /r/ vibrante, es momento de consultar con logopeda; también si hay dificultades importantes con los grupos consonánticos, con la conciencia fonológica o problemas para seguir instrucciones complejas.
 
 **Importante:** consultar pronto nunca es un error. La intervención temprana en logopedia tiene los mejores resultados. Si dudas, consulta. En el peor de los casos, te dirán que todo va bien y te quedarás tranquilo.
 
@@ -367,6 +395,14 @@ Aunque cada niño lleva su ritmo, hay señales que indican que conviene pedir un
 Los hitos que hemos descrito son **orientativos**. Algunos niños hablan antes y otros necesitan más tiempo. Lo que importa no es la velocidad, sino la progresión: que cada mes haya pequeños avances, que la comunicación fluya, que tu hijo muestre interés por relacionarse con los demás.
 
 Tu papel como padre o madre es crear un entorno rico en lenguaje, lleno de conversación, cuentos, canciones y juegos compartidos. Si necesitas ideas concretas, consulta nuestra guía de [estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa) con actividades por edades. Y si en algún momento sientes que algo no va como esperabas, no esperes — consulta.
+
+## Referencias
+
+- Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
+- Haizea-Llevant (1991). *Escala de desarrollo Haizea-Llevant*. Servicio Central de Publicaciones del Gobierno Vasco.
+- Fenson, L., et al. (2007). *MacArthur-Bates Communicative Development Inventories* (2nd ed.).
+- Asociación Española de Pediatría (AEP). Guías de seguimiento del desarrollo. https://www.aeped.es/
+- Grupo de Atención Temprana (GAT) (2005). *Libro Blanco de la Atención Temprana* (3ª ed.).
 
 > **Descarga nuestra guía gratuita** con los hitos del lenguaje de 0 a 6 años, las señales de alerta y ejercicios prácticos para hacer en casa.
 
@@ -528,9 +564,9 @@ La dislexia es un **trastorno específico del aprendizaje de origen neurobiológ
 
 Puntos clave que debes saber:
 
-- **No es un problema de inteligencia**. Los niños con dislexia tienen una inteligencia normal o incluso superior a la media. Su cerebro simplemente procesa el lenguaje escrito de una forma diferente.
+- **No es un problema de inteligencia**. Los niños con dislexia tienen una inteligencia dentro del rango de normalidad. El DSM-5 (2013) retiró el criterio de discrepancia CI-lectura que tradicionalmente se usaba; hoy se considera que la dislexia puede aparecer en cualquier nivel cognitivo dentro de la normalidad. Su cerebro simplemente procesa el lenguaje escrito de una forma diferente.
 - **No es un problema de visión**. Aunque durante mucho tiempo se pensó que los disléxicos "veían las letras al revés", la dislexia es un trastorno de base lingüística, no visual.
-- **Es hereditaria**. Si un padre o madre tiene dislexia, hay una probabilidad significativamente mayor de que sus hijos también la presenten.
+- **Es hereditaria** (heredabilidad estimada del 40-60%, Pennington, 2009). Si un padre o madre tiene dislexia, hay una probabilidad significativamente mayor de que sus hijos también la presenten.
 - **Es persistente, pero manejable**. La dislexia no se "cura", pero con las estrategias adecuadas, un niño con dislexia puede tener un rendimiento académico excelente y una vida completamente plena.
 - **Afecta a entre un 5% y un 15% de la población**, dependiendo de los criterios diagnósticos y del idioma.
 
@@ -568,7 +604,7 @@ Las manifestaciones de la dislexia cambian con la edad. Aquí te indicamos en qu
 
 ### Etapa preescolar (3 a 5 años)
 
-En esta etapa aún no se puede diagnosticar dislexia como tal, pero sí identificar **factores de riesgo**. Para entender qué es lo esperable a cada edad, te recomendamos revisar las [etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje):
+En esta etapa aún no se puede diagnosticar dislexia como tal, pero sí identificar **factores de riesgo**. Es importante recordar que el diagnóstico formal de dislexia requiere exposición a instrucción lectora formal (típicamente a partir de los 6-7 años, según DSM-5). Antes de esa edad hablamos de **señales de riesgo**, no de diagnóstico. Para entender qué es lo esperable a cada edad, te recomendamos revisar las [etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje):
 
 - **Dificultad para aprender rimas** infantiles o completar canciones con rima.
 - **Problemas para recordar el nombre de las letras** o los números.
@@ -670,7 +706,7 @@ Nuestra recomendación:
 - **Si el colegio te dice que "es cuestión de madurez"** pero pasan los meses y no mejora, busca una segunda opinión.
 - **Si tu hijo empieza a mostrar rechazo al colegio**, frustración con los deberes o baja autoestima relacionada con lo académico, no esperes.
 
-La intervención temprana en dislexia tiene un impacto enorme. Los estudios muestran que los niños que reciben apoyo especializado antes de los 7-8 años tienen resultados significativamente mejores que los que empiezan más tarde.
+La intervención temprana en dislexia tiene un impacto enorme. Los estudios muestran que los niños que reciben apoyo especializado antes de los 7-8 años tienen resultados significativamente mejores que los que empiezan más tarde (Torgesen, 2004; Shaywitz et al., 2008).
 
 ---
 
@@ -683,6 +719,14 @@ La intervención temprana en dislexia tiene un impacto enorme. Los estudios mues
 **En Espacio Lenguaje contamos con profesionales especializados en dislexia.** Si quieres que evaluemos a tu hijo o necesitas orientación, estamos aquí para acompañaros en este camino. Porque un diagnóstico no es una etiqueta: es el primer paso para entender cómo aprende tu hijo y darle las herramientas que necesita para brillar.
 
 ---
+
+## Referencias
+
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., DSM-5). Código 315.00.
+- Shaywitz, S. E., Morris, R., & Shaywitz, B. A. (2008). The education of dyslexic children from childhood to young adulthood. *Annual Review of Psychology*, 59, 451-475.
+- Snowling, M. J. (2013). Early identification and interventions for dyslexia: A contemporary view. *Journal of Research in Special Educational Needs*, 13(1), 7-14.
+- Pennington, B. F. (2009). *Diagnosing Learning Disorders: A Neuropsychological Framework* (2nd ed.). Guilford Press.
+- Torgesen, J. K. (2004). Preventing early reading failure. *American Educator*, 28(3), 6-19.
 
 > **¿Quieres una guía específica para trabajar la dislexia en casa?** La [Guía de Dislexia en Edad Escolar](/recursos/guia-dislexia) cubre detección, ejercicios, adaptaciones escolares y un checklist para tutores. Y si aún no sabes si las dificultades de tu peque encajan con la dislexia, descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) para situarte.
 
@@ -700,7 +744,7 @@ En este artículo te explicamos por qué la RR es tan compleja, a qué edad debe
 
 ## ¿Por qué la R fuerte es tan difícil?
 
-La RR es un fonema **vibrante múltiple alveolar**. Esto significa que, para producirlo, la punta de la lengua tiene que vibrar rápidamente (entre 2 y 4 veces) contra los alveolos, la zona justo detrás de los dientes superiores.
+La RR es un fonema **vibrante múltiple alveolar**. Esto significa que, para producirlo, la punta de la lengua tiene que vibrar rápidamente (entre 2 y 4 ciclos de vibración) contra los alveolos, la zona justo detrás de los dientes superiores (Navarro Tomás, 1918; Martínez Celdrán, 2007).
 
 Para que esa vibración se produzca, tienen que coincidir varios factores:
 
@@ -715,7 +759,7 @@ Si cualquiera de estos elementos falla, la vibración no se produce o se sustitu
 
 ## ¿A qué edad debe dominarse la RR?
 
-Los fonemas aparecen en un orden bastante predecible. Según la mayoría de estudios de desarrollo fonético del español, la RR es el último fonema en consolidarse, habitualmente **entre los 5 y los 6 años**.
+Los fonemas aparecen en un orden bastante predecible. Según la mayoría de estudios de desarrollo fonético del español, la RR es el último fonema en consolidarse, habitualmente **entre los 5 y los 6 años** (Bosch, 2004).
 
 - **Antes de los 5 años:** es normal que sustituya la RR o no la pronuncie. No hay que preocuparse.
 - **A los 5 años:** muchos peques ya la producen correctamente, pero otros todavía están trabajándola.
@@ -723,21 +767,21 @@ Los fonemas aparecen en un orden bastante predecible. Según la mayoría de estu
 
 ## Pre-requisitos antes de empezar
 
-Antes de lanzarte a los ejercicios específicos de la RR, conviene asegurarse de que tu peque tiene unas bases sólidas:
+La /rr/ se trabaja mejor de forma directa desde el principio. No es necesario "preparar la lengua" con ejercicios no-verbales — la evidencia actual (ASHA, 2013) no respalda que transfieran al habla. Dicho esto, conviene tener en cuenta algunos apoyos:
 
-1. **Control de soplo:** capaz de soplar de forma sostenida y dirigida. Si notas que le falta aire, empieza por los [ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos).
-2. **Movilidad lingual:** que pueda mover la lengua hacia arriba, abajo, a los lados y atrás con precisión. Aquí ayudan mucho las [praxias bucofaciales](/blog/praxias-bucofaciales-ninos).
-3. **Discriminación auditiva:** que sea capaz de diferenciar el sonido RR de otros similares (como la R suave o la G).
-
-Si estos pre-requisitos están flojos, dedica una o dos semanas a reforzarlos antes de pasar a los niveles específicos de la RR.
+1. **Discriminación auditiva:** que sea capaz de diferenciar el sonido RR de otros similares (como la R suave o la G).
+2. **Movilidad lingual:** que pueda mover la lengua hacia arriba, abajo, a los lados y atrás con precisión. Aquí ayudan mucho las [praxias bucofaciales](/blog/praxias-bucofaciales-ninos), pero como apoyo lúdico, no como requisito previo.
+3. **Control respiratorio básico:** respiración estable para sostener la vibración. Si te interesa trabajarlo en contexto, puedes ver los [ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos).
 
 ## 10 ejercicios progresivos para enseñar la R fuerte
 
 Vamos con la parte práctica. Organiza la sesión en rondas cortas de 10-15 minutos, una o dos veces al día. La clave es la **constancia**, no la intensidad.
 
-### Nivel 1: preparación (praxias y vibración)
+### Nivel 1: exploración lúdica de la lengua y la vibración
 
 **1. Praxias linguales básicas**
+
+Actividades de toma de consciencia de los movimientos de la lengua. No son ejercicios curativos; son formas lúdicas de que el peque explore los movimientos que luego usará al hablar. Lo importante es trabajar la /rr/ directamente en contexto, no perderse en "preparación" indefinida.
 
 Pídele a tu peque que haga estos movimientos frente a un espejo, manteniendo cada uno 3-5 segundos:
 
@@ -815,7 +859,7 @@ Cuando la RR ya esté bien instaurada en palabras y frases, llega el momento de 
 
 ## Cuándo consultar con un logopeda
 
-Si pese a trabajar los ejercicios de forma constante durante **2-3 meses** no hay avances, o si tu peque ya tiene **6 años o más** y la RR no aparece, es momento de pedir una valoración profesional.
+Si pese a trabajar los ejercicios de forma constante durante **2-3 meses** no hay avances, o si tu peque ya tiene **6 años o más** y la RR no aparece, es momento de pedir una valoración profesional. Si tras varios meses de trabajo constante no hay avances, consulta con logopeda — la valoración profesional puede identificar qué falta (memoria auditiva, discriminación, patrón fonológico específico).
 
 El logopeda evaluará si hay alguna causa subyacente (un [frenillo lingual corto](/blog/frenillo-lingual-sintomas), una dislalia funcional, problemas de audición) y diseñará un plan personalizado. La intervención temprana evita que el niño automatice un patrón incorrecto difícil de corregir más adelante.
 
@@ -825,6 +869,14 @@ El logopeda evaluará si hay alguna causa subyacente (un [frenillo lingual corto
 - [Praxias bucofaciales para niños: ejercicios en casa](/blog/praxias-bucofaciales-ninos)
 - [Ejercicios de soplo para niños: por qué son importantes](/blog/ejercicios-de-soplo-para-ninos)
 
+## Referencias
+
+- Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
+- Martínez Celdrán, E. (2007). *Fonética: con especial referencia a la lengua castellana*. Teide.
+- Williams, A. L., McLeod, S., & McCauley, R. J. (Eds.) (2010). *Interventions for Speech Sound Disorders in Children*. Brookes Publishing.
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*.
+- Bowen, C. (2005). What is the evidence for oral motor therapy? *Acquiring Knowledge in Speech, Language and Hearing*, 7(3), 144-147.
+
 > **¿Quieres una rutina lista para imprimir con praxias, tarjetas de palabras y trabalenguas?** En la [sección de recursos](/recursos) tienes cuadernillos diseñados por logopedas para trabajar la RR de forma estructurada. Y si aún te preguntas si los tiempos de tu peque son normales, descarga gratis la [guía de hitos del lenguaje](/lp/guia-gratis).
 
 ---
@@ -833,31 +885,37 @@ El logopeda evaluará si hay alguna causa subyacente (un [frenillo lingual corto
 URL: https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos
 Publicado: 2026-04-15
 
-Hablar claro no es solo cuestión de "querer decir las palabras bien". Detrás de cada sonido hay una coreografía precisa de labios, lengua, mandíbula y mejillas que tu peque necesita entrenar. Las praxias bucofaciales son justo eso: ejercicios que afinan esa coreografía y preparan el terreno para una articulación limpia.
+Este post presenta **15 movimientos orofaciales pensados como juegos de conciencia corporal** — útiles para explorar con tu peque de forma divertida delante del espejo.
 
-En esta guía te explicamos qué son, para qué sirven y te proponemos 15 ejercicios, divididos en tres bloques, para practicar delante del espejo de forma divertida.
+> **Importante:** las praxias aisladas **no han demostrado mejorar directamente la articulación de fonemas** (ASHA 2013, Lof & Watson 2008, Bowen 2005). El control motor del habla es **tarea-específico**: fortalecer labios o lengua con movimientos aislados no transfiere a /s/, /r/ o /ch/. Donde sí tienen indicación clara: **deglución atípica**, **respiración bucal persistente** y —sobre todo— como **juego compartido que refuerza el vínculo** cara a cara con el adulto.
+
+Con ese marco honesto por delante, las 15 actividades que siguen son inofensivas, divertidas y válidas como juego de exploración oral con tu peque. Lo que no son es un sustituto de la intervención logopédica cuando hay una dificultad real de articulación.
 
 ## Qué son las praxias bucofaciales
 
-Las praxias son movimientos voluntarios y coordinados de los órganos que participan en el habla: labios, lengua, mandíbula, mejillas y velo del paladar. No son movimientos reflejos, sino intencionales, y por eso se pueden entrenar como cualquier otra habilidad motora.
+Las praxias son movimientos voluntarios y coordinados de los órganos orofaciales: labios, lengua, mandíbula, mejillas y velo del paladar. No son movimientos reflejos, sino intencionales.
 
-Cuando un peque realiza praxias, está trabajando:
+Cuando un peque realiza estos movimientos en un contexto lúdico, puede experimentar:
 
-- Fuerza muscular orofacial.
-- Precisión y coordinación de los movimientos.
-- Conciencia de sus propios órganos articulatorios.
-- Memoria motora (repetir el gesto hasta automatizarlo).
+- Conciencia de sus propios órganos articulatorios (saber qué es la lengua, dónde está el paladar).
+- Momentos de juego compartido cara a cara con el adulto.
+- Exploración sensorial y corporal de la boca.
 
-## Para qué sirven las praxias
+## Para qué sirven (y para qué no)
 
-Aunque las praxias por sí solas no enseñan a pronunciar un sonido, sí preparan la musculatura y la conciencia corporal necesarias para lograrlo. Son especialmente útiles para:
+**Sí sirven como**:
 
-- Mejorar la articulación de fonemas que requieren precisión (/r/, /l/, /s/, /ch/).
-- Trabajar el control orofacial en peques con baja tonicidad o respiración bucal.
-- Facilitar la masticación y la deglución.
-- Aumentar la conciencia del propio rostro, clave cuando se imita un modelo.
+- Tomar consciencia de la propia boca y sus movimientos.
+- Fomentar la interacción cara a cara con el adulto.
+- Juego divertido que pone al niño frente a un espejo con su adulto de referencia.
+- Apoyo dentro de un plan de **terapia miofuncional orofacial** en casos de deglución atípica o respiración bucal (supervisado por logopeda).
 
-> **Importante:** las praxias son un entrenamiento preparatorio. Funcionan cuando se integran dentro de un trabajo más amplio, no cuando se hacen de forma aislada sin objetivo claro.
+**No sirven como** (contra lo que se ha dicho mucho tiempo):
+
+- Tratamiento directo de dislalias. La articulación mejora trabajando el fonema en contexto (sílaba, palabra), no con praxias aisladas.
+- "Preparación" de la musculatura para /r/, /l/, /s/ o /ch/: el control motor del habla es tarea-específico y no se transfiere desde movimientos generales.
+
+> **Si te han dicho que "hay que hacer praxias para que hable bien":** es una idea muy extendida, pero desactualizada. La evidencia actual recomienda el trabajo específico sobre cada fonema en su contexto fonético real.
 
 ## Materiales que vas a necesitar
 
@@ -902,7 +960,7 @@ Los labios son los primeros protagonistas del habla. Estas praxias trabajan su m
 
 ## 5 praxias linguales
 
-La lengua es el órgano más ágil de la boca y el que más cuesta controlar. Estos ejercicios son especialmente útiles para sonidos como la /r/, la /l/ o la /s/. Si la /r/ se le resiste, acompaña las praxias con nuestra guía sobre [cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino).
+La lengua es el órgano más ágil de la boca. Estos movimientos ayudan al peque a conocer mejor su propia lengua de forma lúdica. Si la /r/ se le resiste, consulta nuestra guía sobre [cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino). **Nota: trabajar la R directamente en contexto fonético (sílabas, palabras) es más efectivo que hacerlo a través de praxias aisladas.**
 
 ### 6. Saludo de la lengua
 
@@ -979,8 +1037,8 @@ Las praxias son un recurso preventivo y de apoyo, pero hay situaciones en las qu
 
 - Si tu peque tiene dificultades claras para realizar los movimientos (no consigue sacar la lengua recta, no cierra los labios con fuerza).
 - Si babea con frecuencia más allá de los 3 años.
-- Si la articulación no mejora pese a meses de práctica.
 - Si notas dificultades para masticar o tragar.
+- Si hay sospecha de respiración bucal persistente o deglución atípica.
 - Si se sale del rango esperado para su edad según las [etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje).
 
 Un logopeda valorará si las praxias son el camino adecuado y diseñará un plan ajustado al perfil de tu peque.
@@ -999,26 +1057,28 @@ Si quieres un material organizado, con praxias combinadas con fichas de articula
 
 ---
 
-## 8 ejercicios de soplo para niños: fáciles, divertidos y para qué sirven
+## Ejercicios de soplo para niños: 8 juegos divertidos y qué dicen los logopedas
 URL: https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos
-Publicado: 2026-03-26 · Actualizado: 2026-04-20
+Publicado: 2026-03-26 · Actualizado: 2026-04-23
 
-Si alguna vez has llevado a tu hijo al logopeda, probablemente hayas visto que una de las primeras cosas que se trabajan es el soplo. Y quizás te hayas preguntado: "¿Qué tiene que ver soplar con hablar?" La respuesta es: **mucho más de lo que parece**.
+Si alguna vez has llevado a tu hijo al logopeda, probablemente hayas visto aparecer actividades de soplo en algún momento de la intervención. Y quizás te hayas preguntado qué sentido tienen. En este artículo te lo contamos desde un enfoque honesto y actual.
 
-El habla no es solo mover la lengua y los labios. Para producir sonidos como la /s/, la /f/, la /ch/, la /z/ o incluso la /r/ (descubre [cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino)), necesitamos un flujo de aire bien controlado que salga de nuestros pulmones, pase por las cuerdas vocales y se dirija con precisión hacia el punto exacto de la boca donde se forma cada sonido. Si ese flujo de aire es débil, descontrolado o mal dirigido, la articulación se resiente.
+Los ejercicios de soplo son útiles para trabajar la **respiración funcional**, el **control del flujo de aire en actividades orales que no son habla** (apagar velas, mover plumas, hacer pompas) y como **juego compartido que refuerza el vínculo** entre peque y adulto. También tienen indicación clínica específica cuando existe **deglución atípica** o **respiración bucal persistente**, siempre dentro de un plan valorado por logopeda.
 
-En los niños pequeños, la musculatura orofacial (labios, mejillas, lengua) todavía está en desarrollo. Los ejercicios de soplo son una forma divertida y natural de **fortalecer esa musculatura** y de enseñar al niño a controlar la dirección, la fuerza y la duración del aire que expulsa. Y lo mejor de todo es que puedes hacerlos en casa con materiales que seguramente ya tienes.
+Lo que ya no podemos afirmar —y conviene decirlo con claridad— es que el soplo "entrene" directamente la articulación de fonemas concretos como /s/, /f/, /ch/ o /r/. Los ejercicios de esta guía son divertidos, sencillos de hacer en casa y muy válidos como juego respiratorio y de interacción, pero **si tu peque tiene dificultades de pronunciación reales, lo eficaz es consultar con un logopeda**, no multiplicar las actividades de soplo en casa.
 
 ---
 
 ## ¿Por qué es tan importante el soplo en el desarrollo del habla?
 
-El soplo cumple varias funciones clave en la producción del habla:
+> **Nota honesta:** la evidencia actual (ASHA 2013, Lof & Watson 2008) no respalda que los ejercicios de soplo mejoren directamente la articulación de fonemas en niños con dislalia. Donde sí tienen indicación clara es en **deglución atípica**, **respiración bucal persistente** y como **actividades de juego compartido** que refuerzan la interacción.
 
-- **Fuerza muscular**: Soplar fortalece los músculos orbiculares de los labios y los músculos de las mejillas, que son los mismos que usamos para pronunciar muchos sonidos.
-- **Control del flujo de aire**: Aprender a soplar suave o fuerte, corto o largo, enseña al niño a regular la presión del aire, algo necesario para la correcta articulación.
-- **Direccionalidad**: No es lo mismo soplar hacia arriba que hacia abajo o hacia el centro. Cada sonido del habla requiere que el aire vaya en una dirección concreta.
-- **Coordinación respiratoria**: Soplar ayuda a coordinar la respiración con la fonación, lo que es fundamental para hablar con fluidez y sin quedarse sin aire a mitad de frase.
+Con ese matiz por delante, el soplo sí aporta cosas interesantes en el desarrollo general:
+
+- **Control respiratorio**: Aprender a soplar suave o fuerte, corto o largo, ayuda al peque a regular su respiración.
+- **Direccionalidad del aire**: Orientar el soplo hacia un objetivo (una pluma, una pompa) trabaja la coordinación ojo-boca y la atención.
+- **Coordinación respiratoria general**: Soplar ayuda a coordinar inspiración y espiración, algo útil para la actividad física y para actividades que requieren aire sostenido.
+- **Momento de juego compartido**: Son actividades cara a cara con el adulto, una oportunidad valiosa de interacción y vínculo.
 
 Además, los ejercicios de soplo suelen ser **muy motivadores** para los niños. A diferencia de repetir sílabas o palabras (que puede resultar aburrido), soplar burbujas, mover plumas o hacer girar molinillos es un juego en sí mismo. Y ya sabes que cuando un niño se divierte, aprende sin darse cuenta.
 
@@ -1045,7 +1105,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 3. Podéis hacer una carrera: cada uno con su pluma. El primero que la saque de la mesa, gana.
 4. Varía la distancia y anima a tu peque a soplar desde diferentes posiciones.
 
-**Qué trabaja**: La fuerza del soplo y la direccionalidad. Las plumas son muy ligeras, así que es un ejercicio perfecto para empezar porque el niño ve resultados inmediatos con poco esfuerzo, lo que le motiva a seguir.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Las plumas son muy ligeras, así que es un ejercicio perfecto para empezar porque el niño ve resultados inmediatos con poco esfuerzo, lo que le motiva a seguir.
 
 ---
 
@@ -1063,7 +1123,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 4. **Variante suave**: Pídele que sople despacito, solo lo justo para que la llama se mueva pero sin apagarla. Esto trabaja el **control de la intensidad del soplo**, que es incluso más importante que la fuerza.
 5. Con velas LED que parpadean, puedes crear un juego de "soplar la vela del cumpleaños" sin riesgos.
 
-**Qué trabaja**: Fuerza y control de intensidad. Es especialmente útil para niños que tienden a soplar demasiado fuerte o demasiado flojo, ya que la vela les da retroalimentación visual inmediata.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Es especialmente útil para niños que tienden a soplar demasiado fuerte o demasiado flojo, ya que la vela les da retroalimentación visual inmediata.
 
 ---
 
@@ -1081,7 +1141,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 4. **Reto**: ¿Quién hace la pompa más grande? Para eso hay que soplar muy suave y constante, un ejercicio excelente de control.
 5. **Variante**: Pon una gota de jabón en la mesa y que tu hijo sople con una pajita para hacer una montaña de espuma.
 
-**Qué trabaja**: El soplo sostenido y controlado. Las pompas requieren un flujo de aire muy constante y suave, lo que enseña al niño a regular la presión. Es uno de los ejercicios más completos y también uno de los favoritos.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Las pompas requieren un flujo de aire muy constante y suave, lo que ayuda al niño a regular la presión. Es uno de los ejercicios más completos y también uno de los favoritos.
 
 ---
 
@@ -1098,7 +1158,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 3. **Fútbol de mesa**: Con una pajita y una bolita de papel de aluminio, crea una portería con dos libros y que tu hijo sople la bolita hasta meter gol.
 4. Empieza con pajitas gruesas (más fácil) y pasa a finas conforme mejore.
 
-**Qué trabaja**: Fuerza, dirección y control del soplo. Las pajitas canalizan el aire y obligan al niño a formar un sello firme con los labios, lo que fortalece la musculatura labial.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Las pajitas canalizan el aire y ayudan al niño a tomar consciencia del sello de los labios.
 
 ---
 
@@ -1116,7 +1176,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 4. **Reto de intensidad**: "Ahora sopla suave, que gire despacito. Y ahora fuerte, que gire rápido." Así trabaja el control de la fuerza.
 5. Podéis fabricar vuestro propio molinillo con papel y un palito, lo que añade una actividad de manualidades previa.
 
-**Qué trabaja**: El soplo sostenido y la regulación de la intensidad. Es uno de los ejercicios más sencillos y visualmente gratificantes, perfecto para iniciar al niño en las actividades de soplo.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Es uno de los ejercicios más sencillos y visualmente gratificantes, perfecto para iniciar al niño en las actividades de soplo.
 
 ---
 
@@ -1136,7 +1196,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 6. **Nivel difícil**: Un circuito con varias curvas y una meta final.
 7. Podéis hacer carreras: cada uno con su bolita y su carril.
 
-**Qué trabaja**: La **direccionalidad** del soplo. Al tener que seguir un camino, el niño aprende a orientar el flujo de aire hacia donde lo necesita. Este ejercicio es especialmente útil para niños que tienden a "dispersar" el aire al soplar en lugar de concentrarlo.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Al tener que seguir un camino, el niño aprende a orientar el flujo de aire de forma lúdica. Útil para niños que disfrutan con retos de precisión.
 
 ---
 
@@ -1154,7 +1214,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 4. Hacedlo como juego musical: "Ahora sopla fuerte, ahora suave, ahora tres veces cortas: pi-pi-pi."
 5. Si tienes varios instrumentos, cread una "orquesta" y tocad juntos una canción inventada.
 
-**Qué trabaja**: Fuerza, presión y posición labial. Los instrumentos de soplo son una herramienta terapéutica excelente porque ofrecen retroalimentación auditiva inmediata: si el niño sopla bien, suena; si no, no suena. Eso le motiva a ajustar su soplo automáticamente.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Los instrumentos de soplo resultan motivadores porque ofrecen retroalimentación auditiva inmediata: si el niño sopla, suena. Eso invita a seguir explorando el control del aire de forma lúdica.
 
 ---
 
@@ -1173,7 +1233,7 @@ A continuación te presento ocho ejercicios de soplo organizados de menor a mayo
 5. Pega varias tiras a una percha o un palo y cread una "cortina de serpentinas" que hay que mantener en movimiento soplando.
 6. **Variante en grupo**: Si hay hermanos o amigos, cada uno sopla sus serpentinas. Es una actividad muy festiva y alegre.
 
-**Qué trabaja**: El soplo sostenido y la fuerza. Las serpentinas son ligeras y responden al más mínimo soplo, lo que da confianza al niño y le anima a seguir practicando. Son perfectas como actividad inicial o como premio después de ejercicios más difíciles.
+**Qué trabaja**: Desarrolla control respiratorio y favorece momentos de juego compartido. Las serpentinas son ligeras y responden al más mínimo soplo, lo que da confianza al niño y le anima a seguir practicando. Son perfectas como actividad inicial o como premio después de ejercicios más difíciles.
 
 ---
 
@@ -1201,7 +1261,7 @@ Sin embargo, es importante recordar que estos ejercicios son un **complemento**,
 
 ### ¿Para qué sirven exactamente los ejercicios de soplo?
 
-Los ejercicios de soplo sirven para **fortalecer la musculatura orofacial** (labios, mejillas, lengua) que usamos al hablar, mejorar el **control del flujo de aire** y entrenar la **coordinación respiratoria** necesaria para articular correctamente sonidos como la /s/, /f/, /ch/, /z/ y la /r/. También se usan para corregir problemas de deglución atípica y respiración bucal.
+Los ejercicios de soplo sirven para **desarrollar el control respiratorio**, trabajar la **coordinación del flujo de aire** en actividades no-verbales y como **juego compartido** entre peque y adulto. Tienen indicación clínica específica en casos de **deglución atípica** y **respiración bucal persistente**, siempre dentro de un plan valorado por logopeda. La evidencia actual no respalda que el soplo, por sí solo, mejore la articulación de fonemas concretos; para eso hace falta trabajo específico sobre cada fonema.
 
 ### ¿A qué edad se pueden empezar a hacer?
 
@@ -1257,7 +1317,7 @@ Aquí te proponemos cinco ejercicios que puedes empezar a hacer hoy mismo. Cada 
 
 ## 1. El espejo mágico
 
-**Objetivo**: Tomar conciencia de los movimientos de la boca y fortalecer la musculatura orofacial.
+**Objetivo**: Permitir al niño explorar sus propios movimientos faciales de forma lúdica; **no esperamos mejora articulatoria directa** (la evidencia — ASHA 2013, Lof & Watson 2008 — no respalda que las praxias aisladas transfieran al habla). Es un juego de conciencia corporal y vínculo cara a cara, no un ejercicio terapéutico.
 
 **Edad recomendada**: A partir de 18 meses (adaptable hasta los 6 años).
 
@@ -1273,7 +1333,7 @@ Aquí te proponemos cinco ejercicios que puedes empezar a hacer hoy mismo. Cada 
 
 ### ¿Por qué funciona?
 
-La producción del habla requiere un control preciso de los labios, la lengua y la mandíbula. Este juego trabaja esa musculatura de forma lúdica. Además, ver su propia boca en el espejo ayuda al niño a tomar conciencia de cómo se forman los sonidos. Es una técnica que los logopedas usan habitualmente en sesión, adaptada para casa.
+Es una actividad de **conciencia corporal** y **juego compartido** cara a cara con el adulto. Ayuda al niño a descubrir su propia boca como parte de un ritual divertido con mamá o papá. No pretende ser un ejercicio articulatorio: si tu peque tiene dificultades reales de pronunciación, lo eficaz es el trabajo específico con logopeda, no las muecas delante del espejo.
 
 ---
 
@@ -1331,7 +1391,7 @@ Antes de poder distinguir entre sonidos del habla similares (como "p" y "b"), lo
 
 ## 4. Sopla que sopla
 
-**Objetivo**: Fortalecer la musculatura oral (labios, mejillas) y mejorar el control del flujo de aire, necesario para muchos sonidos del habla.
+**Objetivo**: Es un juego que favorece la **atención compartida** y el **control respiratorio**. No esperamos que el soplo mejore directamente la pronunciación de fonemas (la evidencia actual no lo respalda) — pero sí es un momento lúdico valioso que además tiene indicación clínica específica en **respiración bucal persistente** o **deglución atípica**, siempre dentro de un plan valorado por logopeda.
 
 **Edad recomendada**: A partir de 18 meses.
 
@@ -1348,7 +1408,7 @@ Antes de poder distinguir entre sonidos del habla similares (como "p" y "b"), lo
 
 ### ¿Por qué funciona?
 
-Muchos sonidos del habla (como la /s/, la /f/, la /ch/ o la /r/) requieren un flujo de aire bien dirigido y controlado. Los [ejercicios de soplo](/blog/ejercicios-de-soplo-para-ninos) fortalecen los músculos de los labios y las mejillas, y enseñan al niño a controlar la presión y dirección del aire. Son ejercicios que los logopedas incluyen frecuentemente en las sesiones de terapia miofuncional.
+Los [ejercicios de soplo](/blog/ejercicios-de-soplo-para-ninos) son actividades lúdicas de **control respiratorio** y **juego compartido**. La evidencia actual (ASHA 2013, Lof & Watson 2008) no respalda que el soplo, por sí solo, mejore la pronunciación de fonemas del habla. Sí tienen indicación clínica específica dentro de la **terapia miofuncional orofacial**, que trabaja sobre **deglución atípica** y **respiración bucal** — no sobre dislalias; son ámbitos distintos y es importante no confundirlos.
 
 **Nota importante**: Si tu hijo tiene tendencia a sorber en vez de soplar por la pajita, es normal al principio. Muéstrale tú cómo se hace y ten paciencia.
 
@@ -1443,7 +1503,7 @@ Un niño con rotacismo puede:
 - **Sustituir la R por otro sonido**: Dice "pedo" o "pelo" en lugar de "perro", "datón" o "latón" en lugar de "ratón". La sustitución más frecuente es por /d/ o por /l/.
 - **Distorsionar la R**: Produce un sonido que no es exactamente una R ni otro fonema claro, a veces una R "francesa" (gutural) o una R lateralizada.
 
-El rotacismo es el **trastorno de articulación más frecuente en español** y en la mayoría de los casos tiene un pronóstico excelente con la intervención adecuada. Suele deberse a una falta de madurez o tono en la musculatura lingual, a una coordinación motora aún en desarrollo o, en algunos casos, a un frenillo lingual corto que limita la movilidad de la lengua.
+El rotacismo es el **trastorno de articulación más frecuente en español** y en la mayoría de los casos tiene un pronóstico excelente con la intervención adecuada. Suele deberse a dificultades en el control motor fino del habla y/o a inmadurez fonológica; la R es el fonema más tardío del español (Bosch, 2004) y su retraso hasta los 5-6 años puede ser una variante dentro del desarrollo típico. En algunos casos concretos puede influir un frenillo lingual corto, aunque —como veremos más abajo— esta causa es mucho menos frecuente de lo que tradicionalmente se ha pensado.
 
 ---
 
@@ -1452,9 +1512,9 @@ El rotacismo es el **trastorno de articulación más frecuente en español** y e
 Para que la R vibrante pueda aparecer, el niño necesita cumplir ciertos requisitos previos. Merece la pena asegurarse de que estos están presentes antes de intentar ejercicios específicos de articulación:
 
 - **Buena movilidad lingual**: El niño debe poder sacar la lengua, moverla de lado a lado, subirla hasta el paladar y hacer "chasquidos" con ella. Si no puede hacer estos movimientos, hay que trabajar primero la motricidad lingual.
-- **Fuerza de soplo adecuada**: La R requiere un flujo de aire suficiente para hacer vibrar la lengua. Si tu hijo tiene un soplo débil, puede ser útil trabajar primero con [ejercicios de soplo](/blog/ejercicios-de-soplo-para-ninos) para fortalecer la musculatura.
+- **Flujo de aire suficiente**: La R requiere un flujo de aire adecuado para hacer vibrar la lengua. No es necesario "preparar la musculatura" con soplo u otros ejercicios no-verbales: la literatura actual no respalda que transfieran al habla (ASHA 2013). El trabajo eficaz es específico del fonema. Las actividades de [soplo](/blog/ejercicios-de-soplo-para-ninos) pueden ser un juego compartido útil, pero no sustituyen al trabajo directo sobre la R.
 - **Discriminación auditiva**: El niño debe poder diferenciar la R de otros sonidos similares. Puedes comprobarlo con juegos: "¿He dicho 'pera' o 'pela'? ¿He dicho 'caro' o 'calo'?"
-- **Frenillo lingual adecuado**: Si sospechas que tu hijo tiene el frenillo corto (anquiloglosia), consulta con su pediatra o con un logopeda. Un frenillo restrictivo puede dificultar o impedir la producción de la R, y en algunos casos se recomienda una pequeña intervención (frenectomía) antes de la terapia.
+- **Frenillo lingual adecuado**: Si sospechas que tu hijo tiene el frenillo corto (anquiloglosia), consulta con su pediatra o con un logopeda. **La evidencia actual (Walsh et al., 2017) cuestiona el sobrediagnóstico de frenillo corto como causa de problemas articulatorios en niños mayores. La frenectomía no está indicada de rutina para la R y requiere una valoración profesional exigente** (logopeda + ORL), nunca como primera opción.
 
 ---
 
@@ -1468,7 +1528,7 @@ Estos ejercicios están ordenados de menor a mayor dificultad. Trabájalos en or
 
 ### Ejercicio 1: Tapping lingual (golpecitos con la lengua)
 
-**Objetivo**: Que la punta de la lengua encuentre el punto exacto del paladar donde se produce la R y practique el contacto rápido.
+**Objetivo**: Ayudar al niño a **tomar conciencia de dónde colocar la lengua para el fonema R** (punto articulatorio alveolar, justo detrás de los dientes superiores). No es una praxia aislada: es una toma de conciencia del punto articulatorio como paso previo a trabajar la R en contexto fonético real (sílabas, palabras).
 
 **Cómo hacerlo**:
 
@@ -1483,6 +1543,8 @@ Estos ejercicios están ordenados de menor a mayor dificultad. Trabájalos en or
 ---
 
 ### Ejercicio 2: Vibración asistida con el dedo
+
+> **Importante:** esta técnica se usa en consulta con supervisión profesional. En casa **úsala solo si una logopeda te la ha indicado explícitamente para tu peque**, para evitar malas interpretaciones, posturas incorrectas o incomodidad. Si tienes dudas, salta este ejercicio y pasa al siguiente.
 
 **Objetivo**: Provocar la vibración lingual de forma mecánica para que el niño sienta cómo es la sensación.
 
@@ -1602,7 +1664,7 @@ Mi recomendación es que consultes con un logopeda si:
 - **Además de la R**, tiene dificultades con otros sonidos del habla. Eso podría indicar un trastorno de articulación más amplio que se beneficiaría de una intervención global.
 - Has practicado ejercicios en casa durante **varios meses sin mejoría**.
 
-Un logopeda especializado en articulación puede valorar exactamente dónde está la dificultad (tono muscular, coordinación, discriminación auditiva, frenillo) y diseñar un plan de intervención personalizado. La terapia para el rotacismo suele tener **tasas de éxito muy altas** y en muchos casos se resuelve en unos pocos meses de sesiones regulares.
+Un logopeda especializado en articulación puede valorar exactamente dónde está la dificultad (coordinación motora, discriminación auditiva, frenillo, factores fonológicos) y diseñar un plan de intervención personalizado. Muchos niños progresan con trabajo logopédico específico; los tiempos varían según cada caso.
 
 ---
 
@@ -1634,7 +1696,7 @@ En este artículo te compartimos **12 actividades prácticas y basadas en eviden
 
 ## Por qué los 2 años son una etapa clave
 
-Entre los 18 meses y los 3 años se produce lo que los logopedas llamamos la **"explosión del lenguaje"**. El cerebro del niño está especialmente preparado para absorber vocabulario, y pueden llegar a aprender hasta **10 palabras nuevas al día**.
+Entre los 18 meses y los 3 años se produce lo que los logopedas llamamos la **"explosión del lenguaje"**. El cerebro del niño está especialmente preparado para absorber vocabulario, y pueden incorporar varias palabras nuevas por semana (Kuczaj, 1999; fast mapping descrito por Carey, 1978).
 
 Algunos datos interesantes de esta etapa:
 
@@ -1649,7 +1711,7 @@ Algunos datos interesantes de esta etapa:
 
 Aunque cada peque tiene su ritmo, estos son algunos hitos orientativos a los 24 meses. Si quieres una guía más completa, te recomendamos nuestro artículo sobre las [etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje).
 
-- Vocabulario de **200-300 palabras** como mínimo.
+- El criterio clínico de "hablante tardío" es tener menos de 50 palabras a los 24 meses y/o no combinar dos palabras (Rescorla, 2011). Superar este umbral es buena señal; 200-300 palabras es un rango típico, pero con variabilidad amplia dentro de lo normal.
 - Combinaciones de **2 palabras** ("papá ven", "nene pupa").
 - Usa su nombre para referirse a sí mismo.
 - Sigue instrucciones simples ("dame la pelota").
@@ -1672,7 +1734,7 @@ Los libros con fotografías (no dibujos) son perfectos a esta edad. Señala y no
 
 ### 3. El paseo-nombrar
 
-Durante los paseos, convierte el entorno en vocabulario vivo: "mira, un **autobús** rojo", "ese señor lleva un **sombrero**". Investigaciones muestran que los niños aprenden mejor las palabras **contextualizadas** que las aisladas.
+Durante los paseos, convierte el entorno en vocabulario vivo: "mira, un **autobús** rojo", "ese señor lleva un **sombrero**". Investigaciones muestran que los niños aprenden mejor las palabras **contextualizadas** que las aisladas (Tomasello, 2003).
 
 ## Bloque 2: actividades para fomentar la expresión
 
@@ -1766,149 +1828,25 @@ Una evaluación temprana no significa alarmismo: significa **tener información 
 - [Mi hijo no habla: cuándo preocuparse](/blog/mi-hijo-no-habla-cuando-preocuparse)
 - [Ejercicios de lenguaje para hacer en casa](/blog/ejercicios-lenguaje-para-casa)
 
+## Referencias
+
+- Rescorla, L. (2011). Late talkers: Do good predictors of outcome exist? *Developmental Disabilities Research Reviews*, 17(2), 141-150.
+- Fenson, L., Marchman, V. A., Thal, D. J., Dale, P. S., Reznick, J. S., & Bates, E. (2007). *MacArthur-Bates Communicative Development Inventories* (2nd ed.). Brookes Publishing.
+- Girolametto, L., Pearce, P. S., & Weitzman, E. (1996). Interactive focused stimulation for toddlers with expressive vocabulary delays. *Journal of Speech and Hearing Research*, 39(6), 1274-1283.
+- Tomasello, M. (2003). *Constructing a Language: A Usage-Based Theory of Language Acquisition*. Harvard University Press.
+- Hanen Centre. It Takes Two to Talk: The Hanen Program for Parents. https://www.hanen.org
+
 > **¿Quieres nuestra guía gratuita con actividades de estimulación del lenguaje organizadas por edad?** Descárgala aquí: [guía gratuita de estimulación del lenguaje](/lp/guia-gratis). Si prefieres un plan cerrado con 20 actividades secuenciadas para 0-3 años, echa un vistazo al [Cuaderno de Estimulación 0-3 años](/recursos/cuaderno-0-3).
 
 ---
 
-## Cómo ampliar el vocabulario de un niño: 8 técnicas que funcionan
-URL: https://www.espaciolenguaje.com/blog/vocabulario-ninos-como-ampliar
-Publicado: 2026-04-15
-
-El vocabulario es mucho más que una lista de palabras: es la **materia prima del pensamiento**. Cuanto más rico sea el vocabulario de tu peque, mejor será su comprensión lectora, su rendimiento escolar y, sorprendentemente, también su autorregulación emocional (no se puede nombrar una emoción que no se conoce).
-
-En este artículo te explicamos la diferencia entre vocabulario receptivo y expresivo, cuántas palabras debería conocer un niño según su edad y, sobre todo, **8 técnicas concretas y basadas en evidencia** para ampliar su vocabulario desde casa.
-
-## Vocabulario receptivo vs. expresivo: no son lo mismo
-
-Como logopedas, trabajamos con dos tipos de vocabulario que conviene diferenciar:
-
-- **Vocabulario receptivo:** las palabras que el niño **comprende**, aunque no las use. Es siempre mucho mayor que el expresivo.
-- **Vocabulario expresivo:** las palabras que el niño **produce activamente** al hablar.
-
-Un peque de 18 meses puede entender 200 palabras y decir solo 20. Esto es totalmente normal: la comprensión siempre va por delante. Cuando el receptivo está muy por encima del expresivo y no avanza, hablamos de un **retraso expresivo**.
-
-## ¿Cuántas palabras debería conocer un niño por edad?
-
-Estos datos son orientativos (cada peque tiene su ritmo), pero te dan una referencia útil del vocabulario **expresivo** esperado:
-
-- **12 meses:** 1-5 palabras
-- **18 meses:** 20-50 palabras
-- **2 años:** 200-300 palabras
-- **3 años:** 800-1.000 palabras
-- **4 años:** 1.500-2.000 palabras
-- **5 años:** 2.500-3.000 palabras
-- **6 años:** 5.000-6.000 palabras
-
-Si quieres ver estos hitos en contexto, consulta nuestro artículo sobre la [estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa).
-
-> **Importante:** Lo relevante no es el número exacto, sino la **progresión**. Un niño que pasa de 50 a 100 palabras en tres meses evoluciona bien, aunque esté ligeramente por debajo de la media.
-
-## Por qué importa tanto el vocabulario
-
-La investigación es muy clara en este punto. El famoso estudio de **Hart y Risley** demostró que los niños de familias con alta exposición al lenguaje oían hasta **30 millones de palabras más** a los 3 años que los niños con menos exposición, y esta diferencia predecía su éxito escolar a los 9 años.
-
-Algunos datos que los logopedas solemos compartir con las familias:
-
-- El vocabulario a los 3 años **predice la comprensión lectora** a los 8-10 años.
-- Un vocabulario pobre dificulta la adquisición de la [conciencia fonológica](/blog/conciencia-fonologica-actividades) y, con ello, la lectoescritura.
-- Los niños con mejor vocabulario regulan mejor sus emociones (pueden "ponerles nombre").
-
-## 8 técnicas para ampliar el vocabulario
-
-### 1. Lectura compartida dialógica
-
-No se trata de leer el cuento de principio a fin, sino de **convertirlo en una conversación**. Señala imágenes, haz preguntas abiertas ("¿qué crees que va a pasar?"), relaciona con la vida del peque ("¿a ti también te gusta el chocolate?").
-
-Dedica 10-15 minutos al día. La evidencia muestra que la lectura dialógica duplica el ritmo de adquisición de vocabulario respecto a la lectura pasiva.
-
-### 2. Narrar el día (sportscasting)
-
-Describe lo que hace tu peque como si fueras un comentarista deportivo: *"ahora coges la cuchara, metes los macarrones, te llevas la cuchara a la boca..."*. Parece tonto, pero funciona: estás **vinculando palabras a acciones en tiempo real**.
-
-Funciona especialmente bien entre 1 y 3 años.
-
-### 3. La técnica de la expansión
-
-Cuando tu peque diga una palabra o frase corta, tú la devuelves **expandida**. Si dice *"coche rojo"*, tú respondes *"sí, un coche rojo muy grande que corre mucho"*. Es una de las técnicas con mayor evidencia científica.
-
-### 4. Juegos de categorías
-
-A partir de los 3 años, jugad a clasificar: animales de granja vs. salvajes, frutas vs. verduras, cosas que vuelan vs. cosas que nadan. Esto **organiza el vocabulario mentalmente** y facilita el acceso a las palabras.
-
-Puedes usar objetos reales, fotos o las [fichas de logopedia gratuitas](/blog/fichas-logopedia-gratis-imprimir) que encuentres online.
-
-### 5. Libros con texturas y solapas
-
-Entre los 6 meses y los 2 años, los libros interactivos son oro. La combinación de **input multisensorial** (ven, tocan, escuchan) fija mejor el vocabulario. Busca libros con texturas, solapas y sonidos.
-
-### 6. Tecnología educativa con moderación
-
-Las apps y vídeos educativos **pueden** ayudar, pero con tres condiciones:
-
-- Menos de 30 minutos al día (en menores de 3 años, **cero pantallas solos**, según la OMS).
-- Siempre acompañados de un adulto que comente lo que ven.
-- Contenido en un solo idioma por sesión (si hay bilingüismo, lee nuestro artículo sobre [bilingüismo infantil](/blog/bilinguismo-infantil-mitos-y-realidades)).
-
-La pantalla nunca sustituye a la interacción humana, pero puede complementarla.
-
-### 7. Salidas al parque, mercado o súper
-
-Los entornos reales son **laboratorios de vocabulario**. En el mercado aprende *pescadero, pera, balanza, euros*. En el parque: *columpio, tobogán, arena, balancín*. Estas palabras se aprenden mejor **en contexto** que en una ficha.
-
-Haz de cada salida una mini-aventura lingüística: anticipa lo que vais a ver, nómbralo durante, y recuérdalo después ("¿te acuerdas del perrito que vimos?").
-
-### 8. Repetición espaciada
-
-Una palabra nueva necesita escucharse **unas 60-80 veces en diferentes contextos** para fijarse. No la repitas 60 veces en un día (aburre): úsala varias veces al día durante una semana, en situaciones distintas.
-
-Si buscas actividades lúdicas que incorporen esta técnica, te recomendamos nuestros [juegos para estimular el habla](/blog/juegos-para-estimular-el-habla).
-
-## Errores frecuentes que frenan el vocabulario
-
-### Preguntar "¿qué es eso?" todo el rato
-
-Convertir la interacción en un examen continuo genera ansiedad y bloqueo. Si tu peque no sabe la palabra, **dásela directamente** en lugar de insistir ("mira, es un **búho**"). El aprendizaje sin estrés es más eficiente.
-
-### Corregir en exceso
-
-Si tu peque dice *"el coche se rompeó"*, no digas *"así no, se dice rompió"*. Mejor modela: *"sí, se rompió el coche, ¡vaya!"*. La corrección directa puede hacer que evite hablar.
-
-### Subestimar el vocabulario que entiende
-
-Muchos padres simplifican su lenguaje pensando que el peque no entenderá palabras complejas. **Error**: los niños aprenden palabras "difíciles" si se las expones con contexto. Di *"enorme"* en lugar de "grande grande", *"delicioso"* en lugar de "rico".
-
-### Usar siempre las mismas palabras
-
-Revisa tu vocabulario diario. Si siempre dices "bonito", "bueno", "bien", tu peque también lo hará. Varía: *precioso, maravilloso, estupendo, fantástico, asombroso*.
-
-> **Importante:** La cantidad de palabras nuevas que escucha tu peque a diario impacta directamente en su vocabulario. Pero la calidad de la interacción (atención conjunta, sensibilidad a su interés) importa aún más.
-
-## Un plan semanal realista
-
-Si quieres poner orden a todo esto, un plan sencillo:
-
-- **Diario:** 15 min de lectura compartida + narrar momentos cotidianos.
-- **2-3 veces por semana:** una salida donde introduzcas vocabulario nuevo.
-- **1 vez por semana:** juego de categorías o vocabulario temático.
-- **Siempre:** expandir lo que dice tu peque en tus respuestas.
-
-Con 20-30 minutos diarios bien aprovechados, el impacto es enorme.
-
-### Sigue leyendo
-
-- [Conciencia fonológica: 15 actividades para trabajarla](/blog/conciencia-fonologica-actividades)
-- [Estimulación del lenguaje en casa: guía para familias](/blog/estimulacion-del-lenguaje-en-casa)
-- [Juegos para estimular el habla de tu peque](/blog/juegos-para-estimular-el-habla)
-
-> **¿Quieres una lista de 500 palabras organizadas por edad y categoría para trabajar el vocabulario en casa?** Descárgala en nuestra [guía gratuita](/lp/guia-gratis) o accede a más materiales en la sección de [recursos](/recursos).
-
----
-
-## Conciencia fonológica: qué es y 10 actividades para casa
+## Conciencia fonológica en niños: qué es, niveles por edad y 10 actividades para casa
 URL: https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-25
 
-Antes de leer o escribir, tu peque necesita descubrir algo aparentemente obvio pero crucial: las palabras están hechas de sonidos. Esa capacidad de escuchar, identificar y manipular los sonidos del habla se llama **conciencia fonológica** y es uno de los mejores predictores del éxito en la lectoescritura.
+> **En resumen**: la **conciencia fonológica** es la habilidad de reflexionar sobre los sonidos del lenguaje oral y manipularlos (rimas, sílabas, fonemas). Es el **mejor predictor del éxito en lectoescritura** (Anthony & Francis, 2005; National Reading Panel, 2000) y un factor protector frente a la dislexia (Snowling & Hulme, 2011). Se desarrolla en 3 niveles progresivos: **silábico** (3-4 años, dividir "pe-lo-ta"), **intrasilábico** (4-5 años, rimas e inicios), **fonémico** (5-6+ años, manipular fonemas individuales). Para trabajarla en casa no necesitas materiales: voz, palmas e imaginación bastan. Si a los 6 años tu peque no segmenta palabras cortas en fonemas, conviene consultar con logopeda colegiada.
+
+Antes de leer o escribir, tu peque necesita descubrir algo aparentemente obvio pero crucial: las palabras están hechas de sonidos. Esa capacidad de escuchar, identificar y manipular los sonidos del habla se llama **conciencia fonológica** y es uno de los mejores predictores del éxito en la lectoescritura (Anthony & Francis, 2005; National Reading Panel, 2000).
 
 En esta guía te explicamos qué es, por qué importa, cómo evoluciona y te dejamos 10 actividades sencillas para trabajarla en casa sin necesidad de ningún material especial.
 
@@ -1920,12 +1858,12 @@ No tiene nada que ver con pronunciar bien. Un peque puede articular perfectament
 
 ## Por qué importa tanto
 
-La conciencia fonológica es la **puerta de entrada a la lectoescritura**. Para leer, tu peque necesita entender que cada letra representa un sonido y que esos sonidos, juntos, forman palabras. Si esa base no está asentada, el aprendizaje de la lectura se vuelve mucho más difícil.
+La conciencia fonológica es la **puerta de entrada a la lectoescritura** (Anthony & Francis, 2005; National Reading Panel, 2000). Para leer, tu peque necesita entender que cada letra representa un sonido y que esos sonidos, juntos, forman palabras. Si esa base no está asentada, el aprendizaje de la lectura se vuelve mucho más difícil.
 
 Entre sus beneficios:
 
 - Facilita el aprendizaje de la lectura y la escritura.
-- Actúa como factor protector frente a la [dislexia](/blog/dislexia-en-ninos-como-detectarla).
+- Actúa como factor protector frente a la [dislexia](/blog/dislexia-en-ninos-como-detectarla) (Snowling & Hulme, 2011).
 - Mejora la ortografía natural.
 - Refuerza la memoria auditiva y la atención al sonido.
 
@@ -2036,7 +1974,159 @@ Si quieres un plan organizado por edades y niveles, el [Cuaderno de Estimulació
 - [Ejercicios de lenguaje para casa](/blog/ejercicios-lenguaje-para-casa)
 - [Etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje)
 
+## Referencias
+
+- Anthony, J. L., & Francis, D. J. (2005). Development of phonological awareness. *Current Directions in Psychological Science*, 14(5), 255-259.
+- National Reading Panel (2000). *Teaching Children to Read: An Evidence-Based Assessment of the Scientific Research Literature on Reading and Its Implications for Reading Instruction*. NIH.
+- Defior, S., & Serrano, F. (2011). La conciencia fonémica, aliada de la adquisición del lenguaje escrito. *Revista de Logopedia, Foniatría y Audiología*, 31(1), 2-13.
+- Jiménez, J. E., & Ortiz, M. R. (2000). *Conciencia metalingüística y adquisición lectora en la lengua española*. Síntesis.
+- Snowling, M. J., & Hulme, C. (2011). Evidence-based interventions for reading and language difficulties. *British Journal of Educational Psychology*, 81(1), 1-23.
+
 > **¿Quieres empezar hoy con un plan sencillo y sin improvisar?** [Descargar la guía gratuita →](/lp/guia-gratis)
+
+---
+
+## Vocabulario infantil: cuántas palabras por edad y 8 técnicas para ampliarlo
+URL: https://www.espaciolenguaje.com/blog/vocabulario-ninos-como-ampliar
+Publicado: 2026-04-15 · Actualizado: 2026-04-27
+
+> **En resumen**: el vocabulario es uno de los mejores predictores del éxito lector y del rendimiento escolar (Cunningham & Stanovich; NICHD). Rangos orientativos por edad (Fenson et al., MacArthur-Bates CDI): **12m 1-5 palabras · 18m 20-50 · 2a 200-300 · 3a 800-1.000 · 4a 1.500-2.000 · 5a 2.500-3.000 · 6a 5.000-6.000**. Lo que más predice el desarrollo no es la cantidad de palabras dichas alrededor del peque, sino la **calidad de la interacción** (Rowe, 2012; Weisleder & Fernald, 2013). Las 3 técnicas con más evidencia: **lectura dialógica** (Whitehurst et al., 1988), **expansión** de lo que dice el peque (Hanen / Girolametto), y exposición múltiple en contextos variados (Horst & Samuelson, 2008).
+
+El vocabulario es mucho más que una lista de palabras: es la **materia prima del pensamiento**. Cuanto más rico sea el vocabulario de tu peque, mejor será su comprensión lectora, su rendimiento escolar y, sorprendentemente, también su autorregulación emocional (no se puede nombrar una emoción que no se conoce).
+
+En este artículo te explicamos la diferencia entre vocabulario receptivo y expresivo, cuántas palabras debería conocer un niño según su edad y, sobre todo, **8 técnicas concretas y basadas en evidencia** para ampliar su vocabulario desde casa.
+
+## Vocabulario receptivo vs. expresivo: no son lo mismo
+
+Como logopedas, trabajamos con dos tipos de vocabulario que conviene diferenciar:
+
+- **Vocabulario receptivo:** las palabras que el niño **comprende**, aunque no las use. Es siempre mucho mayor que el expresivo.
+- **Vocabulario expresivo:** las palabras que el niño **produce activamente** al hablar.
+
+Un peque de 18 meses puede entender 200 palabras y decir solo 20. Esto es totalmente normal: la comprensión siempre va por delante. Cuando el receptivo está muy por encima del expresivo y no avanza, hablamos de un **retraso expresivo**.
+
+## ¿Cuántas palabras debería conocer un niño por edad?
+
+Estos datos son orientativos (cada peque tiene su ritmo), pero te dan una referencia útil del vocabulario **expresivo** esperado:
+
+- **12 meses:** 1-5 palabras
+- **18 meses:** 20-50 palabras
+- **2 años:** 200-300 palabras
+- **3 años:** 800-1.000 palabras
+- **4 años:** 1.500-2.000 palabras
+- **5 años:** 2.500-3.000 palabras
+- **6 años:** 5.000-6.000 palabras
+
+Si quieres ver estos hitos en contexto, consulta nuestro artículo sobre la [estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa).
+
+> **Importante:** Lo relevante no es el número exacto, sino la **progresión**. Un niño que pasa de 50 a 100 palabras en tres meses evoluciona bien, aunque esté ligeramente por debajo de la media.
+
+## Por qué importa tanto el vocabulario
+
+El clásico estudio de **Hart y Risley (1995)** describió grandes diferencias en la exposición al lenguaje según entorno socioeconómico, aunque estudios posteriores (Sperry, Sperry & Miller, 2019) han cuestionado el alcance y la generalización de esa brecha. Investigaciones más recientes (Rowe, 2012; Weisleder & Fernald, 2013) destacan que la **calidad** de la interacción —no solo la cantidad de palabras— predice el desarrollo del vocabulario.
+
+Algunos datos que los logopedas solemos compartir con las familias:
+
+- El vocabulario a los 3 años **predice la comprensión lectora** a los 8-10 años.
+- Un vocabulario pobre dificulta la adquisición de la [conciencia fonológica](/blog/conciencia-fonologica-actividades) y, con ello, la lectoescritura.
+- Los niños con mejor vocabulario regulan mejor sus emociones (pueden "ponerles nombre").
+
+## 8 técnicas para ampliar el vocabulario
+
+### 1. Lectura compartida dialógica
+
+No se trata de leer el cuento de principio a fin, sino de **convertirlo en una conversación**. Señala imágenes, haz preguntas abiertas ("¿qué crees que va a pasar?"), relaciona con la vida del peque ("¿a ti también te gusta el chocolate?").
+
+Dedica 10-15 minutos al día. La lectura dialógica (Whitehurst et al., 1988) tiene un efecto robusto y bien documentado sobre la adquisición de vocabulario; "duplicar" es una cifra genérica: lo importante es que la evidencia es sólida.
+
+### 2. Narrar el día (sportscasting)
+
+Describe lo que hace tu peque como si fueras un comentarista deportivo: *"ahora coges la cuchara, metes los macarrones, te llevas la cuchara a la boca..."*. Parece tonto, pero funciona: estás **vinculando palabras a acciones en tiempo real**.
+
+Funciona especialmente bien entre 1 y 3 años.
+
+### 3. La técnica de la expansión
+
+Cuando tu peque diga una palabra o frase corta, tú la devuelves **expandida**. Si dice *"coche rojo"*, tú respondes *"sí, un coche rojo muy grande que corre mucho"*. Es una de las técnicas con mayor evidencia científica.
+
+### 4. Juegos de categorías
+
+A partir de los 3 años, jugad a clasificar: animales de granja vs. salvajes, frutas vs. verduras, cosas que vuelan vs. cosas que nadan. Esto **organiza el vocabulario mentalmente** y facilita el acceso a las palabras.
+
+Puedes usar objetos reales, fotos o las [fichas de logopedia gratuitas](/blog/fichas-logopedia-gratis-imprimir) que encuentres online.
+
+### 5. Libros con texturas y solapas
+
+Entre los 6 meses y los 2 años, los libros interactivos son oro. La combinación de **input multisensorial** (ven, tocan, escuchan) fija mejor el vocabulario. Busca libros con texturas, solapas y sonidos.
+
+### 6. Tecnología educativa con moderación
+
+Las apps y vídeos educativos **pueden** ayudar, pero con tres condiciones:
+
+- Menos de 30 minutos al día (en menores de 3 años, **cero pantallas solos**, según la OMS, 2019).
+- Siempre acompañados de un adulto que comente lo que ven.
+- Contenido en un solo idioma por sesión (si hay bilingüismo, lee nuestro artículo sobre [bilingüismo infantil](/blog/bilinguismo-infantil-mitos-y-realidades)).
+
+La pantalla nunca sustituye a la interacción humana, pero puede complementarla.
+
+### 7. Salidas al parque, mercado o súper
+
+Los entornos reales son **laboratorios de vocabulario**. En el mercado aprende *pescadero, pera, balanza, euros*. En el parque: *columpio, tobogán, arena, balancín*. Estas palabras se aprenden mejor **en contexto** que en una ficha.
+
+Haz de cada salida una mini-aventura lingüística: anticipa lo que vais a ver, nómbralo durante, y recuérdalo después ("¿te acuerdas del perrito que vimos?").
+
+### 8. Repetición espaciada
+
+La adquisición estable de una palabra nueva requiere **múltiples exposiciones en contextos variados** (Horst & Samuelson, 2008; Childers & Tomasello, 2002); no hay un número exacto universal, pero tener muchas oportunidades de encuentro con la misma palabra acelera el aprendizaje. No repitas la palabra muchas veces seguidas en un día (aburre): úsala varias veces al día durante una semana, en situaciones distintas.
+
+Si buscas actividades lúdicas que incorporen esta técnica, te recomendamos nuestros [juegos para estimular el habla](/blog/juegos-para-estimular-el-habla).
+
+## Errores frecuentes que frenan el vocabulario
+
+### Preguntar "¿qué es eso?" todo el rato
+
+Convertir la interacción en un examen continuo genera ansiedad y bloqueo. Si tu peque no sabe la palabra, **dásela directamente** en lugar de insistir ("mira, es un **búho**"). El aprendizaje sin estrés es más eficiente.
+
+### Corregir en exceso
+
+Si tu peque dice *"el coche se rompeó"*, no digas *"así no, se dice rompió"*. Mejor modela: *"sí, se rompió el coche, ¡vaya!"*. La corrección directa puede hacer que evite hablar.
+
+### Subestimar el vocabulario que entiende
+
+Muchos padres simplifican su lenguaje pensando que el peque no entenderá palabras complejas. **Error**: los niños aprenden palabras "difíciles" si se las expones con contexto. Di *"enorme"* en lugar de "grande grande", *"delicioso"* en lugar de "rico".
+
+### Usar siempre las mismas palabras
+
+Revisa tu vocabulario diario. Si siempre dices "bonito", "bueno", "bien", tu peque también lo hará. Varía: *precioso, maravilloso, estupendo, fantástico, asombroso*.
+
+> **Importante:** La cantidad de palabras nuevas que escucha tu peque a diario impacta directamente en su vocabulario. Pero la calidad de la interacción (atención conjunta, sensibilidad a su interés) importa aún más.
+
+## Un plan semanal realista
+
+Si quieres poner orden a todo esto, un plan sencillo:
+
+- **Diario:** 15 min de lectura compartida + narrar momentos cotidianos.
+- **2-3 veces por semana:** una salida donde introduzcas vocabulario nuevo.
+- **1 vez por semana:** juego de categorías o vocabulario temático.
+- **Siempre:** expandir lo que dice tu peque en tus respuestas.
+
+Con 20-30 minutos diarios bien aprovechados, el impacto es enorme.
+
+### Sigue leyendo
+
+- [Conciencia fonológica: 15 actividades para trabajarla](/blog/conciencia-fonologica-actividades)
+- [Estimulación del lenguaje en casa: guía para familias](/blog/estimulacion-del-lenguaje-en-casa)
+- [Juegos para estimular el habla de tu peque](/blog/juegos-para-estimular-el-habla)
+
+## Referencias
+
+- Rowe, M. L. (2012). A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development. *Child Development*, 83(5), 1762-1774.
+- Weisleder, A., & Fernald, A. (2013). Talking to children matters: Early language experience strengthens processing and builds vocabulary. *Psychological Science*, 24(11), 2143-2152.
+- Whitehurst, G. J., Falco, F. L., Lonigan, C. J., Fischel, J. E., DeBaryshe, B. D., Valdez-Menchaca, M. C., & Caulfield, M. (1988). Accelerating language development through picture book reading. *Developmental Psychology*, 24(4), 552-559.
+- Horst, J. S., & Samuelson, L. K. (2008). Fast mapping but poor retention by 24-month-old infants. *Infancy*, 13(2), 128-157.
+- World Health Organization (2019). *Guidelines on Physical Activity, Sedentary Behaviour and Sleep for Children Under 5 Years of Age*.
+
+> **¿Quieres una lista de 500 palabras organizadas por edad y categoría para trabajar el vocabulario en casa?** Descárgala en nuestra [guía gratuita](/lp/guia-gratis) o accede a más materiales en la sección de [recursos](/recursos).
 
 ---
 
@@ -2179,9 +2269,9 @@ Estos 10 juegos están pensados para trabajar diferentes aspectos del lenguaje �
 ## 1. El espejo mágico
 
 **Edad recomendada:** 1-4 años
-**Qué trabaja:** imitación, praxias orofaciales, articulación
+**Qué trabaja:** juego de conciencia corporal, vínculo
 
-Sentaos juntos frente a un espejo. Haz gestos con la cara: saca la lengua, infla los mofletes, haz el sonido de un beso, mueve la lengua de lado a lado. Tu peque intentará imitarte.
+Sentaos juntos frente a un espejo y haced muecas y gestos divertidos. No es una técnica terapéutica ni promete mejorar la pronunciación: es un juego de atención compartida y conciencia corporal que a los peques les encanta. La evidencia actual no respalda que los ejercicios orofaciales aislados mejoren la articulación (ASHA, 2013), pero disfrutar juntos frente al espejo es valioso por sí mismo.
 
 **Cómo hacerlo:**
 1. Poneos cómodos frente al espejo del baño
@@ -2215,9 +2305,9 @@ Mete 5-6 objetos pequeños en una bolsa opaca (una cuchara, una pelota, una pinz
 ## 3. Pompas de jabón
 
 **Edad recomendada:** 1-4 años
-**Qué trabaja:** soplo, control respiratorio, vocabulario
+**Qué trabaja:** momentos de juego compartido y control respiratorio
 
-Las pompas de jabón son un clásico por algo: trabajan el control del soplo (fundamental para la articulación de muchos sonidos) y además encantan a todos los niños.
+Las pompas de jabón son un clásico por algo: son momentos de juego compartido y de control respiratorio. No esperamos mejora articulatoria directa — la evidencia actual no lo respalda — pero es un juego valioso por su componente lúdico y por la atención conjunta que genera.
 
 **Cómo hacerlo:**
 1. Sopla tú primero para que vea cómo se hace
@@ -2331,9 +2421,9 @@ Esconde objetos por una habitación y dale pistas verbales para encontrarlos.
 ## 10. Carrera de soplos
 
 **Edad recomendada:** 2-5 años
-**Qué trabaja:** fuerza y control del soplo, turnos
+**Qué trabaja:** atención compartida, respiración funcional y turnos
 
-Preparad una "pista" en la mesa con cinta adhesiva y soplad bolitas de papel o plumas desde un extremo al otro.
+Preparad una "pista" en la mesa con cinta adhesiva y soplad bolitas de papel o plumas desde un extremo al otro. Es un juego de atención compartida y respiración funcional; no un ejercicio articulatorio. Disfrutadlo por lo que es: divertirse juntos tomando turnos.
 
 **Cómo hacerlo:**
 1. Haced bolitas de papel de seda o usad plumas ligeras
@@ -2363,6 +2453,13 @@ Lo más importante es que sea divertido. Si tu peque se aburre o se frustra, cam
 - [Estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa) — Guía completa por edades.
 - [Ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos) — Fortalece la musculatura del habla jugando.
 
+## Referencias
+
+- Hanen Centre. *It Takes Two to Talk: The Hanen Program for Parents*. https://www.hanen.org
+- Girolametto, L., Pearce, P. S., & Weitzman, E. (1996). Interactive focused stimulation for toddlers with expressive vocabulary delays. *Journal of Speech and Hearing Research*, 39(6), 1274-1283.
+- Whitehurst, G. J., & Lonigan, C. J. (1998). Child development and emergent literacy. *Child Development*, 69(3), 848-872.
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*.
+
 > **¿Quieres más ideas y una guía de hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) (11 páginas, PDF). Y si prefieres un plan cerrado con fichas imprimibles, en la sección de [recursos](/recursos) encontrarás cuadernos de estimulación diseñados por logopedas.
 
 [Descargar la guía gratuita →](/lp/guia-gratis)
@@ -2371,13 +2468,15 @@ Lo más importante es que sea divertido. Si tu peque se aburre o se frustra, cam
 
 # Información práctica
 
-## Logopedia online para niños: cómo funciona y cuándo es efectiva
+## Logopedia online para niños: ¿funciona? Evidencia, casos y cuándo elegirla
 URL: https://www.espaciolenguaje.com/blog/logopedia-online-como-funciona
-Publicado: 2026-04-17
+Publicado: 2026-04-17 · Actualizado: 2026-04-25
+
+> **En resumen**: la logopedia online es una modalidad eficaz para muchos perfiles infantiles. Las revisiones sistemáticas (**Wales et al., 2017; Grogan-Johnson et al., 2013**) muestran **resultados equivalentes a la presencial** en intervención de articulación, conciencia fonológica y comprensión lectora a partir de **5-6 años**. En menores o casos con baja verbalización (TEA, TEL severo), la teleintervención funciona con un modelo de **coaching parental** (Ingersoll et al., 2016), no con el peque solo. El presencial sigue siendo preferible en: terapia miofuncional compleja, deglución, motricidad orofacial severa. Lo que necesitas en casa: portátil con cámara, conexión estable, espacio sin distracciones y un adulto acompañando en sesiones de menores de 7 años.
 
 La **logopedia online** ha pasado de ser una excepción a convertirse en una modalidad consolidada, especialmente después de la pandemia. Pero muchas familias se preguntan lo mismo: *¿de verdad funciona con niños? ¿Mi peque aprenderá igual que en una consulta presencial?*
 
-La respuesta corta es: **sí, en la mayoría de los casos funciona igual de bien**, siempre que se cumplan ciertas condiciones. Aquí te lo explicamos todo: cómo son las sesiones, qué niños se benefician más, cuándo NO es recomendable y qué necesitas en casa para que funcione.
+La respuesta corta es: **sí, la evidencia disponible (Wales et al., 2017; Grogan-Johnson et al., 2013) muestra que la logopedia por telepráctica puede ser eficaz en numerosos perfiles, aunque hay condiciones donde el presencial sigue siendo preferible** (ver más abajo). Aquí te lo explicamos todo: cómo son las sesiones, qué niños se benefician más, cuándo NO es recomendable y qué necesitas en casa para que funcione.
 
 ## ¿Qué es la logopedia online?
 
@@ -2458,7 +2557,7 @@ Los preadolescentes y adolescentes con problemas de tartamudez, voz o lectoescri
 Con la misma honestidad, hay perfiles donde la modalidad online no es la mejor opción o directamente se desaconseja:
 
 - **Bebés y niños menores de 3 años.** A estas edades, la [atención temprana](/blog/atencion-temprana-que-es) se basa en juego libre, manipulación de objetos y contacto físico. La pantalla no sustituye esto.
-- **Trastornos severos de comunicación** (autismo con baja verbalización, TEL grave), donde el profesional necesita observar al niño en su entorno natural y trabajar con apoyos físicos.
+- **Trastornos severos de comunicación** (autismo con baja verbalización, TEL grave): en estos perfiles, la telepráctica puede funcionar bien con un **modelo de coaching parental** (Ingersoll et al., 2016) — es decir, la logopeda guía a la familia, que es quien interactúa con el peque. Si tu peque tiene estos perfiles, pregunta al profesional si su enfoque de online incluye coaching parental estructurado.
 - **Terapia miofuncional compleja**, donde hay que tocar, guiar y sentir tonos musculares.
 - **Disfagia u otras patologías** que requieren evaluación y manejo presencial.
 - **Niños con dificultades muy marcadas de atención**, si no hay un adulto que les acompañe todo el tiempo.
@@ -2497,7 +2596,7 @@ Entre sesiones, es fundamental seguir [trabajando el lenguaje en casa](/blog/eje
 
 Esta es la pregunta del millón. La respuesta corta: **en muchas áreas, sí**.
 
-Diversos estudios publicados en los últimos años han comparado resultados entre logopedia presencial y online en población infantil. Las conclusiones más consistentes:
+Estudios publicados (Grogan-Johnson et al., 2013; Wales et al., 2017) muestran resultados equivalentes en articulación, conciencia fonológica y comprensión lectora al comparar logopedia presencial y online en población infantil. Las conclusiones más consistentes:
 
 - **Equivalente en articulación:** los resultados al final del tratamiento son comparables.
 - **Equivalente en conciencia fonológica, lectura y escritura:** algunas variables incluso mejoran, probablemente por el apoyo digital.
@@ -2527,13 +2626,22 @@ Si el primer contacto te genera dudas o notas que va con prisas, busca otra opin
 - [Atención temprana: qué es y cuándo consultar](/blog/atencion-temprana-que-es)
 - [Dislexia en niños: cómo detectarla a tiempo](/blog/dislexia-en-ninos-como-detectarla)
 
+## Referencias
+
+- Wales, D., Skinner, L., & Hayman, M. (2017). The efficacy of telehealth-delivered speech and language intervention for primary school-age children: A systematic review. *International Journal of Telerehabilitation*, 9(1), 55-70.
+- Grogan-Johnson, S., Gabel, R. M., Taylor, J., Rowan, L. E., Alvares, R., & Schenker, J. (2013). A pilot investigation of speech sound disorder intervention delivered by telehealth to school-age children. *International Journal of Telerehabilitation*, 3(1), 31-42.
+- Ingersoll, B., Wainer, A. L., Berger, N. I., Pickard, K. E., & Bonter, N. (2016). Comparison of a self-directed and therapist-assisted telehealth parent-mediated intervention for children with ASD. *Journal of Autism and Developmental Disorders*, 46(7), 2275-2284.
+- American Speech-Language-Hearing Association (ASHA). Telepractice. https://www.asha.org/practice-portal/professional-issues/telepractice/
+
 > **¿Quieres probar con ejercicios en casa antes de decidir?** Descarga nuestro pack de actividades gratuito en la [sección de recursos](/recursos) y empieza a estimular el lenguaje de tu peque hoy mismo.
 
 ---
 
-## Atención temprana: qué es, cuándo solicitarla y cómo funciona en España
+## Atención temprana en España: qué es, cómo solicitarla y plazos reales
 URL: https://www.espaciolenguaje.com/blog/atencion-temprana-que-es
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-25
+
+> **En resumen**: la **atención temprana** es el conjunto de intervenciones dirigidas a niños de **0 a 6 años** con alteraciones del desarrollo (o riesgo de presentarlas), sus familias y su entorno (Libro Blanco GAT, 2005). En España la solicitas a través del **pediatra de atención primaria**, que deriva al CDIAT/CAIT/CDIAP según comunidad autónoma. La pública es gratuita o con copago bajo, pero la **espera media es de 308 días** (Plataforma AT, 2024); muchas familias eligen un modelo mixto: pública + privada (35-60 €/sesión) en paralelo. Los equipos son multidisciplinares: logopeda (50-60 % de los casos), fisioterapeuta infantil, psicólogo, terapeuta ocupacional. **Cuanto antes se inicia, mejor**, pero no hay un "punto de no retorno" rígido (Nelson, 2000).
 
 Si tu pediatra ha mencionado la **atención temprana** o si sospechas que tu peque podría necesitarla, seguramente te surgen muchas preguntas: ¿qué es exactamente?, ¿es lo mismo que ir al logopeda?, ¿cómo se solicita?, ¿cuánto cuesta?
 
@@ -2545,7 +2653,7 @@ La **atención temprana** es el conjunto de intervenciones dirigidas a niños de
 
 No es "ir al logopeda" ni "ir al psicólogo". Es un **modelo integral** que puede combinar varios profesionales según lo que necesite cada peque, y que entiende que el desarrollo infantil es algo global: lo motor, lo cognitivo, lo comunicativo y lo emocional están entrelazados.
 
-Según el Libro Blanco de la Atención Temprana (GAT, 2000, referencia clave en España), se basa en tres principios:
+Según el Libro Blanco de la Atención Temprana (GAT, 2005, referencia clave en España), se basa en tres principios:
 
 - **Globalidad:** se atiende al niño en todas sus áreas de desarrollo.
 - **Familia como protagonista:** no se interviene "solo con el niño", sino con el sistema familiar.
@@ -2555,7 +2663,7 @@ Según el Libro Blanco de la Atención Temprana (GAT, 2000, referencia clave en 
 
 La atención temprana está destinada a niños de **0 a 6 años** que presentan, o tienen riesgo de presentar, alteraciones en su desarrollo. Se contemplan tres grupos:
 
-- **Niños con trastornos del desarrollo diagnosticados:** parálisis cerebral, síndrome de Down, TEA, [TEL](/blog/tel-trastorno-especifico-lenguaje), discapacidad intelectual, hipoacusia...
+- **Niños con trastornos del desarrollo diagnosticados:** parálisis cerebral, síndrome de Down, TEA, [TEL / TDL](/blog/tel-trastorno-especifico-lenguaje), discapacidad intelectual, hipoacusia...
 - **Niños con riesgo biológico:** prematuridad extrema, bajo peso al nacer, hipoxia perinatal, etc.
 - **Niños con riesgo psicosocial:** entornos de especial vulnerabilidad.
 
@@ -2650,7 +2758,7 @@ Los últimos informes (Plataforma de Atención Temprana, 2024) hablan de una **m
 - Las comunidades con mejor ratio rondan los **90-120 días**.
 - Las más saturadas superan los **500 días**.
 
-En un niño de 2 años, esperar 10-12 meses supone **perder la mitad de la ventana terapéutica más eficaz**. De ahí la importancia de iniciar cuanto antes los trámites y, si es posible, **paralelizar** con sesiones privadas.
+En un niño de 2 años, los retrasos en el inicio de la intervención pueden reducir la eficacia de la misma; la ventana de mayor plasticidad es un concepto relevante pero no determinista (Nelson, 2000). Cuanto antes se empiece, mejor, pero no hay un "punto de no retorno" rígido. De ahí la importancia de iniciar cuanto antes los trámites y, si es posible, **paralelizar** con sesiones privadas.
 
 > **Importante:** Si tu comunidad tiene listas de espera largas, no te desanimes. Solicita igualmente la plaza pública (para tener evaluación y plaza cuando toque) y, mientras, busca opciones privadas o cooperativas de familias. Algunas comunidades cubren económicamente parte del coste privado si la espera excede X meses.
 
@@ -2670,7 +2778,7 @@ Un buen centro te pedirá que:
 
 Si estás en lista de espera, no te quedes de brazos cruzados. Puedes avanzar mucho desde casa:
 
-- Aplica técnicas de estimulación basadas en evidencia (te recomendamos nuestros [ejercicios de lenguaje para casa](/blog/ejercicios-lenguaje-para-casa) — ah no, este enlace ya está arriba; usa: nuestra guía sobre [estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa) del blog principal).
+- Aplica técnicas de estimulación basadas en evidencia (te recomendamos nuestra guía sobre [estimulación del lenguaje en casa](/blog/estimulacion-del-lenguaje-en-casa)).
 - Si hay sospecha de dificultades específicas como [TEL](/blog/tel-trastorno-especifico-lenguaje) o [dislexia](/blog/dislexia-en-ninos-como-detectarla), infórmate bien.
 - Pide una **primera consulta privada** aunque no continúes: muchos profesionales ofrecen una evaluación inicial que te orienta mientras esperas la pública.
 - Coordínate con la **escuela infantil**: suelen tener orientadores o EOEP que pueden apoyar.
@@ -2693,6 +2801,13 @@ Consultar **no compromete a nada**: te darán información y decides con los dat
 - [Mi hijo no habla: ¿cuándo preocuparse?](/blog/mi-hijo-no-habla-cuando-preocuparse)
 - [TEL (Trastorno Específico del Lenguaje): qué es y cómo se trata](/blog/tel-trastorno-especifico-lenguaje)
 - [Dislexia en niños: cómo detectarla a tiempo](/blog/dislexia-en-ninos-como-detectarla)
+
+## Referencias
+
+- Grupo de Atención Temprana (GAT) (2005). *Libro Blanco de la Atención Temprana* (3ª ed.). Real Patronato sobre Discapacidad.
+- Asociación Española de Pediatría (AEP). Guías de seguimiento del desarrollo infantil. https://www.aeped.es/
+- Nelson, C. A. (2000). The neurobiological bases of early intervention. En J. P. Shonkoff & S. J. Meisels (Eds.), *Handbook of Early Childhood Intervention* (2nd ed., pp. 204-227). Cambridge University Press.
+- Guralnick, M. J. (2005). Early intervention for children with intellectual disabilities: Current knowledge and future prospects. *Journal of Applied Research in Intellectual Disabilities*, 18(4), 313-324.
 
 > **¿Quieres nuestra guía gratuita con los hitos del desarrollo y un checklist de señales de alerta por edades para saber si tu peque necesita valoración?** Descárgala aquí: [guía gratuita](/lp/guia-gratis). Tienes más materiales imprimibles en [recursos](/recursos).
 
@@ -2745,7 +2860,7 @@ Algunos ejemplos: unir con flechas palabras que riman, contar sílabas con palma
 
 ### 4. Fichas de soplo
 
-Incluyen circuitos, laberintos o imágenes para soplar con pajita, pompas o bolitas de papel. Mejoran el control respiratorio, la fuerza orofacial y la coordinación, aspectos básicos para una articulación limpia. Puedes ampliar con estos [ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos).
+Incluyen circuitos, laberintos o imágenes para soplar con pajita, pompas o bolitas. Son recursos lúdicos que favorecen el control respiratorio y momentos de juego compartido. Nota: la evidencia actual no respalda que mejoren directamente la articulación de fonemas (ASHA, 2013). Para más contexto, puedes ampliar con estos [ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos).
 
 ### 5. Fichas de comprensión
 
@@ -2758,7 +2873,7 @@ Existen muchas webs con material gratuito de calidad. Algunas opciones fiables:
 - **Blogs de logopedas en activo**, que comparten material probado en consulta.
 - **Portales educativos públicos**, como los repositorios de las consejerías de educación.
 - **Pinterest**, útil para inspirarte, aunque conviene revisar el origen de las fichas.
-- **Orientación Andújar o Arasaac**, referencias clásicas con miles de recursos libres.
+- **Arasaac** (Gobierno de Aragón, pictogramas oficiales bajo licencia Creative Commons), referencia usada por logopedas en todo el mundo hispanohablante. **Orientación Andújar** es un blog popular con material abundante, aunque sin revisión profesional formal; revisa siempre el origen de las fichas antes de usarlas.
 
 En nuestro blog vamos subiendo material descargable y acompañamos cada ficha con orientaciones de uso para que tu peque disfrute y aprenda.
 
@@ -2811,19 +2926,217 @@ Las fichas son un recurso de apoyo, no una herramienta diagnóstica ni terapéut
 - [Cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino)
 - [Ejercicios de soplo para niños](/blog/ejercicios-de-soplo-para-ninos)
 
+## Referencias
+
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*. https://www.asha.org/
+- Arasaac. Portal aragonés de sistemas aumentativos de comunicación. https://arasaac.org/
+- Defior, S., & Serrano, F. (2011). La conciencia fonémica, aliada de la adquisición del lenguaje escrito. *Revista de Logopedia, Foniatría y Audiología*, 31(1), 2-13.
+
 > **¿Quieres empezar hoy mismo con un plan sencillo y estructurado?** [Descargar la guía gratuita →](/lp/guia-gratis)
 
 ---
 
 # Señales de alerta
 
-## Dislalia infantil: tipos, causas y cómo tratarla
+## Retraso simple del lenguaje: qué es, cómo distinguirlo del TEL y cuándo consultar
+URL: https://www.espaciolenguaje.com/blog/retraso-simple-del-lenguaje
+Publicado: 2026-04-27
+
+> **En resumen**: el **retraso simple del lenguaje** es un desfase en la aparición del habla respecto a lo esperado por edad, **sin causa neurológica, sensorial ni cognitiva identificable**. Afecta a un porcentaje significativo de niños en edad preescolar (estimaciones del 10-15 % según fuentes europeas, aunque hay variabilidad). El lenguaje sigue la **misma secuencia** evolutiva que en un peque típico, simplemente más tarde. La mayoría se equipara a sus pares hacia los **4-5 años**, pero entre un **20-30 % persiste** con dificultades posteriores (Rescorla, 2011; Roberts & Kaiser, 2011), por lo que esperar "a ver si se le pasa" sin valoración profesional puede dejar pasar la ventana óptima de intervención. **Diferencia clave con el TEL/TDL**: en el retraso simple, las dificultades se reducen con estimulación; en el TEL/TDL persisten y requieren intervención específica (Bishop et al., CATALISE, 2017).
+
+"Mi hija de 2 años apenas dice 20 palabras, pero entiende todo lo que le decimos." "Mi hijo empezó a hablar tarde, pero al final lo hizo." Detrás de muchas consultas en logopedia infantil hay un cuadro frecuente y, en general, de buen pronóstico: el **retraso simple del lenguaje**.
+
+En este artículo te explicamos, basándonos en evidencia clínica actual, **qué es el retraso simple, en qué se diferencia del Trastorno del Desarrollo del Lenguaje (TDL/TEL), qué señales conviene vigilar y por qué la espera sin valoración no siempre es la mejor estrategia**.
+
+---
+
+## Qué es el retraso simple del lenguaje
+
+El **retraso simple del lenguaje** (también conocido como retraso del lenguaje a secas) es un **desfase cronológico** en la adquisición del habla y la comprensión: el peque sigue la secuencia evolutiva esperable, pero más tarde de lo habitual y a un ritmo más lento.
+
+Sus rasgos clave:
+
+- **Comprensión preservada**: el peque entiende lo que se le dice, aunque no lo exprese.
+- **Inteligencia normal**: capacidad cognitiva dentro del rango típico.
+- **Audición normal**: oye correctamente.
+- **Sin causas orgánicas ni neurológicas** identificables.
+- **Buen contacto social y juego**: muestra interés por comunicarse, hace gestos, mantiene interacción.
+
+A diferencia de otros cuadros, el lenguaje del peque con retraso simple es **cualitativamente típico** —solo aparece después de lo esperado—. No hay errores cualitativamente diferentes a los del desarrollo normal: simplemente, llega más tarde.
+
+> **Importante**: el retraso simple es un **diagnóstico clínico** que solo puede hacer un profesional (logopeda colegiada o equipo multidisciplinar). Lo que tú puedes detectar como familia son **señales de retraso**, no el diagnóstico en sí.
+
+---
+
+## El concepto de "hablante tardío" (late talker)
+
+Cuando un peque entre **18 y 30 meses** tiene un vocabulario expresivo por debajo de lo esperado pero su comprensión, juego y habilidades sociales están preservados, hablamos en logopedia de un **hablante tardío** (*late talker*, terminología de Rescorla, 1989, 2011).
+
+El criterio clínico clásico es:
+
+- **Menos de 50 palabras** a los 24 meses, **y/o**
+- **No combinar dos palabras** a los 24 meses.
+
+Cumplir uno de los dos criterios es indicación de valoración por logopeda. No es un diagnóstico, sino un **factor de riesgo**: aproximadamente entre un **70-80 % de los hablantes tardíos alcanzan a sus pares hacia los 4-5 años** sin intervención específica, pero el **20-30 % restante persiste con dificultades** que pueden evolucionar hacia un Trastorno del Desarrollo del Lenguaje (TDL/TEL) (Rescorla, 2011; Roberts & Kaiser, 2011).
+
+El problema clínico real es que **a los 24 meses no podemos predecir con seguridad cuál de los dos grupos es el tuyo**. De ahí la recomendación profesional: **no esperar pasivamente**, sino consultar para tener una valoración inicial y, si procede, pautas de estimulación o intervención preventiva.
+
+---
+
+## Diferencias entre retraso simple y TEL/TDL
+
+Esta es una de las preguntas más frecuentes en consulta. Lo resumimos en una tabla:
+
+| | **Retraso simple** | **TEL / TDL** |
+|---|---|---|
+| **Aparición** | Tardía pero secuencia típica | Tardía + secuencia atípica |
+| **Errores** | Los esperables por edad cronológica menor | Errores cualitativos: omisiones, sustituciones específicas, mala morfosintaxis persistente |
+| **Comprensión** | Preservada | Frecuentemente afectada |
+| **Evolución sin intervención** | Suele equipararse a los pares hacia 4-5 años | Persiste sin intervención específica |
+| **Persistencia** | 20-30 % puede mantener dificultades | Crónico: la dificultad central se mantiene aunque se aprenden estrategias |
+| **Tratamiento** | Estimulación contextual + pautas familiares | Intervención logopédica especializada y prolongada |
+
+Para ampliar sobre el TEL/TDL, puedes leer nuestro artículo específico sobre el [Trastorno Específico del Lenguaje](/blog/tel-trastorno-especifico-lenguaje), que también incluye los criterios diagnósticos según DSM-5 (código 315.32) y la nomenclatura actualizada CATALISE 2017.
+
+---
+
+## Causas posibles del retraso simple
+
+A diferencia del TEL/TDL, **no se identifica una única causa neurobiológica clara** en el retraso simple. Lo que sí sabemos es que suele asociarse con varios factores:
+
+- **Antecedentes familiares**: es habitual encontrar familiares (padres, hermanos, tíos) que también hablaron tarde y luego evolucionaron bien. Hay un componente genético plausible.
+- **Variabilidad individual del desarrollo**: cada niño tiene su propio ritmo madurativo en todas las áreas, y el lenguaje no es excepción.
+- **Bilingüismo o exposición simultánea a varios idiomas**: hay que matizar mucho —el bilingüismo **no causa retraso del lenguaje** (Paradis, 2010; De Houwer, 2009)—, pero el patrón de aparición de palabras puede ser distinto. Lee nuestro artículo sobre [bilingüismo infantil](/blog/bilinguismo-infantil-mitos-y-realidades) para detalles.
+- **Otitis recurrentes o problemas auditivos transitorios**: pueden retrasar la entrada del input lingüístico.
+- **Estilos comunicativos familiares**: hablar poco con el peque, anticipar todo lo que necesita o usar mucha pantalla pueden contribuir, aunque rara vez son la causa única.
+
+> **Importante**: aunque suene tentador echar la culpa a las pantallas, al bilingüismo o a "lo callado que es", la realidad es que muchos retrasos simples aparecen **sin que las familias hayan hecho nada distinto a otras**. La culpa familiar no aporta nada y casi siempre es injusta.
+
+---
+
+## Señales por edad
+
+Las siguientes señales merecen valoración por logopeda colegiada:
+
+### A los 18 meses
+
+- Vocabulario menor de **5-10 palabras**.
+- No usa gestos comunicativos (no señala, no dice adiós con la mano).
+- No responde a su nombre de forma constante.
+
+### A los 24 meses (clave)
+
+- **Menos de 50 palabras** (criterio Rescorla).
+- **No combina dos palabras** ("mamá agua", "más galleta").
+- No comprende instrucciones simples.
+- Solo se entiende dentro del entorno familiar inmediato.
+
+### A los 3 años
+
+- Vocabulario muy limitado (menos de 200 palabras).
+- No hace frases de 2-3 palabras.
+- Personas externas no le entienden.
+- Se frustra al intentar comunicarse.
+
+### A los 4-5 años
+
+- Si las dificultades persisten a esta edad, **ya no estamos ante un retraso simple**: probablemente se trata de un Trastorno del Desarrollo del Lenguaje y requiere intervención específica.
+
+Para una visión más completa, consulta nuestra guía de [etapas del desarrollo del lenguaje 0-6 años](/blog/etapas-desarrollo-del-lenguaje).
+
+---
+
+## Cuándo consultar (y por qué no esperar)
+
+La regla pragmática que solemos transmitir en consulta:
+
+> **"Si tienes dudas, consulta."** Una valoración logopédica no daña: aporta tranquilidad si todo va bien, o información clara y pautas si hay algo que trabajar.
+
+Más en concreto, conviene consultar:
+
+- **A los 18 meses**, si tu peque no dice ninguna palabra ni usa gestos.
+- **A los 24 meses**, si tiene menos de 50 palabras o no combina palabras.
+- **En cualquier momento**, si has visto **regresión** (decía palabras y dejó de hacerlo): esta señal nunca es banal.
+- **A los 3 años**, si personas externas a la familia no le entienden la mayor parte del tiempo.
+
+**¿Por qué no esperar?** Porque aunque el 70-80 % de los hablantes tardíos evolucionan bien, **a los 24 meses no sabemos en qué grupo está el tuyo**. Las pautas de estimulación contextual, modelado y expansión —técnicas de eficacia documentada (Hanen, Girolametto et al., 1996)— pueden empezar a aplicarse de inmediato y sin coste, sea cual sea el caso. Y si finalmente se trata de un TDL/TEL, la intervención precoz mejora significativamente el pronóstico.
+
+---
+
+## Qué pueden hacer las familias
+
+Si tu peque encaja en el perfil de retraso simple o hablante tardío, hay pautas con evidencia que **funcionan independientemente del diagnóstico** y que puedes incorporar desde ya:
+
+- **Modelado**: si dice "tete", tú di "sí, es tu chupete". Sin corregir, sin pedir que repita.
+- **Expansión**: si dice "agua", responde "sí, quieres agua fría". Añades una o dos palabras (Girolametto et al., 1996).
+- **Lectura compartida dialógica**: leer cuentos haciendo pausas, preguntas y comentarios. Tiene efecto robusto y bien documentado sobre el vocabulario (Whitehurst et al., 1988).
+- **Narrar el día**: comentar lo que está pasando ("ahora abrimos el grifo, sale agua, está fría"). Input paralelo de Hanen.
+- **Tiempo de espera**: cuando le hagas una pregunta, deja al menos 5-10 segundos antes de intervenir. Los peques con retraso necesitan más tiempo para procesar y responder.
+- **Reducir pantallas en favor de juego compartido**: la calidad de la interacción cara a cara predice mejor el desarrollo lingüístico que la cantidad de input total (Rowe, 2012; Weisleder & Fernald, 2013).
+
+Para más actividades concretas, puedes ampliar con [ejercicios de lenguaje para casa](/blog/ejercicios-lenguaje-para-casa) o [actividades para niños de 2 años](/blog/actividades-ninos-2-anos-lenguaje).
+
+---
+
+## Pronóstico
+
+El pronóstico del retraso simple del lenguaje **es, en general, bueno**:
+
+- La mayoría de hablantes tardíos (70-80 %) **se equipara a sus pares hacia los 4-5 años**.
+- Con estimulación adecuada y/o intervención precoz, los resultados son aún mejores.
+- **El 20-30 % que persiste con dificultades** puede evolucionar hacia un TDL/TEL, dificultades de aprendizaje posteriores o problemas de lectoescritura. De ahí la importancia de la valoración temprana: detectar antes este grupo permite intervenir con más eficacia.
+
+> **Importante**: ningún profesional serio te dará un pronóstico cerrado a los 2-3 años. La trayectoria depende de muchos factores: respuesta a la estimulación, evolución cognitiva, presencia o no de comorbilidades. Lo que sí podemos hacer es **acompañar, valorar periódicamente y ajustar** según el peque.
+
+---
+
+## Cuándo el retraso simple ya no es tan "simple"
+
+Hay perfiles dentro del aparente retraso simple que merecen una mirada más amplia:
+
+- **Comprensión claramente afectada**: si además de no expresar, no entiende, ya no encaja en retraso simple puro.
+- **Falta de interés por comunicarse, escaso contacto ocular, poca interacción social**: pueden indicar otro cuadro (TEA, por ejemplo).
+- **Pérdida de habilidades adquiridas (regresión)**: siempre requiere valoración inmediata.
+- **Dificultades motoras, de coordinación, de juego simbólico**: pueden apuntar a un cuadro más amplio del neurodesarrollo.
+
+En estos casos, la valoración multidisciplinar (logopeda, pediatra, neuropediatra, psicólogo si procede) es clave para descartar o confirmar otros diagnósticos.
+
+---
+
+## Sigue leyendo
+
+- [Mi hijo no habla: ¿cuándo preocuparse? 7 señales de alerta](/blog/mi-hijo-no-habla-cuando-preocuparse)
+- [Trastorno Específico del Lenguaje (TEL/TDL): qué es y cómo se trata](/blog/tel-trastorno-especifico-lenguaje)
+- [Etapas del desarrollo del lenguaje 0-6 años](/blog/etapas-desarrollo-del-lenguaje)
+- [Atención temprana en España: qué es y cómo solicitarla](/blog/atencion-temprana-que-es)
+
+> **¿Necesitas un punto de partida claro?** Descarga gratis nuestra [guía de hitos del lenguaje 0-6 años](/lp/guia-gratis) con los hitos por edad, las señales de alerta y un ejercicio para cada etapa.
+
+---
+
+## Referencias
+
+- Rescorla, L. (2011). Late talkers: Do good predictors of outcome exist? *Developmental Disabilities Research Reviews*, 17(2), 141-150.
+- Rescorla, L. (1989). The Language Development Survey: A screening tool for delayed language in toddlers. *Journal of Speech and Hearing Disorders*, 54(4), 587-599.
+- Roberts, M. Y., & Kaiser, A. P. (2011). The effectiveness of parent-implemented language interventions: A meta-analysis. *American Journal of Speech-Language Pathology*, 20(3), 180-199.
+- Bishop, D. V. M., Snowling, M. J., Thompson, P. A., Greenhalgh, T., & the CATALISE-2 consortium (2017). Phase 2 of CATALISE: A multinational and multidisciplinary Delphi consensus study of problems with language development. *Journal of Child Psychology and Psychiatry*, 58(10), 1068-1080.
+- Girolametto, L., Pearce, P. S., & Weitzman, E. (1996). Interactive focused stimulation for toddlers with expressive vocabulary delays. *Journal of Speech and Hearing Research*, 39(6), 1274-1283.
+- Whitehurst, G. J., et al. (1988). Accelerating language development through picture book reading. *Developmental Psychology*, 24(4), 552-559.
+- Rowe, M. L. (2012). A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development. *Child Development*, 83(5), 1762-1774.
+- Weisleder, A., & Fernald, A. (2013). Talking to children matters. *Psychological Science*, 24(11), 2143-2152.
+- Paradis, J. (2010). The interface between bilingual development and specific language impairment. *Applied Psycholinguistics*, 31(2), 227-252.
+
+---
+
+## Dislalia infantil: 4 tipos, causas y tratamiento eficaz (con evidencia)
 URL: https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos
-Publicado: 2026-04-17
+Publicado: 2026-04-17 · Actualizado: 2026-04-27
+
+> **En resumen**: la **dislalia** es la dificultad para articular correctamente uno o varios sonidos del habla — el trastorno articulatorio más frecuente en preescolar (~8-10 %, Shriberg et al., 1999). Hay **4 tipos**: funcional (la más común, sin causa orgánica), orgánica (alteración estructural), audiógena (por pérdida auditiva) y evolutiva (variante normal a edades tempranas). La **R vibrante** puede no aparecer hasta los 6-7 años (Bosch, 2004) — antes de esa edad no es dislalia. El tratamiento eficaz es **trabajo fonético directo en contexto** (sílabas → palabras → frases) según los enfoques con evidencia (Williams, McLeod & McCauley, 2010); las praxias orales no-verbales aisladas no han demostrado mejorar la articulación (ASHA, 2013).
 
 "Mi peque dice *tasa* en lugar de *casa*." "No hay manera de que pronuncie la R." "Cambia la S por Z." Si te suenan estas frases, probablemente estés ante una **dislalia infantil**, el trastorno articulatorio más frecuente en la etapa preescolar y escolar.
 
-La dislalia **afecta al 10-15% de los niños entre 4 y 6 años**, y aunque en muchos casos es evolutiva y se resuelve sola, otras veces necesita intervención. En este artículo te explicamos qué es exactamente, los cuatro tipos principales, cuándo preocuparse y cómo se trata.
+Las dislalias funcionales afectan a un porcentaje significativo de niños en edad preescolar (estimaciones varían entre 8-10% según Shriberg et al., 1999; algunas fuentes españolas sitúan rangos más amplios), y aunque en muchos casos la dificultad es evolutiva y se resuelve sola, otras veces necesita intervención. En este artículo te explicamos qué es exactamente, los cuatro tipos principales, cuándo preocuparse y cómo se trata.
 
 ## ¿Qué es la dislalia?
 
@@ -2842,7 +3155,7 @@ Es importante diferenciar la dislalia de otros trastornos más amplios, como el 
 ## Datos que conviene conocer
 
 - La dislalia es el **motivo de consulta logopédica más frecuente** en infantil.
-- Afecta a entre el **10 y el 15% de los niños** en edad preescolar.
+- Las estimaciones sobre su prevalencia varían entre el **8 y el 10%** en niños en edad preescolar (Shriberg et al., 1999), con rangos más amplios según la fuente.
 - Suele aparecer más en niños que en niñas.
 - La gran mayoría de casos **se resuelven** con intervención temprana.
 - El pronóstico es mejor cuanto antes se detecta, sobre todo antes de que el peque **automatice** un patrón incorrecto.
@@ -2866,8 +3179,8 @@ Es la **más frecuente cuando ya hay que intervenir**. Se produce cuando, pasada
 
 Sus causas suelen ser:
 
-- Inmadurez articulatoria.
-- Falta de control del soplo o la lengua.
+- Inmadurez fonológica.
+- Dificultades del control motor fino del habla o factores perceptivo-auditivos; la literatura actual desvincula el soplo aislado de la articulación (ASHA, 2013).
 - Imitación de modelos incorrectos.
 - Escasa estimulación del lenguaje.
 - Falta de discriminación auditiva entre fonemas parecidos.
@@ -2947,16 +3260,15 @@ A partir de ahí se define el tipo de dislalia, el alcance y el plan de interven
 
 El tratamiento logopédico de la dislalia está muy estandarizado y funciona muy bien cuando se sigue con constancia. Suele organizarse en tres grandes fases:
 
-### Fase 1: preparatoria
+### Fase 1: trabajo fonético directo desde el principio
 
-Se trabajan los **pre-requisitos** para que el fonema pueda producirse:
+Los enfoques actuales basados en evidencia (Bowen, 2005; Williams, McLeod & McCauley, 2010) recomiendan trabajar directamente el fonema objetivo en contexto (sílabas, palabras, frases) sin requerir praxias previas. Si la logopeda indica praxias específicas es por razones de tu peque concreto, pero no son un prerrequisito obligatorio.
 
-- Movilidad y tono lingual y labial ([praxias bucofaciales](/blog/praxias-bucofaciales-ninos)).
-- Control del **soplo** y la respiración.
+En paralelo suele reforzarse:
+
 - **Discriminación auditiva** entre sonidos parecidos.
 - Atención auditiva y concentración.
-
-Sin esta base, pedir el fonema directamente suele fracasar.
+- Movilidad y tono lingual y labial ([praxias bucofaciales](/blog/praxias-bucofaciales-ninos)) cuando la logopeda lo indique como apoyo, no como requisito.
 
 ### Fase 2: adquisición del sonido
 
@@ -3007,13 +3319,23 @@ Por eso la detección temprana es tan importante. Si tienes dudas, una consulta 
 - [Ejercicios para enseñar la R fuerte (RR) paso a paso](/blog/ejercicios-para-la-r-fuerte)
 - [Frenillo lingual corto: síntomas, diagnóstico y tratamiento](/blog/frenillo-lingual-sintomas)
 
+## Referencias
+
+- Shriberg, L. D., Tomblin, J. B., & McSweeny, J. L. (1999). Prevalence of speech delay in 6-year-old children. *Journal of Speech, Language, and Hearing Research*, 42(6), 1461-1481.
+- Bowen, C. (2005). What is the evidence for oral motor therapy? *Acquiring Knowledge in Speech, Language and Hearing*, 7(3), 144-147.
+- Williams, A. L., McLeod, S., & McCauley, R. J. (Eds.) (2010). *Interventions for Speech Sound Disorders in Children*. Brookes Publishing.
+- Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*.
+
 > **¿Tu peque tiene dificultades con algún fonema?** En la [sección de recursos](/recursos) encontrarás cuadernos de articulación por fonema diseñados por logopedas, con progresión clara y fichas listas para imprimir. Y si aún no sabes si los tiempos de tu peque son normales, descarga gratis la [guía de hitos del lenguaje](/lp/guia-gratis).
 
 ---
 
-## Frenillo lingual corto: síntomas, diagnóstico y tratamiento
+## Frenillo lingual corto: ¿causa problemas del habla? Qué dice la evidencia
 URL: https://www.espaciolenguaje.com/blog/frenillo-lingual-sintomas
-Publicado: 2026-04-17
+Publicado: 2026-04-17 · Actualizado: 2026-04-27
+
+> **En resumen**: el **frenillo lingual corto (anquiloglosia)** afecta a un porcentaje variable de niños (1,7-10,7 % según fuentes; Segal, 2007). En **lactantes** sí dificulta la succión y el agarre al pecho — la evidencia es sólida. En **niños mayores con problemas de articulación**, la evidencia es **mucho más débil** de lo que tradicionalmente se pensaba (Walsh et al., 2017; posicionamiento ENT UK 2017): el sobrediagnóstico y la sobrecirugía están documentados. La causa más frecuente de dificultad para la /r/ es la **inmadurez fonológica**, no el frenillo. Antes de plantear una frenectomía por motivos de articulación, valoración por logopeda **y** ORL es imprescindible. La primera consulta debe ser con logopeda, no con cirujano.
 
 "Mi hijo no pronuncia bien la R y me han dicho que puede ser el frenillo." Esta es una de las preguntas más frecuentes en consulta. El **frenillo lingual corto** afecta a alrededor del **5% de los niños**, y aunque en algunos casos necesita intervención, en muchos otros no. Aquí te explicamos cómo detectarlo, qué síntomas produce y cuándo realmente hay que actuar.
 
@@ -3071,12 +3393,16 @@ Si vuestra lactancia va mal y el bebé parece frustrado, pedir valoración del f
 
 Cuando la lactancia ya ha pasado y el peque va creciendo, los síntomas se trasladan a otras áreas:
 
-### En el habla
+### En el habla: qué dice la evidencia reciente
 
-- Dificultad con la **R suave y la RR**: son los fonemas que más requieren elevar la punta de la lengua. Si quieres trabajar esta área, te puede interesar nuestra guía de [ejercicios para la R fuerte](/blog/ejercicios-para-la-r-fuerte).
-- Problemas con **L, CH, LL, N, T, D**, que también se articulan con la punta de la lengua en el paladar.
-- Habla **poco clara o cansada**, especialmente al final del día.
-- Puede aparecer **dislalia múltiple** afectando a varios fonemas a la vez.
+Durante años se ha atribuido al frenillo corto una amplia lista de problemas del habla. La evidencia más reciente (Walsh et al., 2017; posicionamiento del ENT UK, 2017) matiza mucho este vínculo:
+
+- **En lactancia**: el frenillo corto puede dificultar la succión y el agarre al pecho. Aquí la evidencia es sólida y la intervención precoz puede marcar una gran diferencia.
+- **En articulación en niños mayores (>3 años)**: la relación es **mucho más débil de lo que tradicionalmente se pensaba**. El frenillo corto puede contribuir en casos muy restringidos y severos, pero **NO es causa frecuente de dislalias**. El sobrediagnóstico y la sobrecirugía en estos casos están documentados (Walsh, 2017).
+
+En la práctica, un niño con dificultades para la /r/ o la /l/ casi siempre tiene una causa distinta al frenillo: **inmadurez fonológica, dificultades del control motor del habla, o simplemente variantes típicas del desarrollo** (recuerda que la R se adquiere hasta los 5-6 años). **Antes de plantear una frenectomía por motivos de articulación, la valoración por logopeda + ORL es imprescindible**.
+
+Lo que **no debe hacerse**: atribuir automáticamente cualquier dislalia al frenillo y precipitar una cirugía sin un diagnóstico diferencial exigente. Si tu peque tiene dificultades con la R, el primer paso es una valoración logopédica completa, no una consulta quirúrgica. Si te interesa profundizar, puedes leer cómo [enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino).
 
 ### En la alimentación
 
@@ -3087,8 +3413,8 @@ Cuando la lactancia ya ha pasado y el peque va creciendo, los síntomas se trasl
 
 ### Otros signos
 
-- Respiración bucal predominante.
-- Maloclusiones dentales a largo plazo.
+- Puede asociarse con respiración bucal predominante.
+- Puede asociarse con maloclusiones dentales a largo plazo.
 - Babeo más allá de la edad esperada.
 
 > **Importante:** estos síntomas pueden aparecer por muchas otras causas. El frenillo corto es solo una de las posibilidades. Por eso el diagnóstico profesional es clave.
@@ -3129,10 +3455,10 @@ Falso. Lo que importa es la función, no el aspecto. Muchos frenillos visualment
 Falso. La cirugía da libertad de movimiento, pero la articulación correcta se entrena. Sin logopedia posterior, los patrones erróneos pueden persistir.
 
 **Mito 3: "Mejor esperar hasta los 6 años por si se estira solo."**
-Depende. El frenillo puede "relajarse" con el uso, pero esperar demasiado con síntomas claros puede generar dislalias más difíciles de corregir. Mejor valorar caso por caso.
+Depende. El frenillo puede "relajarse" con el uso. La decisión debe tomarse caso por caso tras valoración profesional, no por edad automática ni por prisa ante la aparición de una dislalia (la mayoría no son causa de frenillo).
 
 **Mito 4: "Todos los problemas de R son por el frenillo."**
-Falso. La R también puede fallar por descoordinación, falta de soplo o simplemente por no haber alcanzado la edad esperada. Si tu peque [no habla bien a los 3 años](/blog/mi-hijo-de-3-anos-no-habla-bien) o [no habla aún](/blog/mi-hijo-no-habla-cuando-preocuparse), hay muchas causas posibles.
+Falso, y es un mito con consecuencias reales (cirugías innecesarias). **La mayoría de los problemas de R no son por el frenillo**: lo habitual es que sean por inmadurez fonológica, control motor en desarrollo o, simplemente, por no haber alcanzado aún la edad esperada (la R se consolida entre los 5 y los 6 años). **Si tu peque tiene dificultades para pronunciar, la primera valoración debe ser con logopeda, no con cirujano**. Si quieres entender mejor el contexto, mira cuándo preocuparse porque [no habla aún](/blog/mi-hijo-no-habla-cuando-preocuparse) o qué hacer si [no habla bien a los 3 años](/blog/mi-hijo-de-3-anos-no-habla-bien).
 
 ## Cuándo pedir una valoración
 
@@ -3155,9 +3481,11 @@ Una valoración con un logopeda especializado te dará respuestas. En muchos cas
 
 ---
 
-## Mi hijo de 3 años no habla bien: ¿es normal o debo preocuparme?
+## Mi hijo de 3 años no habla bien: ¿es normal? Hitos, señales y qué hacer
 URL: https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-27
+
+> **En resumen** — qué se espera a los 3 años: **frases de 3-4 palabras**, **vocabulario expresivo de 500-1.000 palabras**, **comprensible al 75%** para personas externas a la familia (Coplan & Gleason, 1988), uso de pronombres y preguntas. Tres escenarios de "no habla bien" con implicaciones distintas: (1) **palabras sueltas sin frases** = retraso expresivo claro, (2) **frases largas pero ininteligibles** = posibles dificultades fonológicas, (3) **no inicia interacciones** = mirada más amplia (social-comunicativa). Causas más frecuentes: retraso simple, TEL/TDL (~7,58% — Norbury 2016), dificultades fonológicas u otitis recurrentes. Si detectas 2+ señales de alerta mantenidas, consulta con logopeda colegiada.
 
 "Mi hijo ha cumplido 3 años y no se le entiende". "En el parque, los otros niños ya hablan de corrido y el mío apenas dice palabras sueltas". Si este es tu caso, respira: estás en el lugar correcto para entender qué es esperable a los 3 años y qué no.
 
@@ -3220,11 +3548,11 @@ Que un peque "no hable bien" a los 3 años puede deberse a diferentes cuadros. S
 
 ### 1. Retraso simple del lenguaje
 
-Es la causa más habitual. El peque sigue la secuencia normal, pero **más lento**. Suele evolucionar bien con estimulación adecuada y, en muchos casos, **se equipara a sus iguales hacia los 4-5 años**.
+Es la causa más habitual. El peque sigue la secuencia normal, pero **más lento**. Suele evolucionar bien con estimulación adecuada y **muchos late talkers se equiparan a sus pares hacia los 4-5 años, pero entre un 20-30% presenta dificultades persistentes** (Rescorla, 2011).
 
 ### 2. Trastorno Específico del Lenguaje (TEL)
 
-Dificultad persistente del lenguaje que **no se explica** por otras causas (inteligencia normal, audición normal, sin TEA). Afecta a un **7% de los niños**. Requiere intervención logopédica especializada. Te explicamos todo en nuestro artículo sobre [qué es el TEL](/blog/tel-trastorno-especifico-lenguaje).
+Dificultad persistente del lenguaje que **no se explica** por otras causas (inteligencia normal, audición normal, sin TEA). Afecta a un **7% de los niños** (Tomblin et al., 1997; Norbury et al., 2016, reportan 7,58%). Requiere intervención logopédica especializada. Te explicamos todo en nuestro artículo sobre [qué es el TEL](/blog/tel-trastorno-especifico-lenguaje).
 
 ### 3. Dificultad articulatoria o fonológica
 
@@ -3278,6 +3606,8 @@ Con imágenes o fotos, ordenad secuencias simples: preparar el desayuno, vestirs
 
 Los ejercicios de [praxias bucofaciales](/blog/praxias-bucofaciales-ninos) y de [soplo](/blog/ejercicios-de-soplo-para-ninos) ayudan a preparar el sistema orofacial, especialmente si hay dificultades articulatorias. 5 minutos al día bastan.
 
+> **Nota:** Las praxias aisladas no tienen evidencia sólida como tratamiento articulatorio (ASHA, 2013); si tu logopeda las indica, será por razones específicas de tu peque.
+
 ### 5. Juego simbólico con muñecos
 
 Jugad a que el osito se va al médico, cocina, va al cole. Mientras jugáis, **narra en voz alta** lo que sucede: *"el osito tiene hambre", "prepara la sopa", "le duele la tripa"*. Estás modelando estructuras narrativas.
@@ -3302,21 +3632,30 @@ En estos casos, la ruta es: **pediatra hoy**, no "cuando pueda".
 - [Etapas del desarrollo del lenguaje por edades](/blog/etapas-desarrollo-del-lenguaje)
 - [TEL (Trastorno Específico del Lenguaje): qué es y cómo se trata](/blog/tel-trastorno-especifico-lenguaje)
 
+## Referencias
+
+- Rescorla, L. (2011). Late talkers: Do good predictors of outcome exist? *Developmental Disabilities Research Reviews*, 17(2), 141-150.
+- Tomblin, J. B., Records, N. L., Buckwalter, P., Zhang, X., Smith, E., & O'Brien, M. (1997). Prevalence of specific language impairment. *Journal of Speech, Language, and Hearing Research*, 40(6), 1245-1260.
+- Norbury, C. F., et al. (2016). The impact of nonverbal ability on prevalence and clinical presentation of language disorder. *Journal of Child Psychology and Psychiatry*, 57(11), 1247-1257.
+- Bishop, D. V. M., et al. (2017). Phase 2 of CATALISE: A multinational and multidisciplinary Delphi consensus study. *JCPP*, 58(10), 1068-1080.
+
 > **¿Quieres nuestro checklist gratuito con los hitos del lenguaje a los 3 años y un cuestionario de señales de alerta para llevar al pediatra?** Descárgalo en nuestra [guía gratuita](/lp/guia-gratis) o encuentra más materiales en la sección de [recursos](/recursos).
 
 ---
 
-## TEL (Trastorno Específico del Lenguaje): señales, causas y tratamiento
+## TEL (TDL): qué es, señales por edad y tratamiento del Trastorno del Lenguaje
 URL: https://www.espaciolenguaje.com/blog/tel-trastorno-especifico-lenguaje
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-24
 
-Cuando un peque tarda en hablar o se expresa peor que los niños de su edad, lo primero que solemos pensar es que "ya hablará". En muchos casos es así. Pero en otros, detrás de esa dificultad hay un **Trastorno Específico del Lenguaje (TEL)**, una condición que afecta a cerca del 7 % de la población infantil y que necesita intervención específica.
+> **En resumen**: el **Trastorno Específico del Lenguaje (TEL)**, hoy denominado **TDL (Trastorno del Desarrollo del Lenguaje)** según el consenso internacional CATALISE (Bishop et al., 2017), es una alteración persistente en la adquisición y uso del lenguaje que no se explica por pérdida auditiva, discapacidad intelectual, trastornos emocionales ni falta de estimulación. Afecta aproximadamente al **7,58 % de niños de 5 años** (Norbury et al., 2016), es más frecuente en niños que en niñas (ratio ~1,3-2:1) y requiere intervención logopédica específica: **no se resuelve solo con el tiempo**. El diagnóstico suele establecerse a partir de los 4-5 años (DSM-5, código 315.32), pero la intervención puede —y debe— empezar antes si hay señales claras.
 
-En esta guía, basada en la evidencia actual, te explicamos qué es el TEL, en qué se diferencia de un retraso del lenguaje, cuáles son sus señales y cómo se aborda.
+Cuando un peque tarda en hablar o se expresa peor que los niños de su edad, lo primero que solemos pensar es que "ya hablará". En muchos casos es así. Pero en otros, detrás de esa dificultad hay un **Trastorno Específico del Lenguaje (TEL / TDL)**, una condición con entidad propia que necesita intervención específica.
+
+En esta guía, basada en la evidencia actual, te explicamos qué es el TEL/TDL, en qué se diferencia de un retraso simple del lenguaje, cuáles son sus señales por edad y cómo se aborda.
 
 ## Qué es el TEL
 
-El Trastorno Específico del Lenguaje (también llamado TDL, Trastorno del Desarrollo del Lenguaje) es una **alteración persistente en la adquisición y uso del lenguaje** que no se explica por otras causas como pérdida auditiva, discapacidad intelectual, trastornos emocionales o falta de estimulación.
+El Trastorno Específico del Lenguaje (también llamado **TDL (Trastorno del Desarrollo del Lenguaje)** desde el consenso internacional CATALISE (Bishop et al., 2017), terminología que está sustituyendo progresivamente a TEL) es una **alteración persistente en la adquisición y uso del lenguaje** que no se explica por otras causas como pérdida auditiva, discapacidad intelectual, trastornos emocionales o falta de estimulación.
 
 Dos ideas clave:
 
@@ -3327,8 +3666,8 @@ Dos ideas clave:
 
 ## Algunos datos que conviene conocer
 
-- Afecta aproximadamente al **7 % de los niños en edad preescolar**.
-- Es más frecuente en niños que en niñas, en proporción de 2-3 a 1.
+- Afecta aproximadamente al **7 % de los niños en edad preescolar** (Norbury et al., 2016, reportan una prevalencia del 7,58% a los 5 años).
+- Es más frecuente en niños que en niñas, en proporción aproximada de 1,3-2 a 1 según estudios recientes (Norbury et al., 2016). Los ratios clásicos de 2-3:1 de los años 90 están siendo revisados a la baja.
 - Tiene un **componente genético importante**: suele haber antecedentes familiares.
 - Es uno de los trastornos del neurodesarrollo más prevalentes y, a la vez, uno de los más infradiagnosticados.
 
@@ -3410,7 +3749,7 @@ El diagnóstico de TEL es **clínico y multidisciplinar**. No hay una prueba ún
 - **Otorrinolaringólogo:** descarta pérdidas auditivas que expliquen las dificultades.
 - **Pediatra o neuropediatra:** coordina el proceso y descarta causas médicas.
 
-El diagnóstico suele establecerse a partir de los **4-5 años**, aunque la intervención puede (y debe) empezar mucho antes si hay señales claras, incluso sin diagnóstico cerrado.
+El diagnóstico según criterios DSM-5 (Trastorno del Lenguaje, código 315.32) suele establecerse a partir de los **4-5 años**, aunque la intervención puede (y debe) empezar mucho antes si hay señales claras, incluso sin diagnóstico cerrado.
 
 ## Tratamiento: la clave es la intervención temprana
 
@@ -3460,13 +3799,23 @@ Si quieres trabajar en casa con un material bien estructurado, en [recursos](/re
 - [Etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje)
 - [Dislexia en niños: cómo detectarla](/blog/dislexia-en-ninos-como-detectarla)
 
+## Referencias
+
+- Bishop, D. V. M., Snowling, M. J., Thompson, P. A., Greenhalgh, T., & the CATALISE-2 consortium (2017). Phase 2 of CATALISE: A multinational and multidisciplinary Delphi consensus study of problems with language development. *Journal of Child Psychology and Psychiatry*, 58(10), 1068-1080.
+- Norbury, C. F., Gooch, D., Wray, C., Baird, G., Charman, T., Simonoff, E., Vamvakas, G., & Pickles, A. (2016). The impact of nonverbal ability on prevalence and clinical presentation of language disorder. *Journal of Child Psychology and Psychiatry*, 57(11), 1247-1257.
+- Leonard, L. B. (2014). *Children with Specific Language Impairment* (2nd ed.). MIT Press.
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., DSM-5).
+- Tomblin, J. B., Records, N. L., Buckwalter, P., Zhang, X., Smith, E., & O'Brien, M. (1997). Prevalence of specific language impairment in kindergarten children. *Journal of Speech, Language, and Hearing Research*, 40(6), 1245-1260.
+
 > **¿Te preocupa el lenguaje de tu peque?** Descubre el material de apoyo de logopedas en [/recursos](/recursos) y empieza hoy con un plan claro.
 
 ---
 
-## Mi hijo no habla: 7 señales de alerta y qué hacer ahora
+## Mi hijo no habla: ¿cuándo preocuparse? 7 señales de alerta por edad
 URL: https://www.espaciolenguaje.com/blog/mi-hijo-no-habla-cuando-preocuparse
-Publicado: 2026-03-20 · Actualizado: 2026-04-20
+Publicado: 2026-03-20 · Actualizado: 2026-04-25
+
+> **En resumen**: hay 7 señales de alerta concretas que merecen consulta con logopeda colegiada: **(1) no balbucea a los 12 meses, (2) no señala ni usa gestos a los 12-14m, (3) no dice ninguna palabra a los 16-18m, (4) no combina dos palabras a los 24m (criterio Rescorla, 2011 para "hablante tardío"), (5) pierde habilidades que ya tenía, (6) no entiende instrucciones sencillas a los 2 años, (7) personas externas no le entienden a los 3 años (la inteligibilidad esperada es 75%). Aproximadamente **20-30% de los hablantes tardíos persisten con dificultades** a los 3-4 años (Rescorla, 2011; Roberts & Kaiser, 2011), por lo que consultar pronto no es alarmismo: es darle a tu peque la mejor oportunidad.
 
 Si estás leyendo esto, es probable que lleves un tiempo observando a tu peque y preguntándote si su desarrollo del lenguaje va por buen camino. Quizá en el parque ves a otros niños de su edad que ya dicen frases completas mientras el tuyo apenas señala y dice unas pocas palabras. O quizá la abuela te ha comentado algo que te ha dejado pensando.
 
@@ -3541,7 +3890,7 @@ Es muy habitual escuchar "ya hablará, es que los niños de ahora hablan tarde" 
 
 Un hablante tardío es un niño de entre 18 y 30 meses que tiene un vocabulario expresivo por debajo de lo esperado para su edad, **pero** cuya comprensión del lenguaje, juego, habilidades sociales y desarrollo general son normales.
 
-Muchos de estos niños acaban alcanzando a sus compañeros sin intervención. Sin embargo, estudios muestran que aproximadamente un 20-30% de los hablantes tardíos pueden seguir presentando dificultades lingüísticas a los 3-4 años.
+Muchos de estos niños acaban alcanzando a sus compañeros sin intervención. Sin embargo, estudios muestran que aproximadamente un 20-30% de los hablantes tardíos pueden seguir presentando dificultades lingüísticas a los 3-4 años (Rescorla, 2011; Roberts & Kaiser, 2011).
 
 ### ¿Y un retraso del lenguaje?
 
@@ -3605,7 +3954,7 @@ Las sesiones de logopedia infantil se parecen mucho a un rato de juego. El logop
 - Estimulación del vocabulario
 - Mejora de la pronunciación
 - Desarrollo de la comprensión
-- Fortalecimiento de la musculatura oral
+- Trabajo de movilidad y control oral cuando hay indicación específica (por ejemplo, en deglución atípica o respiración bucal persistente); no todo caso requiere trabajo miofuncional, y las praxias aisladas no son estándar en dislalias (ASHA, 2013)
 - Habilidades sociales y pragmáticas
 
 ---
@@ -3655,7 +4004,7 @@ Nuestra recomendación general es:
 
 ### ¿El bilingüismo puede causar retraso del lenguaje?
 
-No. Los niños bilingües pueden tardar un poco más en empezar a hablar, pero su desarrollo lingüístico total (sumando ambos idiomas) es comparable al de los monolingües. El bilingüismo no causa trastornos del lenguaje.
+No. Los niños bilingües pueden tardar un poco más en empezar a hablar, pero su desarrollo lingüístico total (sumando ambos idiomas) es comparable al de los monolingües. El bilingüismo no causa trastornos del lenguaje (Paradis, 2010; De Houwer, 2009).
 
 ### ¿Las pantallas afectan al desarrollo del lenguaje?
 
@@ -3674,6 +4023,14 @@ Depende muchísimo del niño, del tipo de dificultad y de su gravedad. Algunos n
 No te culpes. Los trastornos del lenguaje no están causados por algo que hayas hecho o dejado de hacer. Lo mejor que puedes hacer es informarte (como estás haciendo ahora), hablarle mucho a tu hijo y buscar ayuda profesional si lo necesitas.
 
 ---
+
+## Referencias
+
+- Rescorla, L. (2011). Late talkers: Do good predictors of outcome exist? *Developmental Disabilities Research Reviews*, 17(2), 141-150.
+- Roberts, M. Y., & Kaiser, A. P. (2011). The effectiveness of parent-implemented language interventions: A meta-analysis. *American Journal of Speech-Language Pathology*, 20(3), 180-199.
+- Paradis, J. (2010). The interface between bilingual development and specific language impairment. *Applied Psycholinguistics*, 31(2), 227-252.
+- De Houwer, A. (2009). *Bilingual First Language Acquisition*. Multilingual Matters.
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*.
 
 **En Espacio Lenguaje estamos aquí para ayudarte.** Si después de leer esta guía sigues con dudas, no dudes en contactarnos. Una valoración a tiempo puede marcar una gran diferencia en el desarrollo de tu peque.
 
