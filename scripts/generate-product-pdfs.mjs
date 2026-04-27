@@ -84,9 +84,48 @@ const products = [
     markdownFile: "pack-fichas-articulacion-content.md",
     imageHeadings: [], // solo portada, emojis hacen el resto
   },
+  // ── Lead magnets gratuitos (van a public/downloads/, no productos/) ──
+  {
+    slug: "guia-hitos-lenguaje",
+    outputName: "guia-hitos-lenguaje-espacio-lenguaje",
+    outputDir: "downloads",
+    title: "Hitos del Lenguaje 0-6 años",
+    subtitle: "Qué debería decir tu peque a cada edad · Señales de alerta · Ejercicios para casa",
+    tag: "Guía gratuita · para familias",
+    coverImg: "hitos-lenguaje-cover",
+    markdownFile: "guia-hitos-lenguaje-content.md",
+    imageHeadings: [
+      { match: /0-6 meses/i, img: "cuaderno-0-3-bloque1" },
+      { match: /18-24 meses/i, img: "cuaderno-0-3-bloque3" },
+      { match: /4-6 años/i, img: "cuaderno-3-6-fonologica" },
+    ],
+  },
+  {
+    slug: "5-juegos-estimular-habla",
+    outputName: "5-juegos-estimular-habla",
+    outputDir: "downloads",
+    title: "5 Juegos para Estimular el Habla",
+    subtitle: "Actividades sencillas, sin material especial · 18 meses a 5+ años",
+    tag: "Guía gratuita · para familias",
+    coverImg: "5-juegos-cover",
+    markdownFile: "5-juegos-content.md",
+    imageHeadings: [],
+  },
+  {
+    slug: "checklist-senales-alerta",
+    outputName: "checklist-senales-alerta",
+    outputDir: "downloads",
+    title: "Checklist · Señales de Alerta del Lenguaje",
+    subtitle: "Guía rápida para identificar señales por edad",
+    tag: "Recurso gratuito · para familias",
+    coverImg: null, // 1 página, sin portada separada
+    markdownFile: "checklist-senales-content.md",
+    imageHeadings: [],
+  },
 ];
 
 function imgDataUri(name) {
+  if (!name) return "";
   const p = path.join(ASSETS, `${name}.jpg`);
   if (!fs.existsSync(p)) {
     console.warn(`⚠ missing image: ${p}`);
@@ -180,6 +219,9 @@ async function renderProduct(prod) {
 
   const coverUri = imgDataUri(prod.coverImg);
 
+  // El checklist (sin coverImg) salta portada+contraportada — es 1 página directa
+  const showCovers = prod.coverImg !== null;
+
   const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -192,7 +234,7 @@ async function renderProduct(prod) {
 </head>
 <body>
 
-<section class="cover">
+${showCovers ? `<section class="cover">
   <div class="cover-logo">E</div>
   <div class="cover-tag">${prod.tag}</div>
   <h1>${prod.title}</h1>
@@ -200,18 +242,18 @@ async function renderProduct(prod) {
   ${coverUri ? `<img class="cover-img" src="${coverUri}" alt=""/>` : ""}
   <div class="cover-badge"><span class="cover-badge-dot"></span> Revisado por logopeda colegiada</div>
   <div class="cover-footer">Espacio Lenguaje · Logopedia infantil basada en evidencia<br><span class="brand-mark">www.espaciolenguaje.com</span></div>
-</section>
+</section>` : ""}
 
 <section class="content">
   ${htmlBody}
 </section>
 
-<section class="back-cover">
+${showCovers ? `<section class="back-cover">
   <div class="back-cover-logo">E</div>
   <h1>Más recursos en espaciolenguaje.com</h1>
   <p>Blog clínico · Guías descargables · Pack Completo con todos los recursos del equipo.</p>
   <div class="back-cover-footer">© Espacio Lenguaje · Uso personal. No redistribuir.<br><span class="web">www.espaciolenguaje.com</span></div>
-</section>
+</section>` : ""}
 
 </body>
 </html>`;

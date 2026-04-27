@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Checklist · Señales de Alerta del Lenguaje — Espacio Lenguaje</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--terracota:#C4745A;--terracota-dark:#A35B45;--salvia:#8FAE8B;--salvia-dark:#6B8A67;--arena:#FDF8F4;--arena-dark:#F5E6D3;--cacao:#3D2C2E;--texto:#3D2C2E;--texto-sec:#5E4B4D;--muted:#8C7A7C;}
+*{box-sizing:border-box;margin:0;padding:0;}
+@page{size:A4;margin:0;}
+html,body{font-family:'DM Sans',system-ui,sans-serif;color:var(--texto);background:var(--arena);font-size:11pt;line-height:1.6;}
+h1,h2,h3,h4{font-family:'DM Serif Display',serif;color:var(--cacao);font-weight:400;line-height:1.2;}
+.cover{width:210mm;min-height:297mm;padding:30mm 18mm;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(160deg,var(--arena) 0%,var(--arena-dark) 100%);page-break-after:always;position:relative;}
+.cover-logo{width:70px;height:70px;border-radius:50%;background:var(--terracota);color:#fff;font-family:'DM Serif Display',serif;font-size:32pt;display:flex;align-items:center;justify-content:center;margin-bottom:10mm;}
+.cover-tag{display:inline-block;margin-bottom:8mm;padding:2mm 6mm;background:rgba(196,116,90,.1);color:var(--terracota-dark);border-radius:20px;font-size:9pt;font-weight:600;letter-spacing:.5pt;text-transform:uppercase;}
+.cover h1{font-size:38pt;margin-bottom:6mm;max-width:165mm;line-height:1.1;}
+.cover-sub{font-size:14pt;color:var(--texto-sec);margin-bottom:14mm;max-width:150mm;line-height:1.4;}
+.cover-img{width:150mm;aspect-ratio:4/3;object-fit:cover;border-radius:8mm;margin:6mm auto 12mm;box-shadow:0 4mm 16mm rgba(61,44,46,.12);}
+.cover-badge{display:inline-flex;align-items:center;gap:4mm;padding:4mm 10mm;background:#fff;border-radius:40px;box-shadow:0 2mm 8mm rgba(61,44,46,.08);font-size:10pt;color:var(--cacao);}
+.cover-badge-dot{width:10px;height:10px;background:var(--salvia);border-radius:50%;}
+.cover-footer{position:absolute;bottom:14mm;left:0;right:0;text-align:center;font-size:9pt;color:var(--muted);}
+.cover-footer .brand-mark{color:var(--terracota-dark);font-weight:600;}
+
+/* Cuerpo del contenido */
+.content{width:210mm;padding:20mm 22mm;background:var(--arena);}
+.content h1{font-size:28pt;margin:10mm 0 6mm;color:var(--cacao);}
+.content h2{font-size:22pt;margin:12mm 0 5mm;color:var(--cacao);border-top:1px solid rgba(61,44,46,.1);padding-top:8mm;}
+.content h2:first-of-type{border-top:none;padding-top:0;}
+.content h3{font-size:16pt;margin:8mm 0 3mm;color:var(--cacao);}
+.content h4{font-size:13pt;margin:6mm 0 2mm;color:var(--cacao);font-family:'DM Sans',sans-serif;font-weight:600;}
+.content p{margin:0 0 3.5mm;line-height:1.65;color:var(--texto);}
+.content strong{color:var(--cacao);font-weight:600;}
+.content em{color:var(--texto-sec);}
+.content ul,.content ol{margin:3mm 0 5mm 8mm;}
+.content li{margin-bottom:2mm;line-height:1.55;}
+.content blockquote{background:#fff;border-left:4px solid var(--terracota);padding:5mm 7mm;margin:5mm 0;border-radius:0 4mm 4mm 0;box-shadow:0 1mm 4mm rgba(61,44,46,.04);}
+.content blockquote p:last-child{margin-bottom:0;}
+.content table{width:100%;border-collapse:collapse;margin:5mm 0;background:#fff;border-radius:4mm;overflow:hidden;box-shadow:0 1mm 4mm rgba(61,44,46,.04);}
+.content th{background:var(--cacao);color:#fff;text-align:left;padding:3mm 4mm;font-size:10pt;font-weight:600;}
+.content td{padding:3mm 4mm;border-top:1px solid rgba(61,44,46,.08);font-size:10pt;}
+.content hr{border:none;border-top:1px solid rgba(61,44,46,.15);margin:10mm 0;}
+.content a{color:var(--terracota-dark);}
+.content code{background:rgba(143,174,139,.15);padding:1mm 2mm;border-radius:2mm;font-size:9.5pt;}
+
+/* Imagen de capítulo */
+.chapter-image{margin:8mm 0 4mm;}
+.chapter-image img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6mm;box-shadow:0 2mm 8mm rgba(61,44,46,.08);}
+
+/* Back cover */
+.back-cover{width:210mm;min-height:297mm;padding:30mm 18mm;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:linear-gradient(160deg,var(--cacao) 0%,#2A1F21 100%);color:#fff;page-break-before:always;position:relative;}
+.back-cover h1{color:#fff;font-size:32pt;max-width:150mm;margin-bottom:6mm;}
+.back-cover p{color:rgba(255,255,255,.8);font-size:13pt;max-width:140mm;}
+.back-cover-logo{width:70px;height:70px;border-radius:50%;background:#fff;color:var(--cacao);font-family:'DM Serif Display',serif;font-size:32pt;display:flex;align-items:center;justify-content:center;margin-bottom:12mm;}
+.back-cover-footer{position:absolute;bottom:14mm;left:0;right:0;text-align:center;font-size:9pt;color:rgba(255,255,255,.6);}
+.back-cover-footer .web{color:#fff;}
+</style>
+</head>
+<body>
+
+
+
+<section class="content">
+  <h1>Checklist · Señales de Alerta del Lenguaje</h1>
+<h2>Guía rápida para identificar señales en el desarrollo del lenguaje infantil</h2>
+<hr>
+<h2>Antes de empezar</h2>
+<blockquote>
+<p><strong>En resumen</strong>: este checklist resume las señales de alerta del desarrollo del lenguaje por edad. Está basado en escalas validadas (criterio de <strong>hablante tardío</strong> de Rescorla, 2011 — menos de 50 palabras o no combinar dos palabras a los 24 meses; criterio de <strong>inteligibilidad 75%</strong> a los 3 años de Coplan &amp; Gleason, 1988). <strong>Marcar una señal no significa que haya un problema</strong>: significa que merece la pena consultar con una logopeda colegiada para una valoración. La intervención temprana es la más eficaz.</p>
+</blockquote>
+<hr>
+<h2>Tabla de señales por edad</h2>
+<table>
+<thead>
+<tr>
+<th>Edad</th>
+<th>Lo esperable</th>
+<th>Señal de alerta</th>
+<th>¿Consultar?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>0-6 meses</strong></td>
+<td>Gorjeos, risas, reacciona a sonidos</td>
+<td>No reacciona a voces, no sonríe, silencio total</td>
+<td>⚠</td>
+</tr>
+<tr>
+<td><strong>6-12 meses</strong></td>
+<td>Balbuceo (ba-ba, ma-ma), señala</td>
+<td>No balbucea, no responde a su nombre</td>
+<td>⚠</td>
+</tr>
+<tr>
+<td><strong>12-18 meses</strong></td>
+<td>5-20 palabras, comprende instrucciones simples</td>
+<td>No dice ninguna palabra, no señala</td>
+<td>⚠⚠</td>
+</tr>
+<tr>
+<td><strong>18-24 meses</strong></td>
+<td>50+ palabras, <strong>empieza a combinar 2</strong></td>
+<td>&lt;50 palabras, no combina ninguna <em>(criterio Rescorla, 2011)</em></td>
+<td>⚠⚠</td>
+</tr>
+<tr>
+<td><strong>2-3 años</strong></td>
+<td>Frases de 2-3 palabras, <strong>75% inteligible</strong></td>
+<td>Solo palabras sueltas, no le entienden <em>(Coplan &amp; Gleason, 1988)</em></td>
+<td>⚠⚠⚠</td>
+</tr>
+<tr>
+<td><strong>3-4 años</strong></td>
+<td>Frases completas, cuenta cosas</td>
+<td>Frases muy cortas, errores gramaticales severos</td>
+<td>⚠⚠</td>
+</tr>
+<tr>
+<td><strong>4-5 años</strong></td>
+<td>Narra historias, articula casi todo</td>
+<td>Dificultad con /s/, /ch/ o múltiples sonidos</td>
+<td>⚠</td>
+</tr>
+<tr>
+<td><strong>5-6 años</strong></td>
+<td>Lenguaje completo, inicia lectoescritura</td>
+<td>Dificultad con letras, lectura, escritura. /r/ vibrante puede extenderse a 6-7 años <em>(Bosch, 2004)</em></td>
+<td>⚠⚠</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Otras señales que siempre merecen consulta</h2>
+<ul>
+<li><strong>Regresión</strong>: ha dejado de decir palabras que antes decía.</li>
+<li><strong>Tartamudez con tensión</strong> persistente más de 6-12 meses (≈75-80% se recuperan solos entre 2 y 5 años, Yairi &amp; Ambrose).</li>
+<li>Se frustra mucho al intentar comunicarse.</li>
+<li>No muestra interés por comunicarse.</li>
+<li>Otitis de repetición con o sin pruebas auditivas.</li>
+</ul>
+<hr>
+<blockquote>
+<p><strong>&quot;Consultar no significa que haya un problema. Significa que te importa.&quot;</strong></p>
+</blockquote>
+<p>Si marcas alguna señal de alerta, consulta con un logopeda colegiada. <strong>No esperes</strong> a que &quot;se le pase solo&quot;: cuanto antes se actúe, mejores resultados se obtienen, aunque no hay un punto de no retorno rígido (Nelson, 2000).</p>
+<hr>
+<p><strong>Referencias</strong>: Rescorla 2011 · Coplan &amp; Gleason 1988 · Bosch 2004 · Yairi &amp; Ambrose 1999, 2005 · Nelson 2000.</p>
+<p><strong>Espacio Lenguaje</strong> · Logopedia infantil basada en evidencia · Revisado por logopeda colegiada
+espaciolenguaje.com</p>
+
+</section>
+
+
+
+</body>
+</html>
