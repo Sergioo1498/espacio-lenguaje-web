@@ -5,14 +5,14 @@ import { products, formatPrice } from '@/lib/products';
 import BuyButton from './BuyButton';
 
 export const metadata: Metadata = {
-  title: 'Material logopédico para imprimir: fichas y cuadernos de logopedia',
+  title: 'Material de logopedia infantil para imprimir: fichas, cuadernos y guías (PDF)',
   description:
-    'Material logopédico infantil para imprimir: fichas de articulación, cuadernos de estimulación del lenguaje, guías de dislexia y tartamudez. PDF de descarga inmediata desde 3,90€.',
+    'Material de logopedia infantil revisado por logopeda colegiada: 30 fichas de articulación por fonema, cuadernos de estimulación 0-3 y 3-6 años, guías de dislexia y tartamudez, kit de soplo. PDF descarga inmediata desde 3,90€.',
   alternates: { canonical: 'https://www.espaciolenguaje.com/recursos' },
   openGraph: {
-    title: 'Material logopédico para imprimir | Espacio Lenguaje',
+    title: 'Material de logopedia infantil para imprimir | Espacio Lenguaje',
     description:
-      'Fichas, cuadernos y guías de logopedia infantil diseñadas por logopedas. PDF imprimibles de descarga inmediata.',
+      'Fichas, cuadernos y guías de logopedia infantil revisadas por logopeda colegiada. PDF imprimibles, descarga inmediata.',
     url: 'https://www.espaciolenguaje.com/recursos',
     type: 'website',
   },
@@ -110,15 +110,39 @@ export default function RecursosPage() {
       <section className="section-padding pb-8">
         <div className="container-custom text-center">
           <span className="inline-block rounded-full bg-verde/10 px-4 py-1.5 font-sans text-sm font-medium text-verde-dark">
-            Material profesional
+            Revisado por logopeda colegiada
           </span>
           <h1 className="mt-4 font-serif text-4xl font-bold text-cacao md:text-5xl lg:text-6xl">
-            Recursos de Logopedia Infantil
+            Material de Logopedia Infantil
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-texto-secundario">
-            Material creado por logopedas para estimular el lenguaje de tu peque
-            en casa. Descarga inmediata tras la compra.
+            Fichas, cuadernos y guías diseñadas por logopedas para estimular el lenguaje en casa.
+            PDF imprimibles, descarga inmediata.
           </p>
+
+          {/* Resumen rápido de qué hay disponible */}
+          <div className="mx-auto mt-10 max-w-3xl rounded-2xl border border-cacao/10 bg-white p-6 text-left shadow-sm md:p-8">
+            <p className="font-sans text-sm font-semibold uppercase tracking-wider text-terracota">
+              Lo que vas a encontrar
+            </p>
+            <ul className="mt-4 grid gap-3 text-sm text-texto-secundario sm:grid-cols-2">
+              <li>
+                <strong className="text-cacao">Fichas de articulación</strong> — 30 fichas imprimibles, un fonema por página, con instrucciones para padres.
+              </li>
+              <li>
+                <strong className="text-cacao">Cuadernos de estimulación</strong> — 20 actividades por edad (0-3 y 3-6 años), basadas en evidencia.
+              </li>
+              <li>
+                <strong className="text-cacao">Guías clínicas</strong> — Dislexia y tartamudez, con criterios DSM-5 y referencias académicas.
+              </li>
+              <li>
+                <strong className="text-cacao">Kit de soplo</strong> — 15 ejercicios reposicionados según la evidencia actual (ASHA 2013).
+              </li>
+            </ul>
+            <p className="mt-5 text-xs italic text-texto-muted">
+              Todo el material complementa el trabajo en casa, no sustituye la valoración profesional. Si observas señales de alerta, consulta con una logopeda colegiada.
+            </p>
+          </div>
         </div>
       </section>
 
