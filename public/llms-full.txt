@@ -1053,7 +1053,7 @@ Si quieres un material organizado, con praxias combinadas con fichas de articula
 - [Cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino)
 - [Etapas del desarrollo del lenguaje](/blog/etapas-desarrollo-del-lenguaje)
 
-> **¿Quieres un plan semanal con praxias, soplo y articulación?** Descubre las [fichas y cuadernos de logopeda en /recursos](/recursos).
+> **¿Necesitas una referencia clara de los hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje 0-6 años](/lp/guia-gratis) — 11 páginas revisadas por logopeda colegiada con los hitos esperables, señales de alerta y un ejercicio para cada etapa. Si buscas material estructurado por fonema, en [/recursos](/recursos) encontrarás fichas y cuadernos diseñados por logopedas.
 
 ---
 
@@ -1686,9 +1686,17 @@ Tu hijo es mucho más que una R que todavía no le sale. Acompáñale con cariñ
 
 # Estimulación
 
-## Actividades para niños de 2 años: 12 juegos para desarrollar el lenguaje
+## Actividades para niños de 2 años: 12 juegos de lenguaje (sin material)
 URL: https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-29
+
+> **En resumen** — 12 actividades para los 2 años organizadas en 4 bloques:
+> 1. **Vocabulario**: cesto de los tesoros · libros con imágenes reales · paseo-nombrar.
+> 2. **Expresión**: técnica de la expansión (Girolametto, 1996) · elección entre 2 opciones · teléfono de juguete.
+> 3. **Comprensión**: "tráeme..." · órdenes en 2 pasos · cuentos con preguntas.
+> 4. **Juego simbólico**: cocinitas · curar al muñeco · imitar rutinas.
+>
+> **Datos clave**: a los 2 años se espera **50-300+ palabras**, **combinar 2 palabras** (criterio Rescorla, 2011) y **inteligibilidad ~50%** para extraños. Lo que más predice el desarrollo no es la cantidad de palabras alrededor del peque, sino la **calidad de la interacción** (Rowe, 2012; Weisleder & Fernald, 2013): atención conjunta, espera de turno y modelado.
 
 Los 2 años son, probablemente, la etapa más fascinante del desarrollo del lenguaje. En cuestión de meses, tu peque pasa de decir 20-30 palabras a combinarlas en frases, hacer preguntas y contarte pequeñas historias. Como logopedas, sabemos que este momento es una ventana de oportunidad única: cada conversación cuenta.
 
@@ -1966,7 +1974,7 @@ No hace falta sentarse a "hacer deberes". La conciencia fonológica se entrena m
 
 ## Material recomendado para seguir avanzando
 
-Si quieres un plan organizado por edades y niveles, el [Cuaderno de Estimulación 3-6 años](/recursos/cuaderno-3-6) reúne 20 actividades de vocabulario, articulación y conciencia fonológica con progresión silábica, intrasilábica y fonémica, listas para imprimir.
+Si quieres un plan organizado por edades y niveles, el [Cuaderno de Estimulación 3-6 años](/recursos/cuaderno-3-6) reúne 20 actividades de vocabulario, articulación y conciencia fonológica con progresión silábica, intrasilábica y fonémica, listas para imprimir. Y si tu peque ya está en edad escolar y sospechas dificultades de lectoescritura, la [Guía de Dislexia en Edad Escolar](/recursos/guia-dislexia) cubre detección, ejercicios multisensoriales y adaptaciones para el aula.
 
 ## Sigue leyendo
 
@@ -2126,7 +2134,7 @@ Con 20-30 minutos diarios bien aprovechados, el impacto es enorme.
 - Horst, J. S., & Samuelson, L. K. (2008). Fast mapping but poor retention by 24-month-old infants. *Infancy*, 13(2), 128-157.
 - World Health Organization (2019). *Guidelines on Physical Activity, Sedentary Behaviour and Sleep for Children Under 5 Years of Age*.
 
-> **¿Quieres una lista de 500 palabras organizadas por edad y categoría para trabajar el vocabulario en casa?** Descárgala en nuestra [guía gratuita](/lp/guia-gratis) o accede a más materiales en la sección de [recursos](/recursos).
+> **¿Quieres una lista de palabras organizadas por edad y categoría para trabajar el vocabulario en casa?** Descárgala en nuestra [guía gratuita](/lp/guia-gratis). Y si tu peque está en etapa preescolar (3-6 años), el [Cuaderno de Estimulación 3-6 años](/recursos/cuaderno-3-6) incluye 20 actividades de vocabulario, articulación y conciencia fonológica con progresión clara.
 
 ---
 
@@ -2250,7 +2258,7 @@ Los niños necesitan más tiempo que los adultos para procesar y formular una re
 
 La estimulación del lenguaje más efectiva no se siente como un ejercicio — se siente como un momento compartido. Si tú disfrutas de la conversación, tu hijo también lo hará. Y ese es el mejor fertilizante para que el lenguaje crezca.
 
-> **¿Quieres una referencia rápida de los hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) con todo lo que tu peque debería decir en cada etapa y las señales de alerta por edad. Y si prefieres un plan estructurado con fichas imprimibles, en [recursos](/recursos) tienes cuadernos de estimulación por edad.
+> **¿Quieres una referencia rápida de los hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) con todo lo que tu peque debería decir en cada etapa y las señales de alerta por edad. Y si prefieres un plan estructurado, el [Cuaderno de Estimulación 0-3 años](/recursos/cuaderno-0-3) reúne 20 actividades por edad, o el [Cuaderno 3-6 años](/recursos/cuaderno-3-6) si tu peque está en preescolar.
 
 [Descargar la guía gratuita →](/lp/guia-gratis)
 
@@ -2633,7 +2641,7 @@ Si el primer contacto te genera dudas o notas que va con prisas, busca otra opin
 - Ingersoll, B., Wainer, A. L., Berger, N. I., Pickard, K. E., & Bonter, N. (2016). Comparison of a self-directed and therapist-assisted telehealth parent-mediated intervention for children with ASD. *Journal of Autism and Developmental Disorders*, 46(7), 2275-2284.
 - American Speech-Language-Hearing Association (ASHA). Telepractice. https://www.asha.org/practice-portal/professional-issues/telepractice/
 
-> **¿Quieres probar con ejercicios en casa antes de decidir?** Descarga nuestro pack de actividades gratuito en la [sección de recursos](/recursos) y empieza a estimular el lenguaje de tu peque hoy mismo.
+> **¿Quieres un punto de partida claro antes de decidir?** Descarga gratis nuestra [guía de hitos del lenguaje 0-6 años](/lp/guia-gratis) — 11 páginas revisadas por logopeda colegiada con los hitos esperables a cada edad y señales de alerta para saber si tu peque necesita valoración. Si buscas material estructurado, en [/recursos](/recursos) tienes cuadernos diseñados por logopedas.
 
 ---
 
@@ -2815,9 +2823,18 @@ Consultar **no compromete a nada**: te darán información y decides con los dat
 
 # Recursos
 
-## Fichas de logopedia gratis para imprimir (guía 2026)
+## Fichas de logopedia gratis para imprimir: 5 tipos y dónde descargarlas (2026)
 URL: https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-04-28
+
+> **En resumen** — los 5 tipos esenciales de fichas de logopedia para casa:
+> 1. **Articulación** (un fonema por ficha — /r/, /s/, /k/, etc.).
+> 2. **Vocabulario** por campos semánticos (animales, frutas, emociones).
+> 3. **Conciencia fonológica** (rimas, sílabas, fonemas) — base de la lectoescritura (Anthony & Francis, 2005).
+> 4. **Soplo y juego respiratorio** (laberintos, circuitos).
+> 5. **Comprensión** (secuencias, absurdos, historias cortas).
+>
+> **Fuentes oficiales gratuitas con licencia clara**: **Arasaac** (Gobierno de Aragón, licencia Creative Commons), **portales de las consejerías de educación**, blogs de logopedas en activo. **Cómo aprovecharlas**: 5-10 min al día (no más), centrar en el juego (no en "terminar la ficha"), modelar sin corregir directamente, celebrar cada intento.
 
 Las fichas de logopedia son una de las herramientas más versátiles para acompañar el desarrollo del lenguaje de tu peque en casa. Bien utilizadas, permiten practicar sonidos, ampliar vocabulario o entrenar la comprensión de forma lúdica y estructurada, sin necesidad de materiales costosos.
 
@@ -2937,6 +2954,196 @@ Las fichas son un recurso de apoyo, no una herramienta diagnóstica ni terapéut
 ---
 
 # Señales de alerta
+
+## Mi hijo no pronuncia la S: tipos de sigmatismo, edades y qué hacer
+URL: https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s
+Publicado: 2026-05-24
+
+> **En resumen**: el **sigmatismo** (dificultad para pronunciar correctamente la /s/) es una de las **dislalias funcionales más frecuentes** en niños de 3 a 6 años. Se espera que la /s/ esté **bien adquirida hacia los 4-5 años** (Bosch, 2004). Hay tres tipos principales: **interdental** (la lengua sale entre los dientes, "ceceo"), **lateral** (sale aire por los lados, suena "mojado") y **dental** (la lengua toca los dientes en vez de los alveolos). La causa más frecuente es **inmadurez fonológica**, no problemas estructurales. El tratamiento eficaz es **trabajo fonético directo** sobre el fonema (ASHA; Williams, McLeod & McCauley, 2010), **no praxias aisladas ni ejercicios de soplo** (la evidencia actual no respalda que estos transfieran al habla, ASHA 2013).
+
+"Mi peque dice *tato* en lugar de *gato*, *epatato* en lugar de *zapato* o saca la lengua al hablar." Si te suena, probablemente estás ante un caso de **sigmatismo** — la dificultad para producir el sonido /s/ correctamente. Es uno de los problemas articulatorios más comunes en preescolar y escolar.
+
+En esta guía te explicamos, basándonos en la evidencia actual, **qué tipos de sigmatismo existen, a qué edad se espera que tu peque pronuncie bien la /s/, las causas más frecuentes y qué hacer (y qué NO hacer) en casa**.
+
+---
+
+## Qué es el sigmatismo
+
+El **sigmatismo** es el término clínico que se usa cuando un niño no produce correctamente el fonema /s/. Es un tipo de **dislalia funcional** — sustitución, omisión o distorsión del sonido — y no implica problemas estructurales en la boca.
+
+Es importante distinguir el sigmatismo de un **patrón fonológico normal** propio de la edad: hasta los 4 años, los errores con la /s/ son habituales y no requieren intervención. Solo cuando persisten más allá de la edad esperable se considera dislalia.
+
+> **Importante**: el sigmatismo es un **diagnóstico clínico** que solo puede hacer un logopeda. Lo que tú detectas como familia son **señales**.
+
+---
+
+## A qué edad se espera la /s/ correcta
+
+Según los datos clásicos sobre adquisición fonológica en español (Bosch, 2004; Acosta et al., 1998):
+
+| Edad | Estado esperable del fonema /s/ |
+|---|---|
+| **3 años** | Puede aparecer pero con sustituciones frecuentes (S → T, por ejemplo). Variante normal. |
+| **4 años** | La mayoría de niños ya lo produce correctamente en posición inicial. |
+| **5 años** | /s/ adquirida en todas las posiciones (inicial, intermedia, final) — incluida en grupos consonánticos (sp, st, sc). |
+| **6 años y más** | Si persiste alteración, **es momento de consultar**. |
+
+La /s/ es uno de los **fonemas con adquisición tardía** del español junto con /r/, /l/, /ch/ y los grupos consonánticos. No te alarmes si a los 3 años no es perfecta — la mayoría se resuelve sola con la maduración.
+
+---
+
+## Tipos de sigmatismo
+
+No todos los "no pronuncia la /s/" son iguales. Los logopedas distinguen varios tipos según **dónde se coloca la lengua** al producir el sonido:
+
+### 1. Sigmatismo interdental ("ceceo")
+
+La lengua sale entre los dientes superiores e inferiores. El sonido resultante es muy parecido a una /z/ española (que sí se pronuncia interdental). El niño dice *cero* en lugar de *cero*… pero con la lengua claramente fuera.
+
+Es el tipo **más frecuente** y suele tener buen pronóstico con intervención específica.
+
+### 2. Sigmatismo lateral
+
+El aire sale por los lados de la lengua en vez de por el centro. El sonido resultante es "mojado" o "babeante", muchas veces imposible de transcribir con una letra. Suena raro y llama la atención del oyente.
+
+Es el tipo **más difícil de tratar** de los tres porque implica reorganizar el patrón motor completo. Requiere logopeda específicamente.
+
+### 3. Sigmatismo dental
+
+La lengua toca los dientes superiores en lugar de los alveolos (la "encía" justo detrás de los dientes). El sonido es algo más opaco, menos sibilante de lo normal.
+
+Es **menos visible** que el interdental y a veces pasa desapercibido en consulta hasta que la familia lo nota.
+
+### 4. Otros: omisión y sustitución
+
+Algunos niños simplemente **omiten** la /s/ (*opa* por *sopa*) o la **sustituyen** por otro fonema (*tato* por *gato*, *fofa* por *sopa*). Esto es más típico en niños menores de 4 años y puede ser variante normal o, si persiste, dislalia funcional.
+
+---
+
+## Causas más frecuentes
+
+A diferencia de lo que muchas familias suponen, la causa más frecuente **no** es un problema estructural. Por orden de prevalencia:
+
+### 1. Inmadurez fonológica (la más frecuente)
+
+Simplemente, **el patrón motor de la /s/ no se ha consolidado todavía**. Hasta los 4-5 años es desarrollo normal. Si persiste más allá, requiere intervención logopédica que trabaje el fonema directamente.
+
+### 2. Modelo familiar
+
+Si en la familia hay un sigmatismo presente (un familiar cercano cecea, por ejemplo), el peque puede imitarlo. La intervención puede requerir trabajo en casa además de en consulta.
+
+### 3. Problemas dentales o de oclusión
+
+Mordida abierta, prognatismo o ausencia de incisivos por caída tardía pueden contribuir. En estos casos, la intervención logopédica se coordina con odontopediatra u ortodoncista.
+
+### 4. Pérdidas auditivas no detectadas
+
+Otitis de repetición que pasan desapercibidas pueden retrasar el desarrollo fonológico. Si tu peque ha tenido otitis frecuentes, pide una **audiometría**.
+
+### 5. Causas estructurales raras
+
+Frenillo lingual corto (anquiloglosia), insuficiencia velofaríngea u otras alteraciones anatómicas son menos frecuentes de lo que se piensa (Walsh et al., 2017). Antes de plantear cirugía por motivos articulatorios, valoración por logopeda **y** ORL es imprescindible.
+
+Para profundizar en frenillo, lee nuestro artículo sobre [frenillo lingual corto y la evidencia actual](/blog/frenillo-lingual-sintomas).
+
+---
+
+## Lo que NO hay que hacer en casa
+
+Empezamos por aquí porque hay mucho mito circulando:
+
+- ❌ **NO hagas praxias aisladas** ("mueve la lengua arriba-abajo, sopla, infla la mejilla") esperando que mejoren la /s/. La evidencia actual (ASHA 2013; Lof & Watson 2008; McCauley et al. 2009) no respalda que los ejercicios orales no-verbales transfieran al habla. El control motor del habla es **tarea-específico**.
+- ❌ **NO le pidas "que diga bien la s"** una y otra vez. Genera ansiedad, no aprendizaje.
+- ❌ **NO le corrijas constantemente**. Modela sin corregir directamente (ver más abajo).
+- ❌ **NO esperes a que "se le pase solo"** si tiene más de 5 años con dificultad clara. La inmadurez fonológica suele resolverse, pero hay un porcentaje que no, y la edad escolar es clave para no acumular impacto en la lectoescritura y la autoestima comunicativa.
+
+---
+
+## Qué SÍ funciona en casa (mientras esperas valoración o complementando la intervención)
+
+### 1. Modelado natural sin corrección directa
+
+Si tu peque dice *tato*, tú respondes: *"sí, es un gato muy bonito"*. **No corriges**, modelas la versión correcta de forma natural (Camarata, Nelson & Camarata, 1994). Esta técnica se llama *recasting* y tiene evidencia robusta.
+
+### 2. Atención positiva a los aciertos
+
+Cuando produzca un fonema correctamente (aunque sea por casualidad), reforzar con naturalidad: *"¡qué bien has dicho eso!"*. Refuerzo positivo sin saturar.
+
+### 3. Lectura compartida dialógica
+
+Lee cuentos con palabras que contengan /s/ y haz pausas, comentarios. La lectura dialógica (Whitehurst et al., 1988) tiene efecto robusto sobre el desarrollo fonológico general.
+
+### 4. Conciencia fonológica básica
+
+Juegos de "veo veo con la /s/" o palmadas por sílabas con palabras que tengan /s/. Trabaja la percepción del sonido antes que la producción. Para más actividades, consulta nuestra guía sobre [conciencia fonológica](/blog/conciencia-fonologica-actividades).
+
+### 5. Reducción de pantallas en favor de juego compartido
+
+La calidad de la interacción cara a cara predice mejor el desarrollo lingüístico que la cantidad de input total (Rowe, 2012). 10 minutos de juego compartido al día con foco en lenguaje vale más que una hora de dibujos animados.
+
+---
+
+## Cuándo consultar con logopeda colegiada
+
+Consulta con una logopeda colegiada si:
+
+- **Tu peque tiene 5-6 años** y persiste alguno de los tipos de sigmatismo descritos.
+- **Antes de los 5 años**, si el sigmatismo es **lateral** (suena "mojado") — este tipo no se corrige solo y requiere intervención específica.
+- Hay **otros fonemas alterados** además de la /s/ (dislalia múltiple).
+- Personas externas a la familia **no le entienden la mayor parte del tiempo** a los 4 años.
+- Hay **señales asociadas**: babeo persistente, respiración bucal habitual, dificultades alimentarias, tartamudez asociada.
+
+La valoración logopédica suele incluir: muestra de habla, repetición de palabras con /s/ en distintas posiciones, exploración orofacial, screening auditivo y conciencia fonológica.
+
+---
+
+## Tratamiento logopédico: qué esperar
+
+El tratamiento eficaz del sigmatismo es **trabajo fonético directo** sobre el fonema, no ejercicios indirectos. Los enfoques con evidencia más sólida (Williams, McLeod & McCauley, 2010):
+
+1. **Establecimiento del punto articulatorio correcto** — la logopeda ayuda al peque a sentir dónde colocar la lengua para producir la /s/ correctamente.
+2. **Producción del fonema en sílabas** — primero aisladas (sa, se, si, so, su), luego en palabras simples.
+3. **Generalización a palabras y frases** — uso del fonema en contextos cada vez más complejos.
+4. **Mantenimiento en el habla espontánea** — transferir el aprendizaje al uso real del lenguaje.
+
+La duración típica varía según severidad y tipo: el sigmatismo interdental suele resolverse en **3-6 meses** de intervención semanal. El lateral puede requerir **6-12 meses**.
+
+---
+
+## Material para trabajar en casa (cuando ya hay un plan logopédico)
+
+Una vez tengas un plan con tu logopeda, en casa puedes apoyar con material estructurado por fonema. El [Pack de Fichas de Articulación](/recursos/fichas-articulacion) incluye 30 fichas imprimibles con un fonema por página, incluida la /s/ en posición inicial, intermedia y final, con instrucciones claras para padres y progresión por dificultad.
+
+Si tu peque está en la etapa preescolar y quieres trabajar conciencia fonológica además de articulación, el [Cuaderno de Estimulación 3-6 años](/recursos/cuaderno-3-6) reúne 20 actividades de vocabulario, articulación y conciencia fonológica.
+
+---
+
+## Sigue leyendo
+
+- [Dislalia infantil: 4 tipos, causas y tratamiento eficaz](/blog/dislalia-infantil-tipos)
+- [Cómo enseñar la R a un niño: ejercicios de articulación](/blog/como-ensenar-la-r-a-un-nino)
+- [Conciencia fonológica: qué es y 10 actividades para casa](/blog/conciencia-fonologica-actividades)
+- [Etapas del desarrollo del lenguaje 0-6 años](/blog/etapas-desarrollo-del-lenguaje)
+- [Mi hijo de 3 años no habla bien: ¿es normal o debo preocuparme?](/blog/mi-hijo-de-3-anos-no-habla-bien)
+
+> **¿Quieres una referencia clara de los hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje 0-6 años](/lp/guia-gratis) con los hitos esperables y las señales de alerta por edad, revisada por logopeda colegiada.
+
+---
+
+## Referencias
+
+- Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
+- Acosta, V., Moreno, A., Ramos, V., Quintana, A., & Espino, O. (1998). *Evaluación del lenguaje: teoría y práctica*. Aljibe.
+- American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*. https://www.asha.org/
+- Williams, A. L., McLeod, S., & McCauley, R. J. (Eds.) (2010). *Interventions for Speech Sound Disorders in Children*. Paul H. Brookes Publishing.
+- Lof, G. L., & Watson, M. M. (2008). A nationwide survey of nonspeech oral motor exercise use. *Language, Speech, and Hearing Services in Schools*, 39(3), 392-407.
+- McCauley, R. J., Strand, E., Lof, G. L., Schooling, T., & Frymark, T. (2009). Evidence-based systematic review: Effects of nonspeech oral motor exercises on speech production in children. *American Journal of Speech-Language Pathology*, 18(4), 343-360.
+- Walsh, J., Tunkel, D. (2017). Diagnosis and treatment of ankyloglossia in newborns and infants. *JAMA Otolaryngology – Head & Neck Surgery*, 143(10), 1032-1039.
+- Camarata, S., Nelson, K. E., & Camarata, M. (1994). Comparison of conversational-recasting and imitative procedures for training grammatical structures. *Journal of Speech and Hearing Research*, 37(6), 1414-1423.
+- Whitehurst, G. J., et al. (1988). Accelerating language development through picture book reading. *Developmental Psychology*, 24(4), 552-559.
+- Rowe, M. L. (2012). A longitudinal investigation of the role of quantity and quality of child-directed speech in vocabulary development. *Child Development*, 83(5), 1762-1774.
+
+---
 
 ## Retraso simple del lenguaje: qué es, cómo distinguirlo del TEL y cuándo consultar
 URL: https://www.espaciolenguaje.com/blog/retraso-simple-del-lenguaje
@@ -3327,7 +3534,7 @@ Por eso la detección temprana es tan importante. Si tienes dudas, una consulta 
 - Bosch, L. (2004). *Evaluación fonológica del habla infantil*. Masson.
 - American Speech-Language-Hearing Association (ASHA) (2013). *Evidence-Based Practice — Non-Speech Oral Motor Exercises*.
 
-> **¿Tu peque tiene dificultades con algún fonema?** En la [sección de recursos](/recursos) encontrarás cuadernos de articulación por fonema diseñados por logopedas, con progresión clara y fichas listas para imprimir. Y si aún no sabes si los tiempos de tu peque son normales, descarga gratis la [guía de hitos del lenguaje](/lp/guia-gratis).
+> **¿Tu peque tiene dificultades con algún fonema?** El [Pack de Fichas de Articulación](/recursos/fichas-articulacion) reúne 30 fichas imprimibles con un fonema por página y progresión clara, diseñadas por logopedas. Y si aún no sabes si los tiempos de tu peque son normales, descarga gratis la [guía de hitos del lenguaje](/lp/guia-gratis).
 
 ---
 
@@ -3477,7 +3684,7 @@ Una valoración con un logopeda especializado te dará respuestas. En muchos cas
 - [Cómo enseñar la R a un niño: guía completa](/blog/como-ensenar-la-r-a-un-nino)
 - [Mi hijo no habla: cuándo preocuparse](/blog/mi-hijo-no-habla-cuando-preocuparse)
 
-> **¿Tienes dudas sobre el frenillo de tu peque o sobre su desarrollo del habla?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) con las señales de alerta por edad. Y si buscas ejercicios de praxias y articulación estructurados, en la sección de [recursos](/recursos) tienes cuadernos diseñados por logopedas.
+> **¿Tienes dudas sobre el frenillo de tu peque o sobre su desarrollo del habla?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) con las señales de alerta por edad. Si tu peque presenta respiración bucal persistente o deglución atípica (situaciones donde sí está indicado el trabajo respiratorio), el [Kit de Ejercicios de Soplo](/recursos/kit-soplo) reúne 15 actividades progresivas para casa. Y para articulación específica, en [/recursos](/recursos) tienes el pack de fichas por fonema.
 
 ---
 
@@ -3639,7 +3846,7 @@ En estos casos, la ruta es: **pediatra hoy**, no "cuando pueda".
 - Norbury, C. F., et al. (2016). The impact of nonverbal ability on prevalence and clinical presentation of language disorder. *Journal of Child Psychology and Psychiatry*, 57(11), 1247-1257.
 - Bishop, D. V. M., et al. (2017). Phase 2 of CATALISE: A multinational and multidisciplinary Delphi consensus study. *JCPP*, 58(10), 1068-1080.
 
-> **¿Quieres nuestro checklist gratuito con los hitos del lenguaje a los 3 años y un cuestionario de señales de alerta para llevar al pediatra?** Descárgalo en nuestra [guía gratuita](/lp/guia-gratis) o encuentra más materiales en la sección de [recursos](/recursos).
+> **¿Quieres nuestro checklist gratuito con los hitos del lenguaje a los 3 años y un cuestionario de señales de alerta para llevar al pediatra?** Descárgalo en nuestra [guía gratuita](/lp/guia-gratis). Si tu peque necesita un plan completo (vocabulario + articulación + soplo + estimulación), el [Pack Completo de Espacio Lenguaje](/recursos/pack-completo) reúne todos los recursos del equipo con descuento.
 
 ---
 
@@ -3807,7 +4014,7 @@ Si quieres trabajar en casa con un material bien estructurado, en [recursos](/re
 - American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., DSM-5).
 - Tomblin, J. B., Records, N. L., Buckwalter, P., Zhang, X., Smith, E., & O'Brien, M. (1997). Prevalence of specific language impairment in kindergarten children. *Journal of Speech, Language, and Hearing Research*, 40(6), 1245-1260.
 
-> **¿Te preocupa el lenguaje de tu peque?** Descubre el material de apoyo de logopedas en [/recursos](/recursos) y empieza hoy con un plan claro.
+> **¿Necesitas una referencia clara de los hitos del lenguaje por edad?** Descarga gratis nuestra [guía de hitos del lenguaje 0-6 años](/lp/guia-gratis) — 11 páginas revisadas por logopeda colegiada con los hitos esperables, señales de alerta y un ejercicio para cada etapa. Si buscas material más estructurado, en [/recursos](/recursos) encontrarás cuadernos de estimulación y guías diseñadas por logopedas.
 
 ---
 
@@ -4177,6 +4384,6 @@ Así que mi consejo es doble: **tranquilidad, pero atención**. Observa, aplica 
 
 **¿Quieres tener toda esta información organizada para poder consultarla cuando la necesites?** Descarga gratis nuestra [guía de hitos del lenguaje](/lp/guia-gratis) con las señales de alerta, estrategias prácticas y pautas de cuándo consultar.
 
-[Descarga la guía gratuita](/lp/guia-gratis) (PDF, 11 páginas) y recibe además consejos semanales en tu correo. Si buscas materiales estructurados para trabajar en casa, en la [sección de recursos](/recursos) encontrarás cuadernos de estimulación diseñados por logopedas.
+[Descarga la guía gratuita](/lp/guia-gratis) (PDF, 11 páginas) y recibe además consejos semanales en tu correo. Si quieres profundizar específicamente en la tartamudez con un material completo para familias, la [Guía de Tartamudez Infantil](/recursos/guia-tartamudez) cubre tipos, qué hacer en casa, ejercicios de fluidez y cuándo consultar.
 
 ---
