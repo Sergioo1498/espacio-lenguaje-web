@@ -4,7 +4,62 @@ import { getProduct } from '@/lib/products';
 import type Stripe from 'stripe';
 
 const BREVO_SMTP_URL = 'https://api.brevo.com/v3/smtp/email';
+const BREVO_CONTACTS_URL = 'https://api.brevo.com/v3/contacts';
 const BASE_URL = 'https://www.espaciolenguaje.com';
+
+const BREVO_LIST_LEADS = 2;
+const BREVO_LIST_COMPRADORES = 3;
+
+async function upsertCustomerInBrevo(
+  email: string,
+  productName: string,
+  productId: string,
+  amountCents: number,
+  customerName?: string | null
+) {
+  const apiKey = process.env.BREVO_API_KEY;
+  if (!apiKey) {
+    console.error('BREVO_API_KEY not configured — cannot upsert customer contact');
+    return;
+  }
+
+  const [firstName, ...rest] = (customerName || '').trim().split(/\s+/);
+  const lastName = rest.join(' ');
+
+  const payload = {
+    email,
+    attributes: {
+      COMPRO_PRODUCTO: true,
+      ...(firstName && { NOMBRE: firstName }),
+      ...(lastName && { APELLIDOS: lastName }),
+      ULTIMO_PRODUCTO: productName,
+      ULTIMO_PRODUCTO_ID: productId,
+      ULTIMO_IMPORTE_EUR: (amountCents / 100).toFixed(2),
+      FECHA_ULTIMA_COMPRA: new Date().toISOString().slice(0, 10),
+      FUENTE_LEAD: 'compra-stripe',
+    },
+    listIds: [BREVO_LIST_COMPRADORES],
+    unlinkListIds: [BREVO_LIST_LEADS],
+    updateEnabled: true,
+  };
+
+  const res = await fetch(BREVO_CONTACTS_URL, {
+    method: 'POST',
+    headers: {
+      'api-key': apiKey,
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!res.ok) {
+    const errorBody = await res.text();
+    console.error(`Brevo upsert customer failed (${res.status}):`, errorBody);
+  } else {
+    console.log(`Brevo: customer ${email} marked COMPRO_PRODUCTO=true and moved to list ${BREVO_LIST_COMPRADORES}`);
+  }
+}
 
 function buildDownloadLinks(productId: string): string {
   const product = getProduct(productId);
@@ -73,7 +128,7 @@ async function sendPurchaseEmail(
 
   <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>El equipo de Espacio Lenguaje</strong></p>
 
-  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Madrid, España<br/>hola@espaciolenguaje.com</p>
+  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Comunitat Valenciana, España<br/>hola@espaciolenguaje.com</p>
 </body>
 </html>`,
     }),
@@ -123,7 +178,18 @@ export async function POST(request: Request) {
     if (productId && email) {
       const product = getProduct(productId);
       if (product) {
-        await sendPurchaseEmail(email, productName || product.name, productId);
+        const resolvedName = productName || product.name;
+        // Run both side effects but don't let one failure block the other
+        await Promise.allSettled([
+          sendPurchaseEmail(email, resolvedName, productId),
+          upsertCustomerInBrevo(
+            email,
+            resolvedName,
+            productId,
+            session.amount_total || 0,
+            session.customer_details?.name
+          ),
+        ]);
       } else {
         console.error(`Product not found: ${productId}`);
       }
