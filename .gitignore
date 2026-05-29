@@ -55,3 +55,4 @@ public/_archive-logos/
 public/images/_archive-logos/
 
 .env*.local
+.gsc-monitor-cache.json

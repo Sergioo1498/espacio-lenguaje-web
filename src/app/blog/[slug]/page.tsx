@@ -111,11 +111,12 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": ["Article", "MedicalWebPage"],
     headline: meta.title,
     description: meta.excerpt,
     datePublished: meta.date,
     dateModified: meta.updatedAt || meta.date,
+    lastReviewed: meta.updatedAt || meta.date,
     inLanguage: "es-ES",
     image: heroImg?.src ? `https://www.espaciolenguaje.com${heroImg.src}` : undefined,
     author: personSchema(author),
@@ -132,6 +133,21 @@ export default async function BlogPostPage({ params }: PageProps) {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": articleUrl,
+    },
+    // MedicalWebPage-specific fields (YMYL signals to Google)
+    specialty: {
+      "@type": "MedicalSpecialty",
+      name: "Speech-Language Pathology",
+      url: "https://schema.org/SpeechLanguagePathology",
+    },
+    audience: {
+      "@type": "MedicalAudience",
+      audienceType: "Patient",
+      healthCondition: "Childhood language development and speech disorders",
+    },
+    about: {
+      "@type": "MedicalCondition",
+      name: "Childhood speech and language development",
     },
   };
 
@@ -222,6 +238,44 @@ export default async function BlogPostPage({ params }: PageProps) {
               <span>{meta.readingTime} de lectura</span>
             </div>
             <ShareButtons url={articleUrl} title={meta.title} />
+          </div>
+
+          {/* Author/Reviewer credential badge — E-E-A-T signal above the fold */}
+          <div className="mt-6 flex items-start gap-3 rounded-xl border border-cacao/10 bg-arena/40 px-4 py-3">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+              className="mt-0.5 shrink-0"
+            >
+              <path d="M9 12l2 2 4-4" stroke="#8FAE8B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <circle cx="12" cy="12" r="9" stroke="#8FAE8B" strokeWidth="1.6" />
+            </svg>
+            <p className="text-sm text-cacao/90 leading-relaxed">
+              <span className="font-medium">Revisado por {reviewer.jobTitle.toLowerCase()}</span>
+              {reviewer.collegeName && (
+                <>
+                  {" "}colegiada en el{" "}
+                  <a
+                    href={reviewer.collegeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-terracota"
+                  >
+                    {reviewer.collegeName}
+                  </a>
+                </>
+              )}
+              .{" "}
+              <span className="text-texto-muted">
+                Última revisión: {formatDate(meta.updatedAt || meta.date)}.
+              </span>{" "}
+              <Link href="/sobre-nosotros#metodologia" className="underline text-cacao/70 hover:text-terracota">
+                Metodología →
+              </Link>
+            </p>
           </div>
         </div>
       </header>
