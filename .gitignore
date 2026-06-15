@@ -56,3 +56,4 @@ public/images/_archive-logos/
 
 .env*.local
 .gsc-monitor-cache.json
+content/_drafts/

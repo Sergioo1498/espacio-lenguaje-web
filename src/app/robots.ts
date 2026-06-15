@@ -6,7 +6,13 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/descargar-guia", "/compra-exitosa"],
+        disallow: [
+          "/api/",
+          "/descargar-guia",
+          "/compra-exitosa",
+          "/llms.txt",
+          "/llms-full.txt",
+        ],
       },
       // Permitir explícitamente Google-Extended (AI Overviews → tráfico de retorno)
       {

@@ -111,12 +111,11 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": ["Article", "MedicalWebPage"],
+    "@type": "Article",
     headline: meta.title,
     description: meta.excerpt,
     datePublished: meta.date,
     dateModified: meta.updatedAt || meta.date,
-    lastReviewed: meta.updatedAt || meta.date,
     inLanguage: "es-ES",
     image: heroImg?.src ? `https://www.espaciolenguaje.com${heroImg.src}` : undefined,
     author: personSchema(author),
@@ -133,21 +132,6 @@ export default async function BlogPostPage({ params }: PageProps) {
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": articleUrl,
-    },
-    // MedicalWebPage-specific fields (YMYL signals to Google)
-    specialty: {
-      "@type": "MedicalSpecialty",
-      name: "Speech-Language Pathology",
-      url: "https://schema.org/SpeechLanguagePathology",
-    },
-    audience: {
-      "@type": "MedicalAudience",
-      audienceType: "Patient",
-      healthCondition: "Childhood language development and speech disorders",
-    },
-    about: {
-      "@type": "MedicalCondition",
-      name: "Childhood speech and language development",
     },
   };
 
@@ -254,7 +238,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               <circle cx="12" cy="12" r="9" stroke="#8FAE8B" strokeWidth="1.6" />
             </svg>
             <p className="text-sm text-cacao/90 leading-relaxed">
-              <span className="font-medium">Revisado por {reviewer.jobTitle.toLowerCase()}</span>
+              <span className="font-medium">Revisado por {(reviewer.jobTitle ?? "profesional").toLowerCase()}</span>
               {reviewer.collegeName && (
                 <>
                   {" "}colegiada en el{" "}
