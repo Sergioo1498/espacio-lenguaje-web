@@ -9,6 +9,7 @@ import Logo from "@/components/icons/Logo";
 const navLinks = [
   { label: "Blog", href: "/blog" },
   { label: "Recursos", href: "/recursos" },
+  { label: "Test gratis", href: "/quiz/necesita-logopeda" },
   { label: "Recomendaciones", href: "/recomendaciones" },
   { label: "Sobre nosotros", href: "/sobre-nosotros" },
   { label: "Contacto", href: "/contacto" },

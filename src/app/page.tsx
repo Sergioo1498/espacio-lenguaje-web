@@ -6,6 +6,7 @@ import Services from "@/components/sections/Services";
 import HowItWorks from "@/components/sections/HowItWorks";
 import LeadMagnet from "@/components/sections/LeadMagnet";
 import BlogPreview from "@/components/sections/BlogPreview";
+import QuizCTA from "@/components/sections/QuizCTA";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import FinalCTA from "@/components/sections/FinalCTA";
@@ -32,6 +33,7 @@ export default function Home() {
       <Stats />
       <WaveDivider color="#ffffff" flip />
       <Services />
+      <QuizCTA />
       <HowItWorks />
       <WaveDivider color="#ffffff" />
       <LeadMagnet />
