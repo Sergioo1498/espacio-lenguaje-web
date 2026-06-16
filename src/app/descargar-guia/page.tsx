@@ -54,9 +54,9 @@ export default function DescargarGuiaPage() {
                 className="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
               >
                 <div className="relative h-40 overflow-hidden">
-                  {blogImages[post.slug] ? (
+                  {(blogImages[post.slug] || post.image) ? (
                     <Image
-                      src={blogImages[post.slug]}
+                      src={blogImages[post.slug] || (post.image as string)}
                       alt={post.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"

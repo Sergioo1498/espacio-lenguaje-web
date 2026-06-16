@@ -347,7 +347,9 @@ export default async function BlogPostPage({ params }: PageProps) {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
               {relatedPosts.map((post) => {
-                const relImg = blogImages[post.slug];
+                const relImg =
+                  blogImages[post.slug] ??
+                  (post.image ? { src: post.image, alt: post.title } : null);
                 return (
                   <Link
                     key={post.slug}

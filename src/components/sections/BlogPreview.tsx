@@ -97,6 +97,14 @@ const blogImages: Record<string, { src: string; alt: string }> = {
     src: '/images/blog-dislalia.jpg',
     alt: 'Tarjetas de articulación con los fonemas R, S, L sobre mesa de madera',
   },
+  'mi-hijo-no-pronuncia-la-s': {
+    src: '/images/blog-dislalia.jpg',
+    alt: 'Tarjetas para trabajar el fonema /s/ y prevenir el sigmatismo',
+  },
+  'retraso-simple-del-lenguaje': {
+    src: '/images/blog-mi-hijo-no-habla.png',
+    alt: 'Manos de un niño señalando un libro ilustrado — ilustración del retraso simple del lenguaje',
+  },
 };
 
 function formatDate(date: string): string {
@@ -127,7 +135,9 @@ export default function BlogPreview() {
         {/* Cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post, i) => {
-            const image = blogImages[post.slug];
+            const image =
+              blogImages[post.slug] ??
+              (post.image ? { src: post.image, alt: post.title } : undefined);
             return (
               <AnimatedSection key={post.slug} delay={i * 0.15}>
                 <Link
