@@ -115,6 +115,27 @@ export function getProduct(id: string): Product | undefined {
   return products.find((p) => p.id === id);
 }
 
+/**
+ * Recomendación de order bump por producto base.
+ * El cliente puede sumar el add-on a su compra desde el checkout interno
+ * antes de saltar a Stripe.
+ */
+export const orderBumps: Record<string, string> = {
+  "pack-completo": "guia-dislexia",
+  "fichas-articulacion": "kit-soplo",
+  "cuaderno-0-3": "kit-soplo",
+  "cuaderno-3-6": "fichas-articulacion",
+  "kit-soplo": "fichas-articulacion",
+  "guia-dislexia": "guia-tartamudez",
+  "guia-tartamudez": "guia-dislexia",
+};
+
+export function getOrderBumpFor(productId: string): Product | undefined {
+  const bumpId = orderBumps[productId];
+  if (!bumpId) return undefined;
+  return getProduct(bumpId);
+}
+
 export function formatPrice(cents: number): string {
   return new Intl.NumberFormat('es-ES', {
     style: 'currency',

@@ -70,3 +70,57 @@ export function getRelatedPosts(currentSlug: string, category: string, limit = 2
   const remaining = otherPosts.filter((post) => post.category !== category);
   return [...sameCategory, ...remaining].slice(0, limit);
 }
+
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+function stripMarkdown(md: string): string {
+  return md
+    .replace(/^> ?\*\*[^*]+\*\*:?/gm, "")
+    .replace(/^> ?/gm, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/^[-*]\s+/gm, "")
+    .replace(/^#+\s+/gm, "")
+    .replace(/\n{2,}/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function extractFAQs(content: string): FAQItem[] {
+  const lines = content.split(/\r?\n/);
+  const faqs: FAQItem[] = [];
+  let currentQ: string | null = null;
+  let buffer: string[] = [];
+  const flush = () => {
+    if (currentQ) {
+      const answer = stripMarkdown(buffer.join("\n")).slice(0, 1200);
+      if (answer.length >= 30) faqs.push({ question: currentQ, answer });
+    }
+    currentQ = null;
+    buffer = [];
+  };
+  for (const line of lines) {
+    const heading = /^(#{2,4})\s+(.+?)\s*$/.exec(line);
+    if (heading) {
+      flush();
+      const text = heading[2].trim();
+      const isQuestion =
+        text.endsWith("?") ||
+        /^¿/.test(text) ||
+        /^(qué|cómo|cuándo|cuál|cuáles|por qué|donde|dónde|para qué|a qué edad)/i.test(text);
+      if (isQuestion) {
+        currentQ = text.replace(/^[¿]+/, "¿").replace(/\?+$/, "?");
+        if (!currentQ.startsWith("¿") && !currentQ.endsWith("?")) currentQ += "?";
+      }
+      continue;
+    }
+    if (currentQ) buffer.push(line);
+  }
+  flush();
+  return faqs.slice(0, 8);
+}

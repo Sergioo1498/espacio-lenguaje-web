@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/mdx";
+import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs } from "@/lib/mdx";
 import { getTeamMember, defaultAuthor, defaultReviewer } from "@/lib/team";
 import AuthorBox from "@/components/ui/AuthorBox";
+import NewsletterBlogForm from "@/components/ui/NewsletterBlogForm";
 import LogoIcon from "@/components/icons/LogoIcon";
 import ShareButtons from "@/components/ui/ShareButtons";
 
@@ -135,6 +136,23 @@ export default async function BlogPostPage({ params }: PageProps) {
     },
   };
 
+  const faqs = extractFAQs(content);
+  const faqSchema =
+    faqs.length >= 3
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqs.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: f.answer,
+            },
+          })),
+        }
+      : null;
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -170,6 +188,12 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Breadcrumb */}
       <nav aria-label="Breadcrumb" className="section-padding pb-0 pt-8 md:pt-12">
@@ -279,6 +303,9 @@ export default async function BlogPostPage({ params }: PageProps) {
                 publishedAt={meta.date}
                 reviewedAt={meta.updatedAt}
               />
+              <div className="mt-10">
+                <NewsletterBlogForm />
+              </div>
             </article>
 
             {/* Sidebar */}

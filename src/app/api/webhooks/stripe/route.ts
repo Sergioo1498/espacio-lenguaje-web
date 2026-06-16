@@ -61,26 +61,31 @@ async function upsertCustomerInBrevo(
   }
 }
 
-function buildDownloadLinks(productId: string): string {
-  const product = getProduct(productId);
-  if (!product) return '';
-
-  if (product.file === 'multiple' && product.files) {
-    return product.files
-      .map((f) => {
-        const name = f.split('/').pop()?.replace('.pdf', '').replace(/-/g, ' ') || 'Recurso';
-        return `<p style="text-align:center;margin:12px 0;"><a href="${BASE_URL}${f}" style="display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;">Descargar: ${name}</a></p>`;
-      })
-      .join('');
+function buildDownloadLinks(productIds: string[]): string {
+  const files: string[] = [];
+  for (const id of productIds) {
+    const product = getProduct(id);
+    if (!product) continue;
+    if (product.file === 'multiple' && product.files) {
+      files.push(...product.files);
+    } else if (product.file) {
+      files.push(product.file);
+    }
   }
-
-  return `<p style="text-align:center;margin:28px 0;"><a href="${BASE_URL}${product.file}" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar ahora</a></p>`;
+  const unique = [...new Set(files)];
+  if (unique.length === 0) return '';
+  return unique
+    .map((f) => {
+      const name = f.split('/').pop()?.replace('.pdf', '').replace(/-/g, ' ') || 'Recurso';
+      return `<p style="text-align:center;margin:12px 0;"><a href="${BASE_URL}${f}" style="display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;">Descargar: ${name}</a></p>`;
+    })
+    .join('');
 }
 
 async function sendPurchaseEmail(
   email: string,
   productName: string,
-  productId: string
+  productIds: string[]
 ) {
   const apiKey = process.env.BREVO_API_KEY;
   if (!apiKey) {
@@ -88,7 +93,7 @@ async function sendPurchaseEmail(
     return;
   }
 
-  const downloadButtons = buildDownloadLinks(productId);
+  const downloadButtons = buildDownloadLinks(productIds);
 
   const res = await fetch(BREVO_SMTP_URL, {
     method: 'POST',
@@ -178,10 +183,17 @@ export async function POST(request: Request) {
     if (productId && email) {
       const product = getProduct(productId);
       if (product) {
-        const resolvedName = productName || product.name;
-        // Run both side effects but don't let one failure block the other
+        const addOnIds = (session.metadata?.addOnProductIds || '')
+          .split(',')
+          .map((s) => s.trim())
+          .filter(Boolean);
+        const allProductIds = [productId, ...addOnIds];
+        const resolvedName =
+          addOnIds.length > 0
+            ? `${productName || product.name} (+ ${addOnIds.length} extra)`
+            : productName || product.name;
         await Promise.allSettled([
-          sendPurchaseEmail(email, resolvedName, productId),
+          sendPurchaseEmail(email, resolvedName, allProductIds),
           upsertCustomerInBrevo(
             email,
             resolvedName,

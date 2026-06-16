@@ -56,6 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/quiz/necesita-logopeda`,
+      lastModified: BUILD_TIME,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/sobre-nosotros`,
       lastModified: BUILD_TIME,
       changeFrequency: "monthly",

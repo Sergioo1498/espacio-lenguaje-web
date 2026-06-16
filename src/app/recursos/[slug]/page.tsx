@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { products, getProduct, formatPrice } from '@/lib/products';
 import { getProductContent } from '@/lib/products-content';
 import BuyButton from '../BuyButton';
+import BuyWithBump from '../BuyWithBump';
+import { getOrderBumpFor } from '@/lib/products';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -99,6 +101,16 @@ export default async function ProductPage({ params }: PageProps) {
     ? Math.round((1 - product.price / product.originalPrice) * 100)
     : null;
 
+  const bumpProduct = getOrderBumpFor(product.id);
+  const bumpForUI = bumpProduct
+    ? {
+        id: bumpProduct.id,
+        name: bumpProduct.name,
+        price: bumpProduct.price,
+        description: bumpProduct.description,
+      }
+    : undefined;
+
   return (
     <div className="pt-24 pb-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
@@ -170,7 +182,7 @@ export default async function ProductPage({ params }: PageProps) {
               </p>
 
               <div className="mt-6">
-                <BuyButton productId={product.id} size="large" />
+                <BuyWithBump productId={product.id} size="large" bump={bumpForUI} />
               </div>
 
               <ul className="mt-8 grid gap-3 text-[15px] text-cacao">

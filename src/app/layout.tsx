@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import CookieBanner from "@/components/ui/CookieBanner";
+import Clarity from "@/components/ui/Clarity";
 
 const dmSerifDisplay = DM_Serif_Display({
   weight: "400",
@@ -127,6 +128,7 @@ export default function RootLayout({
         <CookieBanner />
         <Analytics />
         <SpeedInsights />
+        <Clarity />
       </body>
     </html>
   );
