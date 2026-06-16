@@ -386,7 +386,7 @@ Aunque cada niño lleva su ritmo, hay señales que indican que conviene pedir un
 
 **Importante:** consultar pronto nunca es un error. La intervención temprana en logopedia tiene los mejores resultados. Si dudas, consulta. En el peor de los casos, te dirán que todo va bien y te quedarás tranquilo.
 
-
+> 📥 **¿Quieres esta checklist en PDF imprimible** con las señales de alerta por edad listas para llevar a la consulta? Está incluida en la [**Guía gratuita de Hitos del Lenguaje 0-6 años**](/lp/guia-gratis) — descarga inmediata, revisada por logopeda colegiada.
 
 ---
 
@@ -734,9 +734,11 @@ La intervención temprana en dislexia tiene un impacto enorme. Los estudios mues
 
 # Ejercicios
 
-## Ejercicios para enseñar la R fuerte (RR) paso a paso
+## Ejercicios para enseñar la R fuerte (RR) paso a paso (5-7 años)
 URL: https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte
-Publicado: 2026-04-17
+Publicado: 2026-04-17 · Actualizado: 2026-05-29
+
+> **En resumen**: la **/rr/ vibrante múltiple** es el último fonema en consolidarse en español, normalmente **entre los 5-6 años** (Bosch, 2004). Antes de los 5 es esperable que aún no aparezca y **no requiere intervención**. La intervención eficaz se basa en **trabajo fonético directo sobre el sonido** (Williams, McLeod & McCauley, 2010), **no en praxias aisladas ni soplo** — la evidencia actual (ASHA, 2013; Lof & Watson, 2008) no respalda que estos transfieran al habla. Si a los 6-7 años la /rr/ sigue sin aparecer, conviene consultar con logopeda colegiada.
 
 La R fuerte (o RR) es, sin duda, uno de los fonemas más difíciles del español. Suena en palabras como *perro*, *carro* o *torre*, y requiere una coordinación muy fina entre la lengua, el aire y el paladar. Si tu peque todavía no la pronuncia bien, respira: es totalmente normal hasta cierta edad, y con los **ejercicios para la R fuerte** adecuados se puede trabajar en casa de forma progresiva.
 
@@ -763,9 +765,13 @@ Si cualquiera de estos elementos falla, la vibración no se produce o se sustitu
 
 Los fonemas aparecen en un orden bastante predecible. Según la mayoría de estudios de desarrollo fonético del español, la RR es el último fonema en consolidarse, habitualmente **entre los 5 y los 6 años** (Bosch, 2004).
 
-- **Antes de los 5 años:** es normal que sustituya la RR o no la pronuncie. No hay que preocuparse.
-- **A los 5 años:** muchos peques ya la producen correctamente, pero otros todavía están trabajándola.
-- **A los 6 años o más:** si la RR sigue sin aparecer, es buen momento para consultar con un [logopeda infantil](/blog/como-ensenar-la-r-a-un-nino) y descartar una dislalia.
+| Edad | Qué es esperable | Señal de alerta | Acción recomendada |
+|---|---|---|---|
+| **< 4 años** | Sustituye la /rr/ por /l/, /d/ o la omite | Ninguna | Esperar — todavía es muy pronto |
+| **4-5 años** | Muchos aún no la pronuncian | Solo si hay otras dificultades de articulación | Estimulación lúdica en casa, sin presión |
+| **5-6 años** | Muchos peques ya la producen, otros aún están en camino | Ninguna si solo falla la /rr/ | Empezar ejercicios estructurados (los de esta guía) |
+| **6-7 años** | La mayoría ya la domina | La /rr/ aún ausente o muy distorsionada | Consultar con [logopeda infantil](/blog/como-ensenar-la-r-a-un-nino) para descartar dislalia |
+| **7+ años** | Debería estar consolidada | Persistencia del fallo | Intervención logopédica recomendada |
 
 ## Pre-requisitos antes de empezar
 
@@ -1317,6 +1323,16 @@ Lo más importante es que estas actividades sean **divertidas y naturales**. Si 
 
 Aquí te proponemos cinco ejercicios que puedes empezar a hacer hoy mismo. Cada uno trabaja un aspecto diferente del lenguaje y están pensados para adaptarse a distintas edades. Si te preguntas qué es lo esperable en cada momento, consulta nuestra guía sobre [a qué edad debe hablar un niño](/blog/a-que-edad-debe-hablar-un-nino).
 
+### Tabla resumen — los 5 ejercicios de un vistazo
+
+| # | Ejercicio | Edad mínima | Área del lenguaje | Materiales | Tiempo |
+|---|---|---|---|---|---|
+| 1 | El espejo mágico | 2 años | Conciencia corporal + vínculo | Un espejo | 5 min |
+| 2 | Cuenta cuentos interactivo | 18 meses | Comprensión + vocabulario | Un cuento | 10 min |
+| 3 | La caja de los sonidos | 3 años | Conciencia fonológica | Caja + objetos cotidianos | 10 min |
+| 4 | Sopla que sopla | 2 años | Respiración funcional + juego | Pajita + algodón/pluma | 5 min |
+| 5 | El supermercado | 3 años | Vocabulario + juego simbólico | Productos vacíos de cocina | 15 min |
+
 ---
 
 ## 1. El espejo mágico
@@ -1480,6 +1496,11 @@ Pero antes de preocuparte o de empezar a hacer ejercicios con tu hijo, hay algo 
 ## ¿A qué edad debería un niño pronunciar la R?
 
 Es importante distinguir entre los dos tipos de R que tenemos en español, porque no se adquieren al mismo tiempo:
+
+| Tipo | Ejemplos | Edad esperada | Dificultad |
+|---|---|---|---|
+| **R suave** (vibrante simple) | pe**r**a, ca**r**a, lo**r**o, a**r**ena | **3-4 años** | Baja: 1 vibración breve |
+| **RR fuerte** (vibrante múltiple) | pe**rr**o, **r**atón, **R**oma, En**r**ique | **5-6 años** (a veces 6;6-7) | Alta: 2-4 vibraciones coordinadas (Bosch, 2004) |
 
 ### La R suave (vibrante simple)
 
@@ -1708,6 +1729,8 @@ En este artículo te compartimos **12 actividades prácticas y basadas en eviden
 
 > 📥 **¿Quieres todas las actividades organizadas por edad** (0-1, 1-2, 2-3 años) en un solo PDF? Descarga gratis la [**Guía de Hitos del Lenguaje**](/lp/guia-gratis) — incluye señales de alerta, hitos por edad y una rutina semanal de 10 min/día, revisada por logopeda colegiada.
 
+> **Lo que muchos blogs sobre los 2 años omiten**: a esta edad, lo que más predice el desarrollo del lenguaje **no es el número de palabras que oye** el peque, sino la **calidad de la interacción** (Rowe, 2012; Weisleder & Fernald, 2013): atención conjunta, espera de turno y modelado. Las 12 actividades de esta guía están seleccionadas con ese criterio — no son ejercicios formales, son **rutinas conversacionales** validadas por la literatura clínica (Hanen Program; Girolametto, 1996).
+
 ## Por qué los 2 años son una etapa clave
 
 Entre los 18 meses y los 3 años se produce lo que los logopedas llamamos la **"explosión del lenguaje"**. El cerebro del niño está especialmente preparado para absorber vocabulario, y pueden incorporar varias palabras nuevas por semana (Kuczaj, 1999; fast mapping descrito por Carey, 1978).
@@ -1763,6 +1786,8 @@ En lugar de preguntar "¿qué quieres?", ofrece dos opciones concretas: *"¿quie
 ### 6. El juego del teléfono
 
 Un teléfono de juguete (o incluso un plátano) se convierte en una herramienta potente. Finge llamar a la abuela: *"hola abuela... sí... adiós"*. Los peques de 2 años adoran imitar estas conversaciones.
+
+> 📘 **¿Te gustan estas actividades y quieres un plan completo?** En el [**Cuaderno de Estimulación 0-3 años**](/recursos/cuaderno-0-3) tienes **20 actividades secuenciadas** organizadas por mes con materiales caseros, tabla de seguimiento y plan semanal. Revisado por logopeda colegiada (5,90 € · descarga inmediata).
 
 ## Bloque 3: actividades para mejorar la comprensión
 
@@ -2365,6 +2390,8 @@ Cocinar juntos (algo sencillo: un sándwich, una ensalada de frutas) es una de l
 
 **Variante:** juego de cocina simbólica con platos y comida de juguete para los más pequeños.
 
+> 📥 **¿Quieres más juegos organizados por edad** y un plan semanal listo? Descarga la [**Guía gratuita de Hitos del Lenguaje 0-6 años**](/lp/guia-gratis) con actividades por mes + señales de alerta. Revisada por logopeda colegiada.
+
 ---
 
 ## 6. El teléfono
@@ -2446,6 +2473,8 @@ Preparad una "pista" en la mesa con cinta adhesiva y soplad bolitas de papel o p
 4. Trabaja distintos tipos de soplo: fuerte y corto, suave y largo
 
 **Variante:** usa pajitas para dirigir el soplo con más precisión. Ideal para trabajar el control del aire.
+
+> 🎯 **Plan estructurado con fichas imprimibles:** si quieres pasar del juego espontáneo a una rutina semanal con materiales preparados, mira el [**Pack Completo**](/recursos/pack-completo) (fichas + cuadernos por edad + kit de soplo) o el [**Cuaderno de Estimulación 3-6 años**](/recursos/cuaderno-3-6) específico para esta edad.
 
 ---
 
@@ -2848,6 +2877,8 @@ En esta guía te contamos qué tipos de fichas existen, dónde descargarlas grat
 
 > 📥 **¿Buscas las fichas y un plan para casa?** Antes de descargar fichas sueltas, descarga gratis la [**Guía de Hitos del Lenguaje 0-6 años**](/lp/guia-gratis) (revisada por logopeda colegiada) — te dice qué fichas tocan según la edad y qué señales vigilar, para no improvisar.
 
+> **Lo que muchos posts de fichas omiten**: no todas las fichas trabajan lo mismo. Hay diferencias clínicas claras entre las cinco familias (articulación, vocabulario, conciencia fonológica, soplo y comprensión), y mezclarlas sin criterio puede hacer perder tiempo. Esta guía las separa por **objetivo logopédico** y solo enlaza a **fuentes con licencia clara** (Arasaac, consejerías de educación), para que puedas imprimirlas sin infringir derechos de autor.
+
 ## Por qué usar fichas de logopedia en casa
 
 Las fichas no sustituyen a una intervención profesional, pero son un apoyo excelente para reforzar lo que tu peque trabaja en sesión, consolidar aprendizajes o estimular áreas concretas del lenguaje de forma preventiva.
@@ -2870,6 +2901,8 @@ No todas las fichas trabajan lo mismo. Conocer los cinco grandes grupos te ayuda
 Son las más conocidas. Presentan imágenes cuyos nombres contienen un fonema concreto (la /r/, la /s/, la /k/...) en distintas posiciones: inicial, media y final.
 
 Ejemplo: una lámina con "ratón, perro, collar" para trabajar la /r/ en las tres posiciones. Si la /r/ es uno de los sonidos que se le resiste, te recomendamos leer [cómo enseñar la R a un niño](/blog/como-ensenar-la-r-a-un-nino) antes de empezar.
+
+> 🎯 **Si no quieres buscar fichas sueltas por internet:** nuestro [**Pack de Fichas de Articulación**](/recursos/fichas-articulacion) reúne **30 fichas imprimibles** organizadas por fonema (un fonema por página) con instrucciones para padres. Revisado por logopeda colegiada. 4,90 € · descarga inmediata.
 
 ### 2. Fichas de vocabulario por campos semánticos
 
@@ -3006,7 +3039,7 @@ No todos los "no pronuncia la /s/" son iguales. Los logopedas distinguen varios 
 
 ### 1. Sigmatismo interdental ("ceceo")
 
-La lengua sale entre los dientes superiores e inferiores. El sonido resultante es muy parecido a una /z/ española (que sí se pronuncia interdental). El niño dice *cero* en lugar de *cero*… pero con la lengua claramente fuera.
+La lengua sale entre los dientes superiores e inferiores. El sonido resultante es muy parecido a una /z/ española (que sí se pronuncia interdental). El niño dice *zapato* en lugar de *sapato* (la /s/ inicial suena como una /z/), o *cazi* en lugar de *casi*.
 
 Es el tipo **más frecuente** y suele tener buen pronóstico con intervención específica.
 
@@ -3702,6 +3735,18 @@ Publicado: 2026-04-15 · Actualizado: 2026-04-27
 
 > **En resumen** — qué se espera a los 3 años: **frases de 3-4 palabras**, **vocabulario expresivo de 500-1.000 palabras**, **comprensible al 75%** para personas externas a la familia (Coplan & Gleason, 1988), uso de pronombres y preguntas. Tres escenarios de "no habla bien" con implicaciones distintas: (1) **palabras sueltas sin frases** = retraso expresivo claro, (2) **frases largas pero ininteligibles** = posibles dificultades fonológicas, (3) **no inicia interacciones** = mirada más amplia (social-comunicativa). Causas más frecuentes: retraso simple, TEL/TDL (~7,58% — Norbury 2016), dificultades fonológicas u otitis recurrentes. Si detectas 2+ señales de alerta mantenidas, consulta con logopeda colegiada.
 
+### Hitos esperados a los 3 años (de un vistazo)
+
+| Área | Esperado | Señal de alerta |
+|---|---|---|
+| **Expresión** | Frases de 3-4 palabras espontáneas | Solo palabras sueltas, sin combinaciones |
+| **Vocabulario** | 500-1.000 palabras activas | < 200 palabras o no aparece vocabulario nuevo |
+| **Inteligibilidad** | 75% para personas externas (Coplan & Gleason, 1988) | < 50% incluso para familia próxima |
+| **Comprensión** | Sigue órdenes de 2-3 pasos | No entiende instrucciones sencillas |
+| **Pronombres** | Usa yo, tú, mío (con errores) | No usa ningún pronombre |
+| **Preguntas** | Hace preguntas con qué, dónde, por qué | No formula preguntas |
+| **Interacción** | Inicia conversación, busca contacto | No mantiene contacto visual, no comparte intereses |
+
 "Mi hijo ha cumplido 3 años y no se le entiende". "En el parque, los otros niños ya hablan de corrido y el mío apenas dice palabras sueltas". Si este es tu caso, respira: estás en el lugar correcto para entender qué es esperable a los 3 años y qué no.
 
 En este artículo te explicamos, desde nuestra experiencia como logopedas, **qué hitos debería cumplir un niño de 3 años**, qué señales son motivo de alerta y qué pasos dar si tu peque "no habla bien". Sin alarmismo, pero con información clara.
@@ -3888,7 +3933,17 @@ Dos ideas clave:
 
 ## Diferencias entre TEL, retraso simple y TEA
 
-Una de las dudas más frecuentes es distinguir el TEL de otros cuadros. Lo resumimos de forma clara:
+Una de las dudas más frecuentes es distinguir el TEL de otros cuadros. La tabla siguiente resume los criterios clave (consenso CATALISE, Bishop et al., 2017):
+
+| Criterio | Retraso simple | TEL / TDL | TEA |
+|---|---|---|---|
+| **Inicio del lenguaje** | Tardío pero secuencia normal | Tardío y atípico | Variable; a menudo ausente o ecolalia |
+| **Evolución sin intervención** | Recupera por sí solo entre 4-5 años | Persiste y se mantiene la brecha | No remite |
+| **Errores cualitativos** | Los esperables por edad | Estructura gramatical alterada, vocabulario muy limitado | Ecolalia, usos no comunicativos |
+| **Comunicación social** | Preservada | Preservada | Alterada (mirada, atención conjunta, reciprocidad) |
+| **Juego simbólico** | Preservado | Preservado | Limitado o inexistente |
+| **Patrones restringidos** | No | No | Sí (intereses, rutinas, estereotipias) |
+| **Necesita logopeda** | Útil pero no imprescindible | **Sí, imprescindible** | Sí + abordaje multidisciplinar |
 
 **Retraso simple del lenguaje:**
 
