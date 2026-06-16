@@ -124,3 +124,53 @@ export function extractFAQs(content: string): FAQItem[] {
   flush();
   return faqs.slice(0, 8);
 }
+
+export interface HowToStep {
+  name: string;
+  text: string;
+}
+
+/**
+ * Detecta una secuencia paso-a-paso (HowTo schema).
+ * Busca H3 que empiecen por "1.", "2.", ..., "Paso 1", "Ejercicio 1", etc.
+ * Requiere mínimo 3 pasos consecutivos para considerarlo HowTo válido.
+ */
+export function extractHowTo(content: string): HowToStep[] {
+  const lines = content.split(/\r?\n/);
+  const steps: HowToStep[] = [];
+  let currentName: string | null = null;
+  let currentNum = 0;
+  let buffer: string[] = [];
+  const flush = () => {
+    if (currentName) {
+      const text = stripMarkdown(buffer.join("\n")).slice(0, 600);
+      if (text.length >= 20) steps.push({ name: currentName, text });
+    }
+    currentName = null;
+    buffer = [];
+  };
+  for (const line of lines) {
+    const heading = /^(#{2,4})\s+(.+?)\s*$/.exec(line);
+    if (heading) {
+      flush();
+      const text = heading[2].trim();
+      // Patrones: "1. Algo", "Paso 1: ...", "Ejercicio 1 -", "Actividad 1)"
+      const numPrefix = /^(?:(?:paso|ejercicio|actividad|nivel)\s+)?(\d+)[.):\s-]+\s*(.+)$/i.exec(text);
+      if (numPrefix) {
+        const n = parseInt(numPrefix[1], 10);
+        // Aceptar solo si los números son consecutivos (1, 2, 3...)
+        if (n === currentNum + 1 || (currentNum === 0 && n === 1)) {
+          currentName = numPrefix[2].trim();
+          currentNum = n;
+          continue;
+        }
+      }
+      // Heading que no es paso → resetea la secuencia
+      currentName = null;
+      continue;
+    }
+    if (currentName) buffer.push(line);
+  }
+  flush();
+  return steps.length >= 3 ? steps.slice(0, 12) : [];
+}

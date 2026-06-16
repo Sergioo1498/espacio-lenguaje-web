@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { localizedAlternates } from "@/lib/hreflang";
 import Hero from "@/components/sections/Hero";
 import TrustBar from "@/components/sections/TrustBar";
 import Stats from "@/components/sections/Stats";
@@ -16,7 +17,10 @@ export const metadata: Metadata = {
   title: "Espacio Lenguaje — Logopedia Infantil | Recursos y Ejercicios",
   description:
     "Logopedia infantil: estimulación del lenguaje, dislexia, tartamudez. Guías gratuitas, ejercicios para casa y recursos profesionales. Descarga la guía de hitos 0-6 años.",
-  alternates: { canonical: "https://www.espaciolenguaje.com" },
+  alternates: {
+    canonical: "https://www.espaciolenguaje.com",
+    languages: localizedAlternates("/"),
+  },
 };
 
 // El schema FAQPage vive dentro del componente <FAQ /> (sección sections/FAQ.tsx)

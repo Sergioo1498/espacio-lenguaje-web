@@ -2,12 +2,16 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import LandingForm from './LandingForm';
+import { localizedAlternates } from '@/lib/hreflang';
 
 export const metadata: Metadata = {
   title: 'Guía Gratuita de Hitos del Lenguaje 0-6 años',
   description:
     'Descarga gratis nuestra guía de hitos del lenguaje infantil. Señales de alerta, ejercicios para casa y cuándo consultar. Creada por logopedas.',
-  alternates: { canonical: 'https://www.espaciolenguaje.com/lp/guia-gratis' },
+  alternates: {
+    canonical: 'https://www.espaciolenguaje.com/lp/guia-gratis',
+    languages: localizedAlternates('/lp/guia-gratis'),
+  },
   openGraph: {
     title: 'Guía Gratuita: Hitos del Lenguaje 0-6 años | Espacio Lenguaje',
     description:

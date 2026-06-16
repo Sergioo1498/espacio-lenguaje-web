@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs } from "@/lib/mdx";
+import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs, extractHowTo } from "@/lib/mdx";
 import { getTeamMember, defaultAuthor, defaultReviewer } from "@/lib/team";
 import AuthorBox from "@/components/ui/AuthorBox";
 import NewsletterBlogForm from "@/components/ui/NewsletterBlogForm";
+import { localizedAlternates } from "@/lib/hreflang";
 import LogoIcon from "@/components/icons/LogoIcon";
 import ShareButtons from "@/components/ui/ShareButtons";
 
@@ -53,6 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: meta.excerpt,
     alternates: {
       canonical: `https://www.espaciolenguaje.com/blog/${meta.slug}`,
+      languages: localizedAlternates(`/blog/${meta.slug}`),
     },
     openGraph: {
       title: meta.title,
@@ -153,6 +155,25 @@ export default async function BlogPostPage({ params }: PageProps) {
         }
       : null;
 
+  const howToSteps = extractHowTo(content);
+  const howToSchema =
+    howToSteps.length >= 3
+      ? {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: meta.title,
+          description: meta.excerpt,
+          inLanguage: "es-ES",
+          step: howToSteps.map((s, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            name: s.name,
+            text: s.text,
+            url: `${articleUrl}#paso-${i + 1}`,
+          })),
+        }
+      : null;
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -192,6 +213,12 @@ export default async function BlogPostPage({ params }: PageProps) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
         />
       )}
 

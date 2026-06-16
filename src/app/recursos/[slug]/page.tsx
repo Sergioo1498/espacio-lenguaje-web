@@ -7,6 +7,7 @@ import { getProductContent } from '@/lib/products-content';
 import BuyButton from '../BuyButton';
 import BuyWithBump from '../BuyWithBump';
 import { getOrderBumpFor } from '@/lib/products';
+import { localizedAlternates } from '@/lib/hreflang';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -25,7 +26,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: content.seoTitle,
     description: content.seoDescription,
-    alternates: { canonical: `https://www.espaciolenguaje.com/recursos/${product.id}` },
+    alternates: {
+      canonical: `https://www.espaciolenguaje.com/recursos/${product.id}`,
+      languages: localizedAlternates(`/recursos/${product.id}`),
+    },
     openGraph: {
       title: content.seoTitle,
       description: content.seoDescription,

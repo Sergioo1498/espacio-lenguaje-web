@@ -108,6 +108,10 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${dmSerifDisplay.variable} ${dmSans.variable}`}>
       <head>
+        {/* Preconnect a hosts críticos — reduce ~100-300ms en TTFB de recursos third-party */}
+        <link rel="preconnect" href="https://www.clarity.ms" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://api.brevo.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://va.vercel-scripts.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
