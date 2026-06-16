@@ -5,6 +5,10 @@ import Script from "next/script";
 /**
  * Microsoft Clarity — heatmaps + session recordings (free).
  * Inyecta el snippet solo si NEXT_PUBLIC_CLARITY_ID está configurada.
+ *
+ * Producción: NEXT_PUBLIC_CLARITY_ID debe estar definido en Vercel
+ * (Settings → Environment Variables, marcando Production + Preview + Dev).
+ * Dashboard del proyecto: https://clarity.microsoft.com
  */
 export default function Clarity() {
   const id = process.env.NEXT_PUBLIC_CLARITY_ID;
