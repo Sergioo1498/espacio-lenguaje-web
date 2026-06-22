@@ -893,11 +893,21 @@ El logopeda evaluará si hay alguna causa subyacente (un [frenillo lingual corto
 
 ---
 
-## Praxias bucofaciales para niños: 15 ejercicios con espejo
+## Praxias bucofaciales para niños: 15 ejercicios con espejo (qué SÍ funciona)
 URL: https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos
-Publicado: 2026-04-15
+Publicado: 2026-04-15 · Actualizado: 2026-06-25
+
+> **En resumen** — las **praxias bucofaciales** son **movimientos voluntarios de labios, lengua, mandíbula y mejillas** que se trabajan delante del espejo como juego. **Funcionan** como herramienta de **conciencia oral, juego compartido y dentro de planes de terapia miofuncional** (deglución atípica, respiración bucal persistente). **NO funcionan** como tratamiento aislado para mejorar la articulación de fonemas — la evidencia actual (ASHA 2013, Lof & Watson 2008, Bowen 2005, McCauley 2009) **no respalda** esa transferencia. Si tu peque tiene una dislalia real, la intervención eficaz es **trabajo fonético directo** sobre el sonido (Williams, McLeod & McCauley, 2010), no praxias aisladas.
 
 Este post presenta **15 movimientos orofaciales pensados como juegos de conciencia corporal** — útiles para explorar con tu peque de forma divertida delante del espejo.
+
+### Las 15 praxias de un vistazo
+
+| # | Zona | Praxia | Edad mínima |
+|---|---|---|---|
+| 1-5 | **Labios** | Beso, sonrisa exagerada, vibración, succión, lateralización | 2 años |
+| 6-10 | **Lengua** | Sacar/meter, lateralización, tocar paladar, "caballito", limpiar dientes | 3 años |
+| 11-15 | **Mandíbula y mejillas** | Apertura, cierre, lateralización, inflar mejillas, alternar | 3 años |
 
 > **Importante:** las praxias aisladas **no han demostrado mejorar directamente la articulación de fonemas** (ASHA 2013, Lof & Watson 2008, Bowen 2005). El control motor del habla es **tarea-específico**: fortalecer labios o lengua con movimientos aislados no transfiere a /s/, /r/ o /ch/. Donde sí tienen indicación clara: **deglución atípica**, **respiración bucal persistente** y —sobre todo— como **juego compartido que refuerza el vínculo** cara a cara con el adulto.
 
@@ -1103,6 +1113,21 @@ Si te interesan más actividades lúdicas para estimular el habla, te recomiendo
 ## 8 ejercicios de soplo divertidos con materiales caseros
 
 A continuación te presento ocho ejercicios de soplo organizados de menor a mayor dificultad. Puedes adaptarlos a la edad y las habilidades de tu hijo. No es necesario hacerlos todos el mismo día: elige uno o dos que le gusten y ve variando.
+
+### Los 8 ejercicios de un vistazo
+
+| # | Ejercicio | Edad mínima | Materiales caseros | Dificultad |
+|---|---|---|---|---|
+| 1 | Carreras de plumas | 18 meses | Plumas o trocitos de papel de seda | Baja |
+| 2 | Pompas de jabón | 2 años | Pompero + jabón líquido casero | Baja |
+| 3 | Molinillos de viento | 2 años | Papel + palillo (o comprado 1€) | Baja |
+| 4 | Velas mágicas (sin fuego) | 3 años | Vela LED + papel | Media |
+| 5 | Soplar pelotitas de algodón | 3 años | Bolitas de algodón + pajita | Media |
+| 6 | Globos | 4 años | Globos | Media |
+| 7 | Soplar con pajita en agua | 4 años | Vaso de agua + pajita | Media |
+| 8 | Carrera de coches de papel | 5 años | Cartulina (origami simple) + pajita | Alta |
+
+> 🏠 **Materiales que probablemente ya tienes en casa**: pajita, vaso, papel, bolitas de algodón, vela LED. **Empieza HOY** con los ejercicios 1-3 (sin comprar nada) y avanza con los demás según vea progreso tu peque.
 
 ---
 

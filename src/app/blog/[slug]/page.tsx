@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs, extractHowTo } from "@/lib/mdx";
+import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs, extractHowTo, categorySlug } from "@/lib/mdx";
 import { getTeamMember, defaultAuthor, defaultReviewer } from "@/lib/team";
 import AuthorBox from "@/components/ui/AuthorBox";
 import NewsletterBlogForm from "@/components/ui/NewsletterBlogForm";
@@ -260,9 +260,12 @@ export default async function BlogPostPage({ params }: PageProps) {
       {/* Header */}
       <header className="section-padding pb-8 pt-6">
         <div className="container-custom max-w-3xl">
-          <span className="inline-block bg-verde text-white text-xs font-medium px-4 py-1.5 rounded-full mb-4">
+          <Link
+            href={`/blog/categoria/${categorySlug(meta.category)}`}
+            className="inline-block bg-verde hover:bg-verde-dark text-white text-xs font-medium px-4 py-1.5 rounded-full mb-4 transition-colors"
+          >
             {meta.category}
-          </span>
+          </Link>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif text-cacao mb-4 leading-tight">
             {meta.title}
           </h1>

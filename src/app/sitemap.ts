@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/mdx";
+import { getAllPosts, getAllCategories } from "@/lib/mdx";
 import { products } from "@/lib/products";
 
 const BUILD_TIME = new Date();
@@ -22,6 +22,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  const categoryUrls = getAllCategories().map((category) => ({
+    url: `${baseUrl}/blog/categoria/${category.slug}`,
+    lastModified: BUILD_TIME,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -36,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...blogUrls,
+    ...categoryUrls,
     {
       url: `${baseUrl}/recursos`,
       lastModified: BUILD_TIME,

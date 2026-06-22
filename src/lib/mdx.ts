@@ -71,6 +71,50 @@ export function getRelatedPosts(currentSlug: string, category: string, limit = 2
   return [...sameCategory, ...remaining].slice(0, limit);
 }
 
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  "Recursos": "Materiales descargables, fichas y guías para padres y profesionales: PDFs, ejercicios imprimibles y planes estructurados.",
+  "Ejercicios": "Rutinas prácticas y ejercicios concretos para estimular el lenguaje, la articulación y la respiración en casa.",
+  "Estimulación": "Actividades de estimulación del lenguaje organizadas por edad, basadas en evidencia clínica y rutinas naturales.",
+  "Señales de alerta": "Indicadores por edad de cuándo conviene consultar con logopeda: hitos esperados, banderas rojas y criterios clínicos.",
+  "Desarrollo del lenguaje": "Cómo evoluciona el lenguaje de los 0 a los 6 años: hitos, etapas y predictores del desarrollo.",
+  "Dislexia": "Detección, ejercicios y adaptaciones para dislexia infantil basadas en evidencia (Snowling, Anthony & Francis).",
+  "Información práctica": "Información clínica sobre temas concretos de logopedia infantil para familias.",
+  "Patologías": "Información clínica sobre trastornos del lenguaje: TEL/TDL, dislalia, tartamudez, retraso simple.",
+};
+
+export function categorySlug(category: string): string {
+  return category
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export function getAllCategories(): Array<{ slug: string; name: string; description: string; count: number }> {
+  const posts = getAllPosts();
+  const map = new Map<string, { name: string; count: number }>();
+  for (const post of posts) {
+    if (!post.category) continue;
+    const slug = categorySlug(post.category);
+    const existing = map.get(slug);
+    if (existing) existing.count++;
+    else map.set(slug, { name: post.category, count: 1 });
+  }
+  return Array.from(map.entries())
+    .map(([slug, { name, count }]) => ({
+      slug,
+      name,
+      description: CATEGORY_DESCRIPTIONS[name] || `Artículos sobre ${name.toLowerCase()} en logopedia infantil.`,
+      count,
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+export function getPostsByCategorySlug(slug: string): PostMeta[] {
+  return getAllPosts().filter((post) => categorySlug(post.category) === slug);
+}
+
 export interface FAQItem {
   question: string;
   answer: string;
