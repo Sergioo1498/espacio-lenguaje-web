@@ -11,6 +11,13 @@ export interface ProductContent {
   faqs: { q: string; a: string }[];
   relatedProductIds?: string[];
   relatedBlogPosts?: { slug: string; title: string }[];
+  /** Bloque "Qué incluye / Qué NO incluye" — transparencia que previene Nuria 2.0 */
+  whatIncludes?: string[];
+  whatDoesNotInclude?: string[];
+  /** Filtros honestos: "este producto NO es para ti si..." */
+  notForYouIf?: string[];
+  /** Aviso importante visible arriba (riesgo de malentendido / disclaimer clínico) */
+  importantNotice?: string;
 }
 
 export const productsContent: Record<string, ProductContent> = {
@@ -74,6 +81,23 @@ export const productsContent: Record<string, ProductContent> = {
     subtitle: 'Estimulación del lenguaje desde el primer babeo',
     pageCount: 28,
     ageRange: '0-3 años',
+    whatIncludes: [
+      '20 actividades distribuidas en 5 bloques por edad (0-6m, 6-12m, 12-18m, 18-24m, 2-3 años)',
+      'Cada actividad con: materiales necesarios, duración, 5 pasos concretos, qué desarrolla, variantes fáciles y difíciles',
+      'Señales de alerta por edad (cuándo conviene consultar con logopeda)',
+      'Base teórica: programa Hanen, lectura dialógica (Whitehurst), estimulación focalizada (Girolametto)',
+      'Referencias clínicas completas al final',
+    ],
+    whatDoesNotInclude: [
+      'NO es un programa de terapia (es estimulación natural, no intervención clínica)',
+      'NO incluye fichas visuales ni pictogramas imprimibles para el peque (es guía para el adulto)',
+      'NO sustituye valoración profesional si detectas señales de alerta',
+    ],
+    notForYouIf: [
+      'Tu peque tiene más de 3 años (mira el Cuaderno 3-6)',
+      'Buscas un programa de terapia estructurada con sesiones formales',
+      'Esperas láminas para el peque (este cuaderno es para guiar al adulto en interacciones cotidianas)',
+    ],
     longDescription: [
       'Los tres primeros años son la ventana de oportunidad más importante para el desarrollo del lenguaje. No se trata de "enseñar" a hablar — los bebés aprenden el idioma por exposición e interacción — pero sí podemos crear el entorno perfecto para que esa maquinaria se active con fuerza.',
       'Este **cuaderno de estimulación del lenguaje 0-3 años** está pensado para padres y madres que quieren aprovechar esos primeros años con actividades concretas, adaptadas a cada franja de edad, sin necesidad de materiales especiales ni formación previa. Son 20 actividades estructuradas, probadas por logopedas y organizadas en tres bloques: 0-12 meses, 12-24 meses y 24-36 meses.',
@@ -129,6 +153,23 @@ export const productsContent: Record<string, ProductContent> = {
     subtitle: 'Vocabulario, articulación y conciencia fonológica',
     pageCount: 32,
     ageRange: '3-6 años',
+    whatIncludes: [
+      '20 actividades en 5 bloques (conciencia fonológica, vocabulario, narrativa, articulación, comprensión)',
+      'Cada actividad con instrucciones paso a paso, materiales caseros, duración, qué desarrolla',
+      'Sesiones cortas (5-10 min) integrables en rutinas cotidianas (baño, cena, paseo)',
+      'Principios pedagógicos: juego primero, modelado antes que corrección, vocabulario contextualizado',
+      'Pensado para prepararse para la lectoescritura (4-6 años)',
+    ],
+    whatDoesNotInclude: [
+      'NO es un programa de terapia (es estimulación general, no intervención clínica)',
+      'NO incluye fichas visuales con pictogramas para el peque (es guía para el adulto)',
+      'NO trabaja un fonema concreto si tu peque tiene dislalia (necesita logopeda + fichas específicas)',
+    ],
+    notForYouIf: [
+      'Tu peque tiene menos de 3 años (mira el Cuaderno 0-3)',
+      'Buscas láminas para que el peque coloree o señale (esto guía actividades para el adulto)',
+      'Necesitas un plan personalizado para una dificultad concreta (necesitas logopeda)',
+    ],
     longDescription: [
       'Entre los 3 y los 6 años el lenguaje de un peque da un salto espectacular: pasa de frases de 3-4 palabras a conversaciones completas, construye narrativas, hace preguntas abstractas y empieza a prepararse para la lectoescritura. Es también la etapa en que más errores de articulación "se limpian" y donde la conciencia fonológica — clave para aprender a leer — se desarrolla.',
       'Este **cuaderno de logopedia 3-6 años** está organizado en cuatro bloques: vocabulario, articulación, morfosintaxis y conciencia fonológica. Son 20 actividades progresivas diseñadas por logopedas que trabajan a diario con esta franja de edad.',
@@ -184,6 +225,27 @@ export const productsContent: Record<string, ProductContent> = {
       '15 ejercicios progresivos de respiración y soplo con materiales caseros. Pensados para juego compartido, control respiratorio y apoyo en casos específicos (respiración bucal persistente, deglución atípica) bajo indicación profesional.',
     subtitle: '15 ejercicios progresivos con materiales de casa',
     pageCount: 22,
+    importantNotice:
+      'Este kit trabaja respiración funcional, control del aire y juego compartido. NO corrige problemas de articulación (la evidencia actual — ASHA 2013, Lof & Watson 2008 — no respalda que el soplo mejore la pronunciación de fonemas). Si tu peque tiene dislalia o dificultades para pronunciar sonidos, necesita valoración con logopeda colegiada, no este kit.',
+    whatIncludes: [
+      '15 ejercicios de soplo y respiración funcional, organizados de fácil a difícil',
+      'Materiales caseros para cada ejercicio (velas, pompas, pajitas, plumas, algodones)',
+      'Edad recomendada por ejercicio (desde 2,5 años hasta 6+)',
+      'Tabla de seguimiento semanal imprimible',
+      'Guía para padres sin formación logopédica',
+      'Disclaimer clínico honesto sobre qué SÍ y qué NO trabaja el soplo',
+    ],
+    whatDoesNotInclude: [
+      'NO es un tratamiento para corregir errores de pronunciación',
+      'NO sustituye una valoración o intervención logopédica',
+      'NO incluye plan personalizado para tu peque concreto',
+      'NO incluye fichas de articulación ni pictogramas (eso son otros productos)',
+    ],
+    notForYouIf: [
+      'Tu peque tiene dislalia o no pronuncia bien varios sonidos — necesita logopeda colegiada, no soplo',
+      'Esperas un programa de terapia estructurada con resultados garantizados',
+      'Tu peque tiene menos de 2,5 años (los ejercicios estructurados aún no aplican)',
+    ],
     longDescription: [
       'El soplo y la respiración funcional son áreas en las que muchas familias quieren acompañar a su peque: ya sea porque disfrutan del juego compartido con pompas y molinillos, porque la logopeda les ha pedido trabajar la respiración en casa, o porque quieren tener actividades estructuradas que involucren consciencia oral sin pantallas.',
       'Este **kit de ejercicios de soplo para niños** recopila 15 actividades organizadas por **dificultad progresiva**: empezamos con soplo libre (soplar velas, pompas, plumas), pasamos a soplo dirigido (guiar una pelotita por un circuito, hacer volar papeles), y terminamos con soplo controlado (soplo sostenido, intercalar inspiración y espiración, jugar con silbatos). Son propuestas de juego compartido entre peque y adulto de referencia.',
@@ -297,6 +359,24 @@ export const productsContent: Record<string, ProductContent> = {
       'Guía completa de dislexia infantil: cómo detectarla, qué ejercicios hacer en casa, adaptaciones escolares y checklist para tutores. PDF imprimible diseñado por logopedas.',
     subtitle: 'Detección, ejercicios y adaptaciones para el cole',
     pageCount: 42,
+    whatIncludes: [
+      '10 capítulos sobre dislexia infantil',
+      'Checklist explícito de detección por etapa con casillas + ficha de observación',
+      'Diferencias entre dislexia y otros trastornos (TDAH, TEL, retraso lector)',
+      'Adaptaciones escolares concretas para llevar al cole + plantilla de informe para el tutor',
+      '10 ejercicios para casa basados en Orton-Gillingham',
+      'FAQ + glosario + referencias clínicas',
+    ],
+    whatDoesNotInclude: [
+      'NO es un diagnóstico (solo una valoración profesional puede diagnosticar dislexia)',
+      'NO es un programa terapéutico personalizado',
+      'NO incluye plan de intervención individualizado para tu peque',
+    ],
+    notForYouIf: [
+      'Tu peque tiene menos de 6 años (la dislexia se diagnostica a partir del aprendizaje lector)',
+      'Buscas un diagnóstico clínico (necesitas evaluación neuropsicológica o logopédica)',
+      'Necesitas terapia personalizada (necesitas profesional, no una guía)',
+    ],
     longDescription: [
       'La dislexia afecta a entre un 5 y un 10% de la población infantil, pero sigue siendo uno de los trastornos de aprendizaje peor comprendidos. Muchas familias pasan años pensando que su hijo "no se esfuerza lo suficiente" o que "ya espabilará", cuando en realidad necesita un enfoque distinto — y pautas concretas que pueden marcar la diferencia en cómo vive su etapa escolar.',
       'Esta **guía de dislexia infantil** está pensada para familias que sospechan que su peque puede tener dislexia, o que ya tienen un diagnóstico y no saben por dónde empezar. También es útil para maestras y tutores que quieren entender mejor cómo funciona la dislexia y cómo adaptar el aula.',
@@ -353,6 +433,24 @@ export const productsContent: Record<string, ProductContent> = {
       'Guía completa de tartamudez infantil para familias: tipos, qué hacer en casa, ejercicios de fluidez, cuándo consultar con un logopeda. PDF imprimible diseñado por logopedas.',
     subtitle: 'Para familias que quieren ayudar sin empeorar',
     pageCount: 38,
+    whatIncludes: [
+      '8 capítulos sobre tartamudez infantil',
+      'Tabla comparativa: disfluencia evolutiva normal vs tartamudez patológica',
+      'Factores de riesgo y predictores',
+      'Qué hacer / qué NO hacer (lo más importante de la guía)',
+      '8 actividades para hacer en familia (pautas ambientales, no ejercicios de "no tartamudees")',
+      'Sección específica para profesores',
+      'Criterios clínicos para saber cuándo consultar (programa Lidcombe, evidencia)',
+    ],
+    whatDoesNotInclude: [
+      'NO es un programa de terapia (la tartamudez patológica requiere logopeda colegiada)',
+      'NO promete "curar" la tartamudez con ejercicios en casa',
+      'NO incluye plan personalizado para tu peque',
+    ],
+    notForYouIf: [
+      'Buscas un protocolo terapéutico tipo Lidcombe (eso lo aplica una logopeda formada)',
+      'Esperas ejercicios que "eliminen" la tartamudez (los enfoques actuales trabajan aceptación + fluidez, no eliminación)',
+    ],
     longDescription: [
       'La tartamudez infantil es una de las dificultades del habla que más angustia genera en las familias — precisamente porque nadie nos ha enseñado qué hacer cuando un niño empieza a bloquearse al hablar. Y lo primero que hacemos suele ser exactamente lo que menos ayuda: completarle las frases, pedirle que respire hondo, decirle "habla despacio". Bien intencionado, pero contraproducente.',
       'Esta **guía de tartamudez infantil** nace de una necesidad que vemos en consulta todos los meses: familias asustadas que llegan con información contradictoria de internet y con un peque que va bloqueándose cada vez más. La guía está escrita para que, después de leerla, sepas exactamente qué hacer, qué no hacer y cuándo es momento de buscar ayuda profesional.',

@@ -220,6 +220,18 @@ export default async function ProductPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Important Notice (clínico / disclaimer) — solo se renderiza si está definido */}
+      {content.importantNotice && (
+        <section className="section-padding py-6">
+          <div className="container-custom mx-auto max-w-3xl">
+            <div className="rounded-2xl border-2 border-terracota/30 bg-terracota/5 p-6 md:p-7">
+              <p className="font-serif text-base font-semibold text-cacao mb-2">⚠ Importante — léelo antes de comprar</p>
+              <p className="text-sm text-cacao/90 leading-relaxed">{content.importantNotice}</p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Long description */}
       <section className="section-padding py-12">
         <div className="container-custom mx-auto max-w-3xl">
@@ -274,6 +286,68 @@ export default async function ProductPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Transparency Block — Qué SÍ / Qué NO / NO es para ti — previene mismatch expectativas */}
+      {(content.whatIncludes || content.whatDoesNotInclude || content.notForYouIf) && (
+        <section className="section-padding bg-arena/40 py-14">
+          <div className="container-custom">
+            <h2 className="mb-2 text-center font-serif text-2xl text-cacao md:text-3xl">Total transparencia</h2>
+            <p className="mb-10 text-center text-sm text-texto-secundario max-w-2xl mx-auto">
+              Preferimos que sepas exactamente qué te llevas (y qué no) antes de comprar. Sin sorpresas.
+            </p>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+              {content.whatIncludes && (
+                <div className="rounded-2xl bg-white p-6 shadow-sm border border-verde/20">
+                  <h3 className="font-serif text-lg text-cacao mb-4 flex items-center gap-2">
+                    <span className="text-verde-dark">✅</span> Sí incluye
+                  </h3>
+                  <ul className="space-y-2.5 text-[14px] text-texto-secundario">
+                    {content.whatIncludes.map((item) => (
+                      <li key={item} className="flex items-start gap-2">
+                        <span className="mt-1 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-verde-dark"></span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {content.whatDoesNotInclude && (
+                <div className="rounded-2xl bg-white p-6 shadow-sm border border-cacao/15">
+                  <h3 className="font-serif text-lg text-cacao mb-4 flex items-center gap-2">
+                    <span>❌</span> NO incluye
+                  </h3>
+                  <ul className="space-y-2.5 text-[14px] text-texto-secundario">
+                    {content.whatDoesNotInclude.map((item) => (
+                      <li key={item} className="flex items-start gap-2">
+                        <span className="mt-1 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-cacao/30"></span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {content.notForYouIf && (
+                <div className="rounded-2xl bg-white p-6 shadow-sm border border-terracota/20">
+                  <h3 className="font-serif text-lg text-cacao mb-4 flex items-center gap-2">
+                    <span>🚫</span> NO es para ti si...
+                  </h3>
+                  <ul className="space-y-2.5 text-[14px] text-texto-secundario">
+                    {content.notForYouIf.map((item) => (
+                      <li key={item} className="flex items-start gap-2">
+                        <span className="mt-1 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-terracota/50"></span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+            <p className="mt-10 text-center text-xs text-texto-muted max-w-xl mx-auto">
+              🛡️ <strong>Garantía 14 días</strong>: si tras descargar ves que no era lo que esperabas, escríbeme a hola@espaciolenguaje.com y te devuelvo los euros sin preguntas.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* FAQ */}
       <section className="section-padding bg-arena py-14">

@@ -119,21 +119,26 @@ async function sendPurchaseEmail(
 
   <p style="font-size:16px;">¡Hola! 👋</p>
 
-  <p>¡Gracias por tu compra! Tu recurso <strong>${productName}</strong> ya está listo para descargar.</p>
+  <p>¡Gracias por confiar en nosotros! Tu recurso <strong>${productName}</strong> ya está listo para descargar.</p>
 
   ${downloadButtons}
 
-  <p style="font-size:13px;color:#6b5a5c;">Si tienes algún problema con la descarga, responde a este email y te ayudaremos encantados.</p>
+  <div style="background:#FDF8F4;border:1px solid #F5E6D3;border-radius:10px;padding:16px 18px;margin:24px 0;">
+    <p style="margin:0 0 6px 0;font-weight:700;font-size:14px;color:#3D2C2E;">🛡️ Garantía de 14 días sin preguntas</p>
+    <p style="margin:0;font-size:13px;color:#6b5a5c;line-height:1.55;">Si al abrir el PDF ves que no es lo que esperabas <strong>por la razón que sea</strong> (no era el formato que imaginabas, el contenido no encaja con tu peque, el diseño no te convence...), <strong>respóndeme a este email</strong> con la palabra <strong>"reembolso"</strong> y te devuelvo el importe. Sin formularios, sin preguntas, sin justificarte. Tienes 14 días desde hoy.</p>
+  </div>
+
+  <p style="font-size:14px;color:#6b5a5c;">Si tienes cualquier problema con la descarga, dudas sobre cómo usar el recurso, o quieres preguntarme algo sobre tu peque, responde a este email y te leo personalmente.</p>
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p>¿Quieres más recursos? Visita nuestra <a href="${BASE_URL}/recursos" style="color:#C4745A;font-weight:600;text-decoration:none;">tienda</a> o nuestro <a href="${BASE_URL}/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a>.</p>
+  <p style="font-size:14px;">¿Quieres más? Visita nuestros <a href="${BASE_URL}/recursos" style="color:#C4745A;font-weight:600;text-decoration:none;">recursos</a>, lee el <a href="${BASE_URL}/blog" style="color:#C4745A;font-weight:600;text-decoration:none;">blog</a> o haz el <a href="${BASE_URL}/quiz/necesita-logopeda" style="color:#C4745A;font-weight:600;text-decoration:none;">test gratuito</a> para saber si tu peque necesita logopeda.</p>
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />
 
-  <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>El equipo de Espacio Lenguaje</strong></p>
+  <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>Espacio Lenguaje</strong></p>
 
-  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Comunitat Valenciana, España<br/>hola@espaciolenguaje.com</p>
+  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Comunitat Valenciana, España<br/>hola@espaciolenguaje.com · Revisado por logopeda colegiada</p>
 </body>
 </html>`,
     }),
