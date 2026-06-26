@@ -186,7 +186,18 @@ export default async function ProductPage({ params }: PageProps) {
               </p>
 
               <div className="mt-6">
-                <BuyWithBump productId={product.id} size="large" bump={bumpForUI} />
+                {product.disabled ? (
+                  <div className="rounded-2xl border-2 border-cacao/15 bg-arena/50 p-5">
+                    <p className="font-serif text-base text-cacao mb-2">
+                      ⚠ Producto temporalmente no disponible
+                    </p>
+                    <p className="text-sm text-texto-secundario leading-relaxed">
+                      {product.disabledReason || 'Estamos actualizando este recurso. Volverá pronto.'}
+                    </p>
+                  </div>
+                ) : (
+                  <BuyWithBump productId={product.id} size="large" bump={bumpForUI} />
+                )}
               </div>
 
               <ul className="mt-8 grid gap-3 text-[15px] text-cacao">
@@ -343,7 +354,13 @@ export default async function ProductPage({ params }: PageProps) {
             {formatPrice(product.price)} · PDF de {content.pageCount} páginas · Descarga inmediata.
           </p>
           <div className="mt-6 flex justify-center">
-            <BuyButton productId={product.id} size="large" />
+            {product.disabled ? (
+              <p className="rounded-full bg-crema/20 px-6 py-3 text-sm text-crema">
+                Producto temporalmente no disponible — volverá pronto
+              </p>
+            ) : (
+              <BuyButton productId={product.id} size="large" />
+            )}
           </div>
         </div>
       </section>

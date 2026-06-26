@@ -12,6 +12,10 @@ export interface Product {
   popular?: boolean;
   badge?: string;
   originalPrice?: number;
+  /** Si true, el producto no se vende ni aparece en listados (pero la URL sigue accesible para SEO histórico). */
+  disabled?: boolean;
+  /** Motivo visible al usuario si disabled. */
+  disabledReason?: string;
 }
 
 export const products: Product[] = [
@@ -27,6 +31,8 @@ export const products: Product[] = [
     image: '/images/producto-fichas-articulacion.png',
     category: 'padres',
     popular: true,
+    disabled: true,
+    disabledReason: 'Estamos rediseñando este producto con pictogramas visuales reales. Volverá pronto. Mientras tanto, puedes descargar gratis fichas oficiales con licencia en arasaac.org o en lapedrera.san.gva.es.',
   },
   {
     id: 'cuaderno-0-3',
@@ -84,6 +90,8 @@ export const products: Product[] = [
     category: 'padres',
     popular: true,
     badge: 'Más vendido',
+    disabled: true,
+    disabledReason: 'El Pack Completo incluye el Pack de Fichas de Articulación, que estamos rediseñando. Volverá pronto. Mientras, puedes adquirir los recursos individualmente.',
   },
   {
     id: 'guia-dislexia',
@@ -124,8 +132,8 @@ export const orderBumps: Record<string, string> = {
   "pack-completo": "guia-dislexia",
   "fichas-articulacion": "kit-soplo",
   "cuaderno-0-3": "kit-soplo",
-  "cuaderno-3-6": "fichas-articulacion",
-  "kit-soplo": "fichas-articulacion",
+  "cuaderno-3-6": "kit-soplo",
+  "kit-soplo": "cuaderno-3-6",
   "guia-dislexia": "guia-tartamudez",
   "guia-tartamudez": "guia-dislexia",
 };
@@ -133,7 +141,9 @@ export const orderBumps: Record<string, string> = {
 export function getOrderBumpFor(productId: string): Product | undefined {
   const bumpId = orderBumps[productId];
   if (!bumpId) return undefined;
-  return getProduct(bumpId);
+  const bump = getProduct(bumpId);
+  if (bump?.disabled) return undefined;
+  return bump;
 }
 
 export function formatPrice(cents: number): string {

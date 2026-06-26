@@ -93,8 +93,9 @@ const productSchema = {
 };
 
 export default function RecursosPage() {
-  const featuredProduct = products.find((p) => p.id === 'pack-completo')!;
-  const regularProducts = products.filter((p) => p.id !== 'pack-completo');
+  const featuredCandidate = products.find((p) => p.id === 'pack-completo');
+  const featuredProduct = featuredCandidate && !featuredCandidate.disabled ? featuredCandidate : null;
+  const regularProducts = products.filter((p) => p.id !== 'pack-completo' && !p.disabled);
 
   return (
     <div className="pt-24 pb-16">
@@ -147,55 +148,57 @@ export default function RecursosPage() {
       </section>
 
       {/* Featured Product — Pack Completo */}
-      <section className="section-padding pt-8 pb-12">
-        <div className="container-custom">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-terracota/5 to-verde/5 p-8 md:p-12">
-            <div className="grid items-center gap-8 md:grid-cols-2">
-              <div>
-                <span className="inline-block rounded-full bg-terracota px-3 py-1 font-sans text-xs font-semibold text-white">
-                  Ahorra un 28%
-                </span>
-                <h2 className="mt-4 font-serif text-3xl font-bold text-cacao md:text-4xl">
-                  <Link href={`/recursos/${featuredProduct.id}`} className="hover:text-terracota transition-colors">
-                    {featuredProduct.name}
-                  </Link>
-                </h2>
-                <p className="mt-3 text-texto-secundario">
-                  {featuredProduct.description}
-                </p>
-                <div className="mt-6 flex items-baseline gap-3">
-                  <span className="font-serif text-4xl font-bold text-terracota">
-                    {formatPrice(featuredProduct.price)}
+      {featuredProduct && (
+        <section className="section-padding pt-8 pb-12">
+          <div className="container-custom">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-terracota/5 to-verde/5 p-8 md:p-12">
+              <div className="grid items-center gap-8 md:grid-cols-2">
+                <div>
+                  <span className="inline-block rounded-full bg-terracota px-3 py-1 font-sans text-xs font-semibold text-white">
+                    Ahorra un 28%
                   </span>
-                  {featuredProduct.originalPrice && (
-                    <span className="text-lg text-texto-muted line-through">
-                      {formatPrice(featuredProduct.originalPrice)}
+                  <h2 className="mt-4 font-serif text-3xl font-bold text-cacao md:text-4xl">
+                    <Link href={`/recursos/${featuredProduct.id}`} className="hover:text-terracota transition-colors">
+                      {featuredProduct.name}
+                    </Link>
+                  </h2>
+                  <p className="mt-3 text-texto-secundario">
+                    {featuredProduct.description}
+                  </p>
+                  <div className="mt-6 flex items-baseline gap-3">
+                    <span className="font-serif text-4xl font-bold text-terracota">
+                      {formatPrice(featuredProduct.price)}
                     </span>
-                  )}
+                    {featuredProduct.originalPrice && (
+                      <span className="text-lg text-texto-muted line-through">
+                        {formatPrice(featuredProduct.originalPrice)}
+                      </span>
+                    )}
+                  </div>
+                  <div className="mt-6 flex flex-wrap items-center gap-3">
+                    <BuyButton productId={featuredProduct.id} size="large" />
+                    <Link
+                      href={`/recursos/${featuredProduct.id}`}
+                      className="inline-flex items-center justify-center rounded-pill border border-cacao/20 px-6 py-3 font-sans text-sm font-semibold text-cacao transition-colors hover:border-terracota hover:text-terracota"
+                    >
+                      Ver detalle →
+                    </Link>
+                  </div>
                 </div>
-                <div className="mt-6 flex flex-wrap items-center gap-3">
-                  <BuyButton productId={featuredProduct.id} size="large" />
-                  <Link
-                    href={`/recursos/${featuredProduct.id}`}
-                    className="inline-flex items-center justify-center rounded-pill border border-cacao/20 px-6 py-3 font-sans text-sm font-semibold text-cacao transition-colors hover:border-terracota hover:text-terracota"
-                  >
-                    Ver detalle →
-                  </Link>
+                <div className="relative aspect-[3/2]">
+                  <Image
+                    src={featuredProduct.image}
+                    alt={featuredProduct.name}
+                    fill
+                    className="rounded-2xl object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 </div>
-              </div>
-              <div className="relative aspect-[3/2]">
-                <Image
-                  src={featuredProduct.image}
-                  alt={featuredProduct.name}
-                  fill
-                  className="rounded-2xl object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Product Grid */}
       <section className="section-padding py-12">

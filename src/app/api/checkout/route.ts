@@ -24,6 +24,13 @@ export async function POST(request: Request) {
       );
     }
 
+    if (product.disabled) {
+      return NextResponse.json(
+        { error: product.disabledReason || 'Este producto no está disponible temporalmente.' },
+        { status: 410 }
+      );
+    }
+
     const addOns = Array.isArray(addOnProductIds)
       ? addOnProductIds
           .filter((id): id is string => typeof id === 'string' && id !== productId)
