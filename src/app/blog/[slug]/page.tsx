@@ -353,10 +353,30 @@ export default async function BlogPostPage({ params }: PageProps) {
                     Descarga nuestra guía con ejercicios y actividades para
                     estimular el lenguaje de tu peque en casa.
                   </p>
-                  <Link href="/#lead-magnet" className="btn-primary w-full text-center">
+                  <Link href="/lp/guia-gratis" className="btn-primary w-full text-center">
                     Descargar guía
                   </Link>
                 </div>
+
+                {/* Quiz CTA — sidebar sticky para captura sin necesidad de scroll completo */}
+                <Link
+                  href="/quiz/necesita-logopeda"
+                  className="block rounded-2xl border-2 border-terracota/30 bg-gradient-to-br from-arena/40 via-white to-terracota/5 p-6 hover:border-terracota hover:shadow-md transition-all group"
+                >
+                  <div className="text-3xl mb-2">🧩</div>
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-verde-dark mb-2">
+                    Test gratuito · 2 minutos
+                  </p>
+                  <h3 className="font-serif text-lg text-cacao mb-2 leading-tight">
+                    ¿Necesita logopeda mi peque?
+                  </h3>
+                  <p className="text-xs text-texto-secundario mb-3 leading-relaxed">
+                    7 preguntas adaptadas a la edad. Resultado al instante.
+                  </p>
+                  <span className="text-sm font-semibold text-terracota group-hover:underline">
+                    Empezar test →
+                  </span>
+                </Link>
               </div>
             </aside>
           </div>
