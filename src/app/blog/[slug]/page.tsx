@@ -327,6 +327,37 @@ export default async function BlogPostPage({ params }: PageProps) {
               <div className="prose-article">
                 <MDXRemote source={content} />
               </div>
+
+              {/* Quiz CTA prominente — visible en móvil y escritorio, sin depender del sidebar sticky (que es lg-only). Punto natural: tras leer el post, antes de la firma editorial. */}
+              <div className="mt-12 mb-8">
+                <Link
+                  href="/quiz/necesita-logopeda"
+                  className="group block rounded-3xl border-2 border-terracota/25 bg-gradient-to-br from-arena/60 via-white to-terracota/10 p-6 md:p-8 hover:border-terracota hover:shadow-lg transition-all"
+                >
+                  <div className="flex flex-col md:flex-row items-start md:items-center gap-5 md:gap-6">
+                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-2xl bg-terracota/15 flex items-center justify-center text-3xl md:text-4xl shrink-0">
+                      🧩
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <span className="inline-block bg-verde/20 text-verde-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-2">
+                        Test gratuito · 2 minutos
+                      </span>
+                      <h2 className="font-serif text-xl md:text-2xl text-cacao mb-2 leading-tight">
+                        ¿Necesita mi peque consulta con logopeda?
+                      </h2>
+                      <p className="text-sm md:text-[15px] text-texto-secundario leading-relaxed">
+                        7 preguntas adaptadas a la edad de tu peque, basadas en hitos clínicos. Resultado interpretado al instante — sin diagnóstico, solo orientación.
+                      </p>
+                    </div>
+                    <div className="shrink-0 self-stretch md:self-center w-full md:w-auto">
+                      <span className="inline-flex w-full md:w-auto items-center justify-center rounded-pill bg-terracota group-hover:bg-terracota-dark text-white px-6 md:px-7 py-3 md:py-3.5 font-semibold text-sm md:text-base whitespace-nowrap transition-colors">
+                        Empezar test →
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+
               <AuthorBox
                 authorId={meta.authorId}
                 reviewerId={meta.reviewerId}
