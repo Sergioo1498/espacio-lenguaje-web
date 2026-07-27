@@ -31,8 +31,6 @@ export const products: Product[] = [
     image: '/images/producto-fichas-articulacion.png',
     category: 'padres',
     popular: true,
-    disabled: true,
-    disabledReason: 'Estamos rediseñando este producto con pictogramas visuales reales. Volverá pronto. Mientras tanto, puedes descargar gratis fichas oficiales con licencia en arasaac.org o en lapedrera.san.gva.es.',
   },
   {
     id: 'cuaderno-0-3',
@@ -90,8 +88,6 @@ export const products: Product[] = [
     category: 'padres',
     popular: true,
     badge: 'Más vendido',
-    disabled: true,
-    disabledReason: 'El Pack Completo incluye el Pack de Fichas de Articulación, que estamos rediseñando. Volverá pronto. Mientras, puedes adquirir los recursos individualmente.',
   },
   {
     id: 'guia-dislexia',
