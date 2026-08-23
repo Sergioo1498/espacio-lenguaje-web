@@ -8,6 +8,7 @@ import BuyButton from '../BuyButton';
 import BuyWithBump from '../BuyWithBump';
 import { getOrderBumpFor } from '@/lib/products';
 import { localizedAlternates } from '@/lib/hreflang';
+import GuaranteeBadge from '@/components/ui/GuaranteeBadge';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -196,7 +197,10 @@ export default async function ProductPage({ params }: PageProps) {
                     </p>
                   </div>
                 ) : (
-                  <BuyWithBump productId={product.id} size="large" bump={bumpForUI} />
+                  <>
+                    <BuyWithBump productId={product.id} size="large" bump={bumpForUI} />
+                    <GuaranteeBadge />
+                  </>
                 )}
               </div>
 
