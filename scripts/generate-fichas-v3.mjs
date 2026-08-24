@@ -8,13 +8,13 @@ import puppeteer from "puppeteer";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const ASSETS_DIR = path.join(ROOT, "public", "downloads", "productos", "_preview", "assets", "arasaac");
+const ASSETS_DIR = path.join(ROOT, "private", "productos", "_preview", "assets", "arasaac");
 const FICHAS_JSON = "/tmp/fichas-with-pictos.json";
-const SOURCE_MD = path.join(ROOT, "public", "downloads", "productos", "_preview", "pack-fichas-articulacion-content.md");
+const SOURCE_MD = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-content.md");
 
-const HTML_OUT = path.join(ROOT, "public", "downloads", "productos", "_preview", "pack-fichas-articulacion-v3.html");
+const HTML_OUT = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-v3.html");
 const PDF_OUT = path.join(ROOT, "public", "downloads", "productos", "pack-fichas-articulacion.pdf");
-const PDF_V3 = path.join(ROOT, "public", "downloads", "productos", "_preview", "pack-fichas-articulacion-v3.pdf");
+const PDF_V3 = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-v3.pdf");
 
 const fichas = JSON.parse(fs.readFileSync(FICHAS_JSON, "utf8"));
 const sourceMd = fs.readFileSync(SOURCE_MD, "utf8");

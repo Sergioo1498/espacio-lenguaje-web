@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const FICHAS_JSON = "/tmp/fichas-parsed.json";
-const OUT_DIR = path.join(ROOT, "public", "downloads", "productos", "_preview", "assets", "arasaac");
+const OUT_DIR = path.join(ROOT, "private", "productos", "_preview", "assets", "arasaac");
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 

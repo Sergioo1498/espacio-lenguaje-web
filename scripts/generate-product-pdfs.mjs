@@ -15,7 +15,7 @@ import { marked } from "marked";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const PREVIEW = path.join(ROOT, "public", "downloads", "productos", "_preview");
+const PREVIEW = path.join(ROOT, "private", "productos", "_preview");
 const ASSETS = path.join(PREVIEW, "assets");
 
 const products = [

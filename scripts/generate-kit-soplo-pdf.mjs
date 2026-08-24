@@ -4,7 +4,7 @@
  *
  * Uso: node scripts/generate-kit-soplo-pdf.mjs
  *
- * Salida: public/downloads/productos/_preview/kit-ejercicios-soplo-v2.pdf
+ * Salida: private/productos/_preview/kit-ejercicios-soplo-v2.pdf
  *
  * NO sobrescribe el PDF de producción hasta que Bea y Sergio validen.
  */
@@ -15,7 +15,7 @@ import puppeteer from "puppeteer";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const PREVIEW = path.join(ROOT, "public", "downloads", "productos", "_preview");
+const PREVIEW = path.join(ROOT, "private", "productos", "_preview");
 const ASSETS = path.join(PREVIEW, "assets");
 
 const exercises = [
