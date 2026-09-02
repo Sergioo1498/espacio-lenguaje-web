@@ -24,7 +24,7 @@ export const productsContent: Record<string, ProductContent> = {
   'fichas-articulacion': {
     seoTitle: 'Fichas de logopedia para imprimir: pack de articulación (30 fichas)',
     seoDescription:
-      'Pack de 30 fichas de logopedia imprimibles con ejercicios de articulación por fonema. Material diseñado por logopedas para trabajar la pronunciación en casa. PDF desde 3,90€.',
+      'Pack de 30 fichas de logopedia imprimibles con ejercicios de articulación por fonema. Material diseñado por logopedas para trabajar la pronunciación en casa. PDF por 4,90 €.',
     subtitle: 'Material imprimible de articulación, fonema por fonema',
     pageCount: 34,
     longDescription: [
