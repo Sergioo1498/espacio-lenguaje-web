@@ -138,7 +138,7 @@ async function sendPurchaseEmail(
 
   <p style="color:#6b5a5c;font-size:14px;">Un abrazo,<br/><strong>Espacio Lenguaje</strong></p>
 
-  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · Comunitat Valenciana, España<br/>hola@espaciolenguaje.com · Revisado por logopeda colegiada</p>
+  <p style="color:#9a8a8c;font-size:11px;margin-top:24px;">Espacio Lenguaje · hola@espaciolenguaje.com<br/>Revisado por logopeda colegiada</p>
 </body>
 </html>`,
     }),

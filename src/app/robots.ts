@@ -19,17 +19,20 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "Google-Extended",
         allow: "/",
       },
-      // Bloquear scrapers de entrenamiento LLM sin atribución
+      // Buscadores/asistentes de IA: PERMITIDOS. Citan la fuente y devuelven
+      // tráfico, igual que Google-Extended → AI Overviews.
+      { userAgent: "GPTBot", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
+      { userAgent: "ChatGPT-User", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
+      { userAgent: "Claude-SearchBot", allow: "/" },
+      { userAgent: "PerplexityBot", allow: "/" },
+      // Scrapers puros de entrenamiento sin atribución: BLOQUEADOS.
       // (contenido revisado clínicamente: protegemos el rigor que aporta Bea)
-      { userAgent: "GPTBot", disallow: "/" },
-      { userAgent: "ChatGPT-User", disallow: "/" },
-      { userAgent: "OAI-SearchBot", disallow: "/" },
-      { userAgent: "ClaudeBot", disallow: "/" },
+      { userAgent: "CCBot", disallow: "/" },
+      { userAgent: "Bytespider", disallow: "/" },
       { userAgent: "Claude-Web", disallow: "/" },
       { userAgent: "anthropic-ai", disallow: "/" },
-      { userAgent: "CCBot", disallow: "/" },
-      { userAgent: "PerplexityBot", disallow: "/" },
-      { userAgent: "Bytespider", disallow: "/" },
       { userAgent: "Amazonbot", disallow: "/" },
       { userAgent: "Applebot-Extended", disallow: "/" },
     ],
