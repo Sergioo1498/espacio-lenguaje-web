@@ -4,15 +4,17 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer";
+import {
+  ROOT,
+  PREVIEW,
+  FICHAS_JSON,
+  loadFichas,
+  loadSourceMd,
+  pictoUri,
+  getFichaData as parseFicha,
+} from "./_fichas-source.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
-const PREVIEW = path.join(ROOT, "private", "productos", "_preview");
-const ASSETS_DIR = path.join(PREVIEW, "assets", "arasaac");
-const FICHAS_JSON = path.join(PREVIEW, "fichas-with-pictos.json");
-const SOURCE_MD = path.join(PREVIEW, "pack-fichas-articulacion-content.md");
 const LOGO = path.join(ROOT, "public", "images", "logo-chosen.png");
 
 const HTML_OUT = path.join(PREVIEW, "muestra-fichas-articulacion-r.html");
@@ -24,31 +26,12 @@ const SELECCION = ["17", "18", "20", "23", "27", "30"];
 const CHECKOUT_URL =
   "https://www.espaciolenguaje.com/recursos/fichas-articulacion?utm_campaign=tripwire-fichas-pdf";
 
-const fichas = JSON.parse(fs.readFileSync(FICHAS_JSON, "utf8"));
-const sourceMd = fs.readFileSync(SOURCE_MD, "utf8");
+const fichas = loadFichas();
+const sourceMd = loadSourceMd();
+const getFichaData = (num) => parseFicha(sourceMd, num);
 
 function dataUri(p, mime) {
   return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
-}
-
-function pictoUri(filename) {
-  if (!filename) return null;
-  const p = path.join(ASSETS_DIR, filename);
-  return fs.existsSync(p) ? dataUri(p, "image/png") : null;
-}
-
-function getFichaData(num) {
-  // OJO: generate-fichas-v3.mjs lleva aquí el flag "m", y con /m el `$` casa al final
-  // de CADA línea, así que la sección se corta en el titular y edad/posición/silabario
-  // salen vacíos. Sin el flag, `$` es el final del documento y sí se capturan.
-  const m = sourceMd.match(new RegExp(`## Ficha ${num}[\\s\\S]*?(?=## Ficha |$)`));
-  if (!m) return {};
-  const sec = m[0];
-  return {
-    edad: sec.match(/Edad esperada de adquisición\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-    posicion: sec.match(/Posición articulatoria\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-    silabario: sec.match(/Silabario\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-  };
 }
 
 const seleccionadas = SELECCION.map((n) => {

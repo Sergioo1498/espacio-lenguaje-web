@@ -1,46 +1,39 @@
-// Genera pack-fichas-articulacion-v3.pdf con pictogramas Arasaac.
-// Uso: node scripts/generate-fichas-v3.mjs
+// Genera el Pack de Fichas de Articulación con pictogramas Arasaac.
+// Uso: node scripts/generate-fichas-v3.mjs           → escribe el entregable en public/
+//      node scripts/generate-fichas-v3.mjs --draft   → escribe en drafts/pack-fichas-v4/
+//
+// El parser vive en _fichas-source.mjs, compartido con la muestra gratuita: tener dos
+// copias fue justo lo que dejó el pack v3 sin edad, posición articulatoria ni silabario.
 
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer";
+import {
+  ROOT,
+  PREVIEW,
+  loadFichas,
+  loadSourceMd,
+  pictoUri,
+  getFichaData as parseFicha,
+} from "./_fichas-source.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, "..");
-const ASSETS_DIR = path.join(ROOT, "private", "productos", "_preview", "assets", "arasaac");
-const FICHAS_JSON = "/tmp/fichas-with-pictos.json";
-const SOURCE_MD = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-content.md");
+const VERSION = "v4";
+const DRAFT = process.argv.includes("--draft");
+const DRAFT_DIR = path.join(ROOT, "drafts", "pack-fichas-v4");
+if (DRAFT) fs.mkdirSync(DRAFT_DIR, { recursive: true });
 
-const HTML_OUT = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-v3.html");
-const PDF_OUT = path.join(ROOT, "public", "downloads", "productos", "pack-fichas-articulacion.pdf");
-const PDF_V3 = path.join(ROOT, "private", "productos", "_preview", "pack-fichas-articulacion-v3.pdf");
+const OUT_DIR = DRAFT ? DRAFT_DIR : PREVIEW;
+const HTML_OUT = path.join(OUT_DIR, `pack-fichas-articulacion-${VERSION}.html`);
+const PDF_VERSIONED = path.join(OUT_DIR, `pack-fichas-articulacion-${VERSION}.pdf`);
+const PDF_OUT = DRAFT
+  ? path.join(DRAFT_DIR, "pack-fichas-articulacion.pdf")
+  : path.join(ROOT, "public", "downloads", "productos", "pack-fichas-articulacion.pdf");
 
-const fichas = JSON.parse(fs.readFileSync(FICHAS_JSON, "utf8"));
-const sourceMd = fs.readFileSync(SOURCE_MD, "utf8");
+const fichas = loadFichas();
+const sourceMd = loadSourceMd();
 
-// Helper: imagen → base64 data URI
-function pictoUri(filename) {
-  if (!filename) return null;
-  const p = path.join(ASSETS_DIR, filename);
-  if (!fs.existsSync(p)) return null;
-  const buf = fs.readFileSync(p);
-  return `data:image/png;base64,${buf.toString("base64")}`;
-}
-
-// Parse cada ficha del MD para extraer datos no incluidos en JSON
-function getFichaData(num) {
-  const re = new RegExp(`## Ficha ${num}[\\s\\S]*?(?=## Ficha |$)`, "m");
-  const m = sourceMd.match(re);
-  if (!m) return {};
-  const sec = m[0];
-  return {
-    edad: sec.match(/Edad esperada de adquisición\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-    posicion: sec.match(/Posición articulatoria\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-    silabario: sec.match(/Silabario\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-    emoji: sec.match(/Emoji\*?\*?:\s*([^\n]+)/)?.[1]?.trim(),
-  };
-}
+// Parse cada ficha del MD para extraer datos no incluidos en JSON (parser compartido)
+const getFichaData = (num) => parseFicha(sourceMd, num);
 
 const fichasHTML = fichas
   .map((f) => {
@@ -80,7 +73,7 @@ const fichasHTML = fichas
 
 const coverHTML = `<section class="cover">
   <div class="cover-inner">
-    <div class="cover-tag">RECURSO PARA FAMILIAS · v3 con pictogramas</div>
+    <div class="cover-tag">RECURSO PARA FAMILIAS · ${VERSION} con pictogramas</div>
     <h1 class="cover-title">Pack de Fichas de Articulación</h1>
     <p class="cover-subtitle">30 fichas con pictogramas · Un fonema por página · Para casa</p>
     <div class="cover-claim">
@@ -117,7 +110,7 @@ const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8" />
-<title>Pack de Fichas de Articulación · v3 con pictogramas</title>
+<title>Pack de Fichas de Articulación · ${VERSION} con pictogramas</title>
 <style>
   @page { size: A4; margin: 0; }
   * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
@@ -233,16 +226,16 @@ await page.goto(fileUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
 await page.evaluate(() => document.fonts.ready);
 await new Promise((r) => setTimeout(r, 2000));
 await page.pdf({
-  path: PDF_V3,
+  path: PDF_VERSIONED,
   format: "A4",
   printBackground: true,
   margin: { top: 0, right: 0, bottom: 0, left: 0 },
 });
 await browser.close();
 
-const stats = fs.statSync(PDF_V3);
-console.log("PDF v3 generado:", PDF_V3, "(" + Math.round(stats.size / 1024) + " KB)");
+const stats = fs.statSync(PDF_VERSIONED);
+console.log(`PDF ${VERSION} generado:`, PDF_VERSIONED, "(" + Math.round(stats.size / 1024) + " KB)");
 
-// Copiar como nuevo production PDF
-fs.copyFileSync(PDF_V3, PDF_OUT);
-console.log("PDF reemplazado en producción:", PDF_OUT);
+// Copia con el nombre del entregable (en --draft se queda dentro de drafts/)
+fs.copyFileSync(PDF_VERSIONED, PDF_OUT);
+console.log(DRAFT ? "Copia de borrador:" : "PDF reemplazado en producción:", PDF_OUT);
