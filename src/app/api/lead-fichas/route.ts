@@ -11,7 +11,7 @@ const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
 const BREVO_SMTP_URL = "https://api.brevo.com/v3/smtp/email";
 const BREVO_LIST_ID = 2;
 const BASE_URL = "https://www.espaciolenguaje.com";
-const PDF_PATH = "/downloads/guia-hitos-lenguaje-espacio-lenguaje.pdf";
+const PDF_PATH = "/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf";
 
 async function sendGuideEmail(email: string, nombre: string | undefined, apiKey: string) {
   const saludo = nombre ? `¡Hola ${nombre}! 👋` : "¡Hola! 👋";
@@ -26,7 +26,7 @@ async function sendGuideEmail(email: string, nombre: string | undefined, apiKey:
       body: JSON.stringify({
         sender: { name: "Espacio Lenguaje", email: "hola@espaciolenguaje.com" },
         to: [{ email, name: nombre }],
-        subject: "🌱 Tu guía de Hitos del Lenguaje está aquí",
+        subject: "🌱 Tus 6 fichas de articulación gratis (fonema R)",
         htmlContent: `<!DOCTYPE html>
 <html lang="es">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -37,10 +37,10 @@ async function sendGuideEmail(email: string, nombre: string | undefined, apiKey:
 
   <p style="font-size:16px;">${saludo}</p>
 
-  <p>Aquí tienes tu guía de <strong>Hitos del Lenguaje de 0 a 6 años</strong>, con los hitos esperables por edad y las señales de alerta que conviene vigilar.</p>
+  <p>Aquí tienes tus <strong>6 fichas de articulación del fonema R</strong>, con pictogramas de Arasaac y listas para imprimir.</p>
 
   <p style="text-align:center;margin:28px 0;">
-    <a href="${BASE_URL}${PDF_PATH}" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar la guía (PDF)</a>
+    <a href="${BASE_URL}${PDF_PATH}" style="display:inline-block;background-color:#C4745A;color:white;padding:14px 32px;border-radius:50px;text-decoration:none;font-weight:600;font-size:16px;">Descargar las 6 fichas (PDF)</a>
   </p>
 
   <hr style="border:none;border-top:1px solid #F5E6D3;margin:28px 0;" />

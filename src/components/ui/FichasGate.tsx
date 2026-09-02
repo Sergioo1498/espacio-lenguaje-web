@@ -24,7 +24,7 @@ export default function FichasGate() {
     if (status === "loading") return;
     if (!consent) {
       setStatus("error");
-      setMessage("Necesitamos tu consentimiento para enviarte la guía.");
+      setMessage("Necesitamos tu consentimiento para enviarte las fichas.");
       return;
     }
     setStatus("loading");
@@ -72,12 +72,12 @@ export default function FichasGate() {
   return (
     <aside className="my-8 rounded-2xl border border-verde/25 bg-white p-6 shadow-sm md:p-7">
       <p className="font-serif text-xl text-cacao">
-        Descarga gratis la Guía de Hitos del Lenguaje 0-6 años
+        Descarga gratis 6 fichas de articulación con pictogramas, revisadas por logopeda
       </p>
       <p className="mt-2 text-[15px] leading-relaxed text-texto-secundario">
-        11 páginas revisadas por logopeda colegiada: qué fichas tocan según la edad de tu
-        peque y qué señales conviene vigilar. Te la enviamos por email y la tienes al
-        instante en la página siguiente.
+        Muestra del Pack de Fichas: 6 fichas del fonema R (vibrante simple, RR y sinfones),
+        con pictogramas de Arasaac y listas para imprimir. Te las enviamos por email y las
+        tienes al instante en la página siguiente.
       </p>
 
       <form className="mt-5 flex flex-col gap-3" onSubmit={handleSubmit}>
@@ -119,7 +119,7 @@ export default function FichasGate() {
             className="mt-0.5 h-4 w-4 shrink-0 accent-verde"
           />
           <span>
-            Acepto recibir la guía y los emails de Espacio Lenguaje. Puedo darme de baja
+            Acepto recibir las fichas y los emails de Espacio Lenguaje. Puedo darme de baja
             cuando quiera. Consulta la{" "}
             <Link href="/privacidad" className="underline hover:text-terracota">
               política de privacidad

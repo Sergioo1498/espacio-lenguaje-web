@@ -1,0 +1,516 @@
+[
+  {
+    "num": "01",
+    "fonema": "P",
+    "inicio": {
+      "id": 28479,
+      "word": "PATO",
+      "filename": "28479.png"
+    },
+    "medio": {
+      "id": 5505,
+      "word": "MAPA",
+      "filename": "5505.png"
+    },
+    "final": {
+      "id": 8289,
+      "word": "STOP",
+      "filename": "8289.png"
+    }
+  },
+  {
+    "num": "02",
+    "fonema": "B",
+    "inicio": {
+      "id": 5401,
+      "word": "BOTA",
+      "filename": "5401.png"
+    },
+    "medio": {
+      "id": 5892,
+      "word": "LOBO",
+      "filename": "5892.png"
+    },
+    "final": {
+      "id": 29919,
+      "word": "CLUB",
+      "filename": "29919.png"
+    }
+  },
+  {
+    "num": "03",
+    "fonema": "T",
+    "inicio": {
+      "id": 2582,
+      "word": "TAZA",
+      "filename": "2582.png"
+    },
+    "medio": {
+      "id": 28479,
+      "word": "PATO",
+      "filename": "28479.png"
+    },
+    "final": {
+      "id": 6208,
+      "word": "ROBOT",
+      "filename": "6208.png"
+    }
+  },
+  {
+    "num": "04",
+    "fonema": "D",
+    "inicio": {
+      "id": 2731,
+      "word": "DADO",
+      "filename": "2731.png"
+    },
+    "medio": {
+      "id": 7173,
+      "word": "NIDO",
+      "filename": "7173.png"
+    },
+    "final": {
+      "id": 2860,
+      "word": "PARED",
+      "filename": "2860.png"
+    }
+  },
+  {
+    "num": "05",
+    "fonema": "K",
+    "inicio": {
+      "id": 6964,
+      "word": "CASA",
+      "filename": "6964.png"
+    },
+    "medio": {
+      "id": 2609,
+      "word": "VACA",
+      "filename": "2609.png"
+    },
+    "final": {
+      "id": 27604,
+      "word": "BLOC",
+      "filename": "27604.png"
+    }
+  },
+  {
+    "num": "06",
+    "fonema": "G",
+    "inicio": {
+      "id": 7114,
+      "word": "GATO",
+      "filename": "7114.png"
+    },
+    "medio": {
+      "id": 6022,
+      "word": "LAGO",
+      "filename": "6022.png"
+    },
+    "final": {
+      "id": 16577,
+      "word": "BLOG",
+      "filename": "16577.png"
+    }
+  },
+  {
+    "num": "07",
+    "fonema": "F",
+    "inicio": {
+      "id": 2397,
+      "word": "FOCA",
+      "filename": "2397.png"
+    },
+    "medio": {
+      "id": 25479,
+      "word": "SOFÁ",
+      "filename": "25479.png"
+    },
+    "final": {
+      "id": 10348,
+      "word": "CHEF",
+      "filename": "10348.png"
+    }
+  },
+  {
+    "num": "08",
+    "fonema": "S",
+    "inicio": {
+      "id": 2573,
+      "word": "SOPA",
+      "filename": "2573.png"
+    },
+    "medio": {
+      "id": 2610,
+      "word": "VASO",
+      "filename": "2610.png"
+    },
+    "final": {
+      "id": 27256,
+      "word": "BUS",
+      "filename": "27256.png"
+    }
+  },
+  {
+    "num": "09",
+    "fonema": "Z",
+    "inicio": {
+      "id": 11461,
+      "word": "ZUMO",
+      "filename": "11461.png"
+    },
+    "medio": {
+      "id": 2946,
+      "word": "LAZO",
+      "filename": "2946.png"
+    },
+    "final": {
+      "id": 2520,
+      "word": "PEZ",
+      "filename": "2520.png"
+    }
+  },
+  {
+    "num": "10",
+    "fonema": "CH",
+    "inicio": {
+      "id": 5960,
+      "word": "CHURRO",
+      "filename": "5960.png"
+    },
+    "medio": {
+      "id": 2445,
+      "word": "LECHE",
+      "filename": "2445.png"
+    },
+    "final": {
+      "id": 6540,
+      "word": "KÉTCHUP",
+      "filename": "6540.png"
+    }
+  },
+  {
+    "num": "11",
+    "fonema": "L",
+    "inicio": {
+      "id": 2933,
+      "word": "LUNA",
+      "filename": "2933.png"
+    },
+    "medio": {
+      "id": 2851,
+      "word": "PELO",
+      "filename": "2851.png"
+    },
+    "final": {
+      "id": 7252,
+      "word": "SOL",
+      "filename": "7252.png"
+    }
+  },
+  {
+    "num": "12",
+    "fonema": "N",
+    "inicio": {
+      "id": 2883,
+      "word": "NUBE",
+      "filename": "2883.png"
+    },
+    "medio": {
+      "id": 2477,
+      "word": "MONO",
+      "filename": "2477.png"
+    },
+    "final": {
+      "id": 2494,
+      "word": "PAN",
+      "filename": "2494.png"
+    }
+  },
+  {
+    "num": "13",
+    "fonema": "M",
+    "inicio": {
+      "id": 3129,
+      "word": "MESA",
+      "filename": "3129.png"
+    },
+    "medio": {
+      "id": 25900,
+      "word": "CAMA",
+      "filename": "25900.png"
+    },
+    "final": {
+      "id": 6039,
+      "word": "ÁLBUM",
+      "filename": "6039.png"
+    }
+  },
+  {
+    "num": "14",
+    "fonema": "Ñ",
+    "inicio": null,
+    "medio": {
+      "id": 7176,
+      "word": "NIÑO",
+      "filename": "7176.png"
+    },
+    "final": {
+      "id": 6929,
+      "word": "BAÑO",
+      "filename": "6929.png"
+    }
+  },
+  {
+    "num": "15",
+    "fonema": "J",
+    "inicio": {
+      "id": 2437,
+      "word": "JIRAFA",
+      "filename": "2437.png"
+    },
+    "medio": {
+      "id": 6573,
+      "word": "OJO",
+      "filename": "6573.png"
+    },
+    "final": {
+      "id": 2549,
+      "word": "RELOJ",
+      "filename": "2549.png"
+    }
+  },
+  {
+    "num": "16",
+    "fonema": "LL / Y",
+    "inicio": {
+      "id": 8153,
+      "word": "LLAVE",
+      "filename": "8153.png"
+    },
+    "medio": {
+      "id": 4952,
+      "word": "POLLO",
+      "filename": "4952.png"
+    },
+    "final": {
+      "id": 5563,
+      "word": "REY",
+      "filename": "5563.png"
+    }
+  },
+  {
+    "num": "17",
+    "fonema": "R suave",
+    "inicio": null,
+    "medio": {
+      "id": 2561,
+      "word": "PERA",
+      "filename": "2561.png"
+    },
+    "final": {
+      "id": 8142,
+      "word": "IR",
+      "filename": "8142.png"
+    }
+  },
+  {
+    "num": "18",
+    "fonema": "RR",
+    "inicio": {
+      "id": 7202,
+      "word": "PERRO",
+      "filename": "7202.png"
+    },
+    "medio": {
+      "id": 2339,
+      "word": "CARRO",
+      "filename": "2339.png"
+    },
+    "final": {
+      "id": 6465,
+      "word": "CORRER",
+      "filename": "6465.png"
+    }
+  },
+  {
+    "num": "19",
+    "fonema": "BL",
+    "inicio": {
+      "id": 8043,
+      "word": "BLANCO",
+      "filename": "8043.png"
+    },
+    "medio": {
+      "id": 6143,
+      "word": "TABLA",
+      "filename": "6143.png"
+    },
+    "final": null
+  },
+  {
+    "num": "20",
+    "fonema": "BR",
+    "inicio": {
+      "id": 2669,
+      "word": "BRAZO",
+      "filename": "2669.png"
+    },
+    "medio": {
+      "id": 25191,
+      "word": "LIBRO",
+      "filename": "25191.png"
+    },
+    "final": null
+  },
+  {
+    "num": "21",
+    "fonema": "CL",
+    "inicio": {
+      "id": 8306,
+      "word": "CLAVO",
+      "filename": "8306.png"
+    },
+    "medio": {
+      "id": 6043,
+      "word": "ANCLA",
+      "filename": "6043.png"
+    },
+    "final": null
+  },
+  {
+    "num": "22",
+    "fonema": "CR",
+    "inicio": {
+      "id": 9075,
+      "word": "CRUZ",
+      "filename": "9075.png"
+    },
+    "medio": {
+      "id": 2262,
+      "word": "MICRO",
+      "filename": "2262.png"
+    },
+    "final": null
+  },
+  {
+    "num": "23",
+    "fonema": "DR",
+    "inicio": {
+      "id": 5572,
+      "word": "DRAGÓN",
+      "filename": "5572.png"
+    },
+    "medio": {
+      "id": 31148,
+      "word": "MADRE",
+      "filename": "31148.png"
+    },
+    "final": null
+  },
+  {
+    "num": "24",
+    "fonema": "FL",
+    "inicio": {
+      "id": 7104,
+      "word": "FLOR",
+      "filename": "7104.png"
+    },
+    "medio": {
+      "id": 7087,
+      "word": "RIFLE",
+      "filename": "7087.png"
+    },
+    "final": null
+  },
+  {
+    "num": "25",
+    "fonema": "FR",
+    "inicio": {
+      "id": 28339,
+      "word": "FRUTA",
+      "filename": "28339.png"
+    },
+    "medio": {
+      "id": 5966,
+      "word": "COFRE",
+      "filename": "5966.png"
+    },
+    "final": null
+  },
+  {
+    "num": "26",
+    "fonema": "GL",
+    "inicio": {
+      "id": 2408,
+      "word": "GLOBO",
+      "filename": "2408.png"
+    },
+    "medio": {
+      "id": 8137,
+      "word": "IGLÚ",
+      "filename": "8137.png"
+    },
+    "final": null
+  },
+  {
+    "num": "27",
+    "fonema": "GR",
+    "inicio": {
+      "id": 25147,
+      "word": "GRILLO",
+      "filename": "25147.png"
+    },
+    "medio": {
+      "id": 2590,
+      "word": "TIGRE",
+      "filename": "2590.png"
+    },
+    "final": null
+  },
+  {
+    "num": "28",
+    "fonema": "PL",
+    "inicio": {
+      "id": 16857,
+      "word": "PLATO",
+      "filename": "16857.png"
+    },
+    "medio": {
+      "id": 7258,
+      "word": "SOPLAR",
+      "filename": "7258.png"
+    },
+    "final": null
+  },
+  {
+    "num": "29",
+    "fonema": "PR",
+    "inicio": {
+      "id": 30340,
+      "word": "PRIMO",
+      "filename": "30340.png"
+    },
+    "medio": {
+      "id": 9058,
+      "word": "COMPRA",
+      "filename": "9058.png"
+    },
+    "final": null
+  },
+  {
+    "num": "30",
+    "fonema": "TR",
+    "inicio": {
+      "id": 21399,
+      "word": "TREN",
+      "filename": "21399.png"
+    },
+    "medio": {
+      "id": 26925,
+      "word": "METRO",
+      "filename": "26925.png"
+    },
+    "final": null
+  }
+]

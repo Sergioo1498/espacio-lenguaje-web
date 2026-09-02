@@ -8,11 +8,11 @@ import GuaranteeBadge from "@/components/ui/GuaranteeBadge";
 import DownloadLink from "@/components/ui/DownloadLink";
 
 export const metadata: Metadata = {
-  title: "Tu guía está lista",
+  title: "Tus 6 fichas están listas",
   robots: { index: false, follow: false },
 };
 
-const PDF_PATH = "/downloads/guia-hitos-lenguaje-espacio-lenguaje.pdf";
+const PDF_PATH = "/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf";
 
 export default function GraciasFichasGratisPage() {
   const product = getProduct("fichas-articulacion");
@@ -29,19 +29,19 @@ export default function GraciasFichasGratisPage() {
             </svg>
           </div>
 
-          <h1 className="font-serif text-3xl text-cacao md:text-4xl">Tu guía está lista</h1>
+          <h1 className="font-serif text-3xl text-cacao md:text-4xl">Tus 6 fichas están listas</h1>
           <p className="mx-auto mt-4 max-w-xl text-[17px] leading-relaxed text-texto-secundario">
-            Descárgala ahora mismo desde aquí — no hace falta que esperes al email. También te la
-            hemos enviado a tu correo por si quieres tenerla a mano más adelante.
+            Descárgalas ahora mismo desde aquí — no hace falta que esperes al email. También te las
+            hemos enviado a tu correo por si quieres tenerlas a mano más adelante.
           </p>
 
           <div className="mt-8">
             <DownloadLink
               href={PDF_PATH}
-              recurso="guia-hitos-lenguaje"
+              recurso="muestra-fichas-r"
               className="inline-flex items-center justify-center rounded-pill bg-terracota px-8 py-4 font-sans font-semibold text-white transition-colors hover:bg-terracota-dark"
             >
-              Descargar la guía (PDF)
+              Descargar las 6 fichas (PDF)
             </DownloadLink>
           </div>
 

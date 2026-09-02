@@ -18,12 +18,16 @@ export default function BuyButton({ productId, size = 'default', addOnProductIds
 
   async function handleClick() {
     setLoading(true);
-    track('inicio_checkout', { producto: productId, campana: utmCampaign ?? 'directo' });
+    // Si no viene por prop, se hereda de la URL: el PDF de muestra enlaza a la ficha
+    // con ?utm_campaign=tripwire-fichas-pdf y así la atribución llega a Stripe.
+    const campana =
+      utmCampaign ?? new URLSearchParams(window.location.search).get('utm_campaign') ?? undefined;
+    track('inicio_checkout', { producto: productId, campana: campana ?? 'directo' });
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productId, addOnProductIds, utmCampaign }),
+        body: JSON.stringify({ productId, addOnProductIds, utmCampaign: campana }),
       });
       const data = await res.json();
       if (data.url) {
