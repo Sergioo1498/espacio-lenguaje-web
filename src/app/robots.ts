@@ -10,6 +10,7 @@ export default function robots(): MetadataRoute.Robots {
           "/api/",
           "/descargar-guia",
           "/compra-exitosa",
+          "/gracias/",
           "/llms.txt",
           "/llms-full.txt",
         ],

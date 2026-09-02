@@ -5,6 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPostBySlug, getRelatedPosts, extractFAQs, extractHowTo, categorySlug } from "@/lib/mdx";
 import { getTeamMember, defaultAuthor, defaultReviewer } from "@/lib/team";
 import AuthorBox from "@/components/ui/AuthorBox";
+import FichasGate from "@/components/ui/FichasGate";
 import NewsletterBlogForm from "@/components/ui/NewsletterBlogForm";
 import { localizedAlternates } from "@/lib/hreflang";
 import LogoIcon from "@/components/icons/LogoIcon";
@@ -325,7 +326,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             {/* Article */}
             <article className="flex-1 max-w-3xl">
               <div className="prose-article">
-                <MDXRemote source={content} />
+                <MDXRemote source={content} components={{ FichasGate }} />
               </div>
 
               {/* Quiz CTA prominente — visible en móvil y escritorio, sin depender del sidebar sticky (que es lg-only). Punto natural: tras leer el post, antes de la firma editorial. */}

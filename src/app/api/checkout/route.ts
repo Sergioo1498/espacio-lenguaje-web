@@ -7,7 +7,7 @@ const BASE_URL = 'https://www.espaciolenguaje.com';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { productId, addOnProductIds } = body;
+    const { productId, addOnProductIds, utmCampaign } = body;
 
     if (!productId || typeof productId !== 'string') {
       return NextResponse.json(
@@ -52,7 +52,9 @@ export async function POST(request: Request) {
       payment_method_types: ['card'],
       mode: 'payment',
       line_items: lineItems,
-      success_url: `${BASE_URL}/compra-exitosa?session_id={CHECKOUT_SESSION_ID}&product=${product.id}`,
+      success_url: `${BASE_URL}/compra-exitosa?session_id={CHECKOUT_SESSION_ID}&product=${product.id}${
+        typeof utmCampaign === 'string' && utmCampaign ? `&utm_campaign=${encodeURIComponent(utmCampaign)}` : ''
+      }`,
       cancel_url: `${BASE_URL}/recursos`,
       metadata: {
         productId: product.id,
@@ -60,6 +62,7 @@ export async function POST(request: Request) {
         downloadFile: product.file,
         addOnProductIds: addOns.map((p) => p.id).join(',') || '',
         allFiles: allFiles.join(','),
+        utmCampaign: typeof utmCampaign === 'string' ? utmCampaign.slice(0, 60) : '',
       },
     });
 

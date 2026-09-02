@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { products, formatPrice, getProduct } from '@/lib/products';
+import PurchaseTracker from '@/components/ui/PurchaseTracker';
 
 export const metadata: Metadata = {
   title: '¡Gracias por tu compra!',
@@ -18,7 +19,7 @@ const relatedProducts = products.filter(
 export default async function CompraExitosaPage({
   searchParams,
 }: {
-  searchParams: Promise<{ product?: string; session_id?: string }>;
+  searchParams: Promise<{ product?: string; session_id?: string; utm_campaign?: string }>;
 }) {
   const params = await searchParams;
   const productId = params.product;
@@ -26,6 +27,7 @@ export default async function CompraExitosaPage({
 
   return (
     <div className="pt-24 pb-16">
+      <PurchaseTracker producto={productId ?? 'desconocido'} campana={params.utm_campaign ?? 'directo'} />
       <section className="section-padding">
         <div className="container-custom mx-auto max-w-2xl text-center">
           {/* Success icon */}

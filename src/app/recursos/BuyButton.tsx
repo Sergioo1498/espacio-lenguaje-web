@@ -1,23 +1,29 @@
 'use client';
 
 import { useState } from 'react';
+import { track } from '@vercel/analytics';
 
 interface Props {
   productId: string;
   size?: 'default' | 'large';
   addOnProductIds?: string[];
+  /** Texto del botón. Por defecto "Comprar". */
+  label?: string;
+  /** Atribución de la campaña que origina la compra (llega a metadata de Stripe). */
+  utmCampaign?: string;
 }
 
-export default function BuyButton({ productId, size = 'default', addOnProductIds }: Props) {
+export default function BuyButton({ productId, size = 'default', addOnProductIds, label, utmCampaign }: Props) {
   const [loading, setLoading] = useState(false);
 
   async function handleClick() {
     setLoading(true);
+    track('inicio_checkout', { producto: productId, campana: utmCampaign ?? 'directo' });
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productId, addOnProductIds }),
+        body: JSON.stringify({ productId, addOnProductIds, utmCampaign }),
       });
       const data = await res.json();
       if (data.url) {
@@ -48,7 +54,7 @@ export default function BuyButton({ productId, size = 'default', addOnProductIds
           />
         </svg>
       ) : null}
-      {loading ? 'Procesando...' : 'Comprar'}
+      {loading ? 'Procesando...' : label ?? 'Comprar'}
     </button>
   );
 }
