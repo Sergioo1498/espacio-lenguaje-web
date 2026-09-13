@@ -1,0 +1,22 @@
+{
+  "localStripeMode": "test",
+  "checkout": "simulated Stripe; no charge or email",
+  "results": [
+    {
+      "productId": "fichas-articulacion",
+      "checkoutStatus": 200,
+      "mode": "payment",
+      "priceId": "price_1THUX3HJju972q1PN64OoHNN",
+      "deliveryHtml": "<p style=\"text-align:center;margin:12px 0;\"><a href=\"https://www.espaciolenguaje.com/downloads/productos/pack-fichas-articulacion.pdf\" style=\"display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;\">Descargar: pack fichas articulacion</a></p>",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf"
+    },
+    {
+      "productId": "pack-completo",
+      "checkoutStatus": 200,
+      "mode": "payment",
+      "priceId": "price_1THUX5HJju972q1PLAKCE3md",
+      "deliveryHtml": "<p style=\"text-align:center;margin:12px 0;\"><a href=\"https://www.espaciolenguaje.com/downloads/productos/pack-fichas-articulacion.pdf\" style=\"display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;\">Descargar: pack fichas articulacion</a></p><p style=\"text-align:center;margin:12px 0;\"><a href=\"https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-0-3.pdf\" style=\"display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;\">Descargar: cuaderno estimulacion 0 3</a></p><p style=\"text-align:center;margin:12px 0;\"><a href=\"https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-3-6.pdf\" style=\"display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;\">Descargar: cuaderno estimulacion 3 6</a></p><p style=\"text-align:center;margin:12px 0;\"><a href=\"https://www.espaciolenguaje.com/downloads/productos/kit-ejercicios-soplo.pdf\" style=\"display:inline-block;background-color:#C4745A;color:white;padding:12px 28px;border-radius:50px;text-decoration:none;font-weight:600;font-size:14px;\">Descargar: kit ejercicios soplo</a></p>",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf,/downloads/productos/cuaderno-estimulacion-0-3.pdf,/downloads/productos/cuaderno-estimulacion-3-6.pdf,/downloads/productos/kit-ejercicios-soplo.pdf"
+    }
+  ]
+}

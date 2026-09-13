@@ -41,8 +41,8 @@
     },
     "src/lib/products.ts": {
       "before": "340a0bb6de980422c8e5cdeaef55dcc563e8fc11f7637fcadd95b904b70ae951",
-      "after": "340a0bb6de980422c8e5cdeaef55dcc563e8fc11f7637fcadd95b904b70ae951",
-      "identical": true
+      "after": "b13e978fec38b198441b5efc272c8117f65886abeecf0fef53fa9e0265489504",
+      "onlyChange": "Descripción comercial del Pack Completo (C2); precios, IDs y archivos idénticos"
     },
     "src/lib/stripe.ts": {
       "before": "3a22d91062aeec4633f0921015d6999a7c5af997531e801ad6e78c1d1bfe1ec4",

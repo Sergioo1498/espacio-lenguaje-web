@@ -1,0 +1,19 @@
+Title:           Pack de Fichas de Articulación · v4 con pictogramas
+Creator:         Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/146.0.0.0 Safari/537.36
+Producer:        Skia/PDF m146
+CreationDate:    Sun Sep 13 23:18:17 2026 Hora de verano romance
+ModDate:         Sun Sep 13 23:18:17 2026 Hora de verano romance
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           34
+Encrypted:       no
+Page size:       595.92 x 841.92 pts (A4)
+Page rot:        0
+File size:       1345438 bytes
+Optimized:       no
+PDF version:     1.4

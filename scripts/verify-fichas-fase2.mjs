@@ -35,7 +35,11 @@ try {
  for(const [p,before] of Object.entries(baseline)){
   if(p.endsWith('pack-fichas-articulacion.pdf')||p.endsWith('pack-fichas-articulacion-content.md'))continue;
   const after=crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
-  assert.equal(after,before.sha256,p);regression[p]={before:before.sha256,after,identical:true};
+  if(p==='src/lib/products.ts') {
+   const approved=execFileSync('git',['show','0e7d632:src/lib/products.ts'],{encoding:'utf8'}).replace('Todos los recursos en un solo pack con descuento. Fichas + Cuadernos + Kit de Soplo + Bonus: Calendario Semanal.','Cuatro recursos en un solo pack con descuento: Fichas + Cuadernos 0-3 y 3-6 + Kit de Soplo.');
+   assert.equal(fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'),approved.replace(/\r\n/g,'\n'));
+   regression[p]={before:before.sha256,after,onlyChange:'Descripción comercial del Pack Completo (C2); precios, IDs y archivos idénticos'};
+  } else {assert.equal(after,before.sha256,p);regression[p]={before:before.sha256,after,identical:true};}
  }
  const pdfPages=fs.readFileSync(dir+'/pack-fichas-articulacion.txt','utf8').split('\f');
  assert.equal(pdfPages.filter(p=>p.trim()).length,34);

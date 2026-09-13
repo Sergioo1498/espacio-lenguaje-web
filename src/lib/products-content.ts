@@ -30,22 +30,41 @@ export const productsContent: Record<string, ProductContent> = {
     longDescription: [
       'Si tu peque dice "toche" en vez de "coche", o se come las eses, o la R todavía no le sale, no estás sola. Las dificultades de articulación son una de las consultas más frecuentes en logopedia infantil, y la mayoría se trabajan con ejercicios repetidos, estructurados y progresivos.',
       'Este pack de **30 fichas de logopedia imprimibles** está diseñado exactamente para eso: darte un material ordenado por fonema, con instrucciones claras para padres y madres sin formación en logopedia. No necesitas saber qué es un punto de articulación ni un fonema fricativo — las fichas guían paso a paso la actividad.',
-      'Cada ficha trabaja un fonema concreto (R, S, L, K, CH, Z, entre otros), con una batería de palabras organizadas por posición (inicial, media, final), ilustraciones para señalar y pequeños juegos de repetición. Están pensadas para sesiones cortas de 10-15 minutos, que es justo el tiempo que un niño de 3-6 años mantiene la atención en una tarea estructurada.',
+      'Cada ficha trabaja un fonema concreto (R, S, L, K, CH, Z, entre otros), con palabras organizadas por posición (inicial, media y final cuando corresponde), pictogramas y silabario. La guía de uso propone sesiones de 5-10 minutos.',
       'El material es el mismo tipo de ficha que usamos en consulta: el soporte visual ayuda al niño a anclar el sonido correcto, y las instrucciones para el adulto evitan errores comunes (corregir directamente, forzar la pronunciación, repetir demasiado). Si tu peque lleva meses con un mismo error de articulación, un trabajo sistemático en casa puede marcar una diferencia real en semanas.',
       'Es un material complementario al trabajo de logopedia, no sustitutivo. Si el problema persiste, siempre recomendamos valoración profesional. Pero para la mayoría de dislalias evolutivas leves, este tipo de práctica estructurada en casa funciona muy bien.',
     ],
     features: [
-      { title: '30 fichas imprimibles', description: 'Una por fonema o grupo de fonemas, con ilustraciones y palabras por posición.' },
-      { title: 'Instrucciones para adultos', description: 'Cada ficha incluye una guía clara para padres sin formación previa.' },
-      { title: 'Progresión por dificultad', description: 'De sílabas simples a palabras y frases. El peque avanza sin saltar pasos.' },
-      { title: 'PDF A4 listo para imprimir', description: 'Diseño limpio, alta resolución, sin tinta excesiva para economizar.' },
-      { title: 'Incluye registro de progreso', description: 'Hoja de seguimiento para anotar qué fonemas ya domina y cuáles trabajar.' },
+      {
+        "title": "30 fichas imprimibles",
+        "description": "Una por fonema o grupo consonántico, con pictogramas y palabras por posición."
+      },
+      {
+        "title": "Instrucciones para adultos",
+        "description": "Guía de uso y, en cada ficha, edad esperada y posición articulatoria."
+      },
+      {
+        "title": "Silabario de práctica",
+        "description": "Sílabas de práctica para cada fonema o grupo consonántico."
+      },
+      {
+        "title": "PDF A4 de 34 páginas",
+        "description": "30 fichas, portada, guía de uso, referencias y registro de progreso."
+      },
+      {
+        "title": "5 referencias",
+        "description": "Una página con las referencias del material."
+      },
+      {
+        "title": "Registro de progreso",
+        "description": "Tabla de 30 filas con fecha, conseguido y observaciones."
+      }
     ],
     whatYouGet: [
-      'PDF de 34 páginas (30 fichas + portada + guía + registro)',
-      'Descarga inmediata tras la compra',
-      'Uso ilimitado en tu familia o aula',
-      'Actualizaciones gratuitas si mejoramos el pack',
+      "PDF de 34 páginas (30 fichas + portada + guía + referencias + registro)",
+      "Descarga inmediata tras la compra",
+      "Uso ilimitado en tu familia o aula",
+      "Actualizaciones gratuitas si mejoramos el pack"
     ],
     audience: [
       'Padres y madres con peques de 3 a 7 años que tienen dificultades con algún fonema concreto',
@@ -59,11 +78,11 @@ export const productsContent: Record<string, ProductContent> = {
       },
       {
         q: '¿Necesito saber algo de logopedia para usarlas?',
-        a: 'No. Cada ficha incluye instrucciones paso a paso para el adulto, explicadas en lenguaje claro y sin jerga profesional.',
+        a: 'No. El pack incluye una guía de uso, y cada ficha indica la edad esperada, la posición articulatoria y el silabario.',
       },
       {
         q: '¿Cuántas fichas se pueden hacer al día?',
-        a: 'Recomendamos 1-2 fichas al día, en sesiones de 10-15 minutos. Lo importante es la constancia, no el volumen.',
+        a: 'La guía propone trabajar un fonema cada vez en sesiones de 5-10 minutos. Lo importante es la constancia, no el volumen.',
       },
     ],
     relatedProductIds: ['kit-soplo', 'cuaderno-3-6', 'pack-completo'],
@@ -79,7 +98,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Cuaderno de estimulación del lenguaje para bebés y niños de 0 a 3 años. 20 actividades organizadas por edad, diseñadas por logopedas. PDF imprimible desde 5,90€.',
     subtitle: 'Estimulación del lenguaje desde el primer babeo',
-    pageCount: 28,
+    pageCount: 16,
     ageRange: '0-3 años',
     whatIncludes: [
       '20 actividades distribuidas en 5 bloques por edad (0-6m, 6-12m, 12-18m, 18-24m, 2-3 años)',
@@ -100,24 +119,39 @@ export const productsContent: Record<string, ProductContent> = {
     ],
     longDescription: [
       'Los tres primeros años son la ventana de oportunidad más importante para el desarrollo del lenguaje. No se trata de "enseñar" a hablar — los bebés aprenden el idioma por exposición e interacción — pero sí podemos crear el entorno perfecto para que esa maquinaria se active con fuerza.',
-      'Este **cuaderno de estimulación del lenguaje 0-3 años** está pensado para padres y madres que quieren aprovechar esos primeros años con actividades concretas, adaptadas a cada franja de edad, sin necesidad de materiales especiales ni formación previa. Son 20 actividades estructuradas, probadas por logopedas y organizadas en tres bloques: 0-12 meses, 12-24 meses y 24-36 meses.',
+      'Este **cuaderno de estimulación del lenguaje 0-3 años** está pensado para padres y madres que quieren aprovechar esos primeros años con actividades concretas, adaptadas a cada franja de edad, sin necesidad de materiales especiales ni formación previa. Son 20 actividades estructuradas, probadas por logopedas y organizadas en cinco bloques: 0-6 meses, 6-12 meses, 12-18 meses, 18-24 meses y 2-3 años.',
       'En el bloque de 0 a 12 meses encontrarás rutinas para favorecer el contacto visual, la atención conjunta, el balbuceo y la respuesta a sonidos. Nada de "flashcards" ni pantallas: actividades pensadas para integrar en la rutina (baño, comida, cambio de pañal) y que se apoyan en lo que los bebés adoran — la voz de mamá y papá, la imitación y los juegos de cara a cara.',
       'Entre los 12 y 24 meses entramos en la explosión del vocabulario. El cuaderno propone actividades para ampliar léxico, iniciar combinaciones de dos palabras y reforzar comprensión (que suele ir siempre por delante de la expresión). Incluye pautas claras sobre qué esperar y qué no — muy útil para familias que se comparan con otros niños y viven con angustia cada "retraso aparente".',
-      'De 24 a 36 meses el foco está en construir frases, seguir narrativas sencillas, jugar simbólicamente y trabajar las primeras preguntas ("¿qué?", "¿dónde?"). Cada actividad viene con una pregunta tipo "Si tu hijo no consigue esto, ¿qué hago?" que da tranquilidad y siguiente paso.',
+      'De 24 a 36 meses el foco está en construir frases, seguir narrativas sencillas, jugar simbólicamente y trabajar las primeras preguntas ("¿qué?", "¿dónde?"). Cada actividad incluye instrucciones y variaciones para adaptar la propuesta.',
       'El cuaderno es un **compañero de ruta para los tres primeros años**, no un método cerrado. Úsalo cuando tengas dudas, cuando busques ideas nuevas, o simplemente cuando quieras tener la tranquilidad de que estás acompañando bien el desarrollo del lenguaje de tu peque.',
     ],
     features: [
-      { title: '20 actividades estructuradas', description: 'Organizadas en tres bloques por edad: 0-12m, 12-24m, 24-36m.' },
-      { title: 'Sin materiales especiales', description: 'Todas las actividades se hacen con lo que ya tienes en casa.' },
-      { title: 'Hitos por edad incluidos', description: 'Tabla de referencia con qué esperar en cada mes.' },
-      { title: 'Señales de alerta', description: 'Sabrás cuándo consultar con un profesional sin dramatizar.' },
-      { title: 'Tiempo estimado por actividad', description: 'De 5 a 15 minutos. Encajable en la rutina diaria.' },
+      {
+        "title": "20 actividades estructuradas",
+        "description": "Organizadas en cinco bloques: 0-6m, 6-12m, 12-18m, 18-24m y 2-3 años."
+      },
+      {
+        "title": "Materiales cotidianos",
+        "description": "Materiales necesarios indicados en cada actividad."
+      },
+      {
+        "title": "Instrucciones paso a paso",
+        "description": "Cada actividad incluye cómo hacerla, qué desarrolla y variaciones."
+      },
+      {
+        "title": "Señales de alerta por edad",
+        "description": "Apartado de señales de alerta organizado por franjas de edad."
+      },
+      {
+        "title": "Duración por actividad",
+        "description": "Tiempo orientativo indicado en cada propuesta."
+      }
     ],
     whatYouGet: [
-      'PDF de 28 páginas en A4',
-      'Tabla de hitos del lenguaje 0-3 años',
-      'Checklist de señales de alerta por edad',
-      'Descarga inmediata y acceso perpetuo',
+      "PDF de 16 páginas en A4",
+      "20 actividades en cinco bloques por edad",
+      "Listado de señales de alerta por edad y referencias",
+      "Descarga inmediata y acceso perpetuo"
     ],
     audience: [
       'Padres y madres primerizos que quieren acompañar el desarrollo del lenguaje con buenas prácticas',
@@ -151,7 +185,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Cuaderno de estimulación del lenguaje para niños de 3 a 6 años: 20 actividades de vocabulario, articulación y conciencia fonológica. PDF imprimible diseñado por logopedas.',
     subtitle: 'Vocabulario, articulación y conciencia fonológica',
-    pageCount: 32,
+    pageCount: 17,
     ageRange: '3-6 años',
     whatIncludes: [
       '20 actividades en 5 bloques (conciencia fonológica, vocabulario, narrativa, articulación, comprensión)',
@@ -172,25 +206,40 @@ export const productsContent: Record<string, ProductContent> = {
     ],
     longDescription: [
       'Entre los 3 y los 6 años el lenguaje de un peque da un salto espectacular: pasa de frases de 3-4 palabras a conversaciones completas, construye narrativas, hace preguntas abstractas y empieza a prepararse para la lectoescritura. Es también la etapa en que más errores de articulación "se limpian" y donde la conciencia fonológica — clave para aprender a leer — se desarrolla.',
-      'Este **cuaderno de logopedia 3-6 años** está organizado en cuatro bloques: vocabulario, articulación, morfosintaxis y conciencia fonológica. Son 20 actividades progresivas diseñadas por logopedas que trabajan a diario con esta franja de edad.',
+      'Este **cuaderno de logopedia 3-6 años** está organizado en cinco bloques: conciencia fonológica, vocabulario, narrativa, articulación y comprensión. Son 20 actividades progresivas diseñadas por logopedas que trabajan a diario con esta franja de edad.',
       'En el bloque de vocabulario encontrarás juegos para ampliar léxico por campos semánticos (animales, familia, emociones, alimentos), trabajar antónimos y categorizar. El vocabulario receptivo y expresivo a los 4-5 años es uno de los predictores más potentes del rendimiento escolar posterior.',
-      'El bloque de articulación incluye ejercicios específicos para los fonemas que más tardan en adquirirse: R (vibrante simple y múltiple), S, Z y grupos consonánticos (br, pl, tr). Cada actividad combina praxias, discriminación auditiva y repetición contextualizada.',
-      'Morfosintaxis: desde los 3 años los niños empiezan a construir frases cada vez más complejas con subordinadas, conjugaciones irregulares y conectores. Este bloque propone actividades narrativas (cuéntame qué pasó), juegos de completar frases y tareas de ordenar secuencias.',
-      'Y el último bloque, **conciencia fonológica**, es especialmente importante en el último año de infantil (5-6 años): segmentar sílabas, identificar sonido inicial y final, rimas, omisión de sílabas. Son las habilidades que, mejor entrenadas, predicen un aprendizaje de lectoescritura sin tropiezos.',
+      'El bloque de articulación reúne cuatro actividades: trabalenguas suaves, pares mínimos, repetición de pseudopalabras y detective de sonidos.',
+      'El bloque de narrativa propone inventar finales, ordenar secuencias, contar qué hizo hoy y crear historias a partir de imágenes. El de comprensión incluye instrucciones de tres pasos, absurdos verbales, preguntas sobre cuentos y verdadero o falso.',
+      'El bloque de conciencia fonológica incluye juegos de rimas, conteo de sílabas, búsqueda de palabras por sonido inicial y cadenas de palabras.',
       'El cuaderno está pensado para familias y también para aulas de infantil. Es un material que acompaña los últimos dos años de educación infantil y la transición a primaria con bases firmes.',
     ],
     features: [
-      { title: '20 actividades en 4 bloques', description: 'Vocabulario, articulación, morfosintaxis y conciencia fonológica.' },
-      { title: 'Progresión por dificultad', description: 'Desde actividades básicas hasta niveles de 1º de primaria.' },
-      { title: 'Material visual incluido', description: 'Tarjetas, láminas y fichas listas para recortar o usar en pantalla.' },
-      { title: 'Adaptaciones para conciencia fonológica', description: 'El bloque incluye actividades graduadas que pueden ser útiles en peques con dificultades en el inicio de la lectoescritura.' },
-      { title: 'Guía para el adulto', description: 'Explica qué hace cada actividad y por qué es importante.' },
+      {
+        "title": "20 actividades en 5 bloques",
+        "description": "Conciencia fonológica, vocabulario, narrativa, articulación y comprensión."
+      },
+      {
+        "title": "Variaciones por dificultad",
+        "description": "Opciones más fáciles y más difíciles en las actividades."
+      },
+      {
+        "title": "Materiales cotidianos",
+        "description": "Indicaciones para preparar cada juego con objetos e imágenes de casa."
+      },
+      {
+        "title": "Conciencia fonológica",
+        "description": "Cuatro actividades: rimas, sílabas, sonido inicial y cadena de palabras."
+      },
+      {
+        "title": "Guía para el adulto",
+        "description": "Materiales, instrucciones paso a paso y qué desarrolla cada actividad."
+      }
     ],
     whatYouGet: [
-      'PDF de 32 páginas',
-      'Material visual imprimible (tarjetas y láminas)',
-      'Guía de uso paso a paso',
-      'Registro de progreso por bloque',
+      "PDF de 17 páginas",
+      "20 actividades en cinco áreas del lenguaje",
+      "Guía de uso e instrucciones paso a paso",
+      "Variaciones por actividad y referencias"
     ],
     audience: [
       'Familias con peques de 3 a 6 años',
@@ -224,7 +273,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       '15 ejercicios progresivos de respiración y soplo con materiales caseros. Pensados para juego compartido, control respiratorio y apoyo en casos específicos (respiración bucal persistente, deglución atípica) bajo indicación profesional.',
     subtitle: '15 ejercicios progresivos con materiales de casa',
-    pageCount: 22,
+    pageCount: 31,
     importantNotice:
       'Este kit trabaja respiración funcional, control del aire y juego compartido. NO corrige problemas de articulación (la evidencia actual — ASHA 2013, Lof & Watson 2008 — no respalda que el soplo mejore la pronunciación de fonemas). Si tu peque tiene dislalia o dificultades para pronunciar sonidos, necesita valoración con logopeda colegiada, no este kit.',
     whatIncludes: [
@@ -262,10 +311,10 @@ export const productsContent: Record<string, ProductContent> = {
       { title: 'Edad recomendada por ejercicio', description: 'Sabrás exactamente por dónde empezar según la edad de tu peque.' },
     ],
     whatYouGet: [
-      'PDF de 22 páginas con ilustraciones',
-      'Tabla de seguimiento imprimible',
-      'Guía para padres sin formación',
-      'Descarga inmediata',
+      "PDF de 31 páginas con ilustraciones",
+      "15 ejercicios y tabla de seguimiento semanal imprimible",
+      "Guía para padres y referencias",
+      "Descarga inmediata"
     ],
     audience: [
       'Familias que buscan actividades de juego compartido con control respiratorio',
@@ -301,30 +350,47 @@ export const productsContent: Record<string, ProductContent> = {
   'pack-completo': {
     seoTitle: 'Pack completo de logopedia infantil: todo para estimular el lenguaje (PDF)',
     seoDescription:
-      'Pack completo de material logopédico infantil: fichas de articulación + cuadernos de estimulación 0-3 y 3-6 + kit de soplo + bonus. 28% de descuento sobre compra individual. PDF desde 14,90€.',
-    subtitle: 'Todos los recursos con 28% de descuento',
-    pageCount: 116,
+      'Pack completo de material logopédico infantil: fichas de articulación + cuadernos de estimulación 0-3 y 3-6 + kit de soplo. 28% de descuento sobre compra individual. PDF desde 14,90€.',
+    subtitle: 'Cuatro recursos con 28% de descuento',
+    pageCount: 98,
     longDescription: [
-      'Si te gusta lo que hacemos y quieres tener **todo el material de logopedia infantil en casa**, el pack completo es tu mejor opción. Incluye las fichas de articulación, los dos cuadernos de estimulación (0-3 y 3-6 años), el kit de ejercicios de soplo y un bonus: un calendario semanal para organizar el trabajo con tu peque sin frustración.',
+      'Si te gusta lo que hacemos y quieres tener **cuatro recursos de logopedia infantil en casa**, el pack completo es tu mejor opción. Incluye las fichas de articulación, los dos cuadernos de estimulación (0-3 y 3-6 años), el kit de ejercicios de soplo con sus tablas de seguimiento incluidas.',
       'El pack completo ahorra un **28% respecto a la compra individual** de cada recurso (20,60€ → 14,90€) y te da una biblioteca de materiales de lenguaje infantil que cubre desde el primer balbuceo (0 meses) hasta la entrada a primaria (6 años). Son materiales complementarios que pueden formar parte del trabajo en casa, siempre bajo plan profesional si existe intervención clínica.',
       'Es especialmente útil si: tienes más de un peque (te cubre distintas edades), tu hijo tiene varias áreas a trabajar (articulación + vocabulario + soplo), o quieres invertir una sola vez y tener material para años. También si eres profesional (logopeda o maestra) que busca material variado para trabajar con diferentes niños.',
-      'Cada recurso incluido es el mismo que vendemos individualmente. No hay material "de relleno" ni versiones reducidas: recibes los 4 PDFs completos más el bonus del calendario semanal.',
-      'El **calendario semanal bonus** es una plantilla imprimible para organizar las actividades de tu peque por días de la semana. Incluye una propuesta de "plan tipo" para distintos perfiles (peque con dificultades de articulación, con vocabulario escaso, con retraso leve del lenguaje, preparación para lectoescritura). Es exactamente lo que decimos a las familias en consulta: "hagan X los lunes, Y los miércoles, Z los viernes", pero ya hecho.',
+      'Cada recurso incluido es el mismo que vendemos individualmente. No hay material "de relleno" ni versiones reducidas: recibes los 4 PDFs completos.',
       'La descarga es **inmediata** tras la compra. Recibes todos los PDFs en tu correo y puedes descargarlos desde la página de confirmación. El pack no caduca, no tiene suscripción y las actualizaciones son gratuitas (cuando mejoramos algún recurso, te llega la nueva versión por email).',
     ],
     features: [
-      { title: 'Pack de fichas de articulación', description: '30 fichas imprimibles por fonema (34 páginas).' },
-      { title: 'Cuaderno de estimulación 0-3 años', description: '20 actividades organizadas por edad (28 páginas).' },
-      { title: 'Cuaderno de estimulación 3-6 años', description: '20 actividades en 4 bloques (32 páginas).' },
-      { title: 'Kit de ejercicios de soplo', description: '15 ejercicios progresivos de respiración y juego compartido con materiales caseros (22 páginas). Enfoque de control respiratorio y consciencia oral, no de mejora articulatoria.' },
-      { title: 'BONUS: Calendario semanal', description: 'Plantilla para organizar el trabajo por días de la semana.' },
-      { title: 'Actualizaciones gratuitas', description: 'Cuando mejoramos un recurso, recibes la nueva versión.' },
+      {
+        "title": "Pack de fichas de articulación",
+        "description": "30 fichas, guía, referencias y registro de progreso (34 páginas)."
+      },
+      {
+        "title": "Cuaderno de estimulación 0-3 años",
+        "description": "20 actividades en cinco bloques por edad (16 páginas)."
+      },
+      {
+        "title": "Cuaderno de estimulación 3-6 años",
+        "description": "20 actividades en cinco áreas del lenguaje (17 páginas)."
+      },
+      {
+        "title": "Kit de ejercicios de soplo",
+        "description": "15 ejercicios con materiales caseros y seguimiento semanal (31 páginas)."
+      },
+      {
+        "title": "Registros incluidos",
+        "description": "Registro de las fichas y tabla semanal del Kit de Soplo, dentro de sus PDF."
+      },
+      {
+        "title": "Actualizaciones gratuitas",
+        "description": "Acceso a las versiones actualizadas de los cuatro recursos incluidos."
+      }
     ],
     whatYouGet: [
-      '4 PDFs principales (116 páginas totales)',
-      'Plantilla de calendario semanal (bonus)',
-      'Acceso perpetuo y actualizaciones gratis',
-      'Soporte por email si tienes dudas de uso',
+      "4 PDFs (98 páginas totales)",
+      "Registro de fichas y tabla semanal de soplo incluidos en sus PDF",
+      "Acceso perpetuo y actualizaciones gratis de los recursos incluidos",
+      "Soporte por email si tienes dudas de uso"
     ],
     audience: [
       'Familias con más de un peque en edades diferentes',
@@ -342,7 +408,7 @@ export const productsContent: Record<string, ProductContent> = {
       },
       {
         q: '¿Hay alguna novedad que no esté incluida?',
-        a: 'No. El pack siempre incluye todo el material premium que tenemos publicado. Los nuevos recursos que lancemos se añadirán automáticamente al pack y los recibirás gratis.',
+        a: 'El pack incluye las fichas, los dos cuadernos y el Kit de Soplo. Las guías de dislexia y tartamudez se venden por separado.',
       },
     ],
     relatedProductIds: ['guia-dislexia', 'guia-tartamudez'],
@@ -358,7 +424,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Guía completa de dislexia infantil: cómo detectarla, qué ejercicios hacer en casa, adaptaciones escolares y checklist para tutores. PDF imprimible diseñado por logopedas.',
     subtitle: 'Detección, ejercicios y adaptaciones para el cole',
-    pageCount: 42,
+    pageCount: 20,
     whatIncludes: [
       '10 capítulos sobre dislexia infantil',
       'Checklist explícito de detección por etapa con casillas + ficha de observación',
@@ -381,23 +447,38 @@ export const productsContent: Record<string, ProductContent> = {
       'La dislexia afecta a entre un 5 y un 10% de la población infantil, pero sigue siendo uno de los trastornos de aprendizaje peor comprendidos. Muchas familias pasan años pensando que su hijo "no se esfuerza lo suficiente" o que "ya espabilará", cuando en realidad necesita un enfoque distinto — y pautas concretas que pueden marcar la diferencia en cómo vive su etapa escolar.',
       'Esta **guía de dislexia infantil** está pensada para familias que sospechan que su peque puede tener dislexia, o que ya tienen un diagnóstico y no saben por dónde empezar. También es útil para maestras y tutores que quieren entender mejor cómo funciona la dislexia y cómo adaptar el aula.',
       'La guía arranca con la detección. Explicamos cómo se manifiesta la dislexia a distintas edades: qué señales buscar a los 4-5 años (antes del aprendizaje formal de la lectura), qué síntomas aparecen en primero y segundo de primaria, y qué observar en cursos superiores. Incluimos un checklist claro por edad para que sepas si lo que observas es típico de dislexia o puede ser otra cosa.',
-      'Después nos centramos en los **ejercicios multisensoriales** — la base del abordaje con evidencia científica más sólida en dislexia. Te explicamos qué es el método Orton-Gillingham, por qué funciona y te damos 15 actividades concretas para trabajar en casa: conciencia fonológica, asociación fonema-grafema, vocabulario visual, fluidez lectora. No son actividades "milagro": son las que realmente se usan en intervención.',
-      'El siguiente bloque es sobre **adaptaciones escolares**. Esta es la parte que más suele pedir ayuda: ¿qué derecho tiene mi hijo? ¿qué puedo pedir al cole? ¿qué adaptaciones funcionan de verdad y cuáles son puro paripé? Incluimos una carta tipo para solicitar adaptaciones al centro, un listado de adaptaciones razonables y no razonables, y cómo documentar todo para no quedar indefensa si el cole se resiste.',
+      'Después nos centramos en los **ejercicios multisensoriales** — la base del abordaje con evidencia científica más sólida en dislexia. Te explicamos qué es el método Orton-Gillingham, por qué funciona y te damos 10 actividades concretas para trabajar en casa: conciencia fonológica, asociación fonema-grafema, vocabulario visual, fluidez lectora. No son actividades "milagro": son las que realmente se usan en intervención.',
+      'El siguiente bloque es sobre **adaptaciones escolares**. Esta es la parte que más suele pedir ayuda: ¿qué derecho tiene mi hijo? ¿qué puedo pedir al cole? ¿qué adaptaciones funcionan de verdad y cuáles son puro paripé? Incluimos una plantilla imprimible de informe para el tutor, un listado de adaptaciones razonables y no razonables, y cómo documentar todo para no quedar indefensa si el cole se resiste.',
       'Cerramos con un bloque sobre el **impacto emocional** de la dislexia. Los niños con dislexia no diagnosticada o no atendida tienen más riesgo de baja autoestima, ansiedad escolar y abandono temprano. Damos pautas concretas para proteger la autoestima del peque mientras se trabaja lo académico — porque ningún aprendizaje cuaja si el niño ha perdido la confianza en sí mismo.',
       'La guía es un material que queremos que uses como referencia durante años: desde la primera sospecha hasta la preparación de cada curso escolar.',
     ],
     features: [
-      { title: 'Checklist por edad', description: 'Señales de dislexia a los 4-5, 6-7 y 8+ años.' },
-      { title: '15 ejercicios multisensoriales', description: 'Basados en el método Orton-Gillingham con evidencia científica.' },
-      { title: 'Carta tipo para el cole', description: 'Plantilla editable para solicitar adaptaciones escolares.' },
-      { title: 'Guía de adaptaciones razonables', description: 'Qué pedir y cómo, con base legal.' },
-      { title: 'Pautas de acompañamiento emocional', description: 'Proteger la autoestima mientras se trabaja lo académico.' },
+      {
+        "title": "Checklist por etapa",
+        "description": "Señales organizadas en preescolar, primaria y secundaria."
+      },
+      {
+        "title": "10 ejercicios para casa",
+        "description": "Actividades de lectura, escritura y conciencia fonológica."
+      },
+      {
+        "title": "Informe para el tutor",
+        "description": "Plantilla imprimible para rellenar y entregar al centro escolar."
+      },
+      {
+        "title": "Adaptaciones escolares",
+        "description": "Apartado sobre adaptaciones y cómo solicitarlas."
+      },
+      {
+        "title": "Acompañamiento familiar",
+        "description": "Consejos para casa y respuestas a preguntas frecuentes."
+      }
     ],
     whatYouGet: [
-      'PDF de 42 páginas',
-      'Checklist imprimible de señales por edad',
-      'Carta tipo editable para el centro escolar',
-      'Registro de ejercicios multisensoriales',
+      "PDF de 20 páginas",
+      "Checklist imprimible de señales por etapa",
+      "Plantilla imprimible de informe para el tutor",
+      "10 ejercicios para casa, glosario y referencias"
     ],
     audience: [
       'Familias que sospechan dislexia en su peque',
@@ -432,7 +513,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Guía completa de tartamudez infantil para familias: tipos, qué hacer en casa, ejercicios de fluidez, cuándo consultar con un logopeda. PDF imprimible diseñado por logopedas.',
     subtitle: 'Para familias que quieren ayudar sin empeorar',
-    pageCount: 38,
+    pageCount: 16,
     whatIncludes: [
       '8 capítulos sobre tartamudez infantil',
       'Tabla comparativa: disfluencia evolutiva normal vs tartamudez patológica',
@@ -455,23 +536,38 @@ export const productsContent: Record<string, ProductContent> = {
       'La tartamudez infantil es una de las dificultades del habla que más angustia genera en las familias — precisamente porque nadie nos ha enseñado qué hacer cuando un niño empieza a bloquearse al hablar. Y lo primero que hacemos suele ser exactamente lo que menos ayuda: completarle las frases, pedirle que respire hondo, decirle "habla despacio". Bien intencionado, pero contraproducente.',
       'Esta **guía de tartamudez infantil** nace de una necesidad que vemos en consulta todos los meses: familias asustadas que llegan con información contradictoria de internet y con un peque que va bloqueándose cada vez más. La guía está escrita para que, después de leerla, sepas exactamente qué hacer, qué no hacer y cuándo es momento de buscar ayuda profesional.',
       'Arrancamos explicando los **tipos de tartamudez**. No toda disfluencia es tartamudez patológica: entre los 2 y los 5 años, un porcentaje altísimo de niños atraviesan una fase de **disfluencia evolutiva** perfectamente normal que se resuelve sola. La distinguimos de la tartamudez persistente, que sí requiere intervención, con una tabla de señales clara y sin alarmismo.',
-      'El segundo bloque es el más práctico: **qué hacer y qué no hacer en casa**. Incluimos las 10 pautas clave que usamos en terapia indirecta (la que trabajamos con las familias, no con el niño). Son cosas tipo "baja tu velocidad de habla cuando hables con tu peque", "deja pausas claras entre turnos", "mantén el contacto visual incluso cuando se bloquea". Parecen pequeños cambios, pero cuando una familia los aplica con constancia, el niño nota el cambio y su fluidez mejora.',
-      'Después entramos en los **ejercicios de fluidez** directa. Son actividades pensadas para niños de 4 años en adelante — antes no se trabaja directamente con el niño, solo con la familia. Juegos de ritmo, actividades de respiración-habla, lectura compartida con patrones de fluidez. Todo explicado paso a paso.',
-      'Un bloque especialmente útil es el de **cómo hablar con el cole**. La tartamudez puede convertirse en una fuente de burlas si el cole no la gestiona bien. Incluimos una carta modelo para el tutor, pautas específicas para el aula y un protocolo de actuación si hay burlas.',
+      'El segundo bloque es el más práctico: **qué hacer y qué no hacer en casa**. Incluimos un apartado con pautas sobre qué hacer y qué no hacer en casa. Son cosas tipo "baja tu velocidad de habla cuando hables con tu peque", "deja pausas claras entre turnos", "mantén el contacto visual incluso cuando se bloquea". Parecen pequeños cambios, pero cuando una familia los aplica con constancia, el niño nota el cambio y su fluidez mejora.',
+      'El capítulo de actividades para casa reúne ocho juegos y pautas ambientales para hacer en familia, con indicaciones de uso.',
+      'Un bloque especialmente útil es el de **cómo hablar con el cole**. La tartamudez puede convertirse en una fuente de burlas si el cole no la gestiona bien. Incluimos una sección para profesores con pautas para el aula y orientaciones ante las burlas.',
       'Cerramos con **cuándo consultar con un logopeda**. No todo pide intervención profesional inmediata — pero sí hay criterios claros (duración, frecuencia, reacciones emocionales del peque, antecedentes familiares) que marcan el momento de pedir valoración. La guía te da esos criterios para que no llegues ni demasiado pronto ni demasiado tarde.',
     ],
     features: [
-      { title: 'Tipos de tartamudez explicados', description: 'Distingue la disfluencia evolutiva normal de la persistente.' },
-      { title: '10 pautas para familias', description: 'Terapia indirecta: lo que los logopedas enseñamos a los padres.' },
-      { title: 'Ejercicios de fluidez directa', description: 'Para niños de 4+ años, con progresión clara.' },
-      { title: 'Carta tipo para el cole', description: 'Plantilla editable para informar al tutor y al aula.' },
-      { title: 'Criterios de consulta profesional', description: 'Sabrás cuándo pedir valoración sin alarmismo ni tardanza.' },
+      {
+        "title": "Tipos de tartamudez explicados",
+        "description": "Tabla comparativa de disfluencia evolutiva y tartamudez."
+      },
+      {
+        "title": "Pautas para familias",
+        "description": "Apartado sobre qué hacer y qué no hacer en casa."
+      },
+      {
+        "title": "8 actividades familiares",
+        "description": "Juegos y pautas ambientales para casa."
+      },
+      {
+        "title": "Sección para profesores",
+        "description": "Pautas para compartir con el centro escolar."
+      },
+      {
+        "title": "Cuándo consultar",
+        "description": "Capítulo con criterios para pedir valoración profesional."
+      }
     ],
     whatYouGet: [
-      'PDF de 38 páginas',
-      'Tabla de tipos de disfluencia',
-      'Plantilla editable para el centro escolar',
-      'Registro de ejercicios y progreso',
+      "PDF de 16 páginas",
+      "Tabla comparativa de disfluencias",
+      "Sección para profesores",
+      "8 actividades familiares, preguntas frecuentes y referencias"
     ],
     audience: [
       'Familias con peques de 2-8 años que han empezado a tartamudear',
@@ -485,7 +581,7 @@ export const productsContent: Record<string, ProductContent> = {
       },
       {
         q: '¿Qué hago si se burlan de él en el cole?',
-        a: 'Hay un bloque específico sobre esto con un protocolo paso a paso y una carta tipo para el tutor. Lo mejor es actuar pronto, con el cole como aliado.',
+        a: 'La sección para profesores incluye pautas para el aula y orientaciones ante las burlas. Puedes compartirla con el tutor.',
       },
       {
         q: '¿Puedo hacer los ejercicios sin ser logopeda?',

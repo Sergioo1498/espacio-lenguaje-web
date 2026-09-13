@@ -72,7 +72,7 @@ export const products: Product[] = [
     id: 'pack-completo',
     name: 'Pack Completo: Todo para Estimular el Lenguaje',
     description:
-      'Todos los recursos en un solo pack con descuento. Fichas + Cuadernos + Kit de Soplo + Bonus: Calendario Semanal.',
+      'Cuatro recursos en un solo pack con descuento: Fichas + Cuadernos 0-3 y 3-6 + Kit de Soplo.',
     price: 1490,
     currency: 'eur',
     stripePriceId: 'price_1THUX5HJju972q1PLAKCE3md',
