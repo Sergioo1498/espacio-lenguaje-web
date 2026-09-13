@@ -1,6 +1,6 @@
 // Genera el Pack de Fichas de Articulación con pictogramas Arasaac.
-// Uso: node scripts/generate-fichas-v3.mjs           → escribe el entregable en public/
-//      node scripts/generate-fichas-v3.mjs --draft   → escribe en drafts/pack-fichas-v4/
+// Uso: node scripts/generate-fichas.mjs           → escribe el entregable en public/
+//      node scripts/generate-fichas.mjs --draft   → escribe en drafts/pack-fichas-v4/
 //
 // El parser vive en _fichas-source.mjs, compartido con la muestra gratuita: tener dos
 // copias fue justo lo que dejó el pack v3 sin edad, posición articulatoria ni silabario.
@@ -33,11 +33,11 @@ const fichas = loadFichas();
 const sourceMd = loadSourceMd();
 
 // Parse cada ficha del MD para extraer datos no incluidos en JSON (parser compartido)
-const getFichaData = (num) => parseFicha(sourceMd, num);
+const fichaData = (num) => parseFicha(sourceMd, num);
 
 const fichasHTML = fichas
   .map((f) => {
-    const md = getFichaData(f.num);
+    const md = fichaData(f.num);
     const slots = ["inicio", "medio", "final"]
       .map((slot) => {
         const cell = f[slot];
@@ -105,6 +105,20 @@ const introHTML = `<section class="intro-page">
   </table>
   <p class="intro-warning"><strong>Importante:</strong> estos rangos son orientativos. Si tu peque persiste en errores fuera del rango esperable, consulta con logopeda colegiada para descartar causas subyacentes (frenillo, hipoacusia, dislalia fonológica).</p>
 </section>`;
+
+const references = sourceMd.split('## Referencias')[1].split(/\r?\n---/)[0]
+  .split(/\r?\n/).filter(line => line.startsWith('- '));
+if (references.length !== 5) throw new Error('La fuente debe contener exactamente cinco referencias.');
+const inline = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+)\*/g, '<em>$1</em>');
+const referencesHTML = `<section class="appendix references"><h2>Referencias</h2>
+  <ul>${references.map(line => `<li>${inline(line.slice(2))}</li>`).join('')}</ul>
+  <footer class="ficha-footer"><span>Pack de Fichas de Articulación</span><span>www.espaciolenguaje.com · 33</span></footer></section>`;
+const progressHTML = `<section class="appendix progress"><h2>Registro de progreso</h2>
+  <p>Anota la fecha, marca lo conseguido y añade tus observaciones para cada ficha.</p>
+  <table><thead><tr><th>Nº</th><th>Fonema / palabra</th><th>Fecha</th><th>Conseguido</th><th>Observaciones</th></tr></thead>
+  <tbody>${fichas.map(f => `<tr><td>${f.num}</td><td>${f.fonema} / ${(f.inicio || f.medio || f.final).word}</td><td></td><td></td><td></td></tr>`).join('')}</tbody></table>
+  <footer class="ficha-footer"><span>Pack de Fichas de Articulación</span><span>www.espaciolenguaje.com · 34</span></footer></section>`;
 
 const html = `<!DOCTYPE html>
 <html lang="es">
@@ -206,12 +220,26 @@ const html = `<!DOCTYPE html>
     display: flex; justify-content: space-between; font-size: 9.5px; color: #9a8a8c;
     margin-top: 16px; padding-top: 10px; border-top: 1px solid #F5E6D3;
   }
+  .appendix { width: 210mm; height: 297mm; padding: 22mm 20mm; display: flex; flex-direction: column; page-break-after: always; }
+  .appendix:last-child { page-break-after: auto; }
+  .appendix h2 { font-size: 28px; color: #3D2C2E; margin: 0 0 18px; padding-bottom: 12px; border-bottom: 3px solid #C4745A; }
+  .appendix p { font-size: 12px; line-height: 1.55; margin: 0 0 18px; }
+  .appendix .ficha-footer { margin-top: auto; }
+  .references ul { padding-left: 22px; font-size: 15px; line-height: 1.8; }
+  .references li { margin-bottom: 25px; }
+  .progress table { width: 100%; border-collapse: collapse; font-size: 10px; }
+  .progress th { background: #FDF8F4; color: #3D2C2E; text-align: left; padding: 8px 6px; border: 1px solid #F5E6D3; }
+  .progress td { height: 23px; padding: 4px 6px; border: 1px solid #F5E6D3; }
+  .progress th:nth-child(3) { width: 15%; }
+  .progress th:nth-child(5) { width: 32%; }
 </style>
 </head>
 <body>
 ${coverHTML}
 ${introHTML}
 ${fichasHTML}
+${referencesHTML}
+${progressHTML}
 </body>
 </html>`;
 

@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "0",
+    "cache-control": "public, max-age=86400",
+    "content-disposition": "inline; filename=\"pack-fichas-articulacion.pdf\"",
+    "content-length": "1200652",
+    "content-type": "application/pdf",
+    "date": "Sun, 13 Sep 2026 21:16:03 GMT",
+    "etag": "\"d243f0266ce0f140923d8a3a7c0d16e9\"",
+    "last-modified": "Sun, 13 Sep 2026 21:16:03 GMT",
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000",
+    "x-matched-path": "/downloads/productos/pack-fichas-articulacion.pdf",
+    "x-vercel-cache": "MISS",
+    "x-vercel-id": "cdg1::674md-1789334162906-8f5b17d42337"
+  },
+  "bytes": 1200652,
+  "sha256": "85fa4e25f33458825c68bd5f5c5ed18b560fc894351e65f8baf59414b8769c99"
+}

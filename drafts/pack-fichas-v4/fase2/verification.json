@@ -1,0 +1,58 @@
+{
+  "pages": 34,
+  "completeFichas": 30,
+  "changedFields": 9,
+  "coverAndIntroIdentical": true,
+  "regression": {
+    "public/downloads/productos/cuaderno-estimulacion-0-3.pdf": {
+      "before": "f5616b46a0460ae409fff9a88fa97209fac565348cc7980f3fd9a5ac2e5f25cd",
+      "after": "f5616b46a0460ae409fff9a88fa97209fac565348cc7980f3fd9a5ac2e5f25cd",
+      "identical": true
+    },
+    "public/downloads/productos/cuaderno-estimulacion-3-6.pdf": {
+      "before": "4306c686a4a43af88da0db884346b580d84434a265eedd4f0b53e039aa5cdd8d",
+      "after": "4306c686a4a43af88da0db884346b580d84434a265eedd4f0b53e039aa5cdd8d",
+      "identical": true
+    },
+    "public/downloads/productos/guia-dislexia.pdf": {
+      "before": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b",
+      "after": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b",
+      "identical": true
+    },
+    "public/downloads/productos/guia-tartamudez.pdf": {
+      "before": "d9f89be0d913438e4032ed94b4358850872a58915e6a18fd5933c3e6bf150c5d",
+      "after": "d9f89be0d913438e4032ed94b4358850872a58915e6a18fd5933c3e6bf150c5d",
+      "identical": true
+    },
+    "public/downloads/productos/kit-ejercicios-soplo.pdf": {
+      "before": "806c5b0e3fb08bfc4d0f930b3d6538039dfb03342c9921e2d09910884c76fb5e",
+      "after": "806c5b0e3fb08bfc4d0f930b3d6538039dfb03342c9921e2d09910884c76fb5e",
+      "identical": true
+    },
+    "src/app/api/checkout/route.ts": {
+      "before": "35f1c289a0f355d849a567abfdcb17a75f1c7636a0045441f48d9e0afa63a59d",
+      "after": "35f1c289a0f355d849a567abfdcb17a75f1c7636a0045441f48d9e0afa63a59d",
+      "identical": true
+    },
+    "src/app/api/webhooks/stripe/route.ts": {
+      "before": "a3844f5662885a165a105f83907dd967b0f80b95b9ae70f4f4e0edd735ff63b7",
+      "after": "a3844f5662885a165a105f83907dd967b0f80b95b9ae70f4f4e0edd735ff63b7",
+      "identical": true
+    },
+    "src/lib/products.ts": {
+      "before": "340a0bb6de980422c8e5cdeaef55dcc563e8fc11f7637fcadd95b904b70ae951",
+      "after": "340a0bb6de980422c8e5cdeaef55dcc563e8fc11f7637fcadd95b904b70ae951",
+      "identical": true
+    },
+    "src/lib/stripe.ts": {
+      "before": "3a22d91062aeec4633f0921015d6999a7c5af997531e801ad6e78c1d1bfe1ec4",
+      "after": "3a22d91062aeec4633f0921015d6999a7c5af997531e801ad6e78c1d1bfe1ec4",
+      "identical": true
+    },
+    "next.config.ts": {
+      "before": "3517c00a5a358846a174bee4551302fd7dd74fe022ed2e87acff6665927e10be",
+      "after": "3517c00a5a358846a174bee4551302fd7dd74fe022ed2e87acff6665927e10be",
+      "identical": true
+    }
+  }
+}

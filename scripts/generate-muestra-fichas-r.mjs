@@ -1,5 +1,5 @@
 // Genera la muestra gratuita: 6 fichas del fonema R extraídas del Pack v3.
-// Mismo pipeline, mismos estilos y mismos pictogramas que generate-fichas-v3.mjs.
+// Mismo pipeline, mismos estilos y mismos pictogramas que generate-fichas.mjs.
 // Uso: node scripts/generate-muestra-fichas-r.mjs
 
 import fs from "node:fs";
@@ -28,7 +28,7 @@ const CHECKOUT_URL =
 
 const fichas = loadFichas();
 const sourceMd = loadSourceMd();
-const getFichaData = (num) => parseFicha(sourceMd, num);
+const fichaData = (num) => parseFicha(sourceMd, num);
 
 function dataUri(p, mime) {
   return `data:${mime};base64,${fs.readFileSync(p).toString("base64")}`;
@@ -42,7 +42,7 @@ const seleccionadas = SELECCION.map((n) => {
 
 const fichasHTML = seleccionadas
   .map((f) => {
-    const md = getFichaData(f.num);
+    const md = fichaData(f.num);
     const slots = ["inicio", "medio", "final"]
       .map((slot) => {
         const cell = f[slot];

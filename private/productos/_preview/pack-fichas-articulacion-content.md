@@ -320,7 +320,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: ✝️
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: K seguida inmediatamente de R suave.
+**Posición articulatoria**: K seguida inmediatamente de R suave. Articula la K y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "ce-rema" en vez de "crema".
 **Palabras diana**:
 - Inicio: CRUZ
 - Medio: MICRO
@@ -333,7 +333,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🐉
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: D seguida inmediatamente de R suave.
+**Posición articulatoria**: D seguida inmediatamente de R suave. Articula la D y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "de-ragón" en vez de "dragón".
 **Palabras diana**:
 - Inicio: DRAGÓN
 - Medio: MADRE
@@ -346,7 +346,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🌸
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: F seguida inmediatamente de L.
+**Posición articulatoria**: F seguida inmediatamente de L. Articula la F y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir "fe-lor" en vez de "flor".
 **Palabras diana**:
 - Inicio: FLOR
 - Medio: RIFLE
@@ -359,7 +359,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🍎
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: F seguida inmediatamente de R suave.
+**Posición articulatoria**: F seguida inmediatamente de R suave. Articula la F y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "fe-resa" en vez de "fresa".
 **Palabras diana**:
 - Inicio: FRUTA
 - Medio: COFRE
@@ -372,7 +372,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🎈
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: G seguida inmediatamente de L.
+**Posición articulatoria**: G seguida inmediatamente de L. Articula la G y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir "ge-lobo" en vez de "globo".
 **Palabras diana**:
 - Inicio: GLOBO
 - Medio: IGLÚ
@@ -385,7 +385,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🦗
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: G seguida inmediatamente de R suave.
+**Posición articulatoria**: G seguida inmediatamente de R suave. Articula la G y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "ge-rande" en vez de "grande".
 **Palabras diana**:
 - Inicio: GRILLO
 - Medio: TIGRE
@@ -398,7 +398,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🍽️
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: P seguida inmediatamente de L.
+**Posición articulatoria**: P seguida inmediatamente de L. Articula la P y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir "pe-lato" en vez de "plato".
 **Palabras diana**:
 - Inicio: PLATO
 - Medio: SOPLAR
@@ -411,7 +411,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 👦
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: P seguida inmediatamente de R suave.
+**Posición articulatoria**: P seguida inmediatamente de R suave. Articula la P y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "pe-rimo" en vez de "primo".
 **Palabras diana**:
 - Inicio: PRIMO
 - Medio: COMPRA
@@ -424,7 +424,7 @@ Cada fonema aparece a una edad esperada. Estos rangos son orientativos: hay vari
 
 **Emoji**: 🚂
 **Edad esperada de adquisición**: 6-7 años
-**Posición articulatoria**: T seguida inmediatamente de R suave.
+**Posición articulatoria**: T seguida inmediatamente de R suave. Articula la T y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir "te-ren" en vez de "tren".
 **Palabras diana**:
 - Inicio: TREN
 - Medio: METRO

@@ -1,0 +1,50 @@
+{
+  "public/downloads/productos/cuaderno-estimulacion-0-3.pdf": {
+    "bytes": 3964846,
+    "sha256": "f5616b46a0460ae409fff9a88fa97209fac565348cc7980f3fd9a5ac2e5f25cd"
+  },
+  "public/downloads/productos/cuaderno-estimulacion-3-6.pdf": {
+    "bytes": 3514979,
+    "sha256": "4306c686a4a43af88da0db884346b580d84434a265eedd4f0b53e039aa5cdd8d"
+  },
+  "public/downloads/productos/guia-dislexia.pdf": {
+    "bytes": 2236445,
+    "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+  },
+  "public/downloads/productos/guia-tartamudez.pdf": {
+    "bytes": 2200989,
+    "sha256": "d9f89be0d913438e4032ed94b4358850872a58915e6a18fd5933c3e6bf150c5d"
+  },
+  "public/downloads/productos/kit-ejercicios-soplo.pdf": {
+    "bytes": 11168387,
+    "sha256": "806c5b0e3fb08bfc4d0f930b3d6538039dfb03342c9921e2d09910884c76fb5e"
+  },
+  "public/downloads/productos/pack-fichas-articulacion.pdf": {
+    "bytes": 1200652,
+    "sha256": "85fa4e25f33458825c68bd5f5c5ed18b560fc894351e65f8baf59414b8769c99"
+  },
+  "private/productos/_preview/pack-fichas-articulacion-content.md": {
+    "bytes": 14422,
+    "sha256": "371b141d81fbed5be6ae7d2abadccb53b2cfa82cff6078087c391e320e33a8cc"
+  },
+  "src/app/api/checkout/route.ts": {
+    "bytes": 2539,
+    "sha256": "35f1c289a0f355d849a567abfdcb17a75f1c7636a0045441f48d9e0afa63a59d"
+  },
+  "src/app/api/webhooks/stripe/route.ts": {
+    "bytes": 8480,
+    "sha256": "a3844f5662885a165a105f83907dd967b0f80b95b9ae70f4f4e0edd735ff63b7"
+  },
+  "src/lib/products.ts": {
+    "bytes": 4861,
+    "sha256": "340a0bb6de980422c8e5cdeaef55dcc563e8fc11f7637fcadd95b904b70ae951"
+  },
+  "src/lib/stripe.ts": {
+    "bytes": 275,
+    "sha256": "3a22d91062aeec4633f0921015d6999a7c5af997531e801ad6e78c1d1bfe1ec4"
+  },
+  "next.config.ts": {
+    "bytes": 1070,
+    "sha256": "3517c00a5a358846a174bee4551302fd7dd74fe022ed2e87acff6665927e10be"
+  }
+}

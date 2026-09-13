@@ -1,0 +1,65 @@
+[
+  {
+    "ficha": 22,
+    "palabra": "crema",
+    "campo": "Posición articulatoria",
+    "antes": "K seguida inmediatamente de R suave.",
+    "añadido": "Articula la K y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"ce-rema\" en vez de \"crema\"."
+  },
+  {
+    "ficha": 23,
+    "palabra": "dragón",
+    "campo": "Posición articulatoria",
+    "antes": "D seguida inmediatamente de R suave.",
+    "añadido": "Articula la D y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"de-ragón\" en vez de \"dragón\"."
+  },
+  {
+    "ficha": 24,
+    "palabra": "flor",
+    "campo": "Posición articulatoria",
+    "antes": "F seguida inmediatamente de L.",
+    "añadido": "Articula la F y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir \"fe-lor\" en vez de \"flor\"."
+  },
+  {
+    "ficha": 25,
+    "palabra": "fresa",
+    "campo": "Posición articulatoria",
+    "antes": "F seguida inmediatamente de R suave.",
+    "añadido": "Articula la F y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"fe-resa\" en vez de \"fresa\"."
+  },
+  {
+    "ficha": 26,
+    "palabra": "globo",
+    "campo": "Posición articulatoria",
+    "antes": "G seguida inmediatamente de L.",
+    "añadido": "Articula la G y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir \"ge-lobo\" en vez de \"globo\"."
+  },
+  {
+    "ficha": 27,
+    "palabra": "grande",
+    "campo": "Posición articulatoria",
+    "antes": "G seguida inmediatamente de R suave.",
+    "añadido": "Articula la G y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"ge-rande\" en vez de \"grande\"."
+  },
+  {
+    "ficha": 28,
+    "palabra": "plato",
+    "campo": "Posición articulatoria",
+    "antes": "P seguida inmediatamente de L.",
+    "añadido": "Articula la P y pasa enseguida a la L, sin meter una vocal en medio. El error más habitual es decir \"pe-lato\" en vez de \"plato\"."
+  },
+  {
+    "ficha": 29,
+    "palabra": "primo",
+    "campo": "Posición articulatoria",
+    "antes": "P seguida inmediatamente de R suave.",
+    "añadido": "Articula la P y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"pe-rimo\" en vez de \"primo\"."
+  },
+  {
+    "ficha": 30,
+    "palabra": "tren",
+    "campo": "Posición articulatoria",
+    "antes": "T seguida inmediatamente de R suave.",
+    "añadido": "Articula la T y pasa enseguida a la R, sin meter una vocal en medio. El error más habitual es decir \"te-ren\" en vez de \"tren\"."
+  }
+]
