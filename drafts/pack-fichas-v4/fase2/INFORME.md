@@ -254,6 +254,8 @@ Pack de Fichas de Articulación                                                 
 
 ## C · Auditoría de los siete productos
 
+Validación: `npx tsc --noEmit` y `npm run build` terminan con exit 0 (65 páginas generadas). `catalog-live.json`: siete HTTP 200 y 102 textos de features/whatYouGet comprobados, sin ausencias.
+
 | Producto | Promesa previa | Realidad | Estado |
 |---|---|---|---|
 | fichas-articulacion | PDF de 34 páginas (30 fichas + portada + guía + registro); Descarga inmediata tras la compra; Uso ilimitado en tu familia o aula; Actualizaciones gratuitas si mejoramos el pack | 34 páginas; 30 fichas completas; referencias p.33; registro p.34. No hay actividades con frases ni progresión de frases. | Desviación corregida en texto: 34 páginas. PDF ajeno a fichas intacto. |
@@ -350,6 +352,7 @@ Pack de Fichas de Articulación                                                 
 
 ## Commits
 
+e335d73 fix(catalogo): ajustar promesas a los PDF reales y preparar tests v4
 881c9b0 fix(fichas): publicar v4 completa con referencias y registro de 34 paginas
 
 

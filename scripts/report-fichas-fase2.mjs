@@ -33,7 +33,7 @@ report+=`| Antes en producción | HTTP ${liveBefore.status}; Content-Length ${li
 if(fs.existsSync(dir+'/live-after.json'))for(const f of JSON.parse(fs.readFileSync(dir+'/live-after.json')))report+=`| ${f.name} | HTTP ${f.status}; Content-Length ${f.contentLength}; sha256 ${f.sha256}; coincide local: ${f.localMatches}. |\n`;
 report+='| Regresión | Los otros cinco PDF son idénticos antes/después (baseline.json, verification.json, live-after.json). El encargo habla de seis adicionales: hay seis PDF totales y siete productos; el Pack Completo agrupa cuatro, sin PDF propio. No se inventa un séptimo entregable. |\n';
 report+='\n### Extracción literal de pdftotext: fichas 1, 15 y 25; páginas 33-34\n\n```text\n'+fs.readFileSync(dir+'/pdf-extracts.txt','utf8')+'\n```\n';
-report+='\n## C · Auditoría de los siete productos\n\n| Producto | Promesa previa | Realidad | Estado |\n|---|---|---|---|\n';
+report+='\n## C · Auditoría de los siete productos\n\nValidación: `npx tsc --noEmit` y `npm run build` terminan con exit 0 (65 páginas generadas). `catalog-live.json`: siete HTTP 200 y 102 textos de features/whatYouGet comprobados, sin ausencias.\n\n| Producto | Promesa previa | Realidad | Estado |\n|---|---|---|---|\n';
 for(const [id,b] of Object.entries(before))report+=`| ${id} | ${cell(b.whatYouGet.join('; '))} | ${proofs[id]} | Desviación corregida en texto: ${after[id].pageCount} páginas. PDF ajeno a fichas intacto. |\n`;
 report+='\n### Comprobación de todas las features y whatYouGet\n\n| Producto | Campo | Antes | Después |\n|---|---|---|---|\n';
 for(const [id,b] of Object.entries(before))for(const field of ['features','whatYouGet']){

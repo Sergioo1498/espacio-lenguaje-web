@@ -61,3 +61,4 @@ for(const {variant,...template} of templates){
  assert(r.ok,JSON.stringify(result));console.log(JSON.stringify(record));
 }
 console.log('PARADA D4: esperando OK enviar. Ningún email a compradoras.');
+fs.appendFileSync(dir+'/INFORME.md','\n\n### D4 · Tests enviados\n\n| Variante | Destino | HTTP | messageId |\n|---|---|---|---|\n'+records.map(r=>`| ${r.variant} | ${r.to} | ${r.http} | ${r.result.messageId} |`).join('\n')+'\n\nEstado: esperando «OK enviar». Ningún envío a compradoras. Bloque E pendiente según el orden solicitado.\n');

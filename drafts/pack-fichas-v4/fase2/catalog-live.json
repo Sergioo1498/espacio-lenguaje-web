@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fichas-articulacion",
+    "url": "https://www.espaciolenguaje.com/recursos/fichas-articulacion",
+    "status": 200,
+    "checkedClaims": 16,
+    "missing": []
+  },
+  {
+    "id": "cuaderno-0-3",
+    "url": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3",
+    "status": 200,
+    "checkedClaims": 14,
+    "missing": []
+  },
+  {
+    "id": "cuaderno-3-6",
+    "url": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6",
+    "status": 200,
+    "checkedClaims": 14,
+    "missing": []
+  },
+  {
+    "id": "kit-soplo",
+    "url": "https://www.espaciolenguaje.com/recursos/kit-soplo",
+    "status": 200,
+    "checkedClaims": 14,
+    "missing": []
+  },
+  {
+    "id": "pack-completo",
+    "url": "https://www.espaciolenguaje.com/recursos/pack-completo",
+    "status": 200,
+    "checkedClaims": 16,
+    "missing": []
+  },
+  {
+    "id": "guia-dislexia",
+    "url": "https://www.espaciolenguaje.com/recursos/guia-dislexia",
+    "status": 200,
+    "checkedClaims": 14,
+    "missing": []
+  },
+  {
+    "id": "guia-tartamudez",
+    "url": "https://www.espaciolenguaje.com/recursos/guia-tartamudez",
+    "status": 200,
+    "checkedClaims": 14,
+    "missing": []
+  }
+]
