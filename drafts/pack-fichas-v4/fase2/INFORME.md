@@ -338,22 +338,46 @@ Validación: `npx tsc --noEmit` y `npm run build` terminan con exit 0 (65 págin
 
 ## D · Correos
 
-| Punto | Estado |
-|---|---|
-| D1-D3 | Se preparan estándar y personal literal del encargo. Celia/Laura: «hace unos días». Sin dirección postal; enlaces reales sin adjuntos. |
-| D4 | Consultar tests-sent.json si existe. Solo se autorizan los dos tests a sergio.gonzalezt98+v4test@gmail.com. |
-| D5 | PENDIENTE. No se enviará a las compradoras hasta recibir «OK enviar». |
+Autorización recibida en esta conversación: Sergio escribió «ok enviar», después de los dos tests. Envíos individuales por POST /v3/smtp/email desde hola@espaciolenguaje.com, sin campañas ni listas. Nuria recibe texto plano literal; Celia/Laura incluyen «hace unos días». Sin adjuntos ni dirección postal. Los dos enlaces de descarga se verificaron otra vez con HTTP 200 y hash local idéntico antes de enviar.
+
+### D4 · Tests previos
+
+| Variante | Destino | HTTP | messageId |
+|---|---|---|---|
+| estandar | sergio.gonzalezt98+v4test@gmail.com | 201 | <202609132139.27417019386@smtp-relay.mailin.fr> |
+| personal | sergio.gonzalezt98+v4test@gmail.com | 201 | <202609132139.92628823630@smtp-relay.mailin.fr> |
+
+### D5 · Compradoras
+
+| Compradora | Destino | HTTP envío | messageId | requests | delivered | opened | clicked | Consulta eventos (UTC) |
+|---|---|---|---|---|---|---|---|---|
+| Sara | saravillamatarranz@gmail.com | 201 | <202609132142.59225008984@smtp-relay.mailin.fr> | 1 | 1 | 0 | 0 | 2026-09-13T21:43:25.403Z |
+| Nuria | nuria.millet@gmail.com | 201 | <202609132142.52473088723@smtp-relay.mailin.fr> | 1 | 1 | 0 | 0 | 2026-09-13T21:43:25.550Z |
+| Celia | celia_543@hotmail.com | 201 | <202609132142.64649506470@smtp-relay.mailin.fr> | 1 | 1 | 0 | 0 | 2026-09-13T21:43:25.650Z |
+| Laura | narcela840@gmail.com | 201 | <202609132142.79260598493@smtp-relay.mailin.fr> | 1 | 1 | 0 | 0 | 2026-09-13T21:43:25.781Z |
+
+Evidencia literal: buyers-sent.json y buyer-events.json. Todas las consultas de eventos respondieron HTTP 200. Cero significa que ese evento aún no consta en la consulta; no significa que la persona no haya leído el correo.
 
 ## E · Leads (solo lectura)
 
-| Punto | Estado |
-|---|---|
-| E1 | Pendiente tras D5, por el orden estricto del encargo. No se ha leído ni modificado ningún contacto. |
+GET /v3/contacts/lists/2/contacts?limit=500&offset=0&sort=asc: HTTP 200; 151 contactos únicos revisados. Fecha de consulta: 2026-09-13T21:42:41.032Z. Periodo inclusivo 3-13 septiembre en Europe/Madrid: 11 fechas; el día 13 es parcial. Se filtra createdAt de los miembros actuales de la lista (no fecha de incorporación a la lista). Ningún contacto modificado.
+
+| FUENTE_LEAD | Total | Familia | Profesional | Sin dato | Leads/día |
+|---|---|---|---|---|---|
+| guia-gratis | 17 | 0 | 1 | 16 | 1.55 |
+| fichas-gratis | 4 | 1 | 3 | 0 | 0.36 |
+| quiz-necesita-logopeda | 0 | 0 | 0 | 0 | 0.00 |
+| otros | 0 | 0 | 0 | 0 | 0.00 |
+| **Total** | **21** | **1** | **4** | **16** | **1.91** |
+
+Evidencia: leads-sep03-13.json, con conteos por día, valores originales de atributos y metadatos de paginación. No se guardan direcciones de email de los leads.
 
 ## Commits
 
+```text
+6845c5c docs(fichas): registrar auditoria y comprobaciones en produccion
 e335d73 fix(catalogo): ajustar promesas a los PDF reales y preparar tests v4
 881c9b0 fix(fichas): publicar v4 completa con referencias y registro de 34 paginas
+```
 
-
-Pendientes: D5 y E tras «OK enviar»; confirmar visualmente los dos tests. Desviaciones de otros PDF solo reportadas, sin modificación.
+Pendientes: ninguno de los bloques A-E. Las desviaciones de otros PDF quedan documentadas y sin modificar, conforme al encargo. Aperturas y clics reflejan únicamente los eventos disponibles al consultar.

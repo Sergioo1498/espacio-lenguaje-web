@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-09-13T21:42:41.032Z",
+  "listId": 2,
+  "from": "2026-09-03",
+  "through": "2026-09-13",
+  "timeZone": "Europe/Madrid",
+  "calendarDays": 11,
+  "note": "Miembros actuales de lista 2, filtrados por fecha de creación del contacto; 13-sep parcial al momento de consulta. Solo GET. Media por 11 fechas inclusivas.",
+  "scannedUnique": 151,
+  "total": 21,
+  "pages": [
+    {
+      "http": 200,
+      "offset": 0,
+      "returned": 151,
+      "total": 151
+    }
+  ],
+  "rawSources": {
+    "guia-gratis": 17,
+    "fichas-gratis": 4
+  },
+  "rawProfiles": {
+    "(vacío)": 16,
+    "profesional": 4,
+    "familia": 1
+  },
+  "bySource": [
+    {
+      "source": "guia-gratis",
+      "total": 17,
+      "leadsPerDay": 1.5454545454545454,
+      "familia": 0,
+      "profesional": 1,
+      "sinDato": 16
+    },
+    {
+      "source": "fichas-gratis",
+      "total": 4,
+      "leadsPerDay": 0.36363636363636365,
+      "familia": 1,
+      "profesional": 3,
+      "sinDato": 0
+    },
+    {
+      "source": "quiz-necesita-logopeda",
+      "total": 0,
+      "leadsPerDay": 0,
+      "familia": 0,
+      "profesional": 0,
+      "sinDato": 0
+    },
+    {
+      "source": "otros",
+      "total": 0,
+      "leadsPerDay": 0,
+      "familia": 0,
+      "profesional": 0,
+      "sinDato": 0
+    }
+  ],
+  "byDay": {
+    "2026-09-03": {
+      "guia-gratis": 2,
+      "fichas-gratis": 1
+    },
+    "2026-09-04": {
+      "guia-gratis": 4
+    },
+    "2026-09-06": {
+      "fichas-gratis": 1,
+      "guia-gratis": 1
+    },
+    "2026-09-07": {
+      "guia-gratis": 2
+    },
+    "2026-09-08": {
+      "guia-gratis": 3,
+      "fichas-gratis": 1
+    },
+    "2026-09-09": {
+      "guia-gratis": 2
+    },
+    "2026-09-10": {
+      "fichas-gratis": 1,
+      "guia-gratis": 2
+    },
+    "2026-09-13": {
+      "guia-gratis": 1
+    }
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Sara",
+    "email": "saravillamatarranz@gmail.com",
+    "messageId": "<202609132142.59225008984@smtp-relay.mailin.fr>",
+    "checkedAt": "2026-09-13T21:43:25.403Z",
+    "pages": [
+      {
+        "http": 200,
+        "offset": 0,
+        "count": 2
+      }
+    ],
+    "counts": {
+      "requests": 1,
+      "delivered": 1
+    },
+    "events": [
+      {
+        "email": "saravillamatarranz@gmail.com",
+        "date": "2026-09-13T23:42:21.738+02:00",
+        "messageId": "<202609132142.59225008984@smtp-relay.mailin.fr>",
+        "event": "requests",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,estandar",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      },
+      {
+        "email": "saravillamatarranz@gmail.com",
+        "date": "2026-09-13T23:42:22.000+02:00",
+        "messageId": "<202609132142.59225008984@smtp-relay.mailin.fr>",
+        "event": "delivered",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,estandar",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      }
+    ]
+  },
+  {
+    "name": "Nuria",
+    "email": "nuria.millet@gmail.com",
+    "messageId": "<202609132142.52473088723@smtp-relay.mailin.fr>",
+    "checkedAt": "2026-09-13T21:43:25.550Z",
+    "pages": [
+      {
+        "http": 200,
+        "offset": 0,
+        "count": 2
+      }
+    ],
+    "counts": {
+      "requests": 1,
+      "delivered": 1
+    },
+    "events": [
+      {
+        "email": "nuria.millet@gmail.com",
+        "date": "2026-09-13T23:42:21.893+02:00",
+        "messageId": "<202609132142.52473088723@smtp-relay.mailin.fr>",
+        "event": "requests",
+        "subject": "Nuria, tu Pack de Fichas ahora sí está completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,personal",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      },
+      {
+        "email": "nuria.millet@gmail.com",
+        "date": "2026-09-13T23:42:23.000+02:00",
+        "messageId": "<202609132142.52473088723@smtp-relay.mailin.fr>",
+        "event": "delivered",
+        "subject": "Nuria, tu Pack de Fichas ahora sí está completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,personal",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      }
+    ]
+  },
+  {
+    "name": "Celia",
+    "email": "celia_543@hotmail.com",
+    "messageId": "<202609132142.64649506470@smtp-relay.mailin.fr>",
+    "checkedAt": "2026-09-13T21:43:25.650Z",
+    "pages": [
+      {
+        "http": 200,
+        "offset": 0,
+        "count": 2
+      }
+    ],
+    "counts": {
+      "requests": 1,
+      "delivered": 1
+    },
+    "events": [
+      {
+        "email": "celia_543@hotmail.com",
+        "date": "2026-09-13T23:42:22.019+02:00",
+        "messageId": "<202609132142.64649506470@smtp-relay.mailin.fr>",
+        "event": "requests",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,reciente",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      },
+      {
+        "email": "celia_543@hotmail.com",
+        "date": "2026-09-13T23:42:23.000+02:00",
+        "messageId": "<202609132142.64649506470@smtp-relay.mailin.fr>",
+        "event": "delivered",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,reciente",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      }
+    ]
+  },
+  {
+    "name": "Laura",
+    "email": "narcela840@gmail.com",
+    "messageId": "<202609132142.79260598493@smtp-relay.mailin.fr>",
+    "checkedAt": "2026-09-13T21:43:25.781Z",
+    "pages": [
+      {
+        "http": 200,
+        "offset": 0,
+        "count": 2
+      }
+    ],
+    "counts": {
+      "requests": 1,
+      "delivered": 1
+    },
+    "events": [
+      {
+        "email": "narcela840@gmail.com",
+        "date": "2026-09-13T23:42:22.187+02:00",
+        "messageId": "<202609132142.79260598493@smtp-relay.mailin.fr>",
+        "event": "requests",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,reciente",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      },
+      {
+        "email": "narcela840@gmail.com",
+        "date": "2026-09-13T23:42:23.000+02:00",
+        "messageId": "<202609132142.79260598493@smtp-relay.mailin.fr>",
+        "event": "delivered",
+        "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+        "tag": "pack-fichas-v4-fase2,reciente",
+        "from": "hola@espaciolenguaje.com",
+        "ip": "77.32.148.23"
+      }
+    ]
+  }
+]

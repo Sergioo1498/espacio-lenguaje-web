@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Sara",
+    "email": "saravillamatarranz@gmail.com",
+    "variant": "estandar",
+    "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+    "approvedBy": "Sergio: ok enviar (mensaje de esta conversación)",
+    "startedAt": "2026-09-13T21:42:21.172Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132142.59225008984@smtp-relay.mailin.fr>"
+    }
+  },
+  {
+    "name": "Nuria",
+    "email": "nuria.millet@gmail.com",
+    "variant": "personal",
+    "subject": "Nuria, tu Pack de Fichas ahora sí está completo — y una disculpa",
+    "approvedBy": "Sergio: ok enviar (mensaje de esta conversación)",
+    "startedAt": "2026-09-13T21:42:21.387Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132142.52473088723@smtp-relay.mailin.fr>"
+    }
+  },
+  {
+    "name": "Celia",
+    "email": "celia_543@hotmail.com",
+    "variant": "reciente",
+    "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+    "approvedBy": "Sergio: ok enviar (mensaje de esta conversación)",
+    "startedAt": "2026-09-13T21:42:21.652Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132142.64649506470@smtp-relay.mailin.fr>"
+    }
+  },
+  {
+    "name": "Laura",
+    "email": "narcela840@gmail.com",
+    "variant": "reciente",
+    "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+    "approvedBy": "Sergio: ok enviar (mensaje de esta conversación)",
+    "startedAt": "2026-09-13T21:42:21.751Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132142.79260598493@smtp-relay.mailin.fr>"
+    }
+  }
+]

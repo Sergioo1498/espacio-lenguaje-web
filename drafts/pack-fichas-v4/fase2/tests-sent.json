@@ -1,0 +1,24 @@
+[
+  {
+    "variant": "estandar",
+    "to": "sergio.gonzalezt98+v4test@gmail.com",
+    "subject": "Tu Pack de Fichas, ahora sí completo — y una disculpa",
+    "startedAt": "2026-09-13T21:39:34.630Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132139.27417019386@smtp-relay.mailin.fr>"
+    }
+  },
+  {
+    "variant": "personal",
+    "to": "sergio.gonzalezt98+v4test@gmail.com",
+    "subject": "Nuria, tu Pack de Fichas ahora sí está completo — y una disculpa",
+    "startedAt": "2026-09-13T21:39:34.832Z",
+    "status": "accepted",
+    "http": 201,
+    "result": {
+      "messageId": "<202609132139.92628823630@smtp-relay.mailin.fr>"
+    }
+  }
+]

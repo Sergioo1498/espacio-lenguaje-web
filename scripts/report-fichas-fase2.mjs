@@ -40,6 +40,22 @@ for(const [id,b] of Object.entries(before))for(const field of ['features','whatY
 const format=v=>typeof v==='string'?v:v.title+': '+v.description;
 for(let i=0;i<Math.max(b[field].length,after[id][field].length);i++)report+=`| ${id} | ${field}[${i}] | ${cell(b[field][i]?format(b[field][i]):'—')} | ${cell(after[id][field][i]?format(after[id][field][i]):'—')} |\n`;
 }
-report+='\n## D · Correos\n\n| Punto | Estado |\n|---|---|\n| D1-D3 | Se preparan estándar y personal literal del encargo. Celia/Laura: «hace unos días». Sin dirección postal; enlaces reales sin adjuntos. |\n| D4 | Consultar tests-sent.json si existe. Solo se autorizan los dos tests a sergio.gonzalezt98+v4test@gmail.com. |\n| D5 | PENDIENTE. No se enviará a las compradoras hasta recibir «OK enviar». |\n\n## E · Leads (solo lectura)\n\n| Punto | Estado |\n|---|---|\n| E1 | Pendiente tras D5, por el orden estricto del encargo. No se ha leído ni modificado ningún contacto. |\n\n## Commits\n\n'+execFileSync('git',['log','--oneline','0e7d632..HEAD'],{encoding:'utf8'})+'\n\nPendientes: D5 y E tras «OK enviar»; confirmar visualmente los dos tests. Desviaciones de otros PDF solo reportadas, sin modificación.\n';
+report+='\n## D · Correos\n\nAutorización recibida en esta conversación: Sergio escribió «ok enviar», después de los dos tests. Envíos individuales por POST /v3/smtp/email desde hola@espaciolenguaje.com, sin campañas ni listas. Nuria recibe texto plano literal; Celia/Laura incluyen «hace unos días». Sin adjuntos ni dirección postal. Los dos enlaces de descarga se verificaron otra vez con HTTP 200 y hash local idéntico antes de enviar.\n\n### D4 · Tests previos\n\n| Variante | Destino | HTTP | messageId |\n|---|---|---|---|\n';
+for(const r of JSON.parse(fs.readFileSync(dir+'/tests-sent.json')))report+=`| ${r.variant} | ${r.to} | ${r.http} | ${r.result.messageId} |\n`;
+const sent=JSON.parse(fs.readFileSync(dir+'/buyers-sent.json'));
+const events=JSON.parse(fs.readFileSync(dir+'/buyer-events.json'));
+report+='\n### D5 · Compradoras\n\n| Compradora | Destino | HTTP envío | messageId | requests | delivered | opened | clicked | Consulta eventos (UTC) |\n|---|---|---|---|---|---|---|---|---|\n';
+for(const r of sent){
+ const e=events.find(x=>x.messageId===r.result.messageId),c=e?.counts||{};
+ report+=`| ${r.name} | ${r.email} | ${r.http} | ${r.result.messageId} | ${c.requests||0} | ${c.delivered||0} | ${(c.opened||0)+(c.uniqueOpened||0)} | ${c.clicks||c.clicked||0} | ${e?.checkedAt||'sin consulta'} |\n`;
+}
+report+='\nEvidencia literal: buyers-sent.json y buyer-events.json. Todas las consultas de eventos respondieron HTTP 200. Cero significa que ese evento aún no consta en la consulta; no significa que la persona no haya leído el correo.\n';
+const leads=JSON.parse(fs.readFileSync(dir+'/leads-sep03-13.json'));
+report+=`\n## E · Leads (solo lectura)\n\nGET /v3/contacts/lists/2/contacts?limit=500&offset=0&sort=asc: HTTP ${leads.pages[0].http}; ${leads.scannedUnique} contactos únicos revisados. Fecha de consulta: ${leads.checkedAt}. Periodo inclusivo 3-13 septiembre en Europe/Madrid: 11 fechas; el día 13 es parcial. Se filtra createdAt de los miembros actuales de la lista (no fecha de incorporación a la lista). Ningún contacto modificado.\n\n| FUENTE_LEAD | Total | Familia | Profesional | Sin dato | Leads/día |\n|---|---|---|---|---|---|\n`;
+for(const r of leads.bySource)report+=`| ${r.source} | ${r.total} | ${r.familia} | ${r.profesional} | ${r.sinDato} | ${r.leadsPerDay.toFixed(2)} |\n`;
+const sum=field=>leads.bySource.reduce((a,r)=>a+r[field],0);
+report+=`| **Total** | **${leads.total}** | **${sum('familia')}** | **${sum('profesional')}** | **${sum('sinDato')}** | **${(leads.total/11).toFixed(2)}** |\n\nEvidencia: leads-sep03-13.json, con conteos por día, valores originales de atributos y metadatos de paginación. No se guardan direcciones de email de los leads.\n`;
+report+='\n## Commits\n\n```text\n'+execFileSync('git',['log','--oneline','0e7d632..HEAD'],{encoding:'utf8'})+'```\n';
+report+='\nPendientes: ninguno de los bloques A-E. Las desviaciones de otros PDF quedan documentadas y sin modificar, conforme al encargo. Aperturas y clics reflejan únicamente los eventos disponibles al consultar.\n';
 fs.writeFileSync(dir+'/INFORME.md',report);
 console.log('Informe por bloques y auditoría guardados.');
