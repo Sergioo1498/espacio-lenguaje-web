@@ -83,6 +83,7 @@ export const products: Product[] = [
       '/downloads/productos/cuaderno-estimulacion-0-3.pdf',
       '/downloads/productos/cuaderno-estimulacion-3-6.pdf',
       '/downloads/productos/kit-ejercicios-soplo.pdf',
+      '/downloads/productos/calendario-semanal.pdf',
     ],
     image: '/images/producto-pack-completo.png',
     category: 'padres',

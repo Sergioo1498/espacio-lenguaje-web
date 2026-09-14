@@ -352,7 +352,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Pack completo de material logopédico infantil: fichas de articulación + cuadernos de estimulación 0-3 y 3-6 + kit de soplo. 28% de descuento sobre compra individual. PDF desde 14,90€.',
     subtitle: 'Cuatro recursos con 28% de descuento',
-    pageCount: 120,
+    pageCount: 121,
     longDescription: [
       'Si te gusta lo que hacemos y quieres tener **cuatro recursos de logopedia infantil en casa**, el pack completo es tu mejor opción. Incluye las fichas de articulación, los dos cuadernos de estimulación (0-3 y 3-6 años), el kit de ejercicios de soplo con sus tablas de seguimiento incluidas.',
       'El pack completo ahorra un **28% respecto a la compra individual** de cada recurso (20,60€ → 14,90€) y te da una biblioteca de materiales de lenguaje infantil que cubre desde el primer balbuceo (0 meses) hasta la entrada a primaria (6 años). Son materiales complementarios que pueden formar parte del trabajo en casa, siempre bajo plan profesional si existe intervención clínica.',
@@ -387,7 +387,8 @@ export const productsContent: Record<string, ProductContent> = {
       }
     ],
     whatYouGet: [
-      "4 PDFs (120 páginas totales)",
+      "5 PDFs (121 páginas totales)",
+      "Calendario semanal imprimible (bonus)",
       "Registro de fichas y tabla semanal de soplo incluidos en sus PDF",
       "Acceso perpetuo y actualizaciones gratis de los recursos incluidos",
       "Soporte por email si tienes dudas de uso"

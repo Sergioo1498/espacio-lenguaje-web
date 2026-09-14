@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-09-14T21:19:03.900Z",
+  "mode": "Stripe simulated; no network, charges or emails",
+  "results": [
+    {
+      "id": "fichas-articulacion",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/pack-fichas-articulacion.pdf"
+      ],
+      "configurationHashBefore": "c18bca9a016532611f573728ab11f219bdeee1e126844060990f637f0d6ea010",
+      "configurationHashAfter": "c18bca9a016532611f573728ab11f219bdeee1e126844060990f637f0d6ea010",
+      "unchanged": true
+    },
+    {
+      "id": "cuaderno-0-3",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-0-3.pdf"
+      ],
+      "configurationHashBefore": "d882cfdd38725fa41426d741f5dadfee2255c10807e3011865513a1d910aa457",
+      "configurationHashAfter": "d882cfdd38725fa41426d741f5dadfee2255c10807e3011865513a1d910aa457",
+      "unchanged": true
+    },
+    {
+      "id": "cuaderno-3-6",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-3-6.pdf"
+      ],
+      "configurationHashBefore": "b231f4b036e6740689b0d5618bd465da359fd0fa8cf0550bb140112dd96b4ecb",
+      "configurationHashAfter": "b231f4b036e6740689b0d5618bd465da359fd0fa8cf0550bb140112dd96b4ecb",
+      "unchanged": true
+    },
+    {
+      "id": "kit-soplo",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/kit-ejercicios-soplo.pdf"
+      ],
+      "configurationHashBefore": "49c49fcb0f94d87bfabfc1550c0ff87462ce899998ebfaa6a9c8b08ec05f702e",
+      "configurationHashAfter": "49c49fcb0f94d87bfabfc1550c0ff87462ce899998ebfaa6a9c8b08ec05f702e",
+      "unchanged": true
+    },
+    {
+      "id": "pack-completo",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/pack-fichas-articulacion.pdf",
+        "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "https://www.espaciolenguaje.com/downloads/productos/kit-ejercicios-soplo.pdf",
+        "https://www.espaciolenguaje.com/downloads/productos/calendario-semanal.pdf"
+      ],
+      "configurationHashBefore": "4e9463e95384a7716b328e342faf7fd7502a6c989cf0a6c35bd78b7ffc3291da",
+      "configurationHashAfter": "8b454870bc593c558d1e08233172c02ae9af8ff62ad4ad9bdba332e3cb8473d6",
+      "unchanged": false
+    },
+    {
+      "id": "guia-dislexia",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/guia-dislexia.pdf"
+      ],
+      "configurationHashBefore": "5b9761f62efb1b68dda92a5c3f7aab107d46be8f81fa952432f6db8834683f01",
+      "configurationHashAfter": "5b9761f62efb1b68dda92a5c3f7aab107d46be8f81fa952432f6db8834683f01",
+      "unchanged": true
+    },
+    {
+      "id": "guia-tartamudez",
+      "checkoutStatus": 200,
+      "urls": [
+        "https://www.espaciolenguaje.com/downloads/productos/guia-tartamudez.pdf"
+      ],
+      "configurationHashBefore": "4709e691cd711f759ff557b0031280cd1361d9957ed9adef85f9501d7e0b8a08",
+      "configurationHashAfter": "4709e691cd711f759ff557b0031280cd1361d9957ed9adef85f9501d7e0b8a08",
+      "unchanged": true
+    }
+  ]
+}
