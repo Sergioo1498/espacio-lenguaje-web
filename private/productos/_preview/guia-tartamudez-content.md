@@ -1,7 +1,7 @@
 # Guía de Tartamudez Infantil
 ## Comprende, acompaña y ayuda a tu hijo o hija con información basada en evidencia
 
-*Guía gratuita · Espacio Lenguaje · Logopedia infantil especializada*
+*Guía de Tartamudez Infantil · Espacio Lenguaje · Logopedia infantil especializada*
 
 ---
 

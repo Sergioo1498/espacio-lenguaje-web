@@ -73,7 +73,7 @@ const fichasHTML = fichas
 
 const coverHTML = `<section class="cover">
   <div class="cover-inner">
-    <div class="cover-tag">RECURSO PARA FAMILIAS · ${VERSION} con pictogramas</div>
+    <div class="cover-tag">RECURSO PARA FAMILIAS</div>
     <h1 class="cover-title">Pack de Fichas de Articulación</h1>
     <p class="cover-subtitle">30 fichas con pictogramas · Un fonema por página · Para casa</p>
     <div class="cover-claim">

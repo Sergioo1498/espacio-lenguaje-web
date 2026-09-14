@@ -268,6 +268,61 @@ ${showCovers ? `<section class="back-cover">
   const pageCtx = await browser.newPage();
   await pageCtx.goto(htmlUrl, { waitUntil: "domcontentloaded", timeout: 180000 });
   await pageCtx.evaluate(() => document.fonts.ready);
+  if (prod.slug.startsWith('cuaderno-estimulacion-')) {
+    // Una unidad íntegra por página: introducción de bloque o actividad.
+    await pageCtx.evaluate(() => {
+      const content = document.querySelector('.content');
+      const nodes = [...content.children];
+      let unit;
+      for (let i = 0; i < nodes.length; i++) {
+        const node = nodes[i];
+        const text = node.textContent.trim();
+        const isActivity = node.tagName === 'H3' && /Actividad \d+/.test(text);
+        const isChapter = node.tagName === 'H2' && /^(Bloque \d+|Señales de alerta|Referencias)/.test(text);
+        const chapterImage = node.matches('.chapter-image') && nodes[i+1]?.tagName === 'H2';
+        if (!unit || isActivity || chapterImage || (isChapter && !unit.querySelector('.chapter-image'))) {
+          const leadingHeading = isActivity && unit?.lastElementChild?.tagName === 'H3' ? unit.lastElementChild : null;
+          unit = document.createElement('section');
+          unit.className = 'content-page' + (isActivity ? ' activity-page' : '');
+          content.appendChild(unit);
+          if (leadingHeading) unit.appendChild(leadingHeading);
+        }
+        unit.appendChild(node);
+      }
+    });
+    await pageCtx.addStyleTag({content: `
+      .cover,.back-cover{height:297mm;min-height:0;padding:20mm 18mm;overflow:hidden;}
+      .cover-img{height:82mm;width:120mm;object-fit:contain;margin:4mm auto 7mm;}
+      .cover h1{font-size:32pt;}.cover-sub{margin-bottom:6mm;}.cover-logo{margin-bottom:5mm;}
+      .content{padding:0;}.content-page{height:297mm;padding:18mm 22mm;break-after:page;break-inside:avoid;}
+      .content-page h2:first-of-type{margin-top:0;}
+      .activity-page h3:first-child{margin-top:0;}
+      .chapter-image{margin:0 0 5mm;}.chapter-image img{height:55mm;object-fit:contain;}
+      h1,h2,h3,h4{break-after:avoid;}li,blockquote{break-inside:avoid;}
+    `});
+    await pageCtx.evaluate(() => {
+      for (const unit of [...document.querySelectorAll('.content-page:not(.activity-page)')]) {
+        if (unit.scrollHeight <= unit.clientHeight + 1) continue;
+        const children = [...unit.children];
+        unit.replaceChildren();
+        let current = unit;
+        for (let i=0; i<children.length; i++) {
+          const group=[children[i]];
+          const isHeading = el => /^H[1-4]$/.test(el.tagName) || (el.tagName==='P' && el.children.length===1 && el.firstElementChild.tagName==='STRONG' && el.textContent.trim()===el.firstElementChild.textContent.trim());
+          while (isHeading(group.at(-1)) && i+1<children.length) group.push(children[++i]);
+          const hadContent=current.childElementCount>0;
+          current.append(...group);
+          if (hadContent && current.scrollHeight>current.clientHeight+1) {
+            const next=document.createElement('section');next.className='content-page';
+            current.after(next);next.append(...group);current=next;
+          }
+        }
+      }
+    });
+    const overflow = await pageCtx.evaluate(() => [...document.querySelectorAll('.content-page')].filter(e=>e.scrollHeight>e.clientHeight+1).map(e=>e.textContent.slice(0,100)));
+    if (overflow.length) { await browser.close(); throw new Error('Página desbordada: '+overflow.join('; ')); }
+    fs.writeFileSync(htmlPath, await pageCtx.content(), 'utf8');
+  }
   await new Promise((r) => setTimeout(r, 2500));
   await pageCtx.pdf({
     path: pdfPath,
@@ -293,6 +348,7 @@ for (const prod of queue) {
     await renderProduct(prod);
   } catch (err) {
     console.error(`✗ ${prod.slug} FAILED:`, err.message);
+    process.exitCode = 1;
   }
 }
 

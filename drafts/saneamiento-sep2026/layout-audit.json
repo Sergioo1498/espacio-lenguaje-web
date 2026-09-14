@@ -1,0 +1,833 @@
+[
+  {
+    "file": "cuaderno-estimulacion-0-3.pdf",
+    "beforePages": 16,
+    "afterPages": 31,
+    "allowedChange": "Ninguno",
+    "normalizedTextDiffEmpty": true,
+    "sha256Before": "f5616b46a0460ae409fff9a88fa97209fac565348cc7980f3fd9a5ac2e5f25cd",
+    "sha256After": "64ec13151ce170cb8626df5ff99e165cf32c1412a4650a73d48ea10ae8f9b6ff",
+    "bytesBefore": 3964846,
+    "bytesAfter": 3923238,
+    "activities": [
+      {
+        "number": 1,
+        "before": {
+          "page": 4,
+          "yPt": 560.93,
+          "label": "Actividad 1"
+        },
+        "after": {
+          "page": 4,
+          "yPt": 49.43,
+          "label": "Actividad 1"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 2,
+        "before": {
+          "page": 5,
+          "yPt": 85.43,
+          "label": "Actividad 2"
+        },
+        "after": {
+          "page": 5,
+          "yPt": 49.43,
+          "label": "Actividad 2"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 3,
+        "before": {
+          "page": 5,
+          "yPt": 359.18,
+          "label": "Actividad 3"
+        },
+        "after": {
+          "page": 6,
+          "yPt": 49.43,
+          "label": "Actividad 3"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 4,
+        "before": {
+          "page": 5,
+          "yPt": 668.18,
+          "label": "Actividad 4"
+        },
+        "after": {
+          "page": 7,
+          "yPt": 49.43,
+          "label": "Actividad 4"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 5,
+        "before": {
+          "page": 6,
+          "yPt": 288.68,
+          "label": "Actividad 5"
+        },
+        "after": {
+          "page": 9,
+          "yPt": 49.43,
+          "label": "Actividad 5"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 6,
+        "before": {
+          "page": 6,
+          "yPt": 560.18,
+          "label": "Actividad 6"
+        },
+        "after": {
+          "page": 10,
+          "yPt": 49.43,
+          "label": "Actividad 6"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 7,
+        "before": {
+          "page": 7,
+          "yPt": -1.57,
+          "label": "Actividad 7"
+        },
+        "after": {
+          "page": 11,
+          "yPt": 49.43,
+          "label": "Actividad 7"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 8,
+        "before": {
+          "page": 7,
+          "yPt": 253.43,
+          "label": "Actividad 8"
+        },
+        "after": {
+          "page": 12,
+          "yPt": 49.43,
+          "label": "Actividad 8"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 9,
+        "before": {
+          "page": 8,
+          "yPt": 532.43,
+          "label": "Actividad 9"
+        },
+        "after": {
+          "page": 14,
+          "yPt": 49.43,
+          "label": "Actividad 9"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 10,
+        "before": {
+          "page": 8,
+          "yPt": 786.68,
+          "label": "Actividad 10"
+        },
+        "after": {
+          "page": 15,
+          "yPt": 49.43,
+          "label": "Actividad 10"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 11,
+        "before": {
+          "page": 9,
+          "yPt": 225.68,
+          "label": "Actividad 11"
+        },
+        "after": {
+          "page": 16,
+          "yPt": 49.43,
+          "label": "Actividad 11"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 12,
+        "before": {
+          "page": 9,
+          "yPt": 498.68,
+          "label": "Actividad 12"
+        },
+        "after": {
+          "page": 17,
+          "yPt": 49.43,
+          "label": "Actividad 12"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 13,
+        "before": {
+          "page": 10,
+          "yPt": 75.68,
+          "label": "Actividad 13"
+        },
+        "after": {
+          "page": 19,
+          "yPt": 49.43,
+          "label": "Actividad 13"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 14,
+        "before": {
+          "page": 10,
+          "yPt": 365.93,
+          "label": "Actividad 14"
+        },
+        "after": {
+          "page": 20,
+          "yPt": 49.43,
+          "label": "Actividad 14"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 15,
+        "before": {
+          "page": 10,
+          "yPt": 638.93,
+          "label": "Actividad 15"
+        },
+        "after": {
+          "page": 21,
+          "yPt": 49.43,
+          "label": "Actividad 15"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 16,
+        "before": {
+          "page": 11,
+          "yPt": 75.68,
+          "label": "Actividad 16"
+        },
+        "after": {
+          "page": 22,
+          "yPt": 49.43,
+          "label": "Actividad 16"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 17,
+        "before": {
+          "page": 12,
+          "yPt": 75.68,
+          "label": "Actividad 17"
+        },
+        "after": {
+          "page": 24,
+          "yPt": 49.43,
+          "label": "Actividad 17"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 18,
+        "before": {
+          "page": 12,
+          "yPt": 348.68,
+          "label": "Actividad 18"
+        },
+        "after": {
+          "page": 25,
+          "yPt": 49.43,
+          "label": "Actividad 18"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 19,
+        "before": {
+          "page": 12,
+          "yPt": 585.68,
+          "label": "Actividad 19"
+        },
+        "after": {
+          "page": 26,
+          "yPt": 49.43,
+          "label": "Actividad 19"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 20,
+        "before": {
+          "page": 13,
+          "yPt": -1.57,
+          "label": "Actividad 20"
+        },
+        "after": {
+          "page": 27,
+          "yPt": 49.43,
+          "label": "Actividad 20"
+        },
+        "startedMidPageBefore": false
+      }
+    ]
+  },
+  {
+    "file": "cuaderno-estimulacion-3-6.pdf",
+    "beforePages": 17,
+    "afterPages": 30,
+    "allowedChange": "Ninguno",
+    "normalizedTextDiffEmpty": true,
+    "sha256Before": "4306c686a4a43af88da0db884346b580d84434a265eedd4f0b53e039aa5cdd8d",
+    "sha256After": "161c3f317eba81f40e8cf9666158b99288e809088328d5457ae4a7aaa533b9ce",
+    "bytesBefore": 3514979,
+    "bytesAfter": 3474674,
+    "activities": [
+      {
+        "number": 1,
+        "before": {
+          "page": 4,
+          "yPt": 815.93,
+          "label": "Actividad 1"
+        },
+        "after": {
+          "page": 5,
+          "yPt": 49.43,
+          "label": "Actividad 1"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 2,
+        "before": {
+          "page": 5,
+          "yPt": 263.93,
+          "label": "Actividad 2"
+        },
+        "after": {
+          "page": 6,
+          "yPt": 49.43,
+          "label": "Actividad 2"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 3,
+        "before": {
+          "page": 5,
+          "yPt": 574.43,
+          "label": "Actividad 3"
+        },
+        "after": {
+          "page": 7,
+          "yPt": 49.43,
+          "label": "Actividad 3"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 4,
+        "before": {
+          "page": 6,
+          "yPt": 57.68,
+          "label": "Actividad 4"
+        },
+        "after": {
+          "page": 8,
+          "yPt": 49.43,
+          "label": "Actividad 4"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 5,
+        "before": {
+          "page": 7,
+          "yPt": 111.68,
+          "label": "Actividad 5"
+        },
+        "after": {
+          "page": 10,
+          "yPt": 49.43,
+          "label": "Actividad 5"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 6,
+        "before": {
+          "page": 7,
+          "yPt": 404.93,
+          "label": "Actividad 6"
+        },
+        "after": {
+          "page": 11,
+          "yPt": 49.43,
+          "label": "Actividad 6"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 7,
+        "before": {
+          "page": 7,
+          "yPt": 697.43,
+          "label": "Actividad 7"
+        },
+        "after": {
+          "page": 12,
+          "yPt": 49.43,
+          "label": "Actividad 7"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 8,
+        "before": {
+          "page": 8,
+          "yPt": 161.93,
+          "label": "Actividad 8"
+        },
+        "after": {
+          "page": 13,
+          "yPt": 49.43,
+          "label": "Actividad 8"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 9,
+        "before": {
+          "page": 9,
+          "yPt": 568.43,
+          "label": "Actividad 9"
+        },
+        "after": {
+          "page": 15,
+          "yPt": 49.43,
+          "label": "Actividad 9"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 10,
+        "before": {
+          "page": 10,
+          "yPt": 57.68,
+          "label": "Actividad 10"
+        },
+        "after": {
+          "page": 16,
+          "yPt": 49.43,
+          "label": "Actividad 10"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 11,
+        "before": {
+          "page": 10,
+          "yPt": 350.18,
+          "label": "Actividad 11"
+        },
+        "after": {
+          "page": 17,
+          "yPt": 49.43,
+          "label": "Actividad 11"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 12,
+        "before": {
+          "page": 10,
+          "yPt": 661.43,
+          "label": "Actividad 12"
+        },
+        "after": {
+          "page": 18,
+          "yPt": 49.43,
+          "label": "Actividad 12"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 13,
+        "before": {
+          "page": 12,
+          "yPt": -1.57,
+          "label": "Actividad 13"
+        },
+        "after": {
+          "page": 20,
+          "yPt": 91.43,
+          "label": "Actividad 13"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 14,
+        "before": {
+          "page": 12,
+          "yPt": 291.68,
+          "label": "Actividad 14"
+        },
+        "after": {
+          "page": 21,
+          "yPt": 49.43,
+          "label": "Actividad 14"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 15,
+        "before": {
+          "page": 12,
+          "yPt": 619.43,
+          "label": "Actividad 15"
+        },
+        "after": {
+          "page": 22,
+          "yPt": 49.43,
+          "label": "Actividad 15"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 16,
+        "before": {
+          "page": 13,
+          "yPt": 152.93,
+          "label": "Actividad 16"
+        },
+        "after": {
+          "page": 23,
+          "yPt": 49.43,
+          "label": "Actividad 16"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 17,
+        "before": {
+          "page": 13,
+          "yPt": 761.93,
+          "label": "Actividad 17"
+        },
+        "after": {
+          "page": 25,
+          "yPt": 49.43,
+          "label": "Actividad 17"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 18,
+        "before": {
+          "page": 14,
+          "yPt": 207.68,
+          "label": "Actividad 18"
+        },
+        "after": {
+          "page": 26,
+          "yPt": 49.43,
+          "label": "Actividad 18"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 19,
+        "before": {
+          "page": 14,
+          "yPt": 517.43,
+          "label": "Actividad 19"
+        },
+        "after": {
+          "page": 27,
+          "yPt": 49.43,
+          "label": "Actividad 19"
+        },
+        "startedMidPageBefore": true
+      },
+      {
+        "number": 20,
+        "before": {
+          "page": 14,
+          "yPt": 810.68,
+          "label": "Actividad 20"
+        },
+        "after": {
+          "page": 28,
+          "yPt": 49.43,
+          "label": "Actividad 20"
+        },
+        "startedMidPageBefore": true
+      }
+    ]
+  },
+  {
+    "file": "kit-ejercicios-soplo.pdf",
+    "beforePages": 31,
+    "afterPages": 25,
+    "allowedChange": "Ninguno",
+    "normalizedTextDiffEmpty": true,
+    "sha256Before": "806c5b0e3fb08bfc4d0f930b3d6538039dfb03342c9921e2d09910884c76fb5e",
+    "sha256After": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1",
+    "bytesBefore": 11168387,
+    "bytesAfter": 10956500,
+    "activities": [
+      {
+        "number": 1,
+        "before": {
+          "page": 6,
+          "yPt": 39.46,
+          "label": "Apagar velas"
+        },
+        "after": {
+          "page": 5,
+          "yPt": 39.46,
+          "label": "Apagar velas"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 2,
+        "before": {
+          "page": 7,
+          "yPt": 39.46,
+          "label": "Pompas de jabón"
+        },
+        "after": {
+          "page": 6,
+          "yPt": 39.46,
+          "label": "Pompas de jabón"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 3,
+        "before": {
+          "page": 8,
+          "yPt": 39.46,
+          "label": "Carreras de plumas"
+        },
+        "after": {
+          "page": 7,
+          "yPt": 39.46,
+          "label": "Carreras de plumas"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 4,
+        "before": {
+          "page": 10,
+          "yPt": 39.46,
+          "label": "Mover bolitas con pajita"
+        },
+        "after": {
+          "page": 8,
+          "yPt": 39.46,
+          "label": "Mover bolitas con pajita"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 5,
+        "before": {
+          "page": 11,
+          "yPt": 39.46,
+          "label": "Silbatos y matasuegras"
+        },
+        "after": {
+          "page": 9,
+          "yPt": 39.46,
+          "label": "Silbatos y matasuegras"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 6,
+        "before": {
+          "page": 13,
+          "yPt": 39.46,
+          "label": "Carreras de bolitas con pajita"
+        },
+        "after": {
+          "page": 11,
+          "yPt": 39.46,
+          "label": "Carreras de bolitas con pajita"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 7,
+        "before": {
+          "page": 14,
+          "yPt": 39.46,
+          "label": "Molinillos"
+        },
+        "after": {
+          "page": 12,
+          "yPt": 39.46,
+          "label": "Molinillos"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 8,
+        "before": {
+          "page": 16,
+          "yPt": 39.46,
+          "label": "Pintar soplando"
+        },
+        "after": {
+          "page": 13,
+          "yPt": 39.46,
+          "label": "Pintar soplando"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 9,
+        "before": {
+          "page": 17,
+          "yPt": 39.46,
+          "label": "Barquitos de papel"
+        },
+        "after": {
+          "page": 14,
+          "yPt": 39.46,
+          "label": "Barquitos de papel"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 10,
+        "before": {
+          "page": 19,
+          "yPt": 39.46,
+          "label": "Mantener la pluma en el aire"
+        },
+        "after": {
+          "page": 15,
+          "yPt": 39.46,
+          "label": "Mantener la pluma en el aire"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 11,
+        "before": {
+          "page": 21,
+          "yPt": 39.46,
+          "label": "Laberinto de soplo"
+        },
+        "after": {
+          "page": 17,
+          "yPt": 39.46,
+          "label": "Laberinto de soplo"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 12,
+        "before": {
+          "page": 22,
+          "yPt": 39.46,
+          "label": "Inclinar la llama sin apagar"
+        },
+        "after": {
+          "page": 18,
+          "yPt": 39.46,
+          "label": "Inclinar la llama sin apagar"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 13,
+        "before": {
+          "page": 23,
+          "yPt": 39.46,
+          "label": "Soplo nasal"
+        },
+        "after": {
+          "page": 19,
+          "yPt": 39.46,
+          "label": "Soplo nasal"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 14,
+        "before": {
+          "page": 25,
+          "yPt": 39.46,
+          "label": "Soplar con los labios sellados"
+        },
+        "after": {
+          "page": 20,
+          "yPt": 39.46,
+          "label": "Soplar con los labios sellados"
+        },
+        "startedMidPageBefore": false
+      },
+      {
+        "number": 15,
+        "before": {
+          "page": 27,
+          "yPt": 39.46,
+          "label": "Soplo sostenido cronometrado"
+        },
+        "after": {
+          "page": 21,
+          "yPt": 39.46,
+          "label": "Soplo sostenido cronometrado"
+        },
+        "startedMidPageBefore": false
+      }
+    ]
+  },
+  {
+    "file": "guia-tartamudez.pdf",
+    "beforePages": 16,
+    "afterPages": 16,
+    "allowedChange": "Guía gratuita → Guía de Tartamudez Infantil (una aparición)",
+    "normalizedTextDiffEmpty": true,
+    "sha256Before": "d9f89be0d913438e4032ed94b4358850872a58915e6a18fd5933c3e6bf150c5d",
+    "sha256After": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458",
+    "bytesBefore": 2200989,
+    "bytesAfter": 2201035
+  },
+  {
+    "file": "pack-fichas-articulacion.pdf",
+    "beforePages": 34,
+    "afterPages": 34,
+    "allowedChange": "Retirada de · v4 con pictogramas de la portada; Title conserva v4",
+    "normalizedTextDiffEmpty": true,
+    "sha256Before": "f6fecf48756b6daaf6cd1fc9d9fe778436af96e7040d483519f5405489ca305b",
+    "sha256After": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10",
+    "bytesBefore": 1345438,
+    "bytesAfter": 1345168
+  }
+]

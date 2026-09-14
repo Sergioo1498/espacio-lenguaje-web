@@ -1,0 +1,134 @@
+[
+  {
+    "f": "cuaderno-estimulacion-0-3.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"cuaderno-estimulacion-0-3.pdf\"",
+      "content-length": "3964846",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:17 GMT",
+      "etag": "\"9afaa192d755120d016155e360604f6d\"",
+      "last-modified": "Mon, 14 Sep 2026 21:02:17 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cdg1::p95q2-1789419737358-527cce942a11"
+    }
+  },
+  {
+    "f": "cuaderno-estimulacion-3-6.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"cuaderno-estimulacion-3-6.pdf\"",
+      "content-length": "3514979",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:18 GMT",
+      "etag": "\"4cff71cc8a5b9033557a82b629dfa6a9\"",
+      "last-modified": "Mon, 14 Sep 2026 21:02:18 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cdg1::tf8nd-1789419737953-176328ca4c5c"
+    }
+  },
+  {
+    "f": "guia-dislexia.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"guia-dislexia.pdf\"",
+      "content-length": "2236445",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:18 GMT",
+      "etag": "\"c5ee7d3fa6da590adbced3f97f6ceed2\"",
+      "last-modified": "Mon, 14 Sep 2026 21:02:18 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/guia-dislexia.pdf",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cdg1::dbb62-1789419738404-9bf656bcbb9a"
+    }
+  },
+  {
+    "f": "guia-tartamudez.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "0",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"guia-tartamudez.pdf\"",
+      "content-length": "2200989",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:19 GMT",
+      "etag": "\"da0427b5c238ebc9eab667d8c5b518f5\"",
+      "last-modified": "Mon, 14 Sep 2026 21:02:19 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/guia-tartamudez.pdf",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cdg1::blfzj-1789419738842-eae6866ae7f4"
+    }
+  },
+  {
+    "f": "kit-ejercicios-soplo.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "55235",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"kit-ejercicios-soplo.pdf\"",
+      "content-length": "11168387",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:19 GMT",
+      "etag": "\"1f44c1329273937d4339aec8557aef87\"",
+      "last-modified": "Mon, 14 Sep 2026 05:41:43 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/kit-ejercicios-soplo.pdf",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cdg1::k68bb-1789419739250-7a87febd3026"
+    }
+  },
+  {
+    "f": "pack-fichas-articulacion.pdf",
+    "status": 200,
+    "headers": {
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "age": "55092",
+      "cache-control": "public, max-age=86400",
+      "connection": "close",
+      "content-disposition": "inline; filename=\"pack-fichas-articulacion.pdf\"",
+      "content-length": "1345438",
+      "content-type": "application/pdf",
+      "date": "Mon, 14 Sep 2026 21:02:19 GMT",
+      "etag": "\"12d356e2f35e0dc5e529b2603b33ad51\"",
+      "last-modified": "Mon, 14 Sep 2026 05:44:06 GMT",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "x-matched-path": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cdg1::9fzqg-1789419739347-5062125424bf"
+    }
+  }
+]

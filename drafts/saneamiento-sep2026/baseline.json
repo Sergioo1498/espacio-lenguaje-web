@@ -1,0 +1,26 @@
+{
+  "cuaderno-estimulacion-0-3.pdf": {
+    "bytes": 3964846,
+    "sha256": "f5616b46a0460ae409fff9a88fa97209fac565348cc7980f3fd9a5ac2e5f25cd"
+  },
+  "cuaderno-estimulacion-3-6.pdf": {
+    "bytes": 3514979,
+    "sha256": "4306c686a4a43af88da0db884346b580d84434a265eedd4f0b53e039aa5cdd8d"
+  },
+  "guia-dislexia.pdf": {
+    "bytes": 2236445,
+    "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+  },
+  "guia-tartamudez.pdf": {
+    "bytes": 2200989,
+    "sha256": "d9f89be0d913438e4032ed94b4358850872a58915e6a18fd5933c3e6bf150c5d"
+  },
+  "kit-ejercicios-soplo.pdf": {
+    "bytes": 11168387,
+    "sha256": "806c5b0e3fb08bfc4d0f930b3d6538039dfb03342c9921e2d09910884c76fb5e"
+  },
+  "pack-fichas-articulacion.pdf": {
+    "bytes": 1345438,
+    "sha256": "f6fecf48756b6daaf6cd1fc9d9fe778436af96e7040d483519f5405489ca305b"
+  }
+}
