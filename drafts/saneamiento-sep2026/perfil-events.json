@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-09-15T13:56:23.246Z",
+  "mode": "events",
+  "email": "sergio.gonzalezt98+perfiltest@gmail.com",
+  "result": {
+    "http": 200,
+    "data": {
+      "events": [
+        {
+          "email": "sergio.gonzalezt98+perfiltest@gmail.com",
+          "date": "2026-09-15T15:55:29.015+02:00",
+          "messageId": "<202609151355.60150226457@smtp-relay.mailin.fr>",
+          "event": "requests",
+          "subject": "Bienvenida a la newsletter de Espacio Lenguaje 🌱",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        },
+        {
+          "email": "sergio.gonzalezt98+perfiltest@gmail.com",
+          "date": "2026-09-15T15:55:29.000+02:00",
+          "messageId": "<202609151355.60150226457@smtp-relay.mailin.fr>",
+          "event": "delivered",
+          "subject": "Bienvenida a la newsletter de Espacio Lenguaje 🌱",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        },
+        {
+          "email": "sergio.gonzalezt98+perfiltest@gmail.com",
+          "date": "2026-09-15T15:54:34.000+02:00",
+          "messageId": "<202609151354.51100004904@smtp-relay.mailin.fr>",
+          "event": "delivered",
+          "subject": "🌱 Tu guía de Hitos del Lenguaje está aquí",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        },
+        {
+          "email": "sergio.gonzalezt98+perfiltest@gmail.com",
+          "date": "2026-09-15T15:54:33.011+02:00",
+          "messageId": "<202609151354.51100004904@smtp-relay.mailin.fr>",
+          "event": "requests",
+          "subject": "🌱 Tu guía de Hitos del Lenguaje está aquí",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        }
+      ]
+    }
+  }
+}
