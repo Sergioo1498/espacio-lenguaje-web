@@ -12,6 +12,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer";
 import { marked } from "marked";
+import { styleCuadernos } from "./style-cuadernos.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -321,7 +322,11 @@ ${showCovers ? `<section class="back-cover">
     });
     const overflow = await pageCtx.evaluate(() => [...document.querySelectorAll('.content-page')].filter(e=>e.scrollHeight>e.clientHeight+1).map(e=>e.textContent.slice(0,100)));
     if (overflow.length) { await browser.close(); throw new Error('Página desbordada: '+overflow.join('; ')); }
-    fs.writeFileSync(htmlPath, await pageCtx.content(), 'utf8');
+    const styled = await styleCuadernos(pageCtx, prod);
+    if (styled.overflow.length) { await browser.close(); throw new Error(styled.overflow.join('; ')); }
+    fs.mkdirSync(path.join(ROOT,'drafts','semana3b-sep2026'),{recursive:true});
+    fs.writeFileSync(path.join(ROOT,'drafts','semana3b-sep2026',prod.slug+'-layout.json'),JSON.stringify(styled,null,2));
+    fs.writeFileSync(htmlPath, (await pageCtx.content()).replace(/[ \t]+$/gm,''), 'utf8');
   }
   await new Promise((r) => setTimeout(r, 2500));
   await pageCtx.pdf({

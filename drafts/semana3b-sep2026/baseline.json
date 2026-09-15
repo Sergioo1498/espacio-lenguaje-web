@@ -1,0 +1,30 @@
+{
+  "calendario-semanal.pdf": {
+    "bytes": 369569,
+    "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315"
+  },
+  "cuaderno-estimulacion-0-3.pdf": {
+    "bytes": 3923238,
+    "sha256": "64ec13151ce170cb8626df5ff99e165cf32c1412a4650a73d48ea10ae8f9b6ff"
+  },
+  "cuaderno-estimulacion-3-6.pdf": {
+    "bytes": 3474674,
+    "sha256": "161c3f317eba81f40e8cf9666158b99288e809088328d5457ae4a7aaa533b9ce"
+  },
+  "guia-dislexia.pdf": {
+    "bytes": 2236445,
+    "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+  },
+  "guia-tartamudez.pdf": {
+    "bytes": 2201035,
+    "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+  },
+  "kit-ejercicios-soplo.pdf": {
+    "bytes": 10956500,
+    "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+  },
+  "pack-fichas-articulacion.pdf": {
+    "bytes": 1345168,
+    "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+  }
+}

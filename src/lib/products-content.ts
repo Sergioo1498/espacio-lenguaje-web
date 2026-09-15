@@ -98,7 +98,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Cuaderno de estimulación del lenguaje para bebés y niños de 0 a 3 años. 20 actividades organizadas por edad, diseñadas por logopedas. PDF imprimible desde 5,90€.',
     subtitle: 'Estimulación del lenguaje desde el primer babeo',
-    pageCount: 31,
+    pageCount: 32,
     ageRange: '0-3 años',
     whatIncludes: [
       '20 actividades distribuidas en 5 bloques por edad (0-6m, 6-12m, 12-18m, 18-24m, 2-3 años)',
@@ -148,7 +148,7 @@ export const productsContent: Record<string, ProductContent> = {
       }
     ],
     whatYouGet: [
-      "PDF de 31 páginas en A4",
+      "PDF de 32 páginas en A4",
       "20 actividades en cinco bloques por edad",
       "Listado de señales de alerta por edad y referencias",
       "Descarga inmediata y acceso perpetuo"
@@ -185,7 +185,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Cuaderno de estimulación del lenguaje para niños de 3 a 6 años: 20 actividades de vocabulario, articulación y conciencia fonológica. PDF imprimible diseñado por logopedas.',
     subtitle: 'Vocabulario, articulación y conciencia fonológica',
-    pageCount: 30,
+    pageCount: 31,
     ageRange: '3-6 años',
     whatIncludes: [
       '20 actividades en 5 bloques (conciencia fonológica, vocabulario, narrativa, articulación, comprensión)',
@@ -236,7 +236,7 @@ export const productsContent: Record<string, ProductContent> = {
       }
     ],
     whatYouGet: [
-      "PDF de 30 páginas",
+      "PDF de 31 páginas",
       "20 actividades en cinco áreas del lenguaje",
       "Guía de uso e instrucciones paso a paso",
       "Variaciones por actividad y referencias"
@@ -352,7 +352,7 @@ export const productsContent: Record<string, ProductContent> = {
     seoDescription:
       'Pack completo de material logopédico infantil: fichas de articulación + cuadernos de estimulación 0-3 y 3-6 + kit de soplo. 28% de descuento sobre compra individual. PDF desde 14,90€.',
     subtitle: 'Cuatro recursos con 28% de descuento',
-    pageCount: 121,
+    pageCount: 123,
     longDescription: [
       'Si te gusta lo que hacemos y quieres tener **cuatro recursos de logopedia infantil en casa**, el pack completo es tu mejor opción. Incluye las fichas de articulación, los dos cuadernos de estimulación (0-3 y 3-6 años), el kit de ejercicios de soplo con sus tablas de seguimiento incluidas.',
       'El pack completo ahorra un **28% respecto a la compra individual** de cada recurso (20,60€ → 14,90€) y te da una biblioteca de materiales de lenguaje infantil que cubre desde el primer balbuceo (0 meses) hasta la entrada a primaria (6 años). Son materiales complementarios que pueden formar parte del trabajo en casa, siempre bajo plan profesional si existe intervención clínica.',
@@ -367,11 +367,11 @@ export const productsContent: Record<string, ProductContent> = {
       },
       {
         "title": "Cuaderno de estimulación 0-3 años",
-        "description": "20 actividades en cinco bloques por edad (31 páginas)."
+        "description": "20 actividades en cinco bloques por edad (32 páginas)."
       },
       {
         "title": "Cuaderno de estimulación 3-6 años",
-        "description": "20 actividades en cinco áreas del lenguaje (30 páginas)."
+        "description": "20 actividades en cinco áreas del lenguaje (31 páginas)."
       },
       {
         "title": "Kit de ejercicios de soplo",
@@ -387,7 +387,7 @@ export const productsContent: Record<string, ProductContent> = {
       }
     ],
     whatYouGet: [
-      "5 PDFs (121 páginas totales)",
+      "5 PDFs (123 páginas totales)",
       "Calendario semanal imprimible (bonus)",
       "Registro de fichas y tabla semanal de soplo incluidos en sus PDF",
       "Acceso perpetuo y actualizaciones gratis de los recursos incluidos",
