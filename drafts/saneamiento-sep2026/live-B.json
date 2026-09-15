@@ -1,0 +1,133 @@
+{
+  "checkedAt": "2026-09-14T21:21:32.532Z",
+  "pdfs": [
+    {
+      "name": "cuaderno-estimulacion-0-3.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+      "status": 200,
+      "contentLength": "3923238",
+      "bytes": 3923238,
+      "sha256": "64ec13151ce170cb8626df5ff99e165cf32c1412a4650a73d48ea10ae8f9b6ff",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    },
+    {
+      "name": "cuaderno-estimulacion-3-6.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+      "status": 200,
+      "contentLength": "3474674",
+      "bytes": 3474674,
+      "sha256": "161c3f317eba81f40e8cf9666158b99288e809088328d5457ae4a7aaa533b9ce",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    },
+    {
+      "name": "guia-dislexia.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/guia-dislexia.pdf",
+      "status": 200,
+      "contentLength": "2236445",
+      "bytes": 2236445,
+      "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": true
+    },
+    {
+      "name": "guia-tartamudez.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/guia-tartamudez.pdf",
+      "status": 200,
+      "contentLength": "2201035",
+      "bytes": 2201035,
+      "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    },
+    {
+      "name": "kit-ejercicios-soplo.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/kit-ejercicios-soplo.pdf",
+      "status": 200,
+      "contentLength": "10956500",
+      "bytes": 10956500,
+      "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    },
+    {
+      "name": "pack-fichas-articulacion.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/pack-fichas-articulacion.pdf",
+      "status": 200,
+      "contentLength": "1345168",
+      "bytes": 1345168,
+      "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    },
+    {
+      "name": "calendario-semanal.pdf",
+      "url": "https://www.espaciolenguaje.com/downloads/productos/calendario-semanal.pdf",
+      "status": 200,
+      "contentLength": "369569",
+      "bytes": 369569,
+      "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315",
+      "matchesLocal": true,
+      "unchangedSinceBaseline": false
+    }
+  ],
+  "catalog": [
+    {
+      "id": "fichas-articulacion",
+      "url": "https://www.espaciolenguaje.com/recursos/fichas-articulacion",
+      "status": 200,
+      "pageCount": 34,
+      "checkedClaims": 16,
+      "missing": []
+    },
+    {
+      "id": "cuaderno-0-3",
+      "url": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3",
+      "status": 200,
+      "pageCount": 31,
+      "checkedClaims": 14,
+      "missing": []
+    },
+    {
+      "id": "cuaderno-3-6",
+      "url": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6",
+      "status": 200,
+      "pageCount": 30,
+      "checkedClaims": 14,
+      "missing": []
+    },
+    {
+      "id": "kit-soplo",
+      "url": "https://www.espaciolenguaje.com/recursos/kit-soplo",
+      "status": 200,
+      "pageCount": 25,
+      "checkedClaims": 14,
+      "missing": []
+    },
+    {
+      "id": "pack-completo",
+      "url": "https://www.espaciolenguaje.com/recursos/pack-completo",
+      "status": 200,
+      "pageCount": 121,
+      "checkedClaims": 17,
+      "missing": []
+    },
+    {
+      "id": "guia-dislexia",
+      "url": "https://www.espaciolenguaje.com/recursos/guia-dislexia",
+      "status": 200,
+      "pageCount": 20,
+      "checkedClaims": 14,
+      "missing": []
+    },
+    {
+      "id": "guia-tartamudez",
+      "url": "https://www.espaciolenguaje.com/recursos/guia-tartamudez",
+      "status": 200,
+      "pageCount": 16,
+      "checkedClaims": 14,
+      "missing": []
+    }
+  ]
+}

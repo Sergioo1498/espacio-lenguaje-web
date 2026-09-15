@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-09-15T13:50:06.654Z",
+  "mode": "events",
+  "email": "sergio.gonzalezt98+quiztest@gmail.com",
+  "result": {
+    "http": 200,
+    "data": {
+      "events": [
+        {
+          "email": "sergio.gonzalezt98+quiztest@gmail.com",
+          "date": "2026-09-15T15:48:31.024+02:00",
+          "messageId": "<202609151348.46019976677@smtp-relay.mailin.fr>",
+          "event": "opened",
+          "subject": "🌱 Tu guía de Hitos del Lenguaje + tu resultado del test",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "66.249.93.9"
+        },
+        {
+          "email": "sergio.gonzalezt98+quiztest@gmail.com",
+          "date": "2026-09-15T15:48:15.000+02:00",
+          "messageId": "<202609151348.46019976677@smtp-relay.mailin.fr>",
+          "event": "delivered",
+          "subject": "🌱 Tu guía de Hitos del Lenguaje + tu resultado del test",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        },
+        {
+          "email": "sergio.gonzalezt98+quiztest@gmail.com",
+          "date": "2026-09-15T15:48:14.677+02:00",
+          "messageId": "<202609151348.46019976677@smtp-relay.mailin.fr>",
+          "event": "requests",
+          "subject": "🌱 Tu guía de Hitos del Lenguaje + tu resultado del test",
+          "from": "hola@espaciolenguaje.com",
+          "ip": "77.32.148.23"
+        }
+      ]
+    }
+  }
+}

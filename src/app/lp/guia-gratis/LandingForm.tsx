@@ -1,10 +1,12 @@
 'use client';
 
 import { useState } from 'react';
+import PerfilSelector, { type Perfil } from '@/components/ui/PerfilSelector';
 
 export default function LandingForm() {
   const [nombre, setNombre] = useState('');
   const [email, setEmail] = useState('');
+  const [perfil, setPerfil] = useState<Perfil>('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   async function handleSubmit(e: React.FormEvent) {
@@ -19,6 +21,7 @@ export default function LandingForm() {
         body: JSON.stringify({
           email: email.trim(),
           nombre: nombre.trim() || undefined,
+          perfil: perfil || undefined,
         }),
       });
 
@@ -38,6 +41,7 @@ export default function LandingForm() {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+      <PerfilSelector value={perfil} onChange={setPerfil} />
       <input
         type="text"
         value={nombre}

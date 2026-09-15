@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-09-15T13:48:28.532Z",
+  "mode": "cleanup",
+  "email": "sergio.gonzalezt98+quiztest@gmail.com",
+  "result": {
+    "before": {
+      "http": 200,
+      "data": {
+        "id": 173,
+        "email": "sergio.gonzalezt98+quiztest@gmail.com",
+        "emailBlacklisted": false,
+        "smsBlacklisted": false,
+        "whatsappBlacklisted": false,
+        "createdAt": "2026-09-15T15:48:14.082+02:00",
+        "modifiedAt": "2026-09-15T15:48:14.082+02:00",
+        "listIds": [
+          2
+        ],
+        "attributes": {
+          "COMPRO_PRODUCTO": false,
+          "EDAD_HIJO": "3-4",
+          "FECHA_SUSCRIPCION": "2026-09-15",
+          "FUENTE_LEAD": "quiz-necesita-logopeda",
+          "INTERESES_TEMA": "quiz-amarillo-score-3-7",
+          "NOMBRE": "Sergio test saneamiento"
+        },
+        "subscriptions": {},
+        "statistics": {}
+      }
+    },
+    "request": {
+      "listIds": [
+        7
+      ],
+      "unlinkListIds": [
+        2
+      ]
+    },
+    "update": {
+      "http": 204,
+      "data": null
+    },
+    "after": {
+      "http": 200,
+      "data": {
+        "id": 173,
+        "email": "sergio.gonzalezt98+quiztest@gmail.com",
+        "emailBlacklisted": false,
+        "smsBlacklisted": false,
+        "whatsappBlacklisted": false,
+        "createdAt": "2026-09-15T15:48:14.082+02:00",
+        "modifiedAt": "2026-09-15T15:48:28.018+02:00",
+        "listIds": [
+          7
+        ],
+        "attributes": {
+          "COMPRO_PRODUCTO": false,
+          "EDAD_HIJO": "3-4",
+          "FECHA_SUSCRIPCION": "2026-09-15",
+          "FUENTE_LEAD": "quiz-necesita-logopeda",
+          "INTERESES_TEMA": "quiz-amarillo-score-3-7",
+          "NOMBRE": "Sergio test saneamiento"
+        },
+        "subscriptions": {},
+        "statistics": {}
+      }
+    }
+  }
+}

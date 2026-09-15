@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import PerfilSelector, { type Perfil } from "./PerfilSelector";
 
 interface Props {
   variant?: "card" | "inline";
@@ -15,6 +16,7 @@ export default function NewsletterBlogForm({
   description = "Los lunes: un post nuevo + una idea concreta para aplicar en casa esa misma semana. Sin spam, baja con un click.",
 }: Props) {
   const [email, setEmail] = useState("");
+  const [perfil, setPerfil] = useState<Perfil>("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error" | "suggest">("idle");
   const [message, setMessage] = useState("");
   const [suggestion, setSuggestion] = useState<string | null>(null);
@@ -26,7 +28,7 @@ export default function NewsletterBlogForm({
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: forcedEmail || email, acceptedSuggestion: accepted }),
+        body: JSON.stringify({ email: forcedEmail || email, acceptedSuggestion: accepted, perfil: perfil || undefined }),
       });
       const data = await res.json();
       if (data.success) {
@@ -63,7 +65,9 @@ export default function NewsletterBlogForm({
       {title && <h3 className="font-serif text-xl text-cacao mb-2">{title}</h3>}
       {description && <p className="text-sm text-texto-secundario leading-relaxed mb-4">{description}</p>}
 
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+        <PerfilSelector value={perfil} onChange={setPerfil} />
+        <div className="flex flex-col sm:flex-row gap-3">
         <input
           type="email"
           value={email}
@@ -85,6 +89,7 @@ export default function NewsletterBlogForm({
         >
           {status === "loading" ? "..." : "Suscribirme"}
         </button>
+        </div>
       </form>
 
       <AnimatePresence mode="wait">

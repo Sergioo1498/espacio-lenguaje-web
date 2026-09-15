@@ -71,6 +71,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const email = typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
+    const perfil = body.perfil === "familia" || body.perfil === "profesional" ? body.perfil : undefined;
     const nombre =
       typeof body.nombre === "string" && body.nombre.trim() ? body.nombre.trim().slice(0, 80) : undefined;
     const acceptedSuggestion = body.acceptedSuggestion === true;
@@ -100,6 +101,7 @@ export async function POST(request: Request) {
       COMPRO_PRODUCTO: false,
     };
     if (nombre) attributes.NOMBRE = nombre;
+    if (perfil) attributes.PERFIL = perfil;
 
     const res = await fetch(BREVO_CONTACTS_URL, {
       method: "POST",
