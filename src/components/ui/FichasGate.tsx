@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getTrafficAttribution } from "@/lib/traffic-attribution";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { track } from "@vercel/analytics";
@@ -33,7 +34,7 @@ export default function FichasGate() {
       const res = await fetch("/api/lead-fichas", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+        body: JSON.stringify({ attribution: getTrafficAttribution(),
           email,
           nombre: nombre.trim() || undefined,
           perfil: perfil || undefined,

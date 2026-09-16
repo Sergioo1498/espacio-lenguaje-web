@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-16T14:36:36.982Z",
+  "email": "sergio.gonzalezt98+pintest@gmail.com",
+  "status": 404,
+  "data": {
+    "code": "document_not_found",
+    "message": "Contact does not exist"
+  }
+}

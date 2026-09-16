@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getTrafficAttribution } from "@/lib/traffic-attribution";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -32,7 +33,7 @@ export default function NewsletterForm({
       const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, nombre: nombre.trim() || undefined }),
+        body: JSON.stringify({ attribution: getTrafficAttribution(), email, nombre: nombre.trim() || undefined }),
       });
 
       const data = await res.json();

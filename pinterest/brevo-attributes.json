@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-09-16T14:36:36.424Z",
+  "changes": [
+    {
+      "name": "ORIGEN_TRAFICO",
+      "action": "created",
+      "http": 201
+    },
+    {
+      "name": "CAMPANA_ORIGEN",
+      "action": "created",
+      "http": 201
+    }
+  ],
+  "attributes": [
+    {
+      "name": "CAMPANA_ORIGEN",
+      "category": "normal",
+      "type": "text"
+    },
+    {
+      "name": "ORIGEN_TRAFICO",
+      "category": "normal",
+      "type": "text"
+    }
+  ]
+}

@@ -35,9 +35,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: content.seoTitle,
       description: content.seoDescription,
       url: `https://www.espaciolenguaje.com/recursos/${product.id}`,
-      type: 'website',
       siteName: 'Espacio Lenguaje',
-      images: [{ url: product.image, width: 1200, height: 630, alt: product.name }],
+      images: [{ url: product.image, width: 1408, height: 768, alt: product.name }],
     },
   };
 }
@@ -118,6 +117,11 @@ export default async function ProductPage({ params }: PageProps) {
 
   return (
     <div className="pt-24 pb-16">
+      {/* React hoists these into head; Next Metadata does not support OG product. */}
+      <meta property="og:type" content="product" />
+      <meta property="product:price:amount" content={(product.price / 100).toFixed(2)} />
+      <meta property="product:price:currency" content={product.currency.toUpperCase()} />
+      <meta property="product:availability" content={product.disabled ? 'out of stock' : 'in stock'} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />

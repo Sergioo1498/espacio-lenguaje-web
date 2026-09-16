@@ -1,3 +1,4 @@
+import { trafficAttributes } from "@/lib/traffic-attribution";
 import { NextResponse } from "next/server";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -76,6 +77,7 @@ export async function POST(request: Request) {
 
     const today = new Date().toISOString().slice(0, 10);
     const attributes: Record<string, string | boolean | number> = {
+      ...trafficAttributes(body.attribution),
       FUENTE_LEAD: "quiz-necesita-logopeda",
       FECHA_SUSCRIPCION: today,
       COMPRO_PRODUCTO: false,

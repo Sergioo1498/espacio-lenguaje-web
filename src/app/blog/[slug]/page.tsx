@@ -10,6 +10,7 @@ import NewsletterBlogForm from "@/components/ui/NewsletterBlogForm";
 import { localizedAlternates } from "@/lib/hreflang";
 import LogoIcon from "@/components/icons/LogoIcon";
 import ShareButtons from "@/components/ui/ShareButtons";
+import socialImageSizes from "@/lib/social-image-sizes.json";
 
 const blogImages: Record<string, { src: string; alt: string }> = {
   "mi-hijo-no-habla-cuando-preocuparse": { src: "/images/blog-mi-hijo-no-habla.png", alt: "Manos de un niño señalando un libro ilustrado" },
@@ -61,10 +62,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: meta.title,
       description: meta.excerpt,
       type: "article",
+      authors: [(meta.authorId ? getTeamMember(meta.authorId) : defaultAuthor()).publicName],
+      publishedTime: meta.date,
+      modifiedTime: meta.updatedAt || meta.date,
       locale: "es_ES",
       url: `https://www.espaciolenguaje.com/blog/${meta.slug}`,
       siteName: "Espacio Lenguaje",
-      images: img ? [{ url: img.src, width: 1200, height: 630, alt: meta.title }] : undefined,
+      images: img ? [{ url: img.src, ...(socialImageSizes as Record<string, { width: number; height: number }>)[img.src], alt: meta.title }] : undefined,
     },
   };
 }

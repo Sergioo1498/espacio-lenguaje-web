@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getTrafficAttribution } from "@/lib/traffic-attribution";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ageRanges, quizByAge, interpretScore, type AgeRange, type QuizResult } from "@/lib/quiz-data";
@@ -66,7 +67,7 @@ export default function QuizClient() {
       const res = await fetch("/api/quiz-lead", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+        body: JSON.stringify({ attribution: getTrafficAttribution(),
           email,
           nombre: nombre.trim() || undefined,
           age,

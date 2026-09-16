@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getTrafficAttribution } from "@/lib/traffic-attribution";
 import { motion, AnimatePresence } from "framer-motion";
 import PerfilSelector, { type Perfil } from "./PerfilSelector";
 
@@ -28,7 +29,7 @@ export default function NewsletterBlogForm({
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: forcedEmail || email, acceptedSuggestion: accepted, perfil: perfil || undefined }),
+        body: JSON.stringify({ attribution: getTrafficAttribution(), email: forcedEmail || email, acceptedSuggestion: accepted, perfil: perfil || undefined }),
       });
       const data = await res.json();
       if (data.success) {

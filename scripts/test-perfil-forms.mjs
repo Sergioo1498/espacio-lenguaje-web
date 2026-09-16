@@ -8,7 +8,7 @@ for(const route of ['subscribe','newsletter']){
  const exports={};
  vm.runInNewContext(ts.transpileModule(fs.readFileSync(`src/app/api/${route}/route.ts`,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,{
   exports,console,process:{env:{BREVO_API_KEY:'mock'}},
-  require:()=>({NextResponse:{json:(body,opts)=>({body,status:opts?.status||200})}}),
+  require:name=>name.includes('traffic-attribution')?{trafficAttributes:()=>({})}:({NextResponse:{json:(body,opts)=>({body,status:opts?.status||200})}}),
   fetch:async(url,options)=>{if(url.endsWith('/contacts'))Object.assign(saved,JSON.parse(options.body).attributes);return {ok:true,status:201,json:async()=>({})};},
  });
  for(const [perfil,expected] of [['familia','familia'],['profesional','profesional'],[undefined,'profesional'],['invalid','profesional']]){
