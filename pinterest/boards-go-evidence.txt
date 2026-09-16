@@ -1,0 +1,124 @@
+- banner:
+  - link "Saltar al contenido":
+    - /url: "#"
+    - generic: Saltar al contenido
+  - navigation "Encabezado principal de navegación":
+    - button "Pinterest Pinterest Botón del menú desplegable de insignias dinámicas":
+      - img "Pinterest"
+      - heading "Pinterest" [level=1]
+      - img "Botón del menú desplegable de insignias dinámicas"
+    - button "Espacio Lenguaje Espacio Lenguaje Icono de flecha para cambiar de cuenta":
+      - generic: Espacio Lenguaje
+      - generic: Espacio Lenguaje
+      - img "Icono de flecha para cambiar de cuenta"
+    - button "Icono de búsqueda":
+    - link "Notificaciones":
+      - /url: ""
+    - link "Mensajes":
+      - /url: ""
+    - link "Tu perfil":
+      - /url: /espaciolenguaje/
+    - button "Cuentas y más opciones":
+- complementary "Botones flotantes del pie de página":
+  - generic "Más":
+    - button "Más":
+- main:
+  - button "espaciolenguaje":
+    - img "espaciolenguaje"
+  - button "Espacio Lenguaje":
+    - generic "Espacio Lenguaje"
+  - button "Compartir perfil":
+  - button "Editar la portada del perfil":
+  - button "Haz clic para abrir el Pincode y compartir el perfil":
+    - img "Espacio Lenguaje"
+  - heading "Espacio Lenguaje" [level=1]:
+    - generic: Espacio Lenguaje
+  - generic: espaciolenguaje
+  - button "Siguiendo a 0" [disabled]:
+    - generic: Siguiendo a 0
+  - 'button "Recursos de logopedia infantil para familias y profesionales: fichas, actividades y guías revisadas por logopeda colegiada. espaciolenguaje.com"':
+    - generic: "Recursos de logopedia infantil para familias y profesionales: fichas, actividades y guías revisadas por logopeda colegiada. espaciolenguaje.com"
+  - link "http://www.espaciolenguaje.com espaciolenguaje.com ; Abre una nueva pestaña":
+    - /url: http://www.espaciolenguaje.com
+    - img "http://www.espaciolenguaje.com"
+    - generic: espaciolenguaje.com
+    - generic: ; Abre una nueva pestaña
+  - button "Editar perfil":
+    - generic: Editar perfil
+  - button "Compartir perfil":
+  - button "Editar la portada del perfil":
+  - tablist:
+    - tab "Creados":
+      - generic: Creados
+    - tab "Guardados" [selected]:
+      - generic: Guardados
+  - button "Organizar":
+  - button "Crear un Pin o un tablero":
+    - generic: Crear
+  - list:
+    - group "Tablero":
+      - link "Editar Material para logopedas y maestros , 0 Pines , Ahora mismo":
+        - /url: /espaciolenguaje/material-para-logopedas-y-maestros/
+        - button "Editar":
+          - button "Editar":
+        - heading "Material para logopedas y maestros" [level=2]
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: Ahora mismo
+    - group "Tablero":
+      - 'link "Editar Dislexia y tartamudez: guía para familias , 0 Pines , 1 min"':
+        - /url: /espaciolenguaje/dislexia-y-tartamudez-gu%C3%ADa-para-familias/
+        - button "Editar":
+          - button "Editar":
+        - 'heading "Dislexia y tartamudez: guía para familias" [level=2]'
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: 1 min
+    - group "Tablero":
+      - link "Editar Actividades de lenguaje 3-6 años , 0 Pines , 1 min":
+        - /url: /espaciolenguaje/actividades-de-lenguaje-3-6-a%C3%B1os/
+        - button "Editar":
+          - button "Editar":
+        - heading "Actividades de lenguaje 3-6 años" [level=2]
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: 1 min
+    - group "Tablero":
+      - link "Editar Actividades de lenguaje 0-3 años , 0 Pines , 2 min":
+        - /url: /espaciolenguaje/actividades-de-lenguaje-0-3-a%C3%B1os/
+        - button "Editar":
+          - button "Editar":
+        - heading "Actividades de lenguaje 0-3 años" [level=2]
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: 2 min
+    - group "Tablero":
+      - link "Editar Ejercicios de pronunciación (R, S y más) , 0 Pines , 2 h":
+        - /url: /espaciolenguaje/ejercicios-de-pronunciaci%C3%B3n-r-s-y-m%C3%A1s/
+        - button "Editar":
+          - button "Editar":
+        - heading "Ejercicios de pronunciación (R, S y más)" [level=2]
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: 2 h
+    - group "Tablero":
+      - link "Editar Fichas de logopedia para imprimir , 0 Pines , 2 h":
+        - /url: /espaciolenguaje/fichas-de-logopedia-para-imprimir/
+        - button "Editar":
+          - button "Editar":
+        - heading "Fichas de logopedia para imprimir" [level=2]
+        - generic: ","
+        - text: 0 Pines
+        - generic: ","
+        - text: 2 h
+    - heading [level=3]
+    - link:
+      - /url: ""
+    - button "Crear tablero":
+      - generic: Crear
+- contentinfo "Pie de página"

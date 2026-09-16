@@ -1,0 +1,122 @@
+- banner:
+  - link "Saltar al contenido":
+    - /url: "#"
+    - generic: Saltar al contenido
+  - navigation "Encabezado principal de navegación":
+    - button "Pinterest Configuración Botón del menú desplegable de insignias dinámicas":
+      - img "Pinterest"
+      - heading "Configuración" [level=1]
+      - img "Botón del menú desplegable de insignias dinámicas"
+    - button "Espacio Lenguaje Espacio Lenguaje Icono de flecha para cambiar de cuenta":
+      - generic: Espacio Lenguaje
+      - generic: Espacio Lenguaje
+      - img "Icono de flecha para cambiar de cuenta"
+    - button "Icono de búsqueda":
+    - link "Notificaciones":
+      - /url: ""
+    - link "Mensajes":
+      - /url: ""
+    - link "Tu perfil":
+      - /url: /espaciolenguaje/
+    - button "Cuentas y más opciones":
+- complementary "Botones flotantes del pie de página":
+  - generic "Más":
+    - button "Más":
+- main:
+  - navigation "Menú de configuración del usuario":
+    - link "Editar perfil":
+      - /url: /settings/edit-profile/
+      - generic: Editar perfil
+    - link "Gestión de la cuenta":
+      - /url: /settings/account-settings/
+      - generic: Gestión de la cuenta
+    - link "Visibilidad del perfil":
+      - /url: /settings/profile-visibility/
+      - generic: Visibilidad del perfil
+    - link "Refina tus recomendaciones":
+      - /url: /edit/
+      - generic: Refina tus recomendaciones
+    - link "Importar contenido":
+      - /url: /settings/import/
+      - generic: Importar contenido
+    - link "Enlace a Pinterest":
+      - /url: /settings/claim/
+      - generic: Enlace a Pinterest
+    - link "Permisos sociales":
+      - /url: /settings/permissions/
+      - generic: Permisos sociales
+    - link "Notificaciones":
+      - /url: /settings/notifications/
+      - generic: Notificaciones
+    - link "Privacidad y datos":
+      - /url: /settings/privacy/
+      - generic: Privacidad y datos
+    - link "Seguridad":
+      - /url: /settings/security/
+      - generic: Seguridad
+    - link "Contenido de la marca":
+      - /url: /settings/branded-content/
+      - generic: Contenido de la marca
+    - link "Labs":
+      - /url: /settings/labs/
+      - generic: Labs
+  - heading "Enlace a Pinterest" [level=1]
+  - text: Al conectar una cuenta, puedes supervisar los analytics y asegurarte de que tu nombre, o el nombre de tu marca, aparecen en todos los Pines que se crean desde tus sitios.
+  - link "Más información":
+    - /url: https://www.pinterest.com/_/_/help/article/claim-your-account
+  - img "Icono de conexión de redes sociales"
+  - heading "Instagram" [level=2]
+  - text: Conecta tu cuenta para crear automáticamente tus publicaciones de Instagram como Pines.
+  - link "Más información":
+    - /url: https://www.pinterest.com/_/_/help/article/claim-your-account
+  - button "Vincular":
+    - generic: Vincular
+  - img "Icono de sitio web"
+  - generic: Sitios web
+  - text: Obtén atribución de todos los Pines que se vinculan a tu sitio web en Pinterest.
+  - link "Más información":
+    - /url: https://www.pinterest.com/_/_/help/articles/claim-your-website
+  - button "Conectar":
+    - generic: Conectar
+  - generic: espaciolenguaje.com
+  - button "Anular conexión":
+    - generic: Anular conexión
+  - img "Icono de Shopify"
+  - generic: Shopify
+  - text: Añade tu nombre y foto de perfil a los Pines de tu tienda de Shopify, conecta automáticamente el catálogo e instala la etiqueta de Pinterest.
+  - link "Más información":
+    - /url: https://www.pinterest.com/_/_/help/business/article/link-your-shopify-and-pinterest-accounts
+  - link "Instalar aplicación ; Abre una nueva pestaña":
+    - /url: https://apps.shopify.com/pinterest-1?utm_source=pinterest&utm_campaign=claim_shopify
+    - generic: Instalar aplicación
+    - generic: ; Abre una nueva pestaña
+  - img "Icono de Amazon"
+  - heading "Tienda de Amazon" [level=2]
+  - text: Añade tu escaparate de Amazon para que la creación de contenido vinculado a afiliados sea aún más fácil.
+  - link "Más información":
+    - /url: https://www.pinterest.com/_/_/help/business/article/connect-amazon-and-pinterest
+  - button "Vincular":
+    - generic: Vincular
+  - img "Loja Integrada Icon"
+  - heading "Loja Integrada" [level=2]
+  - generic: La integración de Pinterest con Loja Integrada optimiza la incorporación a Pinterest para empresas, facilita la gestión de anuncios y aumenta el tráfico y las ventas de los comerciantes en las tiendas.
+  - button "Conectar":
+    - generic: Conectar
+  - img "MikMak Logo"
+  - heading "MikMak" [level=2]
+  - text: Ejecuta anuncios que dirijan a sitios web de minoristas conectando tu cuenta de MikMak.
+  - link "Más información":
+    - /url: https://www.mikmak.com/
+  - generic: "Tus cuentas publicitarias:"
+- contentinfo "Pie de página"
+- dialog "Sitio web reclamado":
+  - heading "Conecta tu sitio web" [level=1]
+  - button "Omitir modo":
+  - img "Verificado"
+  - heading "Conectado" [level=1]
+  - generic: ¡Listo!
+  - generic: www.espaciolenguaje.com
+  - generic: Para hacer un seguimiento de la eficacia de este anuncio a fin de conseguir actividades de conversión en tu sitio conectado, instala la etiqueta de Pinterest.
+  - link "Instalar etiqueta":
+    - /url: https://ads.pinterest.com/?redirect=PINTEREST_TAG
+    - generic: Instalar etiqueta

@@ -1,0 +1,7 @@
+{
+  "url": "https://www.espaciolenguaje.com",
+  "method": "curl -sS -L",
+  "tag": "<meta name=\"p:domain_verify\" content=\"da62b6958e21a635cad5db32681a118b\"/>",
+  "inHead": true,
+  "commit": "49d23f9"
+}
