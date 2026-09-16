@@ -109,6 +109,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${dmSerifDisplay.variable} ${dmSans.variable}`}>
       <head>
+        <meta name="p:domain_verify" content="da62b6958e21a635cad5db32681a118b" />
         {/* Preconnect a hosts críticos — reduce ~100-300ms en TTFB de recursos third-party */}
         <link rel="preconnect" href="https://www.clarity.ms" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://api.brevo.com" crossOrigin="anonymous" />
