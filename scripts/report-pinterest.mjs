@@ -2,13 +2,15 @@ import fs from 'node:fs';
 const pins=JSON.parse(fs.readFileSync('pinterest/pins.json','utf8'));
 const before=JSON.parse(fs.readFileSync('pinterest/metadata-before.json','utf8'));
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
-fs.writeFileSync('public/pinterest/index.html',`<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Biblioteca Pinterest · Espacio Lenguaje</title><style>body{margin:0;background:#FDF8F4;color:#3D2C2E;font:16px system-ui}header{padding:48px 5vw 24px;max-width:900px}h1{font:44px Georgia;margin:0 0 16px}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;padding:24px 5vw 64px}figure{margin:0;background:white;border:1px solid #e3d7d0;border-radius:12px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:20px}a{color:#8f4c37}p{line-height:1.5}small{color:#685659}</style><header><p>ESPACIO LENGUAJE · BIBLIOTECA DE CONTENIDO</p><h1>60 ideas para compartir</h1><p>40 pines de arranque y 20 de continuidad. Material preparado, pendiente de publicación en Pinterest. Las fechas son una propuesta.</p></header><main>${pins.map(p=>`<figure><a href="${esc(p.imageUrl)}"><img src="${esc(p.filename)}" width="1000" height="1500" loading="lazy" alt="${esc(p.headline)}"></a><figcaption><small>${p.id} · ${p.batch} · ${p.date} ${p.time} Madrid</small><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p><p><small>${esc(p.board)}</small></p><a href="${esc(p.link)}">Página de destino →</a></figcaption></figure>`).join('')}</main></html>`);
+fs.writeFileSync('public/pinterest/index.html',`<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Biblioteca Pinterest · Espacio Lenguaje</title><style>body{margin:0;background:#FDF8F4;color:#3D2C2E;font:16px system-ui}header{padding:48px 5vw 24px;max-width:900px}h1{font:44px Georgia;margin:0 0 16px}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;padding:24px 5vw 64px}figure{margin:0;background:white;border:1px solid #e3d7d0;border-radius:12px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:20px}a{color:#8f4c37}p{line-height:1.5}small{color:#685659}</style><header><p>ESPACIO LENGUAJE · BIBLIOTECA DE CONTENIDO</p><h1>60 ideas para compartir</h1><p>Segundo pase: 44 mockups de material real y 16 tarjetas. 40 pines de arranque y 20 de continuidad, pendientes de publicación. Las fechas son una propuesta.</p></header><main>${pins.map(p=>`<figure><a href="${esc(p.imageUrl)}"><img src="${esc(p.filename)}?v=2" width="1000" height="1500" loading="lazy" alt="${esc(p.headline)}"></a><figcaption><small>${p.id} · ${p.type} · ${p.batch} · ${p.date} ${p.time} Madrid</small><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p><p><small>${esc(p.board)}</small></p><a href="${esc(p.link)}">Página de destino →</a></figcaption></figure>`).join('')}</main></html>`);
 const statuses=fs.existsSync('pinterest/metadata-after.json')?JSON.parse(fs.readFileSync('pinterest/metadata-after.json','utf8')):null;
 const cleanup=fs.existsSync('pinterest/brevo-cleanup.json')?JSON.parse(fs.readFileSync('pinterest/brevo-cleanup.json','utf8')):null;
 const live=fs.existsSync('pinterest/images-live.json')?JSON.parse(fs.readFileSync('pinterest/images-live.json','utf8')):null;
 fs.writeFileSync('pinterest/INFORME.md',`# Experimento Pinterest — septiembre 2026
 
 Commit de implementación: **6f9fd66**. Evidencias y resultados detallados en [VERIFICACION.md](VERIFICACION.md).
+
+Segundo pase: ver [INFORME-SEGUNDO-PASE.md](INFORME-SEGUNDO-PASE.md).
 
 ## Estado por bloque
 
@@ -39,7 +41,7 @@ Los CSV de Metricool son documentos preparatorios: falta adaptar TODAS las cabec
 
 ## Texto y diseño
 
-Titular de imagen ≤12 palabras, título ≤100 caracteres y descripción de 150–300 caracteres en los 60 pines. Los tres paneles proceden literalmente de los encabezados de cada página (se retira la numeración cuando la aporta el diseño). Los titulares resumen el mismo contenido. No hay fotos de personas, pictogramas ajenos ni nuevas afirmaciones clínicas. Las licencias OFL de las dos fuentes están junto a los archivos de fuente. Se han revisado las cinco hojas de contacto y un pin a tamaño completo. Los 40 iniciales respetan el reparto 12/10/8/6/4.
+Titular de imagen ≤8 palabras, título ≤100 caracteres y descripción de 150–300 caracteres en los 60 pines. Se han sustituido las tarjetas del primer pase por 44 mockups de páginas reales y 16 tarjetas con cuatro composiciones. Las páginas PDF se renderizan con pdftoppm a 300 dpi. Las tablas y listas proceden de los artículos enlazados. Las fuentes exactas, páginas y textos extraídos están en render-audit-v2.json. La galería lleva noindex,nofollow y no figura en el sitemap.
 
 ## Atribución
 

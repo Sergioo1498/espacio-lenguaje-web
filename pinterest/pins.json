@@ -5,7 +5,7 @@
     "slug": "fichas-logopedia-gratis-imprimir",
     "headline": "Fichas de logopedia gratis para imprimir",
     "title": "Fichas de logopedia gratis para imprimir",
-    "description": "Fichas de logopedia gratis para imprimir. En el artículo encontrarás: 1. fichas de articulación; 2. fichas de vocabulario por campos semánticos; 3. fichas de conciencia fonológica. Información de logopedia infantil en Espacio Lenguaje.",
+    "description": "¿Buscas fichas de logopedia para imprimir? Descarga la muestra gratuita del fonema R con pictogramas y conoce otros materiales de articulación, vocabulario y comprensión para casa o el aula.",
     "panels": [
       "1. Fichas de articulación",
       "2. Fichas de vocabulario por campos semánticos",
@@ -16,22 +16,40 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 0,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia gratis para imprimir, logopedia infantil, familias",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T08:00:00"
+    "publishUTC": "2026-09-21T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ]
   },
   {
     "id": 2,
     "batch": "inicial",
     "slug": "fichas-articulacion",
-    "headline": "Fichas de articulación: material imprimible por fonema",
-    "title": "Fichas de articulación: material imprimible por fonema",
-    "description": "Fichas de articulación: material imprimible por fonema. Consulta qué incluye el recurso: 30 fichas imprimibles; instrucciones para adultos; silabario de práctica. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas de articulación, fonema por fonema",
+    "title": "Fichas de articulación, fonema por fonema",
+    "description": "Un vistazo por dentro al pack de 30 fichas de articulación. Incluye pictogramas, palabras por posición y silabario: material de logopedia en PDF con instrucciones para el adulto y registro de progreso.",
     "panels": [
       "30 fichas imprimibles",
       "Instrucciones para adultos",
@@ -42,22 +60,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/fichas-articulacion",
     "sourceKind": "product",
     "filename": "pin-fichas-articulacion-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/fichas-articulacion?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-articulacion",
     "dayOffset": 0,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de articulación, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T17:00:00"
+    "publishUTC": "2026-09-21T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-13.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-19.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 19,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ]
   },
   {
     "id": 3,
     "batch": "inicial",
     "slug": "cuaderno-0-3",
-    "headline": "Cuaderno de estimulación del lenguaje de 0 a 3 años",
-    "title": "Cuaderno de estimulación del lenguaje de 0 a 3 años",
-    "description": "Cuaderno de estimulación del lenguaje de 0 a 3 años. Consulta qué incluye el recurso: 20 actividades estructuradas; materiales cotidianos; instrucciones paso a paso. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Cuaderno de lenguaje de 0–3 años",
+    "title": "Cuaderno de lenguaje de 0–3 años",
+    "description": "Para acompañar las primeras etapas del lenguaje: 20 actividades organizadas por edad, con materiales cotidianos e instrucciones paso a paso. Mira el interior del cuaderno de estimulación de 0 a 3 años.",
     "panels": [
       "20 actividades estructuradas",
       "Materiales cotidianos",
@@ -68,22 +104,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3",
     "sourceKind": "product",
     "filename": "pin-cuaderno-0-3-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-0-3",
     "dayOffset": 0,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno de estimulación del lenguaje de 0 a 3 años, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T08:00:00"
+    "publishUTC": "2026-09-21T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-06.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-13.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-16.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 16,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ]
   },
   {
     "id": 4,
     "batch": "inicial",
     "slug": "cuaderno-3-6",
-    "headline": "Cuaderno de logopedia de 3 a 6 años",
-    "title": "Cuaderno de logopedia de 3 a 6 años",
-    "description": "Cuaderno de logopedia de 3 a 6 años. Consulta qué incluye el recurso: 20 actividades en 5 bloques; variaciones por dificultad; materiales cotidianos. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Cuaderno de lenguaje de 3–6 años",
+    "title": "Cuaderno de lenguaje de 3–6 años",
+    "description": "Rimas, vocabulario, historias y comprensión en un mismo cuaderno. Son 20 actividades de lenguaje de 3 a 6 años, repartidas en cinco bloques y con variaciones por dificultad para acompañar la práctica.",
     "panels": [
       "20 actividades en 5 bloques",
       "Variaciones por dificultad",
@@ -94,22 +155,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6",
     "sourceKind": "product",
     "filename": "pin-cuaderno-3-6-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-3-6",
     "dayOffset": 0,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno de logopedia de 3 a 6 años, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T17:00:00"
+    "publishUTC": "2026-09-21T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-11.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 11,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-12.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ]
   },
   {
     "id": 5,
     "batch": "inicial",
     "slug": "kit-soplo",
-    "headline": "Kit de ejercicios de soplo con material casero",
-    "title": "Kit de ejercicios de soplo con material casero",
-    "description": "Kit de ejercicios de soplo con material casero. Consulta qué incluye el recurso: 15 ejercicios progresivos; material casero; tabla de seguimiento. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Soplo: juegos con materiales caseros",
+    "title": "Soplo: juegos con materiales caseros",
+    "description": "Pompas, plumas y otros materiales de casa forman parte de este kit de soplo. Reúne 15 ejercicios progresivos y una tabla de seguimiento, con enfoque de control respiratorio y consciencia oral.",
     "panels": [
       "15 ejercicios progresivos",
       "Material casero",
@@ -120,22 +199,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/kit-soplo",
     "sourceKind": "product",
     "filename": "pin-kit-soplo-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/kit-soplo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-soplo",
     "dayOffset": 0,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Kit de ejercicios de soplo con material casero, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T08:00:00"
+    "publishUTC": "2026-09-21T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-12.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-13.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      }
+    ]
   },
   {
     "id": 6,
     "batch": "inicial",
     "slug": "pack-completo",
-    "headline": "Pack completo de logopedia infantil en PDF",
-    "title": "Pack completo de logopedia infantil en PDF",
-    "description": "Pack completo de logopedia infantil en PDF. Consulta qué incluye el recurso: pack de fichas de articulación; cuaderno de estimulación 0-3 años; cuaderno de estimulación 3-6 años. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Logopedia infantil: mira el pack por dentro",
+    "title": "Logopedia infantil: mira el pack por dentro",
+    "description": "Fichas de articulación, cuadernos de lenguaje de 0–3 y 3–6 años, kit de soplo y calendario semanal. Mira el material del Pack Completo de logopedia infantil y comprueba qué incluye cada recurso.",
     "panels": [
       "Pack de fichas de articulación",
       "Cuaderno de estimulación 0-3 años",
@@ -146,22 +243,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/pack-completo",
     "sourceKind": "product",
     "filename": "pin-pack-completo-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/pack-completo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-pack-completo",
     "dayOffset": 0,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Pack completo de logopedia infantil en PDF, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T17:00:00"
+    "publishUTC": "2026-09-21T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-10.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\calendario-01.png",
+        "source": "public/downloads/productos/calendario-semanal.pdf",
+        "page": 1,
+        "dpi": 300,
+        "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315"
+      }
+    ]
   },
   {
     "id": 7,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia: articulación, vocabulario y comprensión",
-    "title": "Fichas de logopedia: articulación, vocabulario y comprensión",
-    "description": "Fichas de logopedia: articulación, vocabulario y comprensión. En el artículo encontrarás: 1. fichas de articulación; 2. fichas de vocabulario por campos semánticos; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas gratuitas: empieza por la muestra",
+    "title": "Fichas gratuitas: empieza por la muestra",
+    "description": "Antes de elegir material de logopedia, mira una muestra real. La descarga gratuita reúne seis fichas del fonema R con pictogramas; el artículo también presenta recursos de vocabulario y comprensión.",
     "panels": [
       "1. Fichas de articulación",
       "2. Fichas de vocabulario por campos semánticos",
@@ -172,22 +294,40 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 0,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia, logopedia infantil, familias",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T08:00:00"
+    "publishUTC": "2026-09-21T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-05.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 5,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-06.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ]
   },
   {
     "id": 8,
     "batch": "inicial",
     "slug": "fichas-articulacion",
-    "headline": "Fichas de articulación con silabario y registro de progreso",
-    "title": "Fichas de articulación con silabario y registro de progreso",
-    "description": "Fichas de articulación con silabario y registro de progreso. Consulta qué incluye el recurso: instrucciones para adultos; silabario de práctica; registro de progreso. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Articulación: pictogramas, palabras y sílabas",
+    "title": "Articulación: pictogramas, palabras y sílabas",
+    "description": "Así son las fichas de articulación del pack: pictogramas, palabras organizadas por posición y un silabario de práctica. Un PDF de logopedia con guía para adultos y espacio para registrar el progreso.",
     "panels": [
       "Instrucciones para adultos",
       "Silabario de práctica",
@@ -198,22 +338,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/fichas-articulacion",
     "sourceKind": "product",
     "filename": "pin-fichas-articulacion-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/fichas-articulacion?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-articulacion",
     "dayOffset": 0,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de articulación con silabario y registro de progreso, logopedia infantil, material imprimible",
     "date": "2026-09-21",
-    "publishUTC": "2026-09-21T17:00:00"
+    "publishUTC": "2026-09-21T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-22.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 22,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-27.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 27,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ]
   },
   {
     "id": 9,
     "batch": "inicial",
     "slug": "cuaderno-0-3",
-    "headline": "Cuaderno de estimulación 0–3: actividades con materiales cotidianos",
-    "title": "Cuaderno de estimulación 0–3: actividades con materiales cotidianos",
-    "description": "Cuaderno de estimulación 0–3: actividades con materiales cotidianos. Consulta qué incluye el recurso: materiales cotidianos; instrucciones paso a paso; duración por actividad. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Primeras palabras, materiales de cada día",
+    "title": "Primeras palabras, materiales de cada día",
+    "description": "No necesitas un armario lleno de materiales para usar este cuaderno de estimulación. Sus actividades de lenguaje de 0 a 3 años indican qué preparar, cómo acompañar el juego y cuánto dura cada propuesta.",
     "panels": [
       "Materiales cotidianos",
       "Instrucciones paso a paso",
@@ -224,22 +382,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3",
     "sourceKind": "product",
     "filename": "pin-cuaderno-0-3-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-0-3",
     "dayOffset": 1,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno de estimulación 0–3, logopedia infantil, material imprimible",
     "date": "2026-09-22",
-    "publishUTC": "2026-09-22T08:00:00"
+    "publishUTC": "2026-09-22T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-28.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 28,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-05.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 5,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ]
   },
   {
     "id": 10,
     "batch": "inicial",
     "slug": "cuaderno-3-6",
-    "headline": "Cuaderno 3–6: actividades de conciencia fonológica",
-    "title": "Cuaderno 3–6: actividades de conciencia fonológica",
-    "description": "Cuaderno 3–6: actividades de conciencia fonológica. Consulta qué incluye el recurso: variaciones por dificultad; conciencia fonológica; guía para el adulto. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Rimas y vocabulario de 3–6 años",
+    "title": "Rimas y vocabulario de 3–6 años",
+    "description": "El cuaderno de lenguaje de 3 a 6 años dedica un bloque a la conciencia fonológica y otro al vocabulario. Aquí puedes ver sus páginas de actividad, con materiales, pasos y variaciones de dificultad.",
     "panels": [
       "Variaciones por dificultad",
       "Conciencia fonológica",
@@ -250,22 +433,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6",
     "sourceKind": "product",
     "filename": "pin-cuaderno-3-6-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-3-6",
     "dayOffset": 1,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno 3–6, logopedia infantil, material imprimible",
     "date": "2026-09-22",
-    "publishUTC": "2026-09-22T17:00:00"
+    "publishUTC": "2026-09-22T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-26.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 26,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-06.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ]
   },
   {
     "id": 11,
     "batch": "inicial",
     "slug": "pack-completo",
-    "headline": "Pack completo: fichas, cuadernos y calendario semanal",
-    "title": "Pack completo: fichas, cuadernos y calendario semanal",
-    "description": "Pack completo: fichas, cuadernos y calendario semanal. Consulta qué incluye el recurso: pack de fichas de articulación; cuaderno de estimulación 0-3 años; cuaderno de estimulación 3-6 años. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Un calendario para organizar los materiales",
+    "title": "Un calendario para organizar los materiales",
+    "description": "El Pack Completo de logopedia incluye un calendario semanal junto a las fichas, los cuadernos y el kit de soplo. Un espacio para anotar actividades, tiempos y observaciones sobre el trabajo de la semana.",
     "panels": [
       "Pack de fichas de articulación",
       "Cuaderno de estimulación 0-3 años",
@@ -276,22 +477,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/pack-completo",
     "sourceKind": "product",
     "filename": "pin-pack-completo-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/pack-completo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-pack-completo",
     "dayOffset": 1,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Pack completo, logopedia infantil, material imprimible",
     "date": "2026-09-22",
-    "publishUTC": "2026-09-22T08:00:00"
+    "publishUTC": "2026-09-22T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-10.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\calendario-01.png",
+        "source": "public/downloads/productos/calendario-semanal.pdf",
+        "page": 1,
+        "dpi": 300,
+        "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315"
+      }
+    ]
   },
   {
     "id": 12,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia: muestra gratuita de articulación",
-    "title": "Fichas de logopedia: muestra gratuita de articulación",
-    "description": "Fichas de logopedia: muestra gratuita de articulación. En el artículo encontrarás: 1. fichas de articulación; 2. fichas de vocabulario por campos semánticos; 3. fichas de conciencia fonológica. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Seis fichas gratuitas del fonema R",
+    "title": "Seis fichas gratuitas del fonema R",
+    "description": "¿Quieres ver las fichas antes de comprar un pack? Esta muestra gratuita incluye seis fichas de articulación del fonema R con pictogramas. Accede al artículo y solicita el PDF para imprimir por email.",
     "panels": [
       "1. Fichas de articulación",
       "2. Fichas de vocabulario por campos semánticos",
@@ -302,22 +528,47 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 1,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia, logopedia infantil, familias",
     "date": "2026-09-22",
-    "publishUTC": "2026-09-22T17:00:00"
+    "publishUTC": "2026-09-22T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-04.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 4,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ]
   },
   {
     "id": 13,
     "batch": "inicial",
     "slug": "ejercicios-para-la-r-fuerte",
-    "headline": "Ejercicios para la R fuerte: de palabras a frases",
-    "title": "Ejercicios para la R fuerte: de palabras a frases",
-    "description": "Ejercicios para la R fuerte: de palabras a frases. En el artículo encontrarás: nivel 2: rr aislada; nivel 3: rr en palabras; nivel 4: frases y trabalenguas. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "R fuerte: de palabras a frases",
+    "title": "R fuerte: de palabras a frases",
+    "description": "La guía de ejercicios para la R fuerte organiza la práctica de la RR por niveles, desde el sonido aislado hasta palabras y frases. Incluye una tabla por edad y un apartado sobre cuándo consultar al logopeda.",
     "panels": [
       "Nivel 2: RR aislada",
       "Nivel 3: RR en palabras",
@@ -328,22 +579,84 @@
     "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
     "sourceKind": "post",
     "filename": "pin-ejercicios-para-la-r-fuerte-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ejercicios-para-la-r-fuerte",
     "dayOffset": 2,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Ejercicios para la R fuerte, logopedia infantil, familias",
     "date": "2026-09-23",
-    "publishUTC": "2026-09-23T08:00:00"
+    "publishUTC": "2026-09-23T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ]
   },
   {
     "id": 14,
     "batch": "inicial",
     "slug": "como-ensenar-la-r-a-un-nino",
-    "headline": "Cómo enseñar la R: R suave y RR fuerte",
-    "title": "Cómo enseñar la R: R suave y RR fuerte",
-    "description": "Cómo enseñar la R: R suave y RR fuerte. En el artículo encontrarás: la r suave (vibrante simple); la rr fuerte (vibrante múltiple); ¿qué es el rotacismo?. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "R suave y RR: las diferencias",
+    "title": "R suave y RR: las diferencias",
+    "description": "No suenan igual la R de «pera» y la RR de «perro». El artículo sobre cómo enseñar la R compara ambos sonidos, sus edades orientativas y ejercicios de articulación para entender por dónde empezar.",
     "panels": [
       "La R suave (vibrante simple)",
       "La RR fuerte (vibrante múltiple)",
@@ -354,22 +667,66 @@
     "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
     "sourceKind": "post",
     "filename": "pin-como-ensenar-la-r-a-un-nino-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-como-ensenar-la-r-a-un-nino-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-como-ensenar-la-r-a-un-nino-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino?utm_source=pinterest&utm_medium=social&utm_campaign=pin-como-ensenar-la-r-a-un-nino",
     "dayOffset": 2,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cómo enseñar la R, logopedia infantil, familias",
     "date": "2026-09-23",
-    "publishUTC": "2026-09-23T17:00:00"
+    "publishUTC": "2026-09-23T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "R suave (vibrante simple)",
+            "pera, cara, loro, arena",
+            "3-4 años",
+            "Baja: 1 vibración breve"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "RR fuerte (vibrante múltiple)",
+            "perro, ratón, Roma, Enrique",
+            "5-6 años (a veces 6;6-7)",
+            "Alta: 2-4 vibraciones coordinadas (Bosch, 2004)"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      }
+    ]
   },
   {
     "id": 15,
     "batch": "inicial",
     "slug": "mi-hijo-no-pronuncia-la-s",
-    "headline": "Mi hijo no pronuncia la S: tipos de sigmatismo",
-    "title": "Mi hijo no pronuncia la S: tipos de sigmatismo",
-    "description": "Mi hijo no pronuncia la S: tipos de sigmatismo. En el artículo encontrarás: qué es el sigmatismo; a qué edad se espera la /s/ correcta; tipos de sigmatismo. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "¿Tu peque no pronuncia la S?",
+    "title": "¿Tu peque no pronuncia la S?",
+    "description": "Si buscas información porque tu hijo no pronuncia la S, aquí tienes una guía sobre sigmatismo: tipos, edades orientativas y qué hacer. La tabla del artículo ayuda a situar el fonema /s/ en su desarrollo.",
     "panels": [
       "Qué es el sigmatismo",
       "A qué edad se espera la /s/ correcta",
@@ -380,22 +737,66 @@
     "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
     "sourceKind": "post",
     "filename": "pin-mi-hijo-no-pronuncia-la-s-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-no-pronuncia-la-s-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-no-pronuncia-la-s-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s?utm_source=pinterest&utm_medium=social&utm_campaign=pin-mi-hijo-no-pronuncia-la-s",
     "dayOffset": 2,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Mi hijo no pronuncia la S, logopedia infantil, familias",
     "date": "2026-09-23",
-    "publishUTC": "2026-09-23T08:00:00"
+    "publishUTC": "2026-09-23T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-no-pronuncia-la-s-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
+        "kind": "table",
+        "heading": "A qué edad se espera la /s/ correcta",
+        "literal": [
+          [
+            "3 años",
+            "Puede aparecer pero con sustituciones frecuentes (S → T, por ejemplo). Variante normal."
+          ],
+          [
+            "4 años",
+            "La mayoría de niños ya lo produce correctamente en posición inicial."
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Estado esperable del fonema /s/"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-no-pronuncia-la-s-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
+        "kind": "table",
+        "heading": "A qué edad se espera la /s/ correcta",
+        "literal": [
+          [
+            "5 años",
+            "/s/ adquirida en todas las posiciones (inicial, intermedia, final) — incluida en grupos consonánticos (sp, st, sc)."
+          ],
+          [
+            "6 años y más",
+            "Si persiste alteración, es momento de consultar."
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Estado esperable del fonema /s/"
+        ]
+      }
+    ]
   },
   {
     "id": 16,
     "batch": "inicial",
     "slug": "praxias-bucofaciales-ninos",
-    "headline": "Praxias bucofaciales: para qué sirven y para qué no",
-    "title": "Praxias bucofaciales: para qué sirven y para qué no",
-    "description": "Praxias bucofaciales: para qué sirven y para qué no. En el artículo encontrarás: qué son las praxias bucofaciales; para qué sirven (y para qué no); materiales que vas a necesitar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Praxias: qué trabajan y qué no",
+    "title": "Praxias: qué trabajan y qué no",
+    "description": "Antes de usar praxias bucofaciales, conviene conocer sus límites. Esta guía de logopedia explica para qué sirven y para qué no, además de reunir propuestas con espejo organizadas por zona.",
     "panels": [
       "Qué son las praxias bucofaciales",
       "Para qué sirven (y para qué no)",
@@ -406,22 +807,72 @@
     "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
     "sourceKind": "post",
     "filename": "pin-praxias-bucofaciales-ninos-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-praxias-bucofaciales-ninos",
     "dayOffset": 2,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Praxias bucofaciales, logopedia infantil, familias",
     "date": "2026-09-23",
-    "publishUTC": "2026-09-23T17:00:00"
+    "publishUTC": "2026-09-23T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "1-5",
+            "Labios",
+            "Beso, sonrisa exagerada, vibración, succión, lateralización",
+            "2 años"
+          ],
+          [
+            "6-10",
+            "Lengua",
+            "Sacar/meter, lateralización, tocar paladar, \"caballito\", limpiar dientes",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "11-15",
+            "Mandíbula y mejillas",
+            "Apertura, cierre, lateralización, inflar mejillas, alternar",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      }
+    ]
   },
   {
     "id": 17,
     "batch": "inicial",
     "slug": "ejercicios-de-soplo-para-ninos",
-    "headline": "Ejercicios de soplo: plumas, pompas y molinillos",
-    "title": "Ejercicios de soplo: plumas, pompas y molinillos",
-    "description": "Ejercicios de soplo: plumas, pompas y molinillos. En el artículo encontrarás: 1. carreras de plumas; 3. pompas de jabón; 5. molinillos de viento. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Soplo: plumas, pompas y molinillos",
+    "title": "Soplo: plumas, pompas y molinillos",
+    "description": "Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta.",
     "panels": [
       "1. Carreras de plumas",
       "3. Pompas de jabón",
@@ -432,22 +883,112 @@
     "source": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos",
     "sourceKind": "post",
     "filename": "pin-ejercicios-de-soplo-para-ninos-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-de-soplo-para-ninos-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-de-soplo-para-ninos-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ejercicios-de-soplo-para-ninos",
     "dayOffset": 3,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Ejercicios de soplo, logopedia infantil, familias",
     "date": "2026-09-24",
-    "publishUTC": "2026-09-24T08:00:00"
+    "publishUTC": "2026-09-24T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-de-soplo-para-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos",
+        "kind": "table",
+        "heading": "Los 8 ejercicios de un vistazo",
+        "literal": [
+          [
+            "1",
+            "Carreras de plumas",
+            "18 meses",
+            "Plumas o trocitos de papel de seda",
+            "Baja"
+          ],
+          [
+            "2",
+            "Pompas de jabón",
+            "2 años",
+            "Pompero + jabón líquido casero",
+            "Baja"
+          ],
+          [
+            "3",
+            "Molinillos de viento",
+            "2 años",
+            "Papel + palillo (o comprado 1€)",
+            "Baja"
+          ],
+          [
+            "4",
+            "Velas mágicas (sin fuego)",
+            "3 años",
+            "Vela LED + papel",
+            "Media"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Ejercicio",
+          "Edad mínima",
+          "Materiales caseros",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-de-soplo-para-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos",
+        "kind": "table",
+        "heading": "Los 8 ejercicios de un vistazo",
+        "literal": [
+          [
+            "5",
+            "Soplar pelotitas de algodón",
+            "3 años",
+            "Bolitas de algodón + pajita",
+            "Media"
+          ],
+          [
+            "6",
+            "Globos",
+            "4 años",
+            "Globos",
+            "Media"
+          ],
+          [
+            "7",
+            "Soplar con pajita en agua",
+            "4 años",
+            "Vaso de agua + pajita",
+            "Media"
+          ],
+          [
+            "8",
+            "Carrera de coches de papel",
+            "5 años",
+            "Cartulina (origami simple) + pajita",
+            "Alta"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Ejercicio",
+          "Edad mínima",
+          "Materiales caseros",
+          "Dificultad"
+        ]
+      }
+    ]
   },
   {
     "id": 18,
     "batch": "inicial",
     "slug": "dislalia-infantil-tipos",
-    "headline": "Dislalia infantil: los tipos explicados",
-    "title": "Dislalia infantil: los tipos explicados",
-    "description": "Dislalia infantil: los tipos explicados. En el artículo encontrarás: 1. dislalia evolutiva; 2. dislalia funcional; 3. dislalia orgánica (disglosia). Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislalia infantil, explicada con ejemplos",
+    "title": "Dislalia infantil, explicada con ejemplos",
+    "description": "¿Qué significa dislalia y qué tipos existen? Esta guía de articulación infantil explica las diferencias con ejemplos de pronunciación, información por edad y orientación sobre cuándo consultar.",
     "panels": [
       "1. Dislalia evolutiva",
       "2. Dislalia funcional",
@@ -458,22 +999,47 @@
     "source": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos",
     "sourceKind": "post",
     "filename": "pin-dislalia-infantil-tipos-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislalia-infantil-tipos-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislalia-infantil-tipos-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-dislalia-infantil-tipos",
     "dayOffset": 3,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Dislalia infantil, logopedia infantil, familias",
     "date": "2026-09-24",
-    "publishUTC": "2026-09-24T17:00:00"
+    "publishUTC": "2026-09-24T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislalia-infantil-tipos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos",
+        "kind": "list",
+        "heading": "¿Qué es la dislalia?",
+        "literal": [
+          "tasa en lugar de casa (sustituye la K por la T).",
+          "peo en lugar de perro (omite la RR)."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislalia-infantil-tipos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos",
+        "kind": "list",
+        "heading": "¿Qué es la dislalia?",
+        "literal": [
+          "paaaito alargando vocales (distorsiona la articulación)."
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 19,
     "batch": "inicial",
     "slug": "ejercicios-para-la-r-fuerte",
-    "headline": "Ejercicios para la R fuerte: cuándo consultar",
-    "title": "Ejercicios para la R fuerte: cuándo consultar",
-    "description": "Ejercicios para la R fuerte: cuándo consultar. En el artículo encontrarás: ¿a qué edad debe dominarse la rr?; nivel 3: rr en palabras; cuándo consultar con un logopeda. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "R fuerte: ¿cuándo conviene consultar?",
+    "title": "R fuerte: ¿cuándo conviene consultar?",
+    "description": "Cuando la RR sigue costando, la edad y el resto de dificultades importan. La guía de ejercicios para la R fuerte incluye una tabla orientativa y un apartado específico sobre cuándo acudir a logopedia.",
     "panels": [
       "¿A qué edad debe dominarse la RR?",
       "Nivel 3: RR en palabras",
@@ -484,22 +1050,84 @@
     "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
     "sourceKind": "post",
     "filename": "pin-ejercicios-para-la-r-fuerte-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ejercicios-para-la-r-fuerte",
     "dayOffset": 3,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Ejercicios para la R fuerte, logopedia infantil, familias",
     "date": "2026-09-24",
-    "publishUTC": "2026-09-24T08:00:00"
+    "publishUTC": "2026-09-24T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ]
   },
   {
     "id": 20,
     "batch": "inicial",
     "slug": "como-ensenar-la-r-a-un-nino",
-    "headline": "Cómo enseñar la R: qué es el rotacismo",
-    "title": "Cómo enseñar la R: qué es el rotacismo",
-    "description": "Cómo enseñar la R: qué es el rotacismo. En el artículo encontrarás: ¿a qué edad debería un niño pronunciar la r?; la r suave (vibrante simple); ¿qué es el rotacismo?. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Rotacismo: entender la dificultad con la R",
+    "title": "Rotacismo: entender la dificultad con la R",
+    "description": "Rotacismo es el término que encontrarás al buscar dificultades con la R. El artículo distingue R suave y RR fuerte, explica las edades esperadas y presenta ejercicios de articulación paso a paso.",
     "panels": [
       "¿A qué edad debería un niño pronunciar la R?",
       "La R suave (vibrante simple)",
@@ -510,22 +1138,66 @@
     "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
     "sourceKind": "post",
     "filename": "pin-como-ensenar-la-r-a-un-nino-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-como-ensenar-la-r-a-un-nino-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-como-ensenar-la-r-a-un-nino-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino?utm_source=pinterest&utm_medium=social&utm_campaign=pin-como-ensenar-la-r-a-un-nino",
     "dayOffset": 3,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cómo enseñar la R, logopedia infantil, familias",
     "date": "2026-09-24",
-    "publishUTC": "2026-09-24T17:00:00"
+    "publishUTC": "2026-09-24T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "R suave (vibrante simple)",
+            "pera, cara, loro, arena",
+            "3-4 años",
+            "Baja: 1 vibración breve"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "RR fuerte (vibrante múltiple)",
+            "perro, ratón, Roma, Enrique",
+            "5-6 años (a veces 6;6-7)",
+            "Alta: 2-4 vibraciones coordinadas (Bosch, 2004)"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      }
+    ]
   },
   {
     "id": 21,
     "batch": "inicial",
     "slug": "praxias-bucofaciales-ninos",
-    "headline": "Praxias bucofaciales con espejo: conoce sus límites",
-    "title": "Praxias bucofaciales con espejo: conoce sus límites",
-    "description": "Praxias bucofaciales con espejo: conoce sus límites. En el artículo encontrarás: qué son las praxias bucofaciales; para qué sirven (y para qué no); materiales que vas a necesitar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Praxias con espejo: conoce sus límites",
+    "title": "Praxias con espejo: conoce sus límites",
+    "description": "Las praxias bucofaciales no deben confundirse con una solución para cualquier dificultad de pronunciación. Lee sus usos y límites en esta guía, con una tabla de ejercicios y materiales para trabajar con espejo.",
     "panels": [
       "Qué son las praxias bucofaciales",
       "Para qué sirven (y para qué no)",
@@ -536,22 +1208,72 @@
     "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
     "sourceKind": "post",
     "filename": "pin-praxias-bucofaciales-ninos-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-praxias-bucofaciales-ninos",
     "dayOffset": 4,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Praxias bucofaciales con espejo, logopedia infantil, familias",
     "date": "2026-09-25",
-    "publishUTC": "2026-09-25T08:00:00"
+    "publishUTC": "2026-09-25T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "1-5",
+            "Labios",
+            "Beso, sonrisa exagerada, vibración, succión, lateralización",
+            "2 años"
+          ],
+          [
+            "6-10",
+            "Lengua",
+            "Sacar/meter, lateralización, tocar paladar, \"caballito\", limpiar dientes",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "11-15",
+            "Mandíbula y mejillas",
+            "Apertura, cierre, lateralización, inflar mejillas, alternar",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      }
+    ]
   },
   {
     "id": 22,
     "batch": "inicial",
     "slug": "kit-soplo",
-    "headline": "Kit de soplo: juego compartido y seguimiento",
-    "title": "Kit de soplo: juego compartido y seguimiento",
-    "description": "Kit de soplo: juego compartido y seguimiento. Consulta qué incluye el recurso: material casero; tabla de seguimiento; enfoque de juego compartido. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Soplo: juego compartido y seguimiento",
+    "title": "Soplo: juego compartido y seguimiento",
+    "description": "Este kit propone juegos de soplo con material casero y una tabla para anotar la práctica. Su enfoque es el control respiratorio y la consciencia oral, no la mejora articulatoria. Puedes ver sus páginas reales.",
     "panels": [
       "Material casero",
       "Tabla de seguimiento",
@@ -562,22 +1284,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/kit-soplo",
     "sourceKind": "product",
     "filename": "pin-kit-soplo-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/kit-soplo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-soplo",
     "dayOffset": 4,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Kit de soplo, logopedia infantil, material imprimible",
     "date": "2026-09-25",
-    "publishUTC": "2026-09-25T17:00:00"
+    "publishUTC": "2026-09-25T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-23.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 23,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-06.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      }
+    ]
   },
   {
     "id": 23,
     "batch": "inicial",
     "slug": "actividades-ninos-2-anos-lenguaje",
-    "headline": "Actividades de lenguaje para niños de 2 años",
-    "title": "Actividades de lenguaje para niños de 2 años",
-    "description": "Actividades de lenguaje para niños de 2 años. En el artículo encontrarás: 1. el cesto de los tesoros; 2. libros con imágenes reales; 3. el paseo-nombrar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Lenguaje a los 2 años: juegos cotidianos",
+    "title": "Lenguaje a los 2 años: juegos cotidianos",
+    "description": "El cesto de los tesoros, los libros con imágenes y el paseo para nombrar objetos son algunas de las actividades de lenguaje para niños de 2 años. La guía reúne doce juegos y explica qué trabaja cada uno.",
     "panels": [
       "1. El cesto de los tesoros",
       "2. Libros con imágenes reales",
@@ -588,22 +1328,112 @@
     "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
     "sourceKind": "post",
     "filename": "pin-actividades-ninos-2-anos-lenguaje-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje?utm_source=pinterest&utm_medium=social&utm_campaign=pin-actividades-ninos-2-anos-lenguaje",
     "dayOffset": 4,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Actividades de lenguaje para niños de 2 años, logopedia infantil, familias",
     "date": "2026-09-25",
-    "publishUTC": "2026-09-25T08:00:00"
+    "publishUTC": "2026-09-25T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "1 · Vocabulario",
+            "El cesto de los tesoros",
+            "Nombrar objetos cotidianos"
+          ],
+          [
+            "1 · Vocabulario",
+            "Libros con imágenes reales",
+            "Señalar y etiquetar con frase corta"
+          ],
+          [
+            "1 · Vocabulario",
+            "El paseo-nombrar",
+            "Vocabulario en contexto real"
+          ],
+          [
+            "2 · Expresión",
+            "La técnica de la expansión",
+            "Ampliar lo que el peque ya dice"
+          ],
+          [
+            "2 · Expresión",
+            "Elección entre dos opciones",
+            "Provocar la palabra en vez del gesto"
+          ],
+          [
+            "2 · Expresión",
+            "El juego del teléfono",
+            "Turnos de conversación"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "3 · Comprensión",
+            "\"Tráeme...\"",
+            "Órdenes de un paso"
+          ],
+          [
+            "3 · Comprensión",
+            "Órdenes en dos pasos",
+            "Memoria de trabajo verbal"
+          ],
+          [
+            "3 · Comprensión",
+            "Cuentos con preguntas",
+            "Comprensión de lo escuchado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Cocinitas",
+            "Lenguaje interior y secuencias"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Curar al muñeco",
+            "Vocabulario de rutinas de cuidado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Imitar rutinas",
+            "Narrar la acción mientras se juega"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      }
+    ]
   },
   {
     "id": 24,
     "batch": "inicial",
     "slug": "etapas-desarrollo-del-lenguaje",
-    "headline": "Etapas del desarrollo del lenguaje de 0 a 6 años",
-    "title": "Etapas del desarrollo del lenguaje de 0 a 6 años",
-    "description": "Etapas del desarrollo del lenguaje de 0 a 6 años. En el artículo encontrarás: etapa prelingüística: de 0 a 12 meses; las primeras palabras: de 12 a 18 meses; explosión del vocabulario: de 18 a 24 meses. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Lenguaje de 0–6 años, etapa a etapa",
+    "title": "Lenguaje de 0–6 años, etapa a etapa",
+    "description": "De las primeras vocalizaciones a las conversaciones: esta guía recorre las etapas del desarrollo del lenguaje de 0 a 6 años. Incluye una tabla que separa comprensión y expresión para consultar por edad.",
     "panels": [
       "Etapa prelingüística: de 0 a 12 meses",
       "Las primeras palabras: de 12 a 18 meses",
@@ -614,22 +1444,87 @@
     "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
     "sourceKind": "post",
     "filename": "pin-etapas-desarrollo-del-lenguaje-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-etapas-desarrollo-del-lenguaje-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-etapas-desarrollo-del-lenguaje-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje?utm_source=pinterest&utm_medium=social&utm_campaign=pin-etapas-desarrollo-del-lenguaje",
     "dayOffset": 4,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Etapas del desarrollo del lenguaje de 0 a 6 años, logopedia infantil, familias",
     "date": "2026-09-25",
-    "publishUTC": "2026-09-25T17:00:00"
+    "publishUTC": "2026-09-25T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-etapas-desarrollo-del-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "0-6 meses",
+            "Reacciona a la voz, mira al hablante",
+            "Gorjeo, balbuceo vocálico"
+          ],
+          [
+            "6-12 meses",
+            "Entiende \"no\", comprende órdenes con gesto",
+            "Balbuceo canónico (ba-ba), primeras palabras"
+          ],
+          [
+            "12-18 meses",
+            "Entiende 100+ palabras, órdenes simples",
+            "10-50 palabras, señala"
+          ],
+          [
+            "18-24 meses",
+            "Señala partes del cuerpo, identifica objetos",
+            "50-300 palabras, combina 2 palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-etapas-desarrollo-del-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "2-3 años",
+            "Entiende preguntas, órdenes de 2 pasos",
+            "Frases 3-4 palabras, pronombres, \"por qué\""
+          ],
+          [
+            "3-4 años",
+            "Comprende relatos, conceptos temporales",
+            "Frases complejas, conjunciones, 1.000+ palabras"
+          ],
+          [
+            "4-6 años",
+            "Comprende humor, dobles sentidos",
+            "Narrativa completa, fonemas complejos, 2.000+ palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      }
+    ]
   },
   {
     "id": 25,
     "batch": "inicial",
     "slug": "a-que-edad-debe-hablar-un-nino",
-    "headline": "¿A qué edad debe hablar un niño?",
-    "title": "¿A qué edad debe hablar un niño?",
-    "description": "¿A qué edad debe hablar un niño?. En el artículo encontrarás: hablar no es lo mismo que comunicarse; de 0 a 6 meses: el despertar comunicativo; de 12 a 18 meses: las primeras palabras. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "¿A qué edad empieza a hablar?",
+    "title": "¿A qué edad empieza a hablar?",
+    "description": "Hablar y comunicarse no son exactamente lo mismo. El artículo recorre los hitos del lenguaje por edad, desde los primeros meses hasta los 6 años, con una tabla de comprensión y expresión para familias.",
     "panels": [
       "Hablar no es lo mismo que comunicarse",
       "De 0 a 6 meses: el despertar comunicativo",
@@ -640,22 +1535,87 @@
     "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
     "sourceKind": "post",
     "filename": "pin-a-que-edad-debe-hablar-un-nino-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-a-que-edad-debe-hablar-un-nino-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-a-que-edad-debe-hablar-un-nino-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino?utm_source=pinterest&utm_medium=social&utm_campaign=pin-a-que-edad-debe-hablar-un-nino",
     "dayOffset": 5,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "¿A qué edad debe hablar un niño?, logopedia infantil, familias",
     "date": "2026-09-26",
-    "publishUTC": "2026-09-26T08:00:00"
+    "publishUTC": "2026-09-26T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-a-que-edad-debe-hablar-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "0-6 meses",
+            "Reacciona a sonidos, reconoce voces familiares",
+            "Gorjeo, vocalizaciones, balbuceo temprano"
+          ],
+          [
+            "6-12 meses",
+            "Entiende \"no\", su nombre, palabras frecuentes",
+            "Balbuceo canónico, gestos, primeras palabras"
+          ],
+          [
+            "12-18 meses",
+            "Comprende 50-100 palabras, instrucciones simples",
+            "5-20 palabras con intención"
+          ],
+          [
+            "18-24 meses",
+            "Instrucciones de dos pasos",
+            "50-200 palabras, combinaciones de 2 palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-a-que-edad-debe-hablar-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "2-3 años",
+            "Comprende preguntas, conceptos básicos",
+            "200-1000 palabras, frases de 2-4 palabras"
+          ],
+          [
+            "3-4 años",
+            "Comprende historias sencillas, conceptos abstractos",
+            "Frases de 4-6 palabras, narra experiencias"
+          ],
+          [
+            "4-6 años",
+            "Comprende humor, ironía sencilla, instrucciones complejas",
+            "Frases complejas, narración estructurada, articulación completa"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      }
+    ]
   },
   {
     "id": 26,
     "batch": "inicial",
     "slug": "estimulacion-del-lenguaje-en-casa",
-    "headline": "Estimulación del lenguaje en casa: actividades por edad",
-    "title": "Estimulación del lenguaje en casa: actividades por edad",
-    "description": "Estimulación del lenguaje en casa: actividades por edad. Lee la guía: estimulación de 0 a 12 meses: las bases de la comunicación; estimulación de 1 a 2 años: las primeras palabras. Espacio Lenguaje.",
+    "headline": "Estimular el lenguaje en casa",
+    "title": "Estimular el lenguaje en casa",
+    "description": "La estimulación del lenguaje también tiene lugar en las rutinas de cada día. Esta guía propone actividades para casa de 0 a 6 años, organizadas por etapas y acompañadas de ejemplos de juego compartido.",
     "panels": [
       "Estimulación de 0 a 12 meses: las bases de la comunicación",
       "Estimulación de 1 a 2 años: las primeras palabras",
@@ -666,22 +1626,48 @@
     "source": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa",
     "sourceKind": "post",
     "filename": "pin-estimulacion-del-lenguaje-en-casa-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-estimulacion-del-lenguaje-en-casa-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-estimulacion-del-lenguaje-en-casa-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa?utm_source=pinterest&utm_medium=social&utm_campaign=pin-estimulacion-del-lenguaje-en-casa",
     "dayOffset": 5,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Estimulación del lenguaje en casa, logopedia infantil, familias",
     "date": "2026-09-26",
-    "publishUTC": "2026-09-26T17:00:00"
+    "publishUTC": "2026-09-26T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-estimulacion-del-lenguaje-en-casa-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa",
+        "kind": "list",
+        "heading": "¿Qué es la estimulación del lenguaje y por qué importa?",
+        "literal": [
+          "Sienten que alguien les escucha",
+          "Tienen motivos para comunicarse"
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-estimulacion-del-lenguaje-en-casa-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa",
+        "kind": "list",
+        "heading": "¿Qué es la estimulación del lenguaje y por qué importa?",
+        "literal": [
+          "Están expuestos a un lenguaje rico y variado",
+          "Las interacciones son positivas y sin presión"
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 27,
     "batch": "inicial",
     "slug": "actividades-ninos-2-anos-lenguaje",
-    "headline": "Actividades de lenguaje: cesto, libros y paseo",
-    "title": "Actividades de lenguaje: cesto, libros y paseo",
-    "description": "Actividades de lenguaje: cesto, libros y paseo. En el artículo encontrarás: 1. el cesto de los tesoros; 2. libros con imágenes reales; 3. el paseo-nombrar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tres juegos de lenguaje a los 2",
+    "title": "Tres juegos de lenguaje a los 2",
+    "description": "Objetos cotidianos, libros y paseos pueden formar parte del juego. Estas actividades de lenguaje para niños de 2 años aparecen en una guía de doce propuestas para vocabulario, expresión y comprensión.",
     "panels": [
       "1. El cesto de los tesoros",
       "2. Libros con imágenes reales",
@@ -692,22 +1678,112 @@
     "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
     "sourceKind": "post",
     "filename": "pin-actividades-ninos-2-anos-lenguaje-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje?utm_source=pinterest&utm_medium=social&utm_campaign=pin-actividades-ninos-2-anos-lenguaje",
     "dayOffset": 5,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Actividades de lenguaje, logopedia infantil, familias",
     "date": "2026-09-26",
-    "publishUTC": "2026-09-26T08:00:00"
+    "publishUTC": "2026-09-26T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "1 · Vocabulario",
+            "El cesto de los tesoros",
+            "Nombrar objetos cotidianos"
+          ],
+          [
+            "1 · Vocabulario",
+            "Libros con imágenes reales",
+            "Señalar y etiquetar con frase corta"
+          ],
+          [
+            "1 · Vocabulario",
+            "El paseo-nombrar",
+            "Vocabulario en contexto real"
+          ],
+          [
+            "2 · Expresión",
+            "La técnica de la expansión",
+            "Ampliar lo que el peque ya dice"
+          ],
+          [
+            "2 · Expresión",
+            "Elección entre dos opciones",
+            "Provocar la palabra en vez del gesto"
+          ],
+          [
+            "2 · Expresión",
+            "El juego del teléfono",
+            "Turnos de conversación"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "3 · Comprensión",
+            "\"Tráeme...\"",
+            "Órdenes de un paso"
+          ],
+          [
+            "3 · Comprensión",
+            "Órdenes en dos pasos",
+            "Memoria de trabajo verbal"
+          ],
+          [
+            "3 · Comprensión",
+            "Cuentos con preguntas",
+            "Comprensión de lo escuchado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Cocinitas",
+            "Lenguaje interior y secuencias"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Curar al muñeco",
+            "Vocabulario de rutinas de cuidado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Imitar rutinas",
+            "Narrar la acción mientras se juega"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      }
+    ]
   },
   {
     "id": 28,
     "batch": "inicial",
     "slug": "mi-hijo-de-3-anos-no-habla-bien",
-    "headline": "Mi hijo de 3 años no habla bien",
-    "title": "Mi hijo de 3 años no habla bien",
-    "description": "Mi hijo de 3 años no habla bien. En el artículo encontrarás: hitos esperados a los 3 años (de un vistazo); qué se espera del lenguaje a los 3 años; señales de alerta concretas a los 3 años. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Lenguaje a los 3 años: qué esperar",
+    "title": "Lenguaje a los 3 años: qué esperar",
+    "description": "¿Tu hijo de 3 años no habla bien? La guía diferencia varias situaciones y recoge hitos de lenguaje y señales de alerta en una tabla. Información para comprender la duda y saber cuándo pedir orientación.",
     "panels": [
       "Hitos esperados a los 3 años (de un vistazo)",
       "Qué se espera del lenguaje a los 3 años",
@@ -718,22 +1794,87 @@
     "source": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien",
     "sourceKind": "post",
     "filename": "pin-mi-hijo-de-3-anos-no-habla-bien-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-de-3-anos-no-habla-bien-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-de-3-anos-no-habla-bien-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien?utm_source=pinterest&utm_medium=social&utm_campaign=pin-mi-hijo-de-3-anos-no-habla-bien",
     "dayOffset": 5,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Mi hijo de 3 años no habla bien, logopedia infantil, familias",
     "date": "2026-09-26",
-    "publishUTC": "2026-09-26T17:00:00"
+    "publishUTC": "2026-09-26T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-de-3-anos-no-habla-bien-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien",
+        "kind": "table",
+        "heading": "Hitos esperados a los 3 años (de un vistazo)",
+        "literal": [
+          [
+            "Expresión",
+            "Frases de 3-4 palabras espontáneas",
+            "Solo palabras sueltas, sin combinaciones"
+          ],
+          [
+            "Vocabulario",
+            "500-1.000 palabras activas",
+            "< 200 palabras o no aparece vocabulario nuevo"
+          ],
+          [
+            "Inteligibilidad",
+            "75% para personas externas (Coplan & Gleason, 1988)",
+            "< 50% incluso para familia próxima"
+          ],
+          [
+            "Comprensión",
+            "Sigue órdenes de 2-3 pasos",
+            "No entiende instrucciones sencillas"
+          ]
+        ],
+        "columns": [
+          "Área",
+          "Esperado",
+          "Señal de alerta"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-de-3-anos-no-habla-bien-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien",
+        "kind": "table",
+        "heading": "Hitos esperados a los 3 años (de un vistazo)",
+        "literal": [
+          [
+            "Pronombres",
+            "Usa yo, tú, mío (con errores)",
+            "No usa ningún pronombre"
+          ],
+          [
+            "Preguntas",
+            "Hace preguntas con qué, dónde, por qué",
+            "No formula preguntas"
+          ],
+          [
+            "Interacción",
+            "Inicia conversación, busca contacto",
+            "No mantiene contacto visual, no comparte intereses"
+          ]
+        ],
+        "columns": [
+          "Área",
+          "Esperado",
+          "Señal de alerta"
+        ]
+      }
+    ]
   },
   {
     "id": 29,
     "batch": "inicial",
     "slug": "conciencia-fonologica-actividades",
-    "headline": "Conciencia fonológica: descubre sus tres niveles",
-    "title": "Conciencia fonológica: descubre sus tres niveles",
-    "description": "Conciencia fonológica: descubre sus tres niveles. En el artículo encontrarás: 1. nivel silábico (a partir de 3-4 años); 2. nivel intrasilábico (4-5 años); 3. nivel fonémico (5-6 años en adelante). Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Conciencia fonológica: sonidos, sílabas y palabras",
+    "title": "Conciencia fonológica: sonidos, sílabas y palabras",
+    "description": "La conciencia fonológica tiene distintos niveles. El artículo explica la progresión silábica, intrasilábica y fonémica, con actividades para casa y edades orientativas para situar cada propuesta.",
     "panels": [
       "1. Nivel silábico (a partir de 3-4 años)",
       "2. Nivel intrasilábico (4-5 años)",
@@ -744,22 +1885,48 @@
     "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
     "sourceKind": "post",
     "filename": "pin-conciencia-fonologica-actividades-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-conciencia-fonologica-actividades-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-conciencia-fonologica-actividades-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades?utm_source=pinterest&utm_medium=social&utm_campaign=pin-conciencia-fonologica-actividades",
     "dayOffset": 6,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Conciencia fonológica, logopedia infantil, familias",
     "date": "2026-09-27",
-    "publishUTC": "2026-09-27T08:00:00"
+    "publishUTC": "2026-09-27T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-conciencia-fonologica-actividades-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
+        "kind": "list",
+        "heading": "Por qué importa tanto",
+        "literal": [
+          "Facilita el aprendizaje de la lectura y la escritura.",
+          "Actúa como factor protector frente a la dislexia (Snowling & Hulme, 2011)."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-conciencia-fonologica-actividades-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
+        "kind": "list",
+        "heading": "Por qué importa tanto",
+        "literal": [
+          "Mejora la ortografía natural.",
+          "Refuerza la memoria auditiva y la atención al sonido."
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 30,
     "batch": "inicial",
     "slug": "juegos-para-estimular-el-habla",
-    "headline": "Juegos para estimular el habla en casa",
-    "title": "Juegos para estimular el habla en casa",
-    "description": "Juegos para estimular el habla en casa. En el artículo encontrarás: 4. veo veo; 5. cocineros; 8. canciones con gestos. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Juegos para hablar, contar y escuchar",
+    "title": "Juegos para hablar, contar y escuchar",
+    "description": "Veo veo, cocineros y canciones con gestos forman parte de esta selección de juegos para estimular el habla. Son diez propuestas para casa, con explicaciones que ayudan al adulto a participar en el juego.",
     "panels": [
       "4. Veo veo",
       "5. Cocineros",
@@ -770,22 +1937,49 @@
     "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
     "sourceKind": "post",
     "filename": "pin-juegos-para-estimular-el-habla-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-juegos-para-estimular-el-habla-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-juegos-para-estimular-el-habla-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla?utm_source=pinterest&utm_medium=social&utm_campaign=pin-juegos-para-estimular-el-habla",
     "dayOffset": 6,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Juegos para estimular el habla en casa, logopedia infantil, familias",
     "date": "2026-09-27",
-    "publishUTC": "2026-09-27T17:00:00"
+    "publishUTC": "2026-09-27T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-juegos-para-estimular-el-habla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
+        "kind": "list",
+        "heading": "1. El espejo mágico",
+        "literal": [
+          "Poneos cómodos frente al espejo del baño",
+          "Empieza con gestos sencillos: boca abierta, lengua fuera",
+          "Ve añadiendo sonidos: \"aaaa\", \"oooo\", \"brrrrr\""
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-juegos-para-estimular-el-habla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
+        "kind": "list",
+        "heading": "1. El espejo mágico",
+        "literal": [
+          "Hazlo divertido: pon caras graciosas, exagera los movimientos",
+          "Deja que tu hijo proponga gestos para que tú imites"
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 31,
     "batch": "inicial",
     "slug": "dislexia-en-ninos-como-detectarla",
-    "headline": "Dislexia en niños: señales según la edad",
-    "title": "Dislexia en niños: señales según la edad",
-    "description": "Dislexia en niños: señales según la edad. En el artículo encontrarás: ¿qué es la dislexia?; mitos y realidades sobre la dislexia; señales de dislexia según la edad. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislexia: señales que merece la pena conocer",
+    "title": "Dislexia: señales que merece la pena conocer",
+    "description": "Si buscas cómo detectar la dislexia en niños, empieza por información clara sobre sus señales y sus mitos. El artículo organiza la orientación por edad y explica cuándo acudir a una valoración profesional.",
     "panels": [
       "¿Qué es la dislexia?",
       "Mitos y realidades sobre la dislexia",
@@ -796,22 +1990,50 @@
     "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
     "sourceKind": "post",
     "filename": "pin-dislexia-en-ninos-como-detectarla-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla?utm_source=pinterest&utm_medium=social&utm_campaign=pin-dislexia-en-ninos-como-detectarla",
     "dayOffset": 6,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Dislexia en niños, logopedia infantil, familias",
     "date": "2026-09-27",
-    "publishUTC": "2026-09-27T08:00:00"
+    "publishUTC": "2026-09-27T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Dificultad para aprender rimas infantiles o completar canciones con rima.",
+          "Problemas para recordar el nombre de las letras o los números.",
+          "Dificultad con la conciencia fonológica: no puede identificar con qué sonido empieza una palabra (\"¿Con qué sonido empieza 'mesa'?\")."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Vocabulario por debajo de lo esperado o dificultad para encontrar la palabra adecuada (dice \"eso\" o \"la cosa\" con frecuencia).",
+          "Historia familiar de dislexia o dificultades lectoras.",
+          "Dificultad para aprender secuencias: los días de la semana, contar del 1 al 10, los colores."
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 32,
     "batch": "inicial",
     "slug": "guia-dislexia",
-    "headline": "Guía de dislexia: adaptaciones escolares y acompañamiento familiar",
-    "title": "Guía de dislexia: adaptaciones escolares y acompañamiento familiar",
-    "description": "Guía de dislexia: adaptaciones escolares y acompañamiento familiar. Consulta qué incluye el recurso: checklist por etapa; adaptaciones escolares; acompañamiento familiar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislexia: apoyo en casa y en clase",
+    "title": "Dislexia: apoyo en casa y en clase",
+    "description": "La guía de dislexia en edad escolar reúne un checklist por etapas, ejercicios para casa y adaptaciones escolares. Mira sus páginas antes de elegir un recurso para acompañar a tu hijo y hablar con el tutor.",
     "panels": [
       "Checklist por etapa",
       "Adaptaciones escolares",
@@ -822,22 +2044,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/guia-dislexia",
     "sourceKind": "product",
     "filename": "pin-guia-dislexia-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-dislexia-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-dislexia-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/guia-dislexia?utm_source=pinterest&utm_medium=social&utm_campaign=pin-guia-dislexia",
     "dayOffset": 6,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Guía de dislexia, logopedia infantil, material imprimible",
     "date": "2026-09-27",
-    "publishUTC": "2026-09-27T17:00:00"
+    "publishUTC": "2026-09-27T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-dislexia-09.png",
+        "source": "public/downloads/productos/guia-dislexia.pdf",
+        "page": 9,
+        "dpi": 300,
+        "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-dislexia-10.png",
+        "source": "public/downloads/productos/guia-dislexia.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+      }
+    ]
   },
   {
     "id": 33,
     "batch": "inicial",
     "slug": "tartamudez-infantil-cuando-preocuparse",
-    "headline": "Tartamudez infantil: cuándo consultar",
-    "title": "Tartamudez infantil: cuándo consultar",
-    "description": "Tartamudez infantil: cuándo consultar. En el artículo encontrarás: ¿qué es la disfluencia evolutiva?; disfluencia normal vs. tartamudez que preocupa: cómo distinguirlas; signos de tartamudez que necesita atención. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tartamudez: dudas frecuentes de las familias",
+    "title": "Tartamudez: dudas frecuentes de las familias",
+    "description": "Las repeticiones al hablar pueden generar dudas. El artículo sobre tartamudez infantil explica las disfluencias evolutivas, qué señales requieren atención y cuándo consultar, con pautas para las familias.",
     "panels": [
       "¿Qué es la disfluencia evolutiva?",
       "Disfluencia normal vs. tartamudez que preocupa: cómo distinguirlas",
@@ -848,22 +2088,51 @@
     "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
     "sourceKind": "post",
     "filename": "pin-tartamudez-infantil-cuando-preocuparse-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-tartamudez-infantil-cuando-preocuparse-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-tartamudez-infantil-cuando-preocuparse-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse?utm_source=pinterest&utm_medium=social&utm_campaign=pin-tartamudez-infantil-cuando-preocuparse",
     "dayOffset": 7,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Tartamudez infantil, logopedia infantil, familias",
     "date": "2026-09-28",
-    "publishUTC": "2026-09-28T08:00:00"
+    "publishUTC": "2026-09-28T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-tartamudez-infantil-cuando-preocuparse-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
+        "kind": "list",
+        "heading": "Signos de disfluencia evolutiva (normal)",
+        "literal": [
+          "Repeticiones de palabras completas o de las primeras sílabas: \"Yo-yo-yo quiero eso\" o \"Mamá, mamá, mamá, mira.\" Las repeticiones suelen ser relajadas y sin esfuerzo.",
+          "Repeticiones de frases o reformulaciones: \"Quiero ir al... quiero ir al parque.\"",
+          "Muletillas y pausas: \"Ehhh... pues... entonces... el perro se fue.\"",
+          "Aparece y desaparece: Hay temporadas en las que el niño tartamudea más (cuando está cansado, emocionado, enfermo o ha vivido un cambio) y temporadas en las que habla con total fluidez."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-tartamudez-infantil-cuando-preocuparse-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
+        "kind": "list",
+        "heading": "Signos de disfluencia evolutiva (normal)",
+        "literal": [
+          "El niño no parece darse cuenta ni mostrar frustración. Sigue hablando con ganas y confianza.",
+          "No hay tensión física: No aprieta los labios, no cierra los ojos, no tensa el cuello o la mandíbula.",
+          "Duración: Generalmente se resuelve en menos de 6 meses."
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 34,
     "batch": "inicial",
     "slug": "guia-tartamudez",
-    "headline": "Guía de tartamudez infantil para familias y profesores",
-    "title": "Guía de tartamudez infantil para familias y profesores",
-    "description": "Guía de tartamudez infantil para familias y profesores. Consulta qué incluye el recurso: pautas para familias; sección para profesores; cuándo consultar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tartamudez: una guía para acompañar",
+    "title": "Tartamudez: una guía para acompañar",
+    "description": "La guía de tartamudez infantil incluye pautas para familias, actividades compartidas y una sección para profesores. Puedes ver el interior y conocer su contenido sobre fluidez y cuándo consultar.",
     "panels": [
       "Pautas para familias",
       "Sección para profesores",
@@ -874,22 +2143,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/guia-tartamudez",
     "sourceKind": "product",
     "filename": "pin-guia-tartamudez-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/guia-tartamudez?utm_source=pinterest&utm_medium=social&utm_campaign=pin-guia-tartamudez",
     "dayOffset": 7,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Guía de tartamudez infantil para familias y profesores, logopedia infantil, material imprimible",
     "date": "2026-09-28",
-    "publishUTC": "2026-09-28T17:00:00"
+    "publishUTC": "2026-09-28T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-08.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 8,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-10.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      }
+    ]
   },
   {
     "id": 35,
     "batch": "inicial",
     "slug": "dislexia-en-ninos-como-detectarla",
-    "headline": "Dislexia en niños: mitos y realidades",
-    "title": "Dislexia en niños: mitos y realidades",
-    "description": "Dislexia en niños: mitos y realidades. En el artículo encontrarás: ¿qué es la dislexia?; mitos y realidades sobre la dislexia; señales de dislexia según la edad. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislexia: más allá de los mitos",
+    "title": "Dislexia: más allá de los mitos",
+    "description": "La dislexia no se entiende solo mirando si se invierten letras. Esta guía para familias revisa mitos frecuentes, explica qué es y recoge señales según la edad para orientar una consulta profesional.",
     "panels": [
       "¿Qué es la dislexia?",
       "Mitos y realidades sobre la dislexia",
@@ -900,22 +2187,50 @@
     "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
     "sourceKind": "post",
     "filename": "pin-dislexia-en-ninos-como-detectarla-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla?utm_source=pinterest&utm_medium=social&utm_campaign=pin-dislexia-en-ninos-como-detectarla",
     "dayOffset": 7,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Dislexia en niños, logopedia infantil, familias",
     "date": "2026-09-28",
-    "publishUTC": "2026-09-28T08:00:00"
+    "publishUTC": "2026-09-28T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Dificultad para aprender rimas infantiles o completar canciones con rima.",
+          "Problemas para recordar el nombre de las letras o los números.",
+          "Dificultad con la conciencia fonológica: no puede identificar con qué sonido empieza una palabra (\"¿Con qué sonido empieza 'mesa'?\")."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Vocabulario por debajo de lo esperado o dificultad para encontrar la palabra adecuada (dice \"eso\" o \"la cosa\" con frecuencia).",
+          "Historia familiar de dislexia o dificultades lectoras.",
+          "Dificultad para aprender secuencias: los días de la semana, contar del 1 al 10, los colores."
+        ],
+        "columns": []
+      }
+    ]
   },
   {
     "id": 36,
     "batch": "inicial",
     "slug": "guia-tartamudez",
-    "headline": "Tartamudez infantil: pautas familiares y cuándo consultar",
-    "title": "Tartamudez infantil: pautas familiares y cuándo consultar",
-    "description": "Tartamudez infantil: pautas familiares y cuándo consultar. Consulta qué incluye el recurso: tipos de tartamudez explicados; pautas para familias; cuándo consultar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tartamudez: cuándo pedir orientación",
+    "title": "Tartamudez: cuándo pedir orientación",
+    "description": "¿Necesitas información sobre tartamudez infantil para acompañar en casa? La guía reúne explicaciones, pautas familiares y un apartado de cuándo consultar. Mira el material y valora si responde a tus dudas.",
     "panels": [
       "Tipos de tartamudez explicados",
       "Pautas para familias",
@@ -926,22 +2241,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/guia-tartamudez",
     "sourceKind": "product",
     "filename": "pin-guia-tartamudez-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/guia-tartamudez?utm_source=pinterest&utm_medium=social&utm_campaign=pin-guia-tartamudez",
     "dayOffset": 7,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Tartamudez infantil, logopedia infantil, material imprimible",
     "date": "2026-09-28",
-    "publishUTC": "2026-09-28T17:00:00"
+    "publishUTC": "2026-09-28T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-10.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-12.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-06.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      }
+    ]
   },
   {
     "id": 37,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia para profesionales: articulación y vocabulario",
-    "title": "Fichas de logopedia para profesionales: articulación y vocabulario",
-    "description": "Fichas de logopedia para profesionales: articulación y vocabulario. En el artículo encontrarás: 1. fichas de articulación; 2. fichas de vocabulario por campos semánticos; 3. fichas de conciencia fonológica. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas de logopedia para tu consulta",
+    "title": "Fichas de logopedia para tu consulta",
+    "description": "Para profesionales de logopedia o fonoaudiología que buscan material imprimible: el artículo reúne tipos de fichas y fuentes de descarga. Incluye una muestra gratuita de articulación del fonema R.",
     "panels": [
       "1. Fichas de articulación",
       "2. Fichas de vocabulario por campos semánticos",
@@ -952,22 +2292,40 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-4.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-4.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-4.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 8,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia para profesionales, logopedia infantil, familias",
     "date": "2026-09-29",
-    "publishUTC": "2026-09-29T08:00:00"
+    "publishUTC": "2026-09-29T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ]
   },
   {
     "id": 38,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia: material de conciencia fonológica",
-    "title": "Fichas de logopedia: material de conciencia fonológica",
-    "description": "Fichas de logopedia: material de conciencia fonológica. En el artículo encontrarás: 1. fichas de articulación; 3. fichas de conciencia fonológica; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Material imprimible de conciencia fonológica",
+    "title": "Material imprimible de conciencia fonológica",
+    "description": "Si preparas actividades de conciencia fonológica, este artículo de fichas de logopedia te ayuda a localizar materiales. También encontrarás recursos de articulación y comprensión, junto a una muestra gratuita.",
     "panels": [
       "1. Fichas de articulación",
       "3. Fichas de conciencia fonológica",
@@ -978,22 +2336,77 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-5.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-5.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-5.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 8,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia, logopedia infantil, familias",
     "date": "2026-09-29",
-    "publishUTC": "2026-09-29T17:00:00"
+    "publishUTC": "2026-09-29T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ]
   },
   {
     "id": 39,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia para maestros: vocabulario y comprensión",
-    "title": "Fichas de logopedia para maestros: vocabulario y comprensión",
-    "description": "Fichas de logopedia para maestros: vocabulario y comprensión. En el artículo encontrarás: 2. fichas de vocabulario por campos semánticos; 3. fichas de conciencia fonológica; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas de lenguaje para el aula",
+    "title": "Fichas de lenguaje para el aula",
+    "description": "Articulación, vocabulario y comprensión son algunas de las áreas que reúne esta selección de fichas de logopedia. Material imprimible para explorar desde el aula, con enlaces a recursos y una muestra del fonema R.",
     "panels": [
       "2. Fichas de vocabulario por campos semánticos",
       "3. Fichas de conciencia fonológica",
@@ -1004,22 +2417,77 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-6.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-6.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-6.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 8,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia para maestros, logopedia infantil, familias",
     "date": "2026-09-29",
-    "publishUTC": "2026-09-29T08:00:00"
+    "publishUTC": "2026-09-29T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ]
   },
   {
     "id": 40,
     "batch": "inicial",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia: cinco tipos de material imprimible",
-    "title": "Fichas de logopedia: cinco tipos de material imprimible",
-    "description": "Fichas de logopedia: cinco tipos de material imprimible. En el artículo encontrarás: 5 tipos de fichas de logopedia imprescindibles; 1. fichas de articulación; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Logopedia: materiales para elegir con criterio",
+    "title": "Logopedia: materiales para elegir con criterio",
+    "description": "Una selección de fichas para profesionales de logopedia y fonoaudiología, organizada por áreas de trabajo. Revisa qué ofrece cada tipo de material y accede a la muestra gratuita de articulación para imprimir.",
     "panels": [
       "5 tipos de fichas de logopedia imprescindibles",
       "1. Fichas de articulación",
@@ -1030,22 +2498,77 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-7.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-7.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-7.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 8,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia, logopedia infantil, familias",
     "date": "2026-09-29",
-    "publishUTC": "2026-09-29T17:00:00"
+    "publishUTC": "2026-09-29T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ]
   },
   {
     "id": 41,
     "batch": "continuidad",
     "slug": "fichas-articulacion",
-    "headline": "Fichas de articulación: instrucciones para adultos",
-    "title": "Fichas de articulación: instrucciones para adultos",
-    "description": "Fichas de articulación: instrucciones para adultos. Consulta qué incluye el recurso: 30 fichas imprimibles; instrucciones para adultos; registro de progreso. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas de articulación con guía para adultos",
+    "title": "Fichas de articulación con guía para adultos",
+    "description": "Cada ficha del pack identifica el fonema, la posición articulatoria y el silabario. El material de logopedia se completa con instrucciones para el adulto y un registro para anotar la práctica y las observaciones.",
     "panels": [
       "30 fichas imprimibles",
       "Instrucciones para adultos",
@@ -1056,22 +2579,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/fichas-articulacion",
     "sourceKind": "product",
     "filename": "pin-fichas-articulacion-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-articulacion-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/fichas-articulacion?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-articulacion",
     "dayOffset": 14,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de articulación, logopedia infantil, material imprimible",
     "date": "2026-10-05",
-    "publishUTC": "2026-10-05T08:00:00"
+    "publishUTC": "2026-10-05T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-19.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 19,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-20.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 20,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ]
   },
   {
     "id": 42,
     "batch": "continuidad",
     "slug": "cuaderno-0-3",
-    "headline": "Cuaderno 0–3: instrucciones paso a paso",
-    "title": "Cuaderno 0–3: instrucciones paso a paso",
-    "description": "Cuaderno 0–3: instrucciones paso a paso. Consulta qué incluye el recurso: 20 actividades estructuradas; instrucciones paso a paso; duración por actividad. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Actividades de lenguaje de 0–3 años",
+    "title": "Actividades de lenguaje de 0–3 años",
+    "description": "El cuaderno de estimulación de 0 a 3 años organiza veinte actividades por etapas. Cada propuesta incluye materiales e instrucciones, para que puedas mirar cómo se plantea el juego antes de elegir el recurso.",
     "panels": [
       "20 actividades estructuradas",
       "Instrucciones paso a paso",
@@ -1082,22 +2623,47 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3",
     "sourceKind": "product",
     "filename": "pin-cuaderno-0-3-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-0-3-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-0-3?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-0-3",
     "dayOffset": 15,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno 0–3, logopedia infantil, material imprimible",
     "date": "2026-10-06",
-    "publishUTC": "2026-10-06T17:00:00"
+    "publishUTC": "2026-10-06T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-16.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 16,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-28.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 28,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ]
   },
   {
     "id": 43,
     "batch": "continuidad",
     "slug": "cuaderno-3-6",
-    "headline": "Cuaderno 3–6: variaciones por dificultad",
-    "title": "Cuaderno 3–6: variaciones por dificultad",
-    "description": "Cuaderno 3–6: variaciones por dificultad. Consulta qué incluye el recurso: 20 actividades en 5 bloques; variaciones por dificultad; guía para el adulto. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Lenguaje de 3–6 años, paso a paso",
+    "title": "Lenguaje de 3–6 años, paso a paso",
+    "description": "Para familias que buscan actividades de lenguaje de 3 a 6 años: este cuaderno reúne veinte propuestas con variaciones de dificultad. Abarca conciencia fonológica, vocabulario, narrativa, articulación y comprensión.",
     "panels": [
       "20 actividades en 5 bloques",
       "Variaciones por dificultad",
@@ -1108,22 +2674,40 @@
     "source": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6",
     "sourceKind": "product",
     "filename": "pin-cuaderno-3-6-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-cuaderno-3-6-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/cuaderno-3-6?utm_source=pinterest&utm_medium=social&utm_campaign=pin-cuaderno-3-6",
     "dayOffset": 16,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Cuaderno 3–6, logopedia infantil, material imprimible",
     "date": "2026-10-07",
-    "publishUTC": "2026-10-07T08:00:00"
+    "publishUTC": "2026-10-07T08:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-12.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-17.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 17,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ]
   },
   {
     "id": 44,
     "batch": "continuidad",
     "slug": "ejercicios-para-la-r-fuerte",
-    "headline": "Ejercicios para la R fuerte: palabras, frases y trabalenguas",
-    "title": "Ejercicios para la R fuerte: palabras, frases y trabalenguas",
-    "description": "Ejercicios para la R fuerte: palabras, frases y trabalenguas. En el artículo encontrarás: nivel 2: rr aislada; nivel 3: rr en palabras; nivel 4: frases y trabalenguas. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "RR: palabras, frases y trabalenguas",
+    "title": "RR: palabras, frases y trabalenguas",
+    "description": "La R fuerte aparece en palabras y conversaciones, no solo como sonido aislado. Esta guía de ejercicios para la RR organiza distintos niveles de práctica e incluye frases y trabalenguas en su recorrido.",
     "panels": [
       "Nivel 2: RR aislada",
       "Nivel 3: RR en palabras",
@@ -1134,22 +2718,84 @@
     "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
     "sourceKind": "post",
     "filename": "pin-ejercicios-para-la-r-fuerte-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-ejercicios-para-la-r-fuerte-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ejercicios-para-la-r-fuerte",
     "dayOffset": 17,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Ejercicios para la R fuerte, logopedia infantil, familias",
     "date": "2026-10-08",
-    "publishUTC": "2026-10-08T17:00:00"
+    "publishUTC": "2026-10-08T17:00:00",
+    "type": "mockup",
+    "imageVersion": "v2",
+    "resources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ]
   },
   {
     "id": 45,
     "batch": "continuidad",
     "slug": "guia-dislexia",
-    "headline": "Guía de dislexia: ejercicios para casa y adaptaciones escolares",
-    "title": "Guía de dislexia: ejercicios para casa y adaptaciones escolares",
-    "description": "Guía de dislexia: ejercicios para casa y adaptaciones escolares. Consulta qué incluye el recurso: 10 ejercicios para casa; adaptaciones escolares; acompañamiento familiar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislexia: recursos para casa y escuela",
+    "title": "Dislexia: recursos para casa y escuela",
+    "description": "Un recurso de dislexia en edad escolar con ejercicios para casa, adaptaciones escolares e información para acompañar a la familia. La página de la guía detalla el contenido y muestra qué recibirás en el PDF.",
     "panels": [
       "10 ejercicios para casa",
       "Adaptaciones escolares",
@@ -1160,22 +2806,25 @@
     "source": "https://www.espaciolenguaje.com/recursos/guia-dislexia",
     "sourceKind": "product",
     "filename": "pin-guia-dislexia-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-dislexia-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-dislexia-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/guia-dislexia?utm_source=pinterest&utm_medium=social&utm_campaign=pin-guia-dislexia",
     "dayOffset": 18,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Guía de dislexia, logopedia infantil, material imprimible",
     "date": "2026-10-09",
-    "publishUTC": "2026-10-09T08:00:00"
+    "publishUTC": "2026-10-09T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 46,
     "batch": "continuidad",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia para imprimir: tipos de actividades",
-    "title": "Fichas de logopedia para imprimir: tipos de actividades",
-    "description": "Fichas de logopedia para imprimir: tipos de actividades. En el artículo encontrarás: 1. fichas de articulación; 3. fichas de conciencia fonológica; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas de logopedia: elige por área",
+    "title": "Fichas de logopedia: elige por área",
+    "description": "No todas las fichas de logopedia trabajan lo mismo. El artículo distingue articulación, vocabulario, conciencia fonológica, soplo y comprensión, con fuentes de descarga y una muestra gratuita del fonema R.",
     "panels": [
       "1. Fichas de articulación",
       "3. Fichas de conciencia fonológica",
@@ -1186,22 +2835,25 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-8.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-8.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-8.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 21,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia para imprimir, logopedia infantil, familias",
     "date": "2026-10-12",
-    "publishUTC": "2026-10-12T17:00:00"
+    "publishUTC": "2026-10-12T17:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 47,
     "batch": "continuidad",
     "slug": "vocabulario-ninos-como-ampliar",
-    "headline": "Vocabulario infantil: lectura compartida y juegos de categorías",
-    "title": "Vocabulario infantil: lectura compartida y juegos de categorías",
-    "description": "Vocabulario infantil: lectura compartida y juegos de categorías. En el artículo encontrarás: 1. lectura compartida dialógica; 3. la técnica de la expansión; 4. juegos de categorías. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Vocabulario: libros, conversación y juegos",
+    "title": "Vocabulario: libros, conversación y juegos",
+    "description": "Lectura compartida, expansión y juegos de categorías aparecen en esta guía de vocabulario infantil. Explica la diferencia entre comprensión y expresión, con ocho técnicas para ampliar las conversaciones cotidianas.",
     "panels": [
       "1. Lectura compartida dialógica",
       "3. La técnica de la expansión",
@@ -1212,22 +2864,25 @@
     "source": "https://www.espaciolenguaje.com/blog/vocabulario-ninos-como-ampliar",
     "sourceKind": "post",
     "filename": "pin-vocabulario-ninos-como-ampliar-1.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-vocabulario-ninos-como-ampliar-1.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-vocabulario-ninos-como-ampliar-1.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/vocabulario-ninos-como-ampliar?utm_source=pinterest&utm_medium=social&utm_campaign=pin-vocabulario-ninos-como-ampliar",
     "dayOffset": 22,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Vocabulario infantil, logopedia infantil, familias",
     "date": "2026-10-13",
-    "publishUTC": "2026-10-13T08:00:00"
+    "publishUTC": "2026-10-13T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 48,
     "batch": "continuidad",
     "slug": "conciencia-fonologica-actividades",
-    "headline": "Conciencia fonológica: actividades para casa",
-    "title": "Conciencia fonológica: actividades para casa",
-    "description": "Conciencia fonológica: actividades para casa. En el artículo encontrarás: qué es la conciencia fonológica; los tres niveles de la conciencia fonológica; 1. cazadores de rimas. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Conciencia fonológica para jugar en casa",
+    "title": "Conciencia fonológica para jugar en casa",
+    "description": "Rimas, sílabas y sonidos tienen su lugar en la conciencia fonológica. Esta guía explica sus niveles y reúne diez actividades para casa, como los cazadores de rimas, con orientación por edades.",
     "panels": [
       "Qué es la conciencia fonológica",
       "Los tres niveles de la conciencia fonológica",
@@ -1238,22 +2893,25 @@
     "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
     "sourceKind": "post",
     "filename": "pin-conciencia-fonologica-actividades-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-conciencia-fonologica-actividades-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-conciencia-fonologica-actividades-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades?utm_source=pinterest&utm_medium=social&utm_campaign=pin-conciencia-fonologica-actividades",
     "dayOffset": 23,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Conciencia fonológica, logopedia infantil, familias",
     "date": "2026-10-14",
-    "publishUTC": "2026-10-14T17:00:00"
+    "publishUTC": "2026-10-14T17:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 49,
     "batch": "continuidad",
     "slug": "mi-hijo-no-pronuncia-la-s",
-    "headline": "Mi hijo no pronuncia la S: conoce el sigmatismo",
-    "title": "Mi hijo no pronuncia la S: conoce el sigmatismo",
-    "description": "Mi hijo no pronuncia la S: conoce el sigmatismo. En el artículo encontrarás: qué es el sigmatismo; tipos de sigmatismo; causas más frecuentes. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "La S y el sigmatismo infantil",
+    "title": "La S y el sigmatismo infantil",
+    "description": "Cuando un niño no pronuncia la S, no todos los errores son iguales. El artículo explica qué es el sigmatismo, sus tipos y causas frecuentes, además de las edades orientativas de adquisición del fonema.",
     "panels": [
       "Qué es el sigmatismo",
       "Tipos de sigmatismo",
@@ -1264,22 +2922,25 @@
     "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
     "sourceKind": "post",
     "filename": "pin-mi-hijo-no-pronuncia-la-s-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-no-pronuncia-la-s-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-mi-hijo-no-pronuncia-la-s-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s?utm_source=pinterest&utm_medium=social&utm_campaign=pin-mi-hijo-no-pronuncia-la-s",
     "dayOffset": 24,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Mi hijo no pronuncia la S, logopedia infantil, familias",
     "date": "2026-10-15",
-    "publishUTC": "2026-10-15T08:00:00"
+    "publishUTC": "2026-10-15T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 50,
     "batch": "continuidad",
     "slug": "tartamudez-infantil-cuando-preocuparse",
-    "headline": "Tartamudez infantil: información para acompañar en familia",
-    "title": "Tartamudez infantil: información para acompañar en familia",
-    "description": "Tartamudez infantil: información para acompañar en familia. En el artículo encontrarás: ¿qué es la disfluencia evolutiva?; disfluencia normal vs. tartamudez que preocupa: cómo distinguirlas; lo que no debes hacer (aunque tu intención sea buena). Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tartamudez: escuchar y acompañar",
+    "title": "Tartamudez: escuchar y acompañar",
+    "description": "Si las interrupciones del habla te preocupan, esta guía de tartamudez infantil explica qué observar y qué evitar al acompañar. Encontrarás información sobre disfluencias evolutivas y cuándo pedir ayuda profesional.",
     "panels": [
       "¿Qué es la disfluencia evolutiva?",
       "Disfluencia normal vs. tartamudez que preocupa: cómo distinguirlas",
@@ -1290,22 +2951,25 @@
     "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
     "sourceKind": "post",
     "filename": "pin-tartamudez-infantil-cuando-preocuparse-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-tartamudez-infantil-cuando-preocuparse-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-tartamudez-infantil-cuando-preocuparse-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse?utm_source=pinterest&utm_medium=social&utm_campaign=pin-tartamudez-infantil-cuando-preocuparse",
     "dayOffset": 25,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Tartamudez infantil, logopedia infantil, familias",
     "date": "2026-10-16",
-    "publishUTC": "2026-10-16T17:00:00"
+    "publishUTC": "2026-10-16T17:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 51,
     "batch": "continuidad",
     "slug": "pack-completo",
-    "headline": "Pack completo: materiales de estimulación del lenguaje",
-    "title": "Pack completo: materiales de estimulación del lenguaje",
-    "description": "Pack completo: materiales de estimulación del lenguaje. Consulta qué incluye el recurso: pack de fichas de articulación; cuaderno de estimulación 3-6 años; kit de ejercicios de soplo. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Materiales de logopedia en un solo pack",
+    "title": "Materiales de logopedia en un solo pack",
+    "description": "El Pack Completo reúne fichas de articulación, dos cuadernos por edad, ejercicios de soplo y calendario semanal. La página detalla los PDF incluidos para que puedas valorar el material antes de comprarlo.",
     "panels": [
       "Pack de fichas de articulación",
       "Cuaderno de estimulación 3-6 años",
@@ -1316,22 +2980,25 @@
     "source": "https://www.espaciolenguaje.com/recursos/pack-completo",
     "sourceKind": "product",
     "filename": "pin-pack-completo-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-pack-completo-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/pack-completo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-pack-completo",
     "dayOffset": 28,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Pack completo, logopedia infantil, material imprimible",
     "date": "2026-10-19",
-    "publishUTC": "2026-10-19T08:00:00"
+    "publishUTC": "2026-10-19T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 52,
     "batch": "continuidad",
     "slug": "a-que-edad-debe-hablar-un-nino",
-    "headline": "Desarrollo del lenguaje: primeras palabras y primeras frases",
-    "title": "Desarrollo del lenguaje: primeras palabras y primeras frases",
-    "description": "Desarrollo del lenguaje: primeras palabras y primeras frases. En el artículo encontrarás: de 12 a 18 meses: las primeras palabras; de 18 a 24 meses: la explosión del vocabulario; de 2 a 3 años: las primeras frases. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "De las primeras palabras a las frases",
+    "title": "De las primeras palabras a las frases",
+    "description": "Las primeras palabras y las primeras frases forman parte de un recorrido más amplio. La guía de hitos del lenguaje por edad explica qué ocurre en cada etapa y diferencia hablar de comunicarse.",
     "panels": [
       "De 12 a 18 meses: las primeras palabras",
       "De 18 a 24 meses: la explosión del vocabulario",
@@ -1342,22 +3009,25 @@
     "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
     "sourceKind": "post",
     "filename": "pin-a-que-edad-debe-hablar-un-nino-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-a-que-edad-debe-hablar-un-nino-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-a-que-edad-debe-hablar-un-nino-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino?utm_source=pinterest&utm_medium=social&utm_campaign=pin-a-que-edad-debe-hablar-un-nino",
     "dayOffset": 29,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Desarrollo del lenguaje, logopedia infantil, familias",
     "date": "2026-10-20",
-    "publishUTC": "2026-10-20T17:00:00"
+    "publishUTC": "2026-10-20T17:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 53,
     "batch": "continuidad",
     "slug": "actividades-ninos-2-anos-lenguaje",
-    "headline": "Actividades para niños de 2 años: ampliar el vocabulario",
-    "title": "Actividades para niños de 2 años: ampliar el vocabulario",
-    "description": "Actividades para niños de 2 años: ampliar el vocabulario. En el artículo encontrarás: bloque 1: actividades para ampliar el vocabulario; 1. el cesto de los tesoros; 2. libros con imágenes reales. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Vocabulario a los 2 años: ideas cotidianas",
+    "title": "Vocabulario a los 2 años: ideas cotidianas",
+    "description": "El cesto de los tesoros y los libros con imágenes son dos de las propuestas de esta guía de lenguaje a los 2 años. Reúne juegos para ampliar vocabulario, fomentar la expresión y trabajar la comprensión.",
     "panels": [
       "Bloque 1: actividades para ampliar el vocabulario",
       "1. El cesto de los tesoros",
@@ -1368,22 +3038,25 @@
     "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
     "sourceKind": "post",
     "filename": "pin-actividades-ninos-2-anos-lenguaje-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-actividades-ninos-2-anos-lenguaje-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje?utm_source=pinterest&utm_medium=social&utm_campaign=pin-actividades-ninos-2-anos-lenguaje",
     "dayOffset": 30,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Actividades para niños de 2 años, logopedia infantil, familias",
     "date": "2026-10-21",
-    "publishUTC": "2026-10-21T08:00:00"
+    "publishUTC": "2026-10-21T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 54,
     "batch": "continuidad",
     "slug": "praxias-bucofaciales-ninos",
-    "headline": "Praxias bucofaciales: materiales y usos",
-    "title": "Praxias bucofaciales: materiales y usos",
-    "description": "Praxias bucofaciales: materiales y usos. En el artículo encontrarás: qué son las praxias bucofaciales; para qué sirven (y para qué no); materiales que vas a necesitar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Praxias: usos, materiales y límites",
+    "title": "Praxias: usos, materiales y límites",
+    "description": "¿Buscas praxias bucofaciales para niños? Antes de escoger ejercicios, lee para qué sirven y para qué no. El artículo organiza las propuestas por zona y detalla los materiales para realizarlas con espejo.",
     "panels": [
       "Qué son las praxias bucofaciales",
       "Para qué sirven (y para qué no)",
@@ -1394,22 +3067,25 @@
     "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
     "sourceKind": "post",
     "filename": "pin-praxias-bucofaciales-ninos-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-praxias-bucofaciales-ninos-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-praxias-bucofaciales-ninos",
     "dayOffset": 31,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Praxias bucofaciales, logopedia infantil, familias",
     "date": "2026-10-22",
-    "publishUTC": "2026-10-22T17:00:00"
+    "publishUTC": "2026-10-22T17:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 55,
     "batch": "continuidad",
     "slug": "guia-tartamudez",
-    "headline": "Guía de tartamudez: una sección para profesores",
-    "title": "Guía de tartamudez: una sección para profesores",
-    "description": "Guía de tartamudez: una sección para profesores. Consulta qué incluye el recurso: pautas para familias; sección para profesores; cuándo consultar. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Tartamudez: información también para profesores",
+    "title": "Tartamudez: información también para profesores",
+    "description": "Acompañar la tartamudez infantil implica a la familia y a la escuela. Esta guía incluye una sección para profesores, pautas familiares y orientación sobre cuándo consultar, además de actividades compartidas.",
     "panels": [
       "Pautas para familias",
       "Sección para profesores",
@@ -1420,22 +3096,25 @@
     "source": "https://www.espaciolenguaje.com/recursos/guia-tartamudez",
     "sourceKind": "product",
     "filename": "pin-guia-tartamudez-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-guia-tartamudez-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/guia-tartamudez?utm_source=pinterest&utm_medium=social&utm_campaign=pin-guia-tartamudez",
     "dayOffset": 32,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Guía de tartamudez, logopedia infantil, material imprimible",
     "date": "2026-10-23",
-    "publishUTC": "2026-10-23T08:00:00"
+    "publishUTC": "2026-10-23T08:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 56,
     "batch": "continuidad",
     "slug": "fichas-logopedia-gratis-imprimir",
-    "headline": "Fichas de logopedia: recursos para el aula",
-    "title": "Fichas de logopedia: recursos para el aula",
-    "description": "Fichas de logopedia: recursos para el aula. En el artículo encontrarás: 1. fichas de articulación; 2. fichas de vocabulario por campos semánticos; 5. fichas de comprensión. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Fichas imprimibles para maestros y logopedas",
+    "title": "Fichas imprimibles para maestros y logopedas",
+    "description": "Vocabulario, articulación y comprensión: esta selección reúne diferentes tipos de fichas de logopedia para imprimir. Revisa las fuentes de material para el aula y accede a la muestra gratuita del fonema R.",
     "panels": [
       "1. Fichas de articulación",
       "2. Fichas de vocabulario por campos semánticos",
@@ -1446,22 +3125,25 @@
     "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
     "sourceKind": "post",
     "filename": "pin-fichas-logopedia-gratis-imprimir-9.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-9.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-fichas-logopedia-gratis-imprimir-9.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir?utm_source=pinterest&utm_medium=social&utm_campaign=pin-fichas-logopedia-gratis-imprimir",
     "dayOffset": 35,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Fichas de logopedia, logopedia infantil, familias",
     "date": "2026-10-26",
-    "publishUTC": "2026-10-26T18:00:00"
+    "publishUTC": "2026-10-26T18:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 57,
     "batch": "continuidad",
     "slug": "etapas-desarrollo-del-lenguaje",
-    "headline": "Etapas del lenguaje: de vocalizaciones a primeras palabras",
-    "title": "Etapas del lenguaje: de vocalizaciones a primeras palabras",
-    "description": "Etapas del lenguaje: de vocalizaciones a primeras palabras. En el artículo encontrarás: 0-3 meses: el llanto y las primeras vocalizaciones; 6-9 meses: el balbuceo canónico; las primeras palabras: de 12 a 18 meses. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Primeros sonidos y primeras palabras",
+    "title": "Primeros sonidos y primeras palabras",
+    "description": "El desarrollo del lenguaje comienza antes de las primeras palabras. La guía de etapas de 0 a 6 años recorre vocalizaciones, balbuceo y lenguaje posterior, con una tabla de comprensión y expresión por edad.",
     "panels": [
       "0-3 meses: el llanto y las primeras vocalizaciones",
       "6-9 meses: el balbuceo canónico",
@@ -1472,22 +3154,25 @@
     "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
     "sourceKind": "post",
     "filename": "pin-etapas-desarrollo-del-lenguaje-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-etapas-desarrollo-del-lenguaje-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-etapas-desarrollo-del-lenguaje-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje?utm_source=pinterest&utm_medium=social&utm_campaign=pin-etapas-desarrollo-del-lenguaje",
     "dayOffset": 36,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Etapas del lenguaje, logopedia infantil, familias",
     "date": "2026-10-27",
-    "publishUTC": "2026-10-27T09:00:00"
+    "publishUTC": "2026-10-27T09:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 58,
     "batch": "continuidad",
     "slug": "juegos-para-estimular-el-habla",
-    "headline": "Juegos de lenguaje: veo veo, canciones y cuentos",
-    "title": "Juegos de lenguaje: veo veo, canciones y cuentos",
-    "description": "Juegos de lenguaje: veo veo, canciones y cuentos. En el artículo encontrarás: 4. veo veo; 7. cuentacuentos con dedos; 8. canciones con gestos. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Veo veo, canciones y cuentos",
+    "title": "Veo veo, canciones y cuentos",
+    "description": "Los juegos para estimular el habla pueden partir de lo que ya hay en casa. Esta selección incluye veo veo, canciones con gestos y cuentacuentos, con explicaciones para compartir la actividad con tu peque.",
     "panels": [
       "4. Veo veo",
       "7. Cuentacuentos con dedos",
@@ -1498,22 +3183,25 @@
     "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
     "sourceKind": "post",
     "filename": "pin-juegos-para-estimular-el-habla-2.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-juegos-para-estimular-el-habla-2.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-juegos-para-estimular-el-habla-2.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla?utm_source=pinterest&utm_medium=social&utm_campaign=pin-juegos-para-estimular-el-habla",
     "dayOffset": 37,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Juegos de lenguaje, logopedia infantil, familias",
     "date": "2026-10-28",
-    "publishUTC": "2026-10-28T18:00:00"
+    "publishUTC": "2026-10-28T18:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 59,
     "batch": "continuidad",
     "slug": "kit-soplo",
-    "headline": "Kit de soplo: ejercicios progresivos y tabla de seguimiento",
-    "title": "Kit de soplo: ejercicios progresivos y tabla de seguimiento",
-    "description": "Kit de soplo: ejercicios progresivos y tabla de seguimiento. Consulta qué incluye el recurso: 15 ejercicios progresivos; material casero; tabla de seguimiento. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Soplo: propuestas y registro de práctica",
+    "title": "Soplo: propuestas y registro de práctica",
+    "description": "El kit de soplo reúne quince ejercicios progresivos con materiales caseros y una tabla de seguimiento. Está planteado como juego de control respiratorio y consciencia oral, no como mejora de la articulación.",
     "panels": [
       "15 ejercicios progresivos",
       "Material casero",
@@ -1524,22 +3212,25 @@
     "source": "https://www.espaciolenguaje.com/recursos/kit-soplo",
     "sourceKind": "product",
     "filename": "pin-kit-soplo-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-kit-soplo-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/recursos/kit-soplo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-soplo",
     "dayOffset": 38,
     "time": "10:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Kit de soplo, logopedia infantil, material imprimible",
     "date": "2026-10-29",
-    "publishUTC": "2026-10-29T09:00:00"
+    "publishUTC": "2026-10-29T09:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   },
   {
     "id": 60,
     "batch": "continuidad",
     "slug": "dislexia-en-ninos-como-detectarla",
-    "headline": "Dislexia en niños: información y señales por edad",
-    "title": "Dislexia en niños: información y señales por edad",
-    "description": "Dislexia en niños: información y señales por edad. En el artículo encontrarás: ¿qué es la dislexia?; mitos y realidades sobre la dislexia; señales de dislexia según la edad. Información de logopedia infantil en Espacio Lenguaje.",
+    "headline": "Dislexia infantil: información por edades",
+    "title": "Dislexia infantil: información por edades",
+    "description": "Para entender la dislexia en niños hace falta ir más allá de los mitos. El artículo explica sus características y señales según la edad, con orientación para familias que se plantean una valoración profesional.",
     "panels": [
       "¿Qué es la dislexia?",
       "Mitos y realidades sobre la dislexia",
@@ -1550,13 +3241,16 @@
     "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
     "sourceKind": "post",
     "filename": "pin-dislexia-en-ninos-como-detectarla-3.png",
-    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-3.png",
+    "imageUrl": "https://www.espaciolenguaje.com/pinterest/pin-dislexia-en-ninos-como-detectarla-3.png?v=2",
     "link": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla?utm_source=pinterest&utm_medium=social&utm_campaign=pin-dislexia-en-ninos-como-detectarla",
     "dayOffset": 39,
     "time": "19:00",
     "scheduleStatus": "propuesta; fecha inicial pendiente",
     "keywords": "Dislexia en niños, logopedia infantil, familias",
     "date": "2026-10-30",
-    "publishUTC": "2026-10-30T18:00:00"
+    "publishUTC": "2026-10-30T18:00:00",
+    "type": "tarjeta",
+    "imageVersion": "v2",
+    "resources": []
   }
 ]

@@ -1,0 +1,2176 @@
+[
+  {
+    "id": 1,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 190,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 2,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-13.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-19.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 19,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 3,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-06.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-13.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-16.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 16,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 4,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-11.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 11,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-12.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 200,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 5,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-12.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-13.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 13,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 192,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 6,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-10.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\calendario-01.png",
+        "source": "public/downloads/productos/calendario-semanal.pdf",
+        "page": 1,
+        "dpi": 300,
+        "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315"
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 194,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 7,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-05.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 5,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-06.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 198,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 8,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-22.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 22,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-27.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 27,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 199,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 9,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-28.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 28,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-05.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 5,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 202,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 10,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-26.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 26,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-06.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 197,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 11,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-10.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\calendario-01.png",
+        "source": "public/downloads/productos/calendario-semanal.pdf",
+        "page": 1,
+        "dpi": 300,
+        "sha256": "61c0106958122327fbe66fff1f500c9c2de6b26a223cac278abdba8240a03315"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 203,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 12,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-04.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 4,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 199,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 13,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 207,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 14,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "R suave (vibrante simple)",
+            "pera, cara, loro, arena",
+            "3-4 años",
+            "Baja: 1 vibración breve"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "RR fuerte (vibrante múltiple)",
+            "perro, ratón, Roma, Enrique",
+            "5-6 años (a veces 6;6-7)",
+            "Alta: 2-4 vibraciones coordinadas (Bosch, 2004)"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 195,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 15,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-no-pronuncia-la-s-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
+        "kind": "table",
+        "heading": "A qué edad se espera la /s/ correcta",
+        "literal": [
+          [
+            "3 años",
+            "Puede aparecer pero con sustituciones frecuentes (S → T, por ejemplo). Variante normal."
+          ],
+          [
+            "4 años",
+            "La mayoría de niños ya lo produce correctamente en posición inicial."
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Estado esperable del fonema /s/"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-no-pronuncia-la-s-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-no-pronuncia-la-s",
+        "kind": "table",
+        "heading": "A qué edad se espera la /s/ correcta",
+        "literal": [
+          [
+            "5 años",
+            "/s/ adquirida en todas las posiciones (inicial, intermedia, final) — incluida en grupos consonánticos (sp, st, sc)."
+          ],
+          [
+            "6 años y más",
+            "Si persiste alteración, es momento de consultar."
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Estado esperable del fonema /s/"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 203,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 16,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "1-5",
+            "Labios",
+            "Beso, sonrisa exagerada, vibración, succión, lateralización",
+            "2 años"
+          ],
+          [
+            "6-10",
+            "Lengua",
+            "Sacar/meter, lateralización, tocar paladar, \"caballito\", limpiar dientes",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "11-15",
+            "Mandíbula y mejillas",
+            "Apertura, cierre, lateralización, inflar mejillas, alternar",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 188,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 17,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-de-soplo-para-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos",
+        "kind": "table",
+        "heading": "Los 8 ejercicios de un vistazo",
+        "literal": [
+          [
+            "1",
+            "Carreras de plumas",
+            "18 meses",
+            "Plumas o trocitos de papel de seda",
+            "Baja"
+          ],
+          [
+            "2",
+            "Pompas de jabón",
+            "2 años",
+            "Pompero + jabón líquido casero",
+            "Baja"
+          ],
+          [
+            "3",
+            "Molinillos de viento",
+            "2 años",
+            "Papel + palillo (o comprado 1€)",
+            "Baja"
+          ],
+          [
+            "4",
+            "Velas mágicas (sin fuego)",
+            "3 años",
+            "Vela LED + papel",
+            "Media"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Ejercicio",
+          "Edad mínima",
+          "Materiales caseros",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-de-soplo-para-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos",
+        "kind": "table",
+        "heading": "Los 8 ejercicios de un vistazo",
+        "literal": [
+          [
+            "5",
+            "Soplar pelotitas de algodón",
+            "3 años",
+            "Bolitas de algodón + pajita",
+            "Media"
+          ],
+          [
+            "6",
+            "Globos",
+            "4 años",
+            "Globos",
+            "Media"
+          ],
+          [
+            "7",
+            "Soplar con pajita en agua",
+            "4 años",
+            "Vaso de agua + pajita",
+            "Media"
+          ],
+          [
+            "8",
+            "Carrera de coches de papel",
+            "5 años",
+            "Cartulina (origami simple) + pajita",
+            "Alta"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Ejercicio",
+          "Edad mínima",
+          "Materiales caseros",
+          "Dificultad"
+        ]
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 199,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 18,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislalia-infantil-tipos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos",
+        "kind": "list",
+        "heading": "¿Qué es la dislalia?",
+        "literal": [
+          "tasa en lugar de casa (sustituye la K por la T).",
+          "peo en lugar de perro (omite la RR)."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislalia-infantil-tipos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislalia-infantil-tipos",
+        "kind": "list",
+        "heading": "¿Qué es la dislalia?",
+        "literal": [
+          "paaaito alargando vocales (distorsiona la articulación)."
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 193,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 19,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 200,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 20,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "R suave (vibrante simple)",
+            "pera, cara, loro, arena",
+            "3-4 años",
+            "Baja: 1 vibración breve"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-como-ensenar-la-r-a-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/como-ensenar-la-r-a-un-nino",
+        "kind": "table",
+        "heading": "¿A qué edad debería un niño pronunciar la R?",
+        "literal": [
+          [
+            "RR fuerte (vibrante múltiple)",
+            "perro, ratón, Roma, Enrique",
+            "5-6 años (a veces 6;6-7)",
+            "Alta: 2-4 vibraciones coordinadas (Bosch, 2004)"
+          ]
+        ],
+        "columns": [
+          "Tipo",
+          "Ejemplos",
+          "Edad esperada",
+          "Dificultad"
+        ]
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 195,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 21,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "1-5",
+            "Labios",
+            "Beso, sonrisa exagerada, vibración, succión, lateralización",
+            "2 años"
+          ],
+          [
+            "6-10",
+            "Lengua",
+            "Sacar/meter, lateralización, tocar paladar, \"caballito\", limpiar dientes",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-praxias-bucofaciales-ninos-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+        "kind": "table",
+        "heading": "Las 15 praxias de un vistazo",
+        "literal": [
+          [
+            "11-15",
+            "Mandíbula y mejillas",
+            "Apertura, cierre, lateralización, inflar mejillas, alternar",
+            "3 años"
+          ]
+        ],
+        "columns": [
+          "#",
+          "Zona",
+          "Praxia",
+          "Edad mínima"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 210,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 22,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-23.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 23,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\kit-soplo-06.png",
+        "source": "public/downloads/productos/kit-ejercicios-soplo.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "712b4f65ba5095d7672ccdc4f544f5dd9497dd10a0fdf60773ea4c3954ad8ef1"
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 209,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 23,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "1 · Vocabulario",
+            "El cesto de los tesoros",
+            "Nombrar objetos cotidianos"
+          ],
+          [
+            "1 · Vocabulario",
+            "Libros con imágenes reales",
+            "Señalar y etiquetar con frase corta"
+          ],
+          [
+            "1 · Vocabulario",
+            "El paseo-nombrar",
+            "Vocabulario en contexto real"
+          ],
+          [
+            "2 · Expresión",
+            "La técnica de la expansión",
+            "Ampliar lo que el peque ya dice"
+          ],
+          [
+            "2 · Expresión",
+            "Elección entre dos opciones",
+            "Provocar la palabra en vez del gesto"
+          ],
+          [
+            "2 · Expresión",
+            "El juego del teléfono",
+            "Turnos de conversación"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "3 · Comprensión",
+            "\"Tráeme...\"",
+            "Órdenes de un paso"
+          ],
+          [
+            "3 · Comprensión",
+            "Órdenes en dos pasos",
+            "Memoria de trabajo verbal"
+          ],
+          [
+            "3 · Comprensión",
+            "Cuentos con preguntas",
+            "Comprensión de lo escuchado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Cocinitas",
+            "Lenguaje interior y secuencias"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Curar al muñeco",
+            "Vocabulario de rutinas de cuidado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Imitar rutinas",
+            "Narrar la acción mientras se juega"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 203,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 24,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-etapas-desarrollo-del-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "0-6 meses",
+            "Reacciona a la voz, mira al hablante",
+            "Gorjeo, balbuceo vocálico"
+          ],
+          [
+            "6-12 meses",
+            "Entiende \"no\", comprende órdenes con gesto",
+            "Balbuceo canónico (ba-ba), primeras palabras"
+          ],
+          [
+            "12-18 meses",
+            "Entiende 100+ palabras, órdenes simples",
+            "10-50 palabras, señala"
+          ],
+          [
+            "18-24 meses",
+            "Señala partes del cuerpo, identifica objetos",
+            "50-300 palabras, combina 2 palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-etapas-desarrollo-del-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/etapas-desarrollo-del-lenguaje",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "2-3 años",
+            "Entiende preguntas, órdenes de 2 pasos",
+            "Frases 3-4 palabras, pronombres, \"por qué\""
+          ],
+          [
+            "3-4 años",
+            "Comprende relatos, conceptos temporales",
+            "Frases complejas, conjunciones, 1.000+ palabras"
+          ],
+          [
+            "4-6 años",
+            "Comprende humor, dobles sentidos",
+            "Narrativa completa, fonemas complejos, 2.000+ palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 202,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 25,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-a-que-edad-debe-hablar-un-nino-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "0-6 meses",
+            "Reacciona a sonidos, reconoce voces familiares",
+            "Gorjeo, vocalizaciones, balbuceo temprano"
+          ],
+          [
+            "6-12 meses",
+            "Entiende \"no\", su nombre, palabras frecuentes",
+            "Balbuceo canónico, gestos, primeras palabras"
+          ],
+          [
+            "12-18 meses",
+            "Comprende 50-100 palabras, instrucciones simples",
+            "5-20 palabras con intención"
+          ],
+          [
+            "18-24 meses",
+            "Instrucciones de dos pasos",
+            "50-200 palabras, combinaciones de 2 palabras"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-a-que-edad-debe-hablar-un-nino-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/a-que-edad-debe-hablar-un-nino",
+        "kind": "table",
+        "heading": "Tabla resumen de hitos del lenguaje",
+        "literal": [
+          [
+            "2-3 años",
+            "Comprende preguntas, conceptos básicos",
+            "200-1000 palabras, frases de 2-4 palabras"
+          ],
+          [
+            "3-4 años",
+            "Comprende historias sencillas, conceptos abstractos",
+            "Frases de 4-6 palabras, narra experiencias"
+          ],
+          [
+            "4-6 años",
+            "Comprende humor, ironía sencilla, instrucciones complejas",
+            "Frases complejas, narración estructurada, articulación completa"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Comprensión",
+          "Expresión"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 26,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-estimulacion-del-lenguaje-en-casa-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa",
+        "kind": "list",
+        "heading": "¿Qué es la estimulación del lenguaje y por qué importa?",
+        "literal": [
+          "Sienten que alguien les escucha",
+          "Tienen motivos para comunicarse"
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-estimulacion-del-lenguaje-en-casa-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/estimulacion-del-lenguaje-en-casa",
+        "kind": "list",
+        "heading": "¿Qué es la estimulación del lenguaje y por qué importa?",
+        "literal": [
+          "Están expuestos a un lenguaje rico y variado",
+          "Las interacciones son positivas y sin presión"
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 27,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "1 · Vocabulario",
+            "El cesto de los tesoros",
+            "Nombrar objetos cotidianos"
+          ],
+          [
+            "1 · Vocabulario",
+            "Libros con imágenes reales",
+            "Señalar y etiquetar con frase corta"
+          ],
+          [
+            "1 · Vocabulario",
+            "El paseo-nombrar",
+            "Vocabulario en contexto real"
+          ],
+          [
+            "2 · Expresión",
+            "La técnica de la expansión",
+            "Ampliar lo que el peque ya dice"
+          ],
+          [
+            "2 · Expresión",
+            "Elección entre dos opciones",
+            "Provocar la palabra en vez del gesto"
+          ],
+          [
+            "2 · Expresión",
+            "El juego del teléfono",
+            "Turnos de conversación"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-actividades-ninos-2-anos-lenguaje-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/actividades-ninos-2-anos-lenguaje",
+        "kind": "table",
+        "heading": "Las 12 actividades de un vistazo",
+        "literal": [
+          [
+            "3 · Comprensión",
+            "\"Tráeme...\"",
+            "Órdenes de un paso"
+          ],
+          [
+            "3 · Comprensión",
+            "Órdenes en dos pasos",
+            "Memoria de trabajo verbal"
+          ],
+          [
+            "3 · Comprensión",
+            "Cuentos con preguntas",
+            "Comprensión de lo escuchado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Cocinitas",
+            "Lenguaje interior y secuencias"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Curar al muñeco",
+            "Vocabulario de rutinas de cuidado"
+          ],
+          [
+            "4 · Juego simbólico",
+            "Imitar rutinas",
+            "Narrar la acción mientras se juega"
+          ]
+        ],
+        "columns": [
+          "Bloque",
+          "Actividad",
+          "Qué trabaja"
+        ]
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 200,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 28,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-de-3-anos-no-habla-bien-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien",
+        "kind": "table",
+        "heading": "Hitos esperados a los 3 años (de un vistazo)",
+        "literal": [
+          [
+            "Expresión",
+            "Frases de 3-4 palabras espontáneas",
+            "Solo palabras sueltas, sin combinaciones"
+          ],
+          [
+            "Vocabulario",
+            "500-1.000 palabras activas",
+            "< 200 palabras o no aparece vocabulario nuevo"
+          ],
+          [
+            "Inteligibilidad",
+            "75% para personas externas (Coplan & Gleason, 1988)",
+            "< 50% incluso para familia próxima"
+          ],
+          [
+            "Comprensión",
+            "Sigue órdenes de 2-3 pasos",
+            "No entiende instrucciones sencillas"
+          ]
+        ],
+        "columns": [
+          "Área",
+          "Esperado",
+          "Señal de alerta"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-mi-hijo-de-3-anos-no-habla-bien-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/mi-hijo-de-3-anos-no-habla-bien",
+        "kind": "table",
+        "heading": "Hitos esperados a los 3 años (de un vistazo)",
+        "literal": [
+          [
+            "Pronombres",
+            "Usa yo, tú, mío (con errores)",
+            "No usa ningún pronombre"
+          ],
+          [
+            "Preguntas",
+            "Hace preguntas con qué, dónde, por qué",
+            "No formula preguntas"
+          ],
+          [
+            "Interacción",
+            "Inicia conversación, busca contacto",
+            "No mantiene contacto visual, no comparte intereses"
+          ]
+        ],
+        "columns": [
+          "Área",
+          "Esperado",
+          "Señal de alerta"
+        ]
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 202,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 29,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-conciencia-fonologica-actividades-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
+        "kind": "list",
+        "heading": "Por qué importa tanto",
+        "literal": [
+          "Facilita el aprendizaje de la lectura y la escritura.",
+          "Actúa como factor protector frente a la dislexia (Snowling & Hulme, 2011)."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-conciencia-fonologica-actividades-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/conciencia-fonologica-actividades",
+        "kind": "list",
+        "heading": "Por qué importa tanto",
+        "literal": [
+          "Mejora la ortografía natural.",
+          "Refuerza la memoria auditiva y la atención al sonido."
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 195,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 30,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-juegos-para-estimular-el-habla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
+        "kind": "list",
+        "heading": "1. El espejo mágico",
+        "literal": [
+          "Poneos cómodos frente al espejo del baño",
+          "Empieza con gestos sencillos: boca abierta, lengua fuera",
+          "Ve añadiendo sonidos: \"aaaa\", \"oooo\", \"brrrrr\""
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-juegos-para-estimular-el-habla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/juegos-para-estimular-el-habla",
+        "kind": "list",
+        "heading": "1. El espejo mágico",
+        "literal": [
+          "Hazlo divertido: pon caras graciosas, exagera los movimientos",
+          "Deja que tu hijo proponga gestos para que tú imites"
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 203,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 31,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Dificultad para aprender rimas infantiles o completar canciones con rima.",
+          "Problemas para recordar el nombre de las letras o los números.",
+          "Dificultad con la conciencia fonológica: no puede identificar con qué sonido empieza una palabra (\"¿Con qué sonido empieza 'mesa'?\")."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Vocabulario por debajo de lo esperado o dificultad para encontrar la palabra adecuada (dice \"eso\" o \"la cosa\" con frecuencia).",
+          "Historia familiar de dislexia o dificultades lectoras.",
+          "Dificultad para aprender secuencias: los días de la semana, contar del 1 al 10, los colores."
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 32,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-dislexia-09.png",
+        "source": "public/downloads/productos/guia-dislexia.pdf",
+        "page": 9,
+        "dpi": 300,
+        "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-dislexia-10.png",
+        "source": "public/downloads/productos/guia-dislexia.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "9fdea8941e7f73967ddb2da42b4afd158864bf6902f432b7c1588b5bc19ce78b"
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 33,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-tartamudez-infantil-cuando-preocuparse-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
+        "kind": "list",
+        "heading": "Signos de disfluencia evolutiva (normal)",
+        "literal": [
+          "Repeticiones de palabras completas o de las primeras sílabas: \"Yo-yo-yo quiero eso\" o \"Mamá, mamá, mamá, mira.\" Las repeticiones suelen ser relajadas y sin esfuerzo.",
+          "Repeticiones de frases o reformulaciones: \"Quiero ir al... quiero ir al parque.\"",
+          "Muletillas y pausas: \"Ehhh... pues... entonces... el perro se fue.\"",
+          "Aparece y desaparece: Hay temporadas en las que el niño tartamudea más (cuando está cansado, emocionado, enfermo o ha vivido un cambio) y temporadas en las que habla con total fluidez."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-tartamudez-infantil-cuando-preocuparse-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/tartamudez-infantil-cuando-preocuparse",
+        "kind": "list",
+        "heading": "Signos de disfluencia evolutiva (normal)",
+        "literal": [
+          "El niño no parece darse cuenta ni mostrar frustración. Sigue hablando con ganas y confianza.",
+          "No hay tensión física: No aprieta los labios, no cierra los ojos, no tensa el cuello o la mandíbula.",
+          "Duración: Generalmente se resuelve en menos de 6 meses."
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 204,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 34,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-08.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 8,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-10.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 195,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 35,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Dificultad para aprender rimas infantiles o completar canciones con rima.",
+          "Problemas para recordar el nombre de las letras o los números.",
+          "Dificultad con la conciencia fonológica: no puede identificar con qué sonido empieza una palabra (\"¿Con qué sonido empieza 'mesa'?\")."
+        ],
+        "columns": []
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-dislexia-en-ninos-como-detectarla-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/dislexia-en-ninos-como-detectarla",
+        "kind": "list",
+        "heading": "Etapa preescolar (3 a 5 años)",
+        "literal": [
+          "Vocabulario por debajo de lo esperado o dificultad para encontrar la palabra adecuada (dice \"eso\" o \"la cosa\" con frecuencia).",
+          "Historia familiar de dislexia o dificultades lectoras.",
+          "Dificultad para aprender secuencias: los días de la semana, contar del 1 al 10, los colores."
+        ],
+        "columns": []
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 198,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 36,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-10.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 10,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-12.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\guia-tartamudez-06.png",
+        "source": "public/downloads/productos/guia-tartamudez.pdf",
+        "page": 6,
+        "dpi": 300,
+        "sha256": "e1a7e000b53f15bd2ef5480129738f954bea8313257d4814ed936c8e23c34458"
+      }
+    ],
+    "headlineWords": 4,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 37,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\free-02.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 2,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\free-03.png",
+        "source": "public/downloads/muestra-fichas-articulacion-r-ba5e7821166e.pdf",
+        "page": 3,
+        "dpi": 300,
+        "sha256": "9f2e6201688fb9cf3013c6e27cc8855d7398a70b381e24914517ad6f26a42071"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 196,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 38,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 209,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 39,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 213,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 40,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Pictogramas (todas las áreas)",
+            "Arasaac · Gobierno de Aragón · licencia Creative Commons",
+            "arasaac.org/pictograms/search"
+          ],
+          [
+            "Logopedia infantil (8 PDFs por área)",
+            "Conselleria de Sanidad de la Comunitat Valenciana",
+            "lapedrera.san.gva.es/es/fichas-logopedia"
+          ],
+          [
+            "Articulación y praxias",
+            "Junta de Andalucía · Recursos educativos",
+            "juntadeandalucia.es/educacion/portals/web/atencion-a-la-diversidad"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-fichas-logopedia-gratis-imprimir-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/fichas-logopedia-gratis-imprimir",
+        "kind": "table",
+        "heading": "📥 Descarga directa: fichas gratis al instante",
+        "literal": [
+          [
+            "Conciencia fonológica",
+            "Orientación Andújar (blog con recopilatorios)",
+            "orientacionandujar.es/category/conciencia-fonologica"
+          ],
+          [
+            "Estimulación del lenguaje 0-6 años (PDF nuestro, gratis)",
+            "Espacio Lenguaje · revisado por logopeda colegiada",
+            "Descargar guía completa →"
+          ]
+        ],
+        "columns": [
+          "Tipo de ficha",
+          "Fuente oficial",
+          "Descarga directa"
+        ]
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 208,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 41,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-19.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 19,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\fichas-articulacion-20.png",
+        "source": "public/downloads/productos/pack-fichas-articulacion.pdf",
+        "page": 20,
+        "dpi": 300,
+        "sha256": "5659d79760e66a5308b00435cb03514dc3e96046f84e5c7cadc92c24196f1d10"
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 212,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 42,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-16.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 16,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-25.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 25,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-0-3-28.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-0-3.pdf",
+        "page": 28,
+        "dpi": 300,
+        "sha256": "37570bef81317fbad3fe4e17e7badac956888cc4cda8c63c7e2bcd3257dcf0db"
+      }
+    ],
+    "headlineWords": 6,
+    "descriptionChars": 207,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 43,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-12.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 12,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      },
+      {
+        "path": "tmp\\pinterest-v2\\cuaderno-3-6-17.png",
+        "source": "public/downloads/productos/cuaderno-estimulacion-3-6.pdf",
+        "page": 17,
+        "dpi": 300,
+        "sha256": "f87ffe380e51aefcb2ad9b4f32e06626c680150df4d9d6176d44e283cc78e318"
+      }
+    ],
+    "headlineWords": 7,
+    "descriptionChars": 214,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 44,
+    "type": "mockup",
+    "sources": [
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-1.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "< 4 años",
+            "Sustituye la /rr/ por /l/, /d/ o la omite",
+            "Ninguna",
+            "Esperar — todavía es muy pronto"
+          ],
+          [
+            "4-5 años",
+            "Muchos aún no la pronuncian",
+            "Solo si hay otras dificultades de articulación",
+            "Estimulación lúdica en casa, sin presión"
+          ],
+          [
+            "5-6 años",
+            "Muchos peques ya la producen, otros aún están en camino",
+            "Ninguna si solo falla la /rr/",
+            "Empezar ejercicios estructurados (los de esta guía)"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      },
+      {
+        "path": "tmp\\pinterest-v2\\post-ejercicios-para-la-r-fuerte-2.png",
+        "source": "https://www.espaciolenguaje.com/blog/ejercicios-para-la-r-fuerte",
+        "kind": "table",
+        "heading": "¿A qué edad debe dominarse la RR?",
+        "literal": [
+          [
+            "6-7 años",
+            "La mayoría ya la domina",
+            "La /rr/ aún ausente o muy distorsionada",
+            "Consultar con logopeda infantil para descartar dislalia"
+          ],
+          [
+            "7+ años",
+            "Debería estar consolidada",
+            "Persistencia del fallo",
+            "Intervención logopédica recomendada"
+          ]
+        ],
+        "columns": [
+          "Edad",
+          "Qué es esperable",
+          "Señal de alerta",
+          "Acción recomendada"
+        ]
+      }
+    ],
+    "headlineWords": 5,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 45,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 207,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 46,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 47,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 214,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 48,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 192,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 49,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 201,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 50,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 4,
+    "descriptionChars": 214,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 51,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 7,
+    "descriptionChars": 204,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 52,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 7,
+    "descriptionChars": 192,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 53,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 7,
+    "descriptionChars": 202,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 54,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 203,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 55,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 207,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 56,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 57,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 205,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 58,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 204,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 59,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 6,
+    "descriptionChars": 207,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 60,
+    "type": "tarjeta",
+    "sources": [],
+    "headlineWords": 5,
+    "descriptionChars": 210,
+    "dimensions": [
+      1000,
+      1500
+    ]
+  }
+]

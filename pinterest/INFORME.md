@@ -2,6 +2,8 @@
 
 Commit de implementación: **6f9fd66**. Evidencias y resultados detallados en [VERIFICACION.md](VERIFICACION.md).
 
+Segundo pase: ver [INFORME-SEGUNDO-PASE.md](INFORME-SEGUNDO-PASE.md).
+
 ## Estado por bloque
 
 | Bloque | Resultado | Evidencia |
@@ -31,7 +33,7 @@ Los CSV de Metricool son documentos preparatorios: falta adaptar TODAS las cabec
 
 ## Texto y diseño
 
-Titular de imagen ≤12 palabras, título ≤100 caracteres y descripción de 150–300 caracteres en los 60 pines. Los tres paneles proceden literalmente de los encabezados de cada página (se retira la numeración cuando la aporta el diseño). Los titulares resumen el mismo contenido. No hay fotos de personas, pictogramas ajenos ni nuevas afirmaciones clínicas. Las licencias OFL de las dos fuentes están junto a los archivos de fuente. Se han revisado las cinco hojas de contacto y un pin a tamaño completo. Los 40 iniciales respetan el reparto 12/10/8/6/4.
+Titular de imagen ≤8 palabras, título ≤100 caracteres y descripción de 150–300 caracteres en los 60 pines. Se han sustituido las tarjetas del primer pase por 44 mockups de páginas reales y 16 tarjetas con cuatro composiciones. Las páginas PDF se renderizan con pdftoppm a 300 dpi. Las tablas y listas proceden de los artículos enlazados. Las fuentes exactas, páginas y textos extraídos están en render-audit-v2.json. La galería lleva noindex,nofollow y no figura en el sitemap.
 
 ## Atribución
 

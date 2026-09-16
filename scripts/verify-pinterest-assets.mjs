@@ -5,11 +5,17 @@ import crypto from 'node:crypto';
 const pins=JSON.parse(fs.readFileSync('pinterest/pins.json','utf8'));
 const inventory=JSON.parse(fs.readFileSync('pinterest/inventory.json','utf8'));
 assert.equal(pins.length,60);assert.equal(new Set(pins.map(p=>p.filename)).size,60);
+assert.equal(pins.filter(p=>p.type==='mockup').length,44);
+assert.equal(pins.filter(p=>p.type==='tarjeta').length,16);
 const counts={};const results=[];
 for(const p of pins){
  const source=inventory.find(s=>s.url===p.source);assert(source);
  assert(p.panels.every(s=>source.headings.includes(s)));
- assert(p.headline.split(/\s+/).length<=12&&p.title.length<=100);
+ assert(p.headline.split(/\s+/).length<=8&&p.title.length<=100);
+ if(p.type==='mockup'){
+  assert(p.resources.length>=2&&p.resources.length<=3);
+  for(const resource of p.resources)if(resource.page)assert.equal(resource.dpi,300);
+ }
  assert(p.description.length>=150&&p.description.length<=300);
  const u=new URL(p.link);assert.equal(u.searchParams.get('utm_source'),'pinterest');assert.equal(u.searchParams.get('utm_medium'),'social');assert.equal(u.searchParams.get('utm_campaign'),`pin-${p.slug}`);assert(!u.pathname.endsWith('.pdf'));
  const buffer=fs.readFileSync(`public/pinterest/${p.filename}`);const meta=await sharp(buffer).metadata();assert.equal(meta.width,1000);assert.equal(meta.height,1500);assert.equal(meta.format,'png');
