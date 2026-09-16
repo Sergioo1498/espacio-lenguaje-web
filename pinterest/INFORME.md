@@ -1,21 +1,23 @@
 # Experimento Pinterest — septiembre 2026
 
+Commit de implementación: **6f9fd66**. Evidencias y resultados detallados en [VERIFICACION.md](VERIFICACION.md).
+
 ## Estado por bloque
 
 | Bloque | Resultado | Evidencia |
 |---|---|---|
 | A1 · Reclamar dominio | Pendiente del código de Sergio; no se ha insertado un valor ficticio | ENCARGO.md, hueco A1 |
-| A2 · Metadatos | Cambios preparados; verificación del despliegue pendiente | metadata-before.json / metadata-after.json |
+| A2 · Metadatos | 32 URLs verificadas; 0 con incidencias | metadata-before.json / metadata-after.json |
 | A2 · Rich Pins Pinterest | Metadatos auditados; no se afirma validación externa de Pinterest | La ayuda oficial actual describe sincronización automática; ver comprobación manual abajo |
 | A3 · Brevo | ORIGEN_TRAFICO y CAMPANA_ORIGEN creados como texto | brevo-attributes.json |
 | A3 · Formularios | Guía de portada y landing, fichas, quiz y blog; primera visita, caducidad de 30 días | scripts/test-traffic-attribution.mjs |
-| A3 · E2E | Pendiente del despliegue y de la prueba en producción | brevo-read.json / brevo-cleanup.json |
+| A3 · E2E | Alta verificada y contacto trasladado a lista 7 | brevo-read.json / brevo-cleanup.json |
 | B1 · Inventario | 25 posts y 7 productos; 3 ideas por página | INVENTARIO.md, inventory.json |
 | B2 · Arranque | 40 PNG, 1000×1500, DM Sans + DM Serif Display, paleta de marca, logo y sello | public/pinterest/, render-audit.json |
 | B3 · Metricool | Borradores con campos documentados; NO importables como entrega final hasta recibir la plantilla exacta | metricool-inicial-PENDIENTE-PLANTILLA.csv |
 | B3 · Respaldo Pinterest | CSV con cabeceras solicitadas y horas UTC | pinterest-inicial-PROPUESTA.csv |
 | B4 · Continuidad | 20 PNG y CSV, 5 por semana durante 4 semanas | pinterest-continuidad-PROPUESTA.csv |
-| Imágenes públicas | Pendiente de despliegue | images-live.json |
+| Imágenes públicas | 60 comprobadas; 60 HTTP 200 con hash idéntico | images-live.json |
 | C1 · Analytics | Sin acceso: 404 con hola@espaciolenguaje.com en el proyecto de sergioo1498 | Comprobación visible del panel; instrucciones abajo |
 | C2 · Revisión semanal | Línea incorporada al plan actualizado | PLAN-CRECIMIENTO.md |
 

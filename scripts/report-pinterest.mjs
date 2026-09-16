@@ -8,6 +8,8 @@ const cleanup=fs.existsSync('pinterest/brevo-cleanup.json')?JSON.parse(fs.readFi
 const live=fs.existsSync('pinterest/images-live.json')?JSON.parse(fs.readFileSync('pinterest/images-live.json','utf8')):null;
 fs.writeFileSync('pinterest/INFORME.md',`# Experimento Pinterest — septiembre 2026
 
+Commit de implementación: **6f9fd66**. Evidencias y resultados detallados en [VERIFICACION.md](VERIFICACION.md).
+
 ## Estado por bloque
 
 | Bloque | Resultado | Evidencia |

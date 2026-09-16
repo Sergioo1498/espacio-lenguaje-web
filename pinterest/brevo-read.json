@@ -1,9 +1,27 @@
 {
-  "checkedAt": "2026-09-16T14:36:36.982Z",
+  "checkedAt": "2026-09-16T15:57:23.544Z",
   "email": "sergio.gonzalezt98+pintest@gmail.com",
-  "status": 404,
+  "status": 200,
   "data": {
-    "code": "document_not_found",
-    "message": "Contact does not exist"
+    "id": 177,
+    "email": "sergio.gonzalezt98+pintest@gmail.com",
+    "emailBlacklisted": false,
+    "smsBlacklisted": false,
+    "whatsappBlacklisted": false,
+    "createdAt": "2026-09-16T17:57:07.229+02:00",
+    "modifiedAt": "2026-09-16T17:57:07.229+02:00",
+    "listIds": [
+      2
+    ],
+    "attributes": {
+      "CAMPANA_ORIGEN": "test",
+      "COMPRO_PRODUCTO": false,
+      "FECHA_SUSCRIPCION": "2026-09-16",
+      "FUENTE_LEAD": "guia-gratis",
+      "ORIGEN_TRAFICO": "pinterest",
+      "PERFIL": "familia"
+    },
+    "subscriptions": {},
+    "statistics": {}
   }
 }
