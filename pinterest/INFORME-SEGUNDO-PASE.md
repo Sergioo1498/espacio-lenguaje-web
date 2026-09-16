@@ -35,3 +35,6 @@ Los extractos de artículos conservan encabezados, columnas y celdas o elementos
 ## Validación final
 
 Ejecutar scripts/verify-pinterest-assets.mjs para dimensiones, número de mockups/tarjetas, límites de texto, fuentes y enlaces; añadir --live para verificar HTTP 200 y hash de las 60 imágenes. Los resultados del segundo pase se conservan en images-live-v2.json y comprobacion-web-v2.json. La comprobación visual usa las seis hojas de contacto de previews-v2 y ampliaciones de muestras representativas.
+
+
+Verificado en produccion el 16 de septiembre de 2026: despliegue 7f82073 correcto, 60 PNG con HTTP 200 y SHA-256 identico al archivo local; galeria HTTP 200 con 60 figuras y robots noindex,nofollow; sitemap HTTP 200 sin /pinterest/. Los cinco CSV contienen 40, 20, 40, 20 y 60 filas respectivamente. ZIP comprobado sin errores.
