@@ -1,0 +1,92 @@
+- banner:
+  - link "Saltar al contenido":
+    - /url: "#"
+    - generic: Saltar al contenido
+  - navigation "Encabezado principal de navegación":
+    - button "Pinterest Pinterest Botón del menú desplegable de insignias dinámicas":
+      - img "Pinterest"
+      - heading "Pinterest" [level=1]
+      - img "Botón del menú desplegable de insignias dinámicas"
+    - button "Espacio Lenguaje Espacio Lenguaje Icono de flecha para cambiar de cuenta":
+      - generic: Espacio Lenguaje
+      - generic: Espacio Lenguaje
+      - img "Icono de flecha para cambiar de cuenta"
+    - button "Icono de búsqueda":
+    - link "Notificaciones":
+      - /url: ""
+    - link "Mensajes":
+      - /url: ""
+    - link "Administrar comentarios y actividades en redes sociales":
+      - /url: /engagement/
+    - link "Tu perfil":
+      - /url: /espaciolenguaje/
+    - button "Cuentas y más opciones":
+- complementary "Botones flotantes del pie de página":
+  - generic "Más":
+    - button "Más":
+- main:
+  - button "Volver":
+  - list:
+    - group "Closeup content container":
+      - region "Imagen del Pin y artículos para explorar":
+        - 'img "Esto contiene: Soplo: juegos con materiales caseros"'
+        - button "Ver más grande":
+          - generic: Ver más grande
+          - img "Ver más grande"
+        - link "Visitar sitio":
+          - /url: https://www.espaciolenguaje.com/recursos/kit-soplo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-soplo
+          - generic: Visitar sitio
+        - button "Etiquetar productos":
+      - list:
+        - generic "Reaccionar":
+          - button "Reaccionar":
+        - generic: "0"
+        - generic "Comentarios":
+          - button "Comentarios":
+        - generic "Compartir":
+          - button "Compartir este Pin":
+        - generic "Más acciones":
+          - button "Más acciones":
+      - 'button "Selecciona un tablero en el que guardar: Ejercicios de pronunciación (R, S y más)"':
+        - generic "Ejercicios de pronunciación (R, S y más)"
+      - button "Guardar":
+        - generic: Guardar
+      - heading "Esta estadística aún no está disponible" [level=2]:
+        - generic "Esta estadística aún no está disponible":
+          - heading "—" [level=3]
+      - heading "Esta estadística aún no está disponible" [level=2]:
+        - generic "Esta estadística aún no está disponible":
+          - heading "—" [level=3]
+      - heading "Esta estadística aún no está disponible" [level=2]:
+        - generic "Esta estadística aún no está disponible":
+          - heading "—" [level=3]
+      - generic "Solo tú puedes ver esto":
+        - img "herramienta informativa"
+      - link "Ver más estadísticas":
+        - /url: /pin/1110348483163007594/analytics
+        - generic: Ver más estadísticas
+      - generic "Las estadísticas pueden variar durante las primeras 48 horas posteriores a la publicación del Pin":
+        - generic: Estimaciones en tiempo real
+        - generic: ・
+        - generic: Últimos 30 días
+      - link "Enlace del avatar de Espacio Lenguaje":
+        - /url: /espaciolenguaje/
+        - img "Enlace del avatar de Espacio Lenguaje"
+      - link "Espacio Lenguaje":
+        - /url: /espaciolenguaje/
+        - heading "Espacio Lenguaje" [level=2]:
+          - generic: Espacio Lenguaje
+      - 'link "Soplo: juegos con materiales caseros"':
+        - /url: https://www.espaciolenguaje.com/recursos/kit-soplo?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-soplo
+        - 'heading "Soplo: juegos con materiales caseros" [level=1]'
+      - heading "Descripción" [level=4]
+      - generic: Pompas, plumas y otros materiales de casa forman parte de este kit de soplo. Reúne 15 ejercicios progresivos y una tabla de seguimiento, con enfoque de control respiratorio y consciencia oral.
+      - button "Ver más":
+        - generic: Ver más
+      - button
+      - generic: Añade un comentario para iniciar la conversación
+      - combobox "Añade un comentario para iniciar la conversación"
+      - button "Selecciona un emoji":
+      - button "Selecciona una pegatina":
+      - button "Selecciona una foto.":
+    
