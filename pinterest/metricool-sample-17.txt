@@ -1,0 +1,536 @@
+- banner:
+  - generic "Header navigation":
+    - link "/evolution section":
+      - /url: /evolution?blogId=6045962&userId=4668266
+      - generic: Analítica
+    - link "/reporting section":
+      - /url: /reporting?blogId=6045962&userId=4668266
+      - generic: Reporting
+    - link "/inbox section":
+      - /url: /inbox?blogId=6045962&userId=4668266
+      - generic: Inbox
+    - link "/planner section":
+      - /url: /planner?blogId=6045962&userId=4668266
+      - generic: Planificación
+    - link "/smartlink section":
+      - /url: /smartlink?blogId=6045962&userId=4668266
+      - generic: SmartLinks
+    - link "/advertising section":
+      - /url: /advertising?blogId=6045962&userId=4668266
+      - generic: Anuncios
+  - link "Mejora tu plan":
+    - /url: /user-settings/plan?blogId=6045962&userId=4668266
+    - generic: 
+    - generic: Mejora tu plan
+  - button:
+    - text: 
+  - button "Abrir notificaciones":
+  - button:
+  - progressbar
+- main:
+  - tablist:
+    - generic: 
+    - tab "Calendario":
+      - generic: Calendario
+    - tab "Listado" [selected]:
+      - generic: Listado
+    - tab "Biblioteca de publicaciones":
+      - text: Biblioteca de publicaciones
+    - tab "Autolistas":
+      - generic: Autolistas
+    - tab "Publicaciones eliminadas":
+      - generic: Publicaciones eliminadas
+    - tab "Flows Nuevo":
+      - text: Flows
+      - generic: Nuevo
+    - button "10:06 - Europe/Madrid":
+      - generic: 
+      - generic: 10:06 - Europe/Madrid
+      - generic: 
+      - generic: 
+    - generic: 
+  - paragraph: ¿Necesitas un plan superior?
+  - text: Has publicado
+  - strong: 0 de tus 20
+  - text: publicaciones disponibles en tu plan este mes. Actualiza tu plan para aumentar el límite.
+  - link "Actualiza tu plan":
+    - /url: /user-settings/plan?blogId=6045962&userId=4668266
+    - generic: Actualiza tu plan
+  - textbox "Buscar"
+  - text: 
+  - button "17 sep 2026 - 30 nov 2026":
+    - text: 17 sep 2026 - 30 nov 2026
+  - button:
+  - button:
+    - generic:    
+  - button "Acciones en bloque" [disabled]:
+    - text: Acciones en bloque
+    - generic: 
+  - button "Create post":
+    - generic: +
+    - generic: Crear publicación
+  - table:
+    - rowgroup:
+      - row "Fecha Contenido de la publicación Redes Estado":
+        - columnheader:
+          - generic: 
+          - checkbox
+        - columnheader "Fecha":
+          - generic: Fecha
+        - columnheader "Contenido de la publicación":
+          - generic: Contenido de la publicación
+        - columnheader "Redes":
+          - generic: Redes
+        - columnheader "Estado":
+          - generic: Estado
+        - columnheader
+    - rowgroup:
+      - row "29 sep 2026 19:00 Rotacismo es el término que encontrarás al buscar dificultades con la R. El artículo distingue R suave y RR fuerte, explica las edades esperadas y presenta ejercicios de articulación paso a paso. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "29 sep 2026 19:00":
+          - generic: 29 sep 2026
+          - generic: 19:00
+        - cell "Rotacismo es el término que encontrarás al buscar dificultades con la R. El artículo distingue R suave y RR fuerte, explica las edades esperadas y presenta ejercicios de articulación paso a paso.":
+          - generic: Rotacismo es el término que encontrarás al buscar dificultades con la R. El artículo distingue R suave y RR fuerte, explica las edades esperadas y presenta ejercicios de articulación paso a paso.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "28 sep 2026 10:00 Cuando la RR sigue costando, la edad y el resto de dificultades importan. La guía de ejercicios para la R fuerte incluye una tabla orientativa y un apartado específico sobre cuándo acudir a logopedia. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "28 sep 2026 10:00":
+          - generic: 28 sep 2026
+          - generic: 10:00
+        - cell "Cuando la RR sigue costando, la edad y el resto de dificultades importan. La guía de ejercicios para la R fuerte incluye una tabla orientativa y un apartado específico sobre cuándo acudir a logopedia.":
+          - generic: Cuando la RR sigue costando, la edad y el resto de dificultades importan. La guía de ejercicios para la R fuerte incluye una tabla orientativa y un apartado específico sobre cuándo acudir a logopedia.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "27 sep 2026 19:00 ¿Qué significa dislalia y qué tipos existen? Esta guía de articulación infantil explica las diferencias con ejemplos de pronunciación, información por edad y orientación sobre cuándo consultar. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "27 sep 2026 19:00":
+          - generic: 27 sep 2026
+          - generic: 19:00
+        - cell "¿Qué significa dislalia y qué tipos existen? Esta guía de articulación infantil explica las diferencias con ejemplos de pronunciación, información por edad y orientación sobre cuándo consultar.":
+          - generic: ¿Qué significa dislalia y qué tipos existen? Esta guía de articulación infantil explica las diferencias con ejemplos de pronunciación, información por edad y orientación sobre cuándo consultar.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "26 sep 2026 10:00 Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "26 sep 2026 10:00":
+          - generic: 26 sep 2026
+          - generic: 10:00
+        - 'cell "Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta."':
+          - generic: "Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "25 sep 2026 19:00 Antes de usar praxias bucofaciales, conviene conocer sus límites. Esta guía de logopedia explica para qué sirven y para qué no, además de reunir propuestas con espejo organizadas por zona. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "25 sep 2026 19:00":
+          - generic: 25 sep 2026
+          - generic: 19:00
+        - cell "Antes de usar praxias bucofaciales, conviene conocer sus límites. Esta guía de logopedia explica para qué sirven y para qué no, además de reunir propuestas con espejo organizadas por zona.":
+          - generic: Antes de usar praxias bucofaciales, conviene conocer sus límites. Esta guía de logopedia explica para qué sirven y para qué no, además de reunir propuestas con espejo organizadas por zona.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "24 sep 2026 10:00 Si buscas información porque tu hijo no pronuncia la S, aquí tienes una guía sobre sigmatismo: tipos, edades orientativas y qué hacer. La tabla del artículo ayuda a situar el fonema /s/ en su desarrollo. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "24 sep 2026 10:00":
+          - generic: 24 sep 2026
+          - generic: 10:00
+        - 'cell "Si buscas información porque tu hijo no pronuncia la S, aquí tienes una guía sobre sigmatismo: tipos, edades orientativas y qué hacer. La tabla del artículo ayuda a situar el fonema /s/ en su desarrollo."':
+          - generic: "Si buscas información porque tu hijo no pronuncia la S, aquí tienes una guía sobre sigmatismo: tipos, edades orientativas y qué hacer. La tabla del artículo ayuda a situar el fonema /s/ en su desarrollo."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "23 sep 2026 19:00 No suenan igual la R de «pera» y la RR de «perro». El artículo sobre cómo enseñar la R compara ambos sonidos, sus edades orientativas y ejercicios de articulación para entender por dónde empezar. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "23 sep 2026 19:00":
+          - generic: 23 sep 2026
+          - generic: 19:00
+        - cell "No suenan igual la R de «pera» y la RR de «perro». El artículo sobre cómo enseñar la R compara ambos sonidos, sus edades orientativas y ejercicios de articulación para entender por dónde empezar.":
+          - generic: No suenan igual la R de «pera» y la RR de «perro». El artículo sobre cómo enseñar la R compara ambos sonidos, sus edades orientativas y ejercicios de articulación para entender por dónde empezar.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "22 sep 2026 10:00 La guía de ejercicios para la R fuerte organiza la práctica de la RR por niveles, desde el sonido aislado hasta palabras y frases. Incluye una tabla por edad y un apartado sobre cuándo consultar al logopeda. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "22 sep 2026 10:00":
+          - generic: 22 sep 2026
+          - generic: 10:00
+        - cell "La guía de ejercicios para la R fuerte organiza la práctica de la RR por niveles, desde el sonido aislado hasta palabras y frases. Incluye una tabla por edad y un apartado sobre cuándo consultar al logopeda.":
+          - generic: La guía de ejercicios para la R fuerte organiza la práctica de la RR por niveles, desde el sonido aislado hasta palabras y frases. Incluye una tabla por edad y un apartado sobre cuándo consultar al logopeda.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "21 sep 2026 19:00 ¿Quieres ver las fichas antes de comprar un pack? Esta muestra gratuita incluye seis fichas de articulación del fonema R con pictogramas. Accede al artículo y solicita el PDF para imprimir por email. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "21 sep 2026 19:00":
+          - generic: 21 sep 2026
+          - generic: 19:00
+        - cell "¿Quieres ver las fichas antes de comprar un pack? Esta muestra gratuita incluye seis fichas de articulación del fonema R con pictogramas. Accede al artículo y solicita el PDF para imprimir por email.":
+          - generic: ¿Quieres ver las fichas antes de comprar un pack? Esta muestra gratuita incluye seis fichas de articulación del fonema R con pictogramas. Accede al artículo y solicita el PDF para imprimir por email.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "20 sep 2026 10:00 El Pack Completo de logopedia incluye un calendario semanal junto a las fichas, los cuadernos y el kit de soplo. Un espacio para anotar actividades, tiempos y observaciones sobre el trabajo de la semana. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "20 sep 2026 10:00":
+          - generic: 20 sep 2026
+          - generic: 10:00
+        - cell "El Pack Completo de logopedia incluye un calendario semanal junto a las fichas, los cuadernos y el kit de soplo. Un espacio para anotar actividades, tiempos y observaciones sobre el trabajo de la semana.":
+          - generic: El Pack Completo de logopedia incluye un calendario semanal junto a las fichas, los cuadernos y el kit de soplo. Un espacio para anotar actividades, tiempos y observaciones sobre el trabajo de la semana.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "19 sep 2026 19:00 El cuaderno de lenguaje de 3 a 6 años dedica un bloque a la conciencia fonológica y otro al vocabulario. Aquí puedes ver sus páginas de actividad, con materiales, pasos y variaciones de dificultad. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "19 sep 2026 19:00":
+          - generic: 19 sep 2026
+          - generic: 19:00
+        - cell "El cuaderno de lenguaje de 3 a 6 años dedica un bloque a la conciencia fonológica y otro al vocabulario. Aquí puedes ver sus páginas de actividad, con materiales, pasos y variaciones de dificultad.":
+          - generic: El cuaderno de lenguaje de 3 a 6 años dedica un bloque a la conciencia fonológica y otro al vocabulario. Aquí puedes ver sus páginas de actividad, con materiales, pasos y variaciones de dificultad.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "18 sep 2026 10:00 No necesitas un armario lleno de materiales para usar este cuaderno de estimulación. Sus actividades de lenguaje de 0 a 3 años indican qué preparar, cómo acompañar el juego y cuánto dura cada propuesta. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "18 sep 2026 10:00":
+          - generic: 18 sep 2026
+          - generic: 10:00
+        - cell "No necesitas un armario lleno de materiales para usar este cuaderno de estimulación. Sus actividades de lenguaje de 0 a 3 años indican qué preparar, cómo acompañar el juego y cuánto dura cada propuesta.":
+          - generic: No necesitas un armario lleno de materiales para usar este cuaderno de estimulación. Sus actividades de lenguaje de 0 a 3 años indican qué preparar, cómo acompañar el juego y cuánto dura cada propuesta.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "17 sep 2026 21:30 Así son las fichas de articulación del pack: pictogramas, palabras organizadas por posición y un silabario de práctica. Un PDF de logopedia con guía para adultos y espacio para registrar el progreso. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 21:30":
+          - generic: 17 sep 2026
+          - generic: 21:30
+        - 'cell "Así son las fichas de articulación del pack: pictogramas, palabras organizadas por posición y un silabario de práctica. Un PDF de logopedia con guía para adultos y espacio para registrar el progreso."':
+          - generic: "Así son las fichas de articulación del pack: pictogramas, palabras organizadas por posición y un silabario de práctica. Un PDF de logopedia con guía para adultos y espacio para registrar el progreso."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "17 sep 2026 20:30 Antes de elegir material de logopedia, mira una muestra real. La descarga gratuita reúne seis fichas del fonema R con pictogramas; el artículo también presenta recursos de vocabulario y comprensión. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 20:30":
+          - generic: 17 sep 2026
+          - generic: 20:30
+        - cell "Antes de elegir material de logopedia, mira una muestra real. La descarga gratuita reúne seis fichas del fonema R con pictogramas; el artículo también presenta recursos de vocabulario y comprensión.":
+          - generic: Antes de elegir material de logopedia, mira una muestra real. La descarga gratuita reúne seis fichas del fonema R con pictogramas; el artículo también presenta recursos de vocabulario y comprensión.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "17 sep 2026 19:00 Fichas de articulación, cuadernos de lenguaje de 0–3 y 3–6 años, kit de soplo y calendario semanal. Mira el material del Pack Completo de logopedia infantil y comprueba qué incluye cada recurso. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 19:00":
+          - generic: 17 sep 2026
+          - generic: 19:00
+        - cell "Fichas de articulación, cuadernos de lenguaje de 0–3 y 3–6 años, kit de soplo y calendario semanal. Mira el material del Pack Completo de logopedia infantil y comprueba qué incluye cada recurso.":
+          - generic: Fichas de articulación, cuadernos de lenguaje de 0–3 y 3–6 años, kit de soplo y calendario semanal. Mira el material del Pack Completo de logopedia infantil y comprueba qué incluye cada recurso.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "17 sep 2026 17:00 Pompas, plumas y otros materiales de casa forman parte de este kit de soplo. Reúne 15 ejercicios progresivos y una tabla de seguimiento, con enfoque de control respiratorio y consciencia oral. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 17:00":
+          - generic: 17 sep 2026
+          - generic: 17:00
+        - cell "Pompas, plumas y otros materiales de casa forman parte de este kit de soplo. Reúne 15 ejercicios progresivos y una tabla de seguimiento, con enfoque de control respiratorio y consciencia oral.":
+          - generic: Pompas, plumas y otros materiales de casa forman parte de este kit de soplo. Reúne 15 ejercicios progresivos y una tabla de seguimiento, con enfoque de control respiratorio y consciencia oral.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "17 sep 2026 15:00 Rimas, vocabulario, historias y comprensión en un mismo cuaderno. Son 20 actividades de lenguaje de 3 a 6 años, repartidas en cinco bloques y con variaciones por dificultad para acompañar la práctica. Pendiente":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 15:00":
+          - generic: 17 sep 2026
+          - generic: 15:00
+        - cell "Rimas, vocabulario, historias y comprensión en un mismo cuaderno. Son 20 actividades de lenguaje de 3 a 6 años, repartidas en cinco bloques y con variaciones por dificultad para acompañar la práctica.":
+          - generic: Rimas, vocabulario, historias y comprensión en un mismo cuaderno. Son 20 actividades de lenguaje de 3 a 6 años, repartidas en cinco bloques y con variaciones por dificultad para acompañar la práctica.
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "17 sep 2026 13:00 Para acompañar las primeras etapas del lenguaje: 20 actividades organizadas por edad, con materiales cotidianos e instrucciones paso a paso. Mira el interior del cuaderno de estimulación de 0 a 3 años. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 13:00":
+          - generic: 17 sep 2026
+          - generic: 13:00
+        - 'cell "Para acompañar las primeras etapas del lenguaje: 20 actividades organizadas por edad, con materiales cotidianos e instrucciones paso a paso. Mira el interior del cuaderno de estimulación de 0 a 3 años."':
+          - generic: "Para acompañar las primeras etapas del lenguaje: 20 actividades organizadas por edad, con materiales cotidianos e instrucciones paso a paso. Mira el interior del cuaderno de estimulación de 0 a 3 años."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "17 sep 2026 11:00 Un vistazo por dentro al pack de 30 fichas de articulación. Incluye pictogramas, palabras por posición y silabario: material de logopedia en PDF con instrucciones para el adulto y registro de progreso. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 11:00":
+          - generic: 17 sep 2026
+          - generic: 11:00
+        - 'cell "Un vistazo por dentro al pack de 30 fichas de articulación. Incluye pictogramas, palabras por posición y silabario: material de logopedia en PDF con instrucciones para el adulto y registro de progreso."':
+          - generic: "Un vistazo por dentro al pack de 30 fichas de articulación. Incluye pictogramas, palabras por posición y silabario: material de logopedia en PDF con instrucciones para el adulto y registro de progreso."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "17 sep 2026 10:00 ¿Buscas fichas de logopedia para imprimir? Descarga la muestra gratuita del fonema R con pictogramas y conoce otros materiales de articulación, vocabulario y comprensión para casa o el aula. Publicado":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "17 sep 2026 10:00":
+          - generic: 17 sep 2026
+          - generic: 10:00
+        - cell "¿Buscas fichas de logopedia para imprimir? Descarga la muestra gratuita del fonema R con pictogramas y conoce otros materiales de articulación, vocabulario y comprensión para casa o el aula.":
+          - generic: ¿Buscas fichas de logopedia para imprimir? Descarga la muestra gratuita del fonema R con pictogramas y conoce otros materiales de articulación, vocabulario y comprensión para casa o el aula.
+        - cell:
+          - link:
+            - /url: https://www.pinterest.es/pin/1110348483162982014
+            - generic: 
+        - cell "Publicado":
+          - generic: Publicado
+        - cell:
+          - button:
+  - generic: "Elementos por página:"
+  - combobox:
+    - generic: "20"
+    - combobox "Elementos por página:": "20"
+    - generic: 
+  - generic: 41-60 de 60
+  - navigation "Navegación de paginación":
+    - list:
+      - button "Primera página":
+        - generic: 
+      - button "Página anterior":
+        - generic: 
+      - button "Página siguiente" [disabled]:
+        - generic: 
+      - button "Última página" [disabled]:
+        - generic: 
+- text: 
+- tooltip
+- dialog "Dialog":
+  - heading "Editar publicación" [level=1]
+  - generic "Espacio Lenguaje"
+  - button "Copiar enlace":
+    - text: Copiar enlace
+  - generic: Pendiente
+  - button "Cerrar":
+    - text: Cerrar
+  - generic "Select networks to publish":
+    - generic "Select social networks":
+      - generic: 
+      - text: 󱈸
+      - generic: 
+      - text: 󱈸
+      - generic: 
+      - text: 󱈸
+      - generic: 
+      - text: 󱈸
+    - button "󰐕"
+  - button "Notas":
+    - generic: 
+    - text: Notas
+  - text: 
+  - generic "Post content": "Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta."
+  - button "Opciones":
+    - generic: 
+  - generic: ALT
+  - generic "Add image or video":
+    - button:
+  - button:
+  - button:
+  - button:
+  - button:
+  - generic: 199 / 800
+  - generic: 
+  - button "Configuración global":
+    - generic: 
+    - generic: Configuración global
+    - generic: 
+  - button "Configuración de Pinterest" [active]:
+    - generic: 
+    - generic: Configuración de Pinterest
+    - generic: 
+  - generic: Título
+  - textbox "Título": "Soplo: plumas, pompas y molinillos"
+  - generic: Tablero
+  - combobox:
+    - generic: Ejercicios de pronunciación (R, S y más)
+    - combobox "Tablero": "1110348551821043418"
+    - generic: 
+  - button "Añadir":
+    - generic: Añadir
+  - generic: Enlace
+  - textbox "Enlace": https://www.espaciolenguaje.com/blog/ejercicios-de-soplo-para-ninos?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ejercicios-de-soplo-para-ninos
+  - checkbox "Usar nuevo formato pin"
+  - generic: Usar nuevo formato pin
+  - button "Cancelar":
+    - generic: Cancelar
+  - button "Delete button":
+    - generic: 
+  - button "Duplicar":
+    - generic: Duplicar
+  - button:
+    - generic: 
+  - button "26 sep 2026 10:00":
+    - generic: 
+    - generic: 26 sep 2026 10:00
+    - generic: 󰅀 󰅀 
+  - generic "Publish options menu":
+    - button "Programar":
+      - generic: Programar
+    - button:
+      - generic: 
+  - button:
+    - generic: 
+  - button:
+    - generic: 
+  - text:  
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: 
+  - generic: Guardar
+  - generic: espaciolenguaje
+  - generic: "Soplo: plumas, pompas y molinillos"
+  - generic: "Ideas de juegos de soplo con materiales caseros: carreras de plumas, pompas de jabón y molinillos. El artículo reúne ocho propuestas con edad mínima, materiales y dificultad en una tabla de consulta."
+  - button "Ver más"
+  - generic: Las previsualizaciones son una aproximación de cómo se verá la publicación. El resultado final puede ser diferente.
+- tooltip
+- dialog "Dialog": 
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- dialog "Dialog":         
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip: 
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip: 
+- tooltip
+- tooltip
+- tooltip
+- button "Chat abierto"

@@ -1,0 +1,7 @@
+Importar publicaciones desde archivo CSV
+Importar fichero
+Vista previa
+Resultado
+Importación finalizada.
+60 publicaciones importadas
+Aceptar

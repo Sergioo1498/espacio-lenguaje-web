@@ -1,3 +1,5 @@
+> Estado vigente: 60 pines programados, 20/mes, plan gratuito. Ver [INFORME-PUESTA-EN-MARCHA.md](INFORME-PUESTA-EN-MARCHA.md) y [CALENDARIO.md](CALENDARIO.md). El contenido siguiente documenta una fase anterior; no volver a importar los CSV.
+
 # Experimento Pinterest — septiembre 2026
 
 Commit de implementación: **6f9fd66**. Evidencias y resultados detallados en [VERIFICACION.md](VERIFICACION.md).

@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-09-17T10:07:08.090982+02:00",
+  "total": 60,
+  "monthly": {
+    "2026-09": 20,
+    "2026-10": 20,
+    "2026-11": 20
+  },
+  "weekly": {
+    "2026-09-14": 11,
+    "2026-09-21": 7,
+    "2026-09-28": 4,
+    "2026-10-05": 5,
+    "2026-10-12": 5,
+    "2026-10-19": 5,
+    "2026-10-26": 3,
+    "2026-11-02": 5,
+    "2026-11-09": 5,
+    "2026-11-16": 5,
+    "2026-11-23": 5
+  },
+  "networks": [
+    "pinterest"
+  ],
+  "contentUnchanged": true,
+  "matchesMetricool": true,
+  "boardMapping": {
+    "Fichas de logopedia para imprimir": "1110348551821043415",
+    "Actividades de lenguaje 0-3 años": "1110348551821043751",
+    "Actividades de lenguaje 3-6 años": "1110348551821043753",
+    "Ejercicios de pronunciación (R, S y más)": "1110348551821043418",
+    "Dislexia y tartamudez: guía para familias": "1110348551821043754",
+    "Material para logopedas y maestros": "1110348551821043755"
+  }
+}
