@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "source": "praxias-gratis",
+  "event": "lead",
+  "thanksPath": "/gracias/praxias",
+  "productId": "kit-soplo",
+  "utmCampaign": "tripwire-praxias",
+  "pdf": "fichas-praxias.pdf",
+  "requiredApprovals": [
+    "Bea",
+    "Sergio"
+  ],
+  "checkoutAttribution": "src/lib/checkout-attribution.ts"
+}

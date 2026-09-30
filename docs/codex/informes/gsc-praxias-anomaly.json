@@ -1,0 +1,85 @@
+{
+  "query": "materiales para trabajar praxias bucofaciales con niños",
+  "startDate": "2026-08-31",
+  "endDate": "2026-09-27",
+  "evidence": [
+    {
+      "type": "web",
+      "dimensions": [],
+      "rows": [
+        {
+          "clicks": 0,
+          "impressions": 24,
+          "ctr": 0,
+          "position": 1.7916666666666665
+        }
+      ],
+      "status": "medido"
+    },
+    {
+      "type": "web",
+      "dimensions": [
+        "page",
+        "device",
+        "country"
+      ],
+      "rows": [
+        {
+          "keys": [
+            "https://www.espaciolenguaje.com/blog/ejercicios-lenguaje-para-casa",
+            "DESKTOP",
+            "esp"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        },
+        {
+          "keys": [
+            "https://www.espaciolenguaje.com/blog/praxias-bucofaciales-ninos",
+            "DESKTOP",
+            "esp"
+          ],
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 1.8260869565217392
+        }
+      ],
+      "status": "medido"
+    },
+    {
+      "type": "image",
+      "dimensions": [],
+      "rows": [
+        {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr": 0,
+          "position": 0
+        }
+      ],
+      "status": "medido"
+    },
+    {
+      "type": "image",
+      "dimensions": [
+        "page",
+        "device",
+        "country"
+      ],
+      "rows": [],
+      "status": "sin filas devueltas; no equivale a cero medido"
+    },
+    {
+      "type": "web",
+      "dimensions": [
+        "searchAppearance"
+      ],
+      "rows": [],
+      "status": "sin filas; tipo de fragmento no identificado"
+    }
+  ],
+  "interpretation": "La posición de GSC no identifica por sí sola un fragmento destacado. No atribuir el cero a imágenes sin datos."
+}
