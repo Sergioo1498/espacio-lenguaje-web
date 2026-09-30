@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "source": "r-fuerte-gratis",
+  "event": "lead",
+  "thanksPath": "/gracias/r-fuerte",
+  "productId": "fichas-articulacion",
+  "utmCampaign": "tripwire-r-fuerte",
+  "pdf": "listas-r-fuerte.pdf",
+  "requiredApprovals": [
+    "Bea",
+    "Sergio"
+  ],
+  "checkoutAttribution": "src/lib/checkout-attribution.ts"
+}
