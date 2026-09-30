@@ -15,7 +15,8 @@ async function upsertCustomerInBrevo(
   productName: string,
   productId: string,
   amountCents: number,
-  customerName?: string | null
+  customerName?: string | null,
+  attribution?: Record<string, string>
 ) {
   const apiKey = process.env.BREVO_API_KEY;
   if (!apiKey) {
@@ -30,6 +31,8 @@ async function upsertCustomerInBrevo(
     email,
     attributes: {
       COMPRO_PRODUCTO: true,
+      ...(attribution?.utm_campaign ? { CAMPANA_ORIGEN: attribution.utm_campaign } : {}),
+      ...(attribution?.ORIGEN_TRAFICO ? { ORIGEN_TRAFICO: attribution.ORIGEN_TRAFICO } : {}),
       ...(firstName && { NOMBRE: firstName }),
       ...(lastName && { APELLIDOS: lastName }),
       ULTIMO_PRODUCTO: productName,
@@ -204,7 +207,8 @@ export async function POST(request: Request) {
             resolvedName,
             productId,
             session.amount_total || 0,
-            session.customer_details?.name
+            session.customer_details?.name,
+            session.metadata ?? undefined
           ),
         ]);
       } else {

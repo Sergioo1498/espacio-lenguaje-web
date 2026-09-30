@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { getTrafficAttribution } from "@/lib/traffic-attribution";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
@@ -78,6 +79,7 @@ export default function QuizClient() {
       });
       const data = await res.json();
       if (data.success) {
+        track('lead', { fuente: 'quiz-necesita-logopeda' });
         setLeadStatus("success");
         setLeadMessage("¡Listo! Revisa tu email — te hemos enviado la guía con el plan completo por edad.");
         setEmail("");

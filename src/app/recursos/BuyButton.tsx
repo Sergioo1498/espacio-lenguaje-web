@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { track } from '@vercel/analytics';
+import { getTrafficAttribution } from '@/lib/traffic-attribution';
 
 interface Props {
   productId: string;
@@ -27,7 +28,7 @@ export default function BuyButton({ productId, size = 'default', addOnProductIds
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productId, addOnProductIds, utmCampaign: campana }),
+        body: JSON.stringify({ productId, addOnProductIds, utmCampaign: campana, attribution: getTrafficAttribution(), referrerPath: window.location.pathname }),
       });
       const data = await res.json();
       if (data.url) {

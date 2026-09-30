@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getStripeClient } from '@/lib/stripe';
 import { getProduct } from '@/lib/products';
+import { checkoutAttribution } from '@/lib/checkout-attribution';
 
 const BASE_URL = 'https://www.espaciolenguaje.com';
 
@@ -8,6 +9,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { productId, addOnProductIds, utmCampaign } = body;
+    const attribution = checkoutAttribution(body);
 
     if (!productId || typeof productId !== 'string') {
       return NextResponse.json(
@@ -56,7 +58,9 @@ export async function POST(request: Request) {
         typeof utmCampaign === 'string' && utmCampaign ? `&utm_campaign=${encodeURIComponent(utmCampaign)}` : ''
       }`,
       cancel_url: `${BASE_URL}/recursos`,
+      payment_intent_data: { metadata: { productId: product.id, ...attribution } },
       metadata: {
+        ...attribution,
         productId: product.id,
         productName: product.name,
         downloadFile: product.file,
