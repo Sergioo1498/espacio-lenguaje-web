@@ -1,0 +1,391 @@
+{
+  "period": {
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-27",
+    "type": "web"
+  },
+  "pages": {
+    "mi-hijo-no-pronuncia-la-s": {
+      "baseline": {
+        "clicks": 21,
+        "impressions": 2304,
+        "ctr": 0.009114583333333334,
+        "position": 5.909288194444445
+      },
+      "top20": [
+        {
+          "keys": [
+            "sigmatismo"
+          ],
+          "clicks": 1,
+          "impressions": 316,
+          "ctr": 0.0031645569620253164,
+          "position": 8.917721518987342
+        },
+        {
+          "keys": [
+            "sigmatismo que es"
+          ],
+          "clicks": 0,
+          "impressions": 60,
+          "ctr": 0,
+          "position": 9.65
+        },
+        {
+          "keys": [
+            "sigmatismo interdental"
+          ],
+          "clicks": 1,
+          "impressions": 57,
+          "ctr": 0.017543859649122806,
+          "position": 5.684210526315789
+        },
+        {
+          "keys": [
+            "que es sigmatismo"
+          ],
+          "clicks": 0,
+          "impressions": 30,
+          "ctr": 0,
+          "position": 9.566666666666666
+        },
+        {
+          "keys": [
+            "laterales de la s"
+          ],
+          "clicks": 0,
+          "impressions": 27,
+          "ctr": 0,
+          "position": 1
+        },
+        {
+          "keys": [
+            "que es el sigmatismo"
+          ],
+          "clicks": 0,
+          "impressions": 20,
+          "ctr": 0,
+          "position": 7.7
+        },
+        {
+          "keys": [
+            "sigmatismo lateral"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 4.538461538461538
+        },
+        {
+          "keys": [
+            "signatismo"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 7.333333333333333
+        },
+        {
+          "keys": [
+            "sigmatismo significado"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 9.5
+        },
+        {
+          "keys": [
+            "dificultad para pronunciar la s"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 6.4
+        },
+        {
+          "keys": [
+            "dislalia s"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 17
+        },
+        {
+          "keys": [
+            "artículos que hablen de eso"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 3
+        },
+        {
+          "keys": [
+            "con la s"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        },
+        {
+          "keys": [
+            "el niño tiene 4 años"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "keys": [
+            "la s"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "keys": [
+            "lenguaje s"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        },
+        {
+          "keys": [
+            "punto articulatorio fonema s"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 15
+        },
+        {
+          "keys": [
+            "s interdental"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 7
+        },
+        {
+          "keys": [
+            "sigmatismo anterior"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "keys": [
+            "tiene 3 años"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "frontmatter": "\ntitle: \"Mi hijo no pronuncia la S: tipos de sigmatismo, edades y qué hacer\"\ndate: \"2026-05-24\"\nexcerpt: \"El sigmatismo (dificultad para pronunciar la /s/) es una de las dislalias más frecuentes en preescolar. Tipos (interdental, lateral, dental), edad esperable para dominarla, causas y qué hacer en casa basado en evidencia (sin praxias aisladas).\"\ncategory: \"Señales de alerta\"\nreadingTime: \"9 min\"\nimage: \"/images/blog-dislalia.jpg\"\n"
+    },
+    "ejercicios-de-soplo-para-ninos": {
+      "baseline": {
+        "clicks": 32,
+        "impressions": 3053,
+        "ctr": 0.010481493612839829,
+        "position": 7.025548640681297
+      },
+      "top20": [
+        {
+          "keys": [
+            "ejercicios de soplo"
+          ],
+          "clicks": 1,
+          "impressions": 102,
+          "ctr": 0.00980392156862745,
+          "position": 6.450980392156863
+        },
+        {
+          "keys": [
+            "ejercicios de soplo para niños"
+          ],
+          "clicks": 2,
+          "impressions": 58,
+          "ctr": 0.034482758620689655,
+          "position": 5.637931034482759
+        },
+        {
+          "keys": [
+            "juegos de soplo para niños"
+          ],
+          "clicks": 1,
+          "impressions": 49,
+          "ctr": 0.02040816326530612,
+          "position": 10.061224489795919
+        },
+        {
+          "keys": [
+            "actividades de soplo"
+          ],
+          "clicks": 1,
+          "impressions": 44,
+          "ctr": 0.022727272727272728,
+          "position": 8.522727272727273
+        },
+        {
+          "keys": [
+            "actividades de soplo para niños"
+          ],
+          "clicks": 0,
+          "impressions": 24,
+          "ctr": 0,
+          "position": 6.25
+        },
+        {
+          "keys": [
+            "actividades de soplo para niños de 2 a 3 años"
+          ],
+          "clicks": 0,
+          "impressions": 20,
+          "ctr": 0,
+          "position": 5.05
+        },
+        {
+          "keys": [
+            "como enseñar a soplar a un niño"
+          ],
+          "clicks": 0,
+          "impressions": 20,
+          "ctr": 0,
+          "position": 8.65
+        },
+        {
+          "keys": [
+            "juegos de soplo"
+          ],
+          "clicks": 0,
+          "impressions": 19,
+          "ctr": 0,
+          "position": 8.68421052631579
+        },
+        {
+          "keys": [
+            "actividades de soplo para estimular el lenguaje"
+          ],
+          "clicks": 0,
+          "impressions": 17,
+          "ctr": 0,
+          "position": 5.411764705882353
+        },
+        {
+          "keys": [
+            "ejercicios de soplo terapia de lenguaje"
+          ],
+          "clicks": 0,
+          "impressions": 16,
+          "ctr": 0,
+          "position": 7.0625
+        },
+        {
+          "keys": [
+            "ejercicios de soplo para terapia de lenguaje"
+          ],
+          "clicks": 0,
+          "impressions": 14,
+          "ctr": 0,
+          "position": 8.071428571428571
+        },
+        {
+          "keys": [
+            "ejercicios de soplo para niños para que sirve"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 7.384615384615385
+        },
+        {
+          "keys": [
+            "juegos de soplar"
+          ],
+          "clicks": 0,
+          "impressions": 12,
+          "ctr": 0,
+          "position": 9.416666666666666
+        },
+        {
+          "keys": [
+            "juegos de soplar para niños"
+          ],
+          "clicks": 1,
+          "impressions": 9,
+          "ctr": 0.1111111111111111,
+          "position": 5.111111111111111
+        },
+        {
+          "keys": [
+            "como enseñar a soplar a un bebe"
+          ],
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 9.777777777777779
+        },
+        {
+          "keys": [
+            "ejercicios de soplo para lenguaje"
+          ],
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 7.25
+        },
+        {
+          "keys": [
+            "materiales para trabajar el soplo"
+          ],
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 15.75
+        },
+        {
+          "keys": [
+            "ejercicios soplo"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 9.428571428571429
+        },
+        {
+          "keys": [
+            "soplo infantil"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 38.285714285714285
+        },
+        {
+          "keys": [
+            "material de soplo"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 12.8
+        }
+      ],
+      "frontmatter": "\ntitle: \"Ejercicios de soplo para niños: 8 juegos caseros\"\ndate: \"2026-03-26\"\nupdatedAt: \"2026-05-29\"\nexcerpt: \"Ejercicios de soplo para niños de 2 a 6 años: 8 juegos con pompas, plumas, velas y molinillos, usando material de casa. Revisado por logopeda colegiada.\"\ncategory: \"Ejercicios\"\nreadingTime: \"7 min\"\nimage: \"/images/blog-ejercicios-soplo.png\"\n"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-30",
+  "measurementDate": "2026-10-14",
+  "lastChange": "2026-09-02 > 14 días",
+  "changes": [
+    {
+      "slug": "mi-hijo-no-pronuncia-la-s",
+      "intent": "Consulta informativa sobre sigmatismo, tipos y causas; predomina sigmatismo (316 impresiones).",
+      "options": [
+        {
+          "title": "Sigmatismo: qué es, tipos y cuándo consultar",
+          "meta": "Sigmatismo: qué es, tipos de dificultad con la S y cuándo consultar. Orientación para familias sobre causas y edades. Revisado por logopeda colegiada.",
+          "titleLength": 44,
+          "metaLength": 150
+        },
+        {
+          "title": "Sigmatismo: por qué tu hijo no pronuncia la S",
+          "meta": "Sigmatismo: conoce los tipos y las posibles causas de la dificultad para pronunciar la S, qué hacer en casa y cuándo consultar. Revisado por logopeda.",
+          "titleLength": 45,
+          "metaLength": 150
+        }
+      ],
+      "before": {
+        "title": "Mi hijo no pronuncia la S: tipos de sigmatismo, edades y qué hacer",
+        "meta": "El sigmatismo (dificultad para pronunciar la /s/) es una de las dislalias más frecuentes en preescolar. Tipos (interdental, lateral, dental), edad esperable para dominarla, causas y qué hacer en casa basado en evidencia (sin praxias aisladas).",
+        "h1": "Mi hijo no pronuncia la S: tipos de sigmatismo, edades y qué hacer",
+        "bodySHA256": "323a9c0c0c2faf33dc95b4a895b4656d71b84e68f0927e5cf0c3e8a2a9fdb474"
+      },
+      "chosen": 0,
+      "after": {
+        "title": "Sigmatismo: qué es, tipos y cuándo consultar",
+        "meta": "Sigmatismo: qué es, tipos de dificultad con la S y cuándo consultar. Orientación para familias sobre causas y edades. Revisado por logopeda colegiada.",
+        "h1": "Mi hijo no pronuncia la S: tipos de sigmatismo, edades y qué hacer",
+        "bodySHA256": "323a9c0c0c2faf33dc95b4a895b4656d71b84e68f0927e5cf0c3e8a2a9fdb474"
+      }
+    },
+    {
+      "slug": "ejercicios-de-soplo-para-ninos",
+      "intent": "Ejercicios y juegos caseros; ejercicios de soplo lidera (102 impresiones).",
+      "options": [
+        {
+          "title": "Ejercicios de soplo para niños: 8 juegos con material casero",
+          "meta": "Ejercicios de soplo para niños de 2 a 6 años: 8 juegos con pompas, plumas y molinillos, material de casa y orientaciones. Revisado por logopeda colegiada.",
+          "titleLength": 60,
+          "metaLength": 154
+        },
+        {
+          "title": "Ejercicios de soplo para niños: 8 juegos en casa",
+          "meta": "Ejercicios de soplo para niños: 8 juegos caseros de 2 a 6 años con pompas, plumas y molinillos. Material y pasos claros. Revisado por logopeda colegiada.",
+          "titleLength": 48,
+          "metaLength": 153
+        }
+      ],
+      "before": {
+        "title": "Ejercicios de soplo para niños: 8 juegos caseros",
+        "meta": "Ejercicios de soplo para niños de 2 a 6 años: 8 juegos con pompas, plumas, velas y molinillos, usando material de casa. Revisado por logopeda colegiada.",
+        "h1": "Ejercicios de soplo para niños: 8 juegos caseros",
+        "bodySHA256": "0f671871175ee68e135be576959853f5a082970d24581bb98d7c6713bd85c28e"
+      },
+      "chosen": 0,
+      "after": {
+        "title": "Ejercicios de soplo para niños: 8 juegos con material casero",
+        "meta": "Ejercicios de soplo para niños de 2 a 6 años: 8 juegos con pompas, plumas y molinillos, material de casa y orientaciones. Revisado por logopeda colegiada.",
+        "h1": "Ejercicios de soplo para niños: 8 juegos caseros",
+        "bodySHA256": "0f671871175ee68e135be576959853f5a082970d24581bb98d7c6713bd85c28e"
+      }
+    }
+  ]
+}

@@ -6,6 +6,8 @@ const contentDir = path.join(process.cwd(), "content");
 
 export interface PostMeta {
   title: string;
+  seoTitle?: string;
+  seoDescription?: string;
   slug: string;
   date: string;
   updatedAt?: string;
@@ -28,6 +30,8 @@ export function getAllPosts(): PostMeta[] {
     const { data } = matter(fileContent);
     return {
       title: data.title,
+      seoTitle: data.seoTitle,
+      seoDescription: data.seoDescription,
       slug,
       date: data.date,
       updatedAt: data.updatedAt,
@@ -49,6 +53,8 @@ export function getPostBySlug(slug: string) {
   return {
     meta: {
       title: data.title,
+      seoTitle: data.seoTitle,
+      seoDescription: data.seoDescription,
       slug,
       date: data.date,
       updatedAt: data.updatedAt,

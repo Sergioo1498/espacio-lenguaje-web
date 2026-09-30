@@ -52,15 +52,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { meta } = getPostBySlug(slug);
   const img = blogImages[slug] || (meta.image ? { src: meta.image } : null);
   return {
-    title: meta.title,
-    description: meta.excerpt,
+    title: meta.seoTitle ? { absolute: meta.seoTitle } : meta.title,
+    description: meta.seoDescription || meta.excerpt,
     alternates: {
       canonical: `https://www.espaciolenguaje.com/blog/${meta.slug}`,
       languages: localizedAlternates(`/blog/${meta.slug}`),
     },
     openGraph: {
-      title: meta.title,
-      description: meta.excerpt,
+      title: meta.seoTitle || meta.title,
+      description: meta.seoDescription || meta.excerpt,
       type: "article",
       authors: [(meta.authorId ? getTeamMember(meta.authorId) : defaultAuthor()).publicName],
       publishedTime: meta.date,
