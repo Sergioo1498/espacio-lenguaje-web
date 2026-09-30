@@ -2,9 +2,18 @@
   "http": 200,
   "deployments": [
     {
+      "id": "dpl_3qrjStxKMUb9MrLDJiTfySrP96zG",
+      "url": "https://espacio-lenguaje-7sfzlw99r-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790803069690,
+      "commit": "1015a1e1c58519c80c6356949efabad443097fdf",
+      "message": "Guarda pruebas de producción, Analytics y materiales pendientes de aprobación"
+    },
+    {
       "id": "dpl_6G2kEznzY6wyNdxZxUj17JFgsCPG",
       "url": "https://espacio-lenguaje-bt7tjdcza-sergioo1498s-projects.vercel.app",
-      "state": "BUILDING",
+      "state": "READY",
       "target": "production",
       "created": 1790802800178,
       "commit": "836a44111942837327fb6b8b06839ab1b658589a",
@@ -81,15 +90,6 @@
       "created": 1789632536884,
       "commit": "dab90e30bb82c9d7969850aa31301e513750f184",
       "message": "Schedule Pinterest Free campaign at twenty pins per month"
-    },
-    {
-      "id": "dpl_F6Ns5b3iRrJruhzkfQMYMVQmWGSe",
-      "url": "https://espacio-lenguaje-lm13dml8a-sergioo1498s-projects.vercel.app",
-      "state": "READY",
-      "target": "production",
-      "created": 1789593004083,
-      "commit": "0426b20f37e922251a5ac008bd61ddb9072a1f17",
-      "message": "Prepare September 17 Pinterest calendar and record verified account setup"
     }
   ]
 }
