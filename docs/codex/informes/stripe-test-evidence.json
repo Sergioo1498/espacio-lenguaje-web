@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cs_test_a1dQNjQNSD7nh9slix9TAzoXEaeQuIyWIP51szWltLlhDGHGTCVi1UqVWq",
+    "status": "open",
+    "livemode": false,
+    "metadata": {
+      "ORIGEN_TRAFICO": "pinterest",
+      "addOnProductIds": "",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "downloadFile": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "productId": "fichas-articulacion",
+      "productName": "Pack de Fichas de Articulación",
+      "referrer_path": "/gracias/fichas-gratis",
+      "utmCampaign": "tripwire-fichas",
+      "utm_campaign": "tripwire-fichas",
+      "utm_medium": "social",
+      "utm_source": "pinterest"
+    },
+    "payment_intent": null
+  },
+  {
+    "id": "cs_test_a18RWJFefAXB3u1XqUkfTT1OS3uR9X4pn4Tn9JeFDFKObRcoaK4yEgGt6y",
+    "status": "open",
+    "livemode": false,
+    "metadata": {
+      "ORIGEN_TRAFICO": "pinterest",
+      "addOnProductIds": "",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "downloadFile": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "productId": "fichas-articulacion",
+      "productName": "Pack de Fichas de Articulación",
+      "referrer_path": "/recursos/fichas-articulacion",
+      "utmCampaign": "tripwire-fichas-pdf",
+      "utm_campaign": "tripwire-fichas-pdf",
+      "utm_medium": "social",
+      "utm_source": "pinterest"
+    },
+    "payment_intent": null
+  }
+]

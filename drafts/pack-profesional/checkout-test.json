@@ -1,0 +1,18 @@
+{
+  "sessionId": "cs_test_a1RwRgSGqT8S3zhk18O91V4udiXGFdYu3CZH4jlpgl2OrOvAerX1mselP9",
+  "livemode": false,
+  "status": "open",
+  "paymentStatus": "unpaid",
+  "amountTotal": 3490,
+  "paymentIntent": null,
+  "metadata": {
+    "addOnProductIds": "",
+    "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf,/downloads/productos/cuaderno-estimulacion-0-3.pdf,/downloads/productos/cuaderno-estimulacion-3-6.pdf,/downloads/productos/kit-ejercicios-soplo.pdf,/downloads/productos/calendario-semanal.pdf,/downloads/productos/guia-uso-profesional.pdf,/downloads/productos/licencia-profesional.pdf",
+    "downloadFile": "multiple",
+    "productId": "pack-profesional",
+    "productName": "Pack Profesional",
+    "utmCampaign": "test-pack-pro",
+    "utm_campaign": "test-pack-pro"
+  },
+  "browser": "Reintento: timeout CDP; no se confirma compra alojada"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "sessionId": "cs_test_a1dQNjQNSD7nh9slix9TAzoXEaeQuIyWIP51szWltLlhDGHGTCVi1UqVWq",
+    "checkoutStatus": "open",
+    "paymentIntentId": "pi_3ULU09QW6wP4sOaT5rE5ItE6",
+    "paymentStatus": "succeeded",
+    "metadata": {
+      "ORIGEN_TRAFICO": "pinterest",
+      "addOnProductIds": "",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "downloadFile": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "productId": "fichas-articulacion",
+      "productName": "Pack de Fichas de Articulación",
+      "referrer_path": "/gracias/fichas-gratis",
+      "utmCampaign": "tripwire-fichas",
+      "utm_campaign": "tripwire-fichas",
+      "utm_medium": "social",
+      "utm_source": "pinterest"
+    },
+    "livemode": false,
+    "fixture": "PaymentIntent independiente; sesión Checkout NO completada",
+    "webhook": {
+      "http": 200,
+      "type": "fixture firmado local, no evento Checkout real"
+    },
+    "brevo": {
+      "source": "pinterest",
+      "campaign": "tripwire-fichas",
+      "listIds": [
+        3
+      ]
+    },
+    "cleanupHttp": 204
+  },
+  {
+    "sessionId": "cs_test_a18RWJFefAXB3u1XqUkfTT1OS3uR9X4pn4Tn9JeFDFKObRcoaK4yEgGt6y",
+    "checkoutStatus": "open",
+    "paymentIntentId": "pi_3ULUXyQW6wP4sOaT1zvhn8JL",
+    "paymentStatus": "succeeded",
+    "metadata": {
+      "ORIGEN_TRAFICO": "pinterest",
+      "addOnProductIds": "",
+      "allFiles": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "downloadFile": "/downloads/productos/pack-fichas-articulacion.pdf",
+      "productId": "fichas-articulacion",
+      "productName": "Pack de Fichas de Articulación",
+      "referrer_path": "/recursos/fichas-articulacion",
+      "utmCampaign": "tripwire-fichas-pdf",
+      "utm_campaign": "tripwire-fichas-pdf",
+      "utm_medium": "social",
+      "utm_source": "pinterest"
+    },
+    "livemode": false,
+    "fixture": "PaymentIntent independiente; sesión Checkout NO completada",
+    "webhook": {
+      "http": 200,
+      "type": "fixture firmado local, no evento Checkout real"
+    },
+    "brevo": {
+      "source": "pinterest",
+      "campaign": "tripwire-fichas-pdf",
+      "listIds": [
+        3
+      ]
+    },
+    "cleanupHttp": 204
+  }
+]

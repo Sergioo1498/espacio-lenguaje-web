@@ -1,0 +1,60 @@
+[
+  {
+    "file": "drafts\\pack-profesional\\guia-uso-profesional.pdf",
+    "pages": 7,
+    "bytes": 235393,
+    "rendered": 7,
+    "textLengths": [
+      437,
+      615,
+      711,
+      350,
+      307,
+      367,
+      718
+    ]
+  },
+  {
+    "file": "drafts\\pack-profesional\\licencia-profesional.pdf",
+    "pages": 1,
+    "bytes": 74324,
+    "rendered": 1,
+    "textLengths": [
+      998
+    ]
+  },
+  {
+    "file": "drafts\\pieza-2-praxias\\fichas-praxias.pdf",
+    "pages": 10,
+    "bytes": 368064,
+    "rendered": 10,
+    "textLengths": [
+      882,
+      419,
+      419,
+      419,
+      419,
+      419,
+      419,
+      419,
+      419,
+      576
+    ]
+  },
+  {
+    "file": "drafts\\pieza-4-r-fuerte\\listas-r-fuerte.pdf",
+    "pages": 8,
+    "bytes": 332786,
+    "rendered": 8,
+    "textLengths": [
+      472,
+      464,
+      469,
+      641,
+      570,
+      495,
+      305,
+      564
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "tag": "quiztest3",
+    "contactHttp": 200,
+    "listIds": [
+      7
+    ],
+    "emailBlacklisted": true,
+    "campaign": "test",
+    "source": "pinterest",
+    "eventsHttp": 200,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609302005.17549369922@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:05:32.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609302005.17549369922@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:05:31.413+02:00"
+      }
+    ]
+  },
+  {
+    "tag": "packprotest",
+    "contactHttp": 200,
+    "listIds": [
+      7
+    ],
+    "emailBlacklisted": true,
+    "eventsHttp": 200,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:00:46.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:00:44.948+02:00"
+      }
+    ]
+  },
+  {
+    "tag": "packproemail",
+    "contactHttp": 200,
+    "listIds": [
+      7
+    ],
+    "emailBlacklisted": true,
+    "eventsHttp": 200,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609301958.83096581678@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T21:58:52.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609301958.83096581678@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T21:58:50.563+02:00"
+      }
+    ]
+  },
+  {
+    "tag": "atribucion1",
+    "contactHttp": 200,
+    "listIds": [
+      7
+    ],
+    "emailBlacklisted": true,
+    "campaign": "tripwire-fichas",
+    "source": "pinterest",
+    "eventsHttp": 200,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609302056.28095913377@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:56:14.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609302056.28095913377@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:56:13.979+02:00"
+      }
+    ]
+  },
+  {
+    "tag": "atribucion2",
+    "contactHttp": 200,
+    "listIds": [
+      7
+    ],
+    "emailBlacklisted": true,
+    "campaign": "tripwire-fichas-pdf",
+    "source": "pinterest",
+    "eventsHttp": 200,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609302056.15540772827@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:56:16.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609302056.15540772827@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:56:15.551+02:00"
+      }
+    ]
+  }
+]

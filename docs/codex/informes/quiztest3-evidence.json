@@ -1,0 +1,28 @@
+{
+  "before": {
+    "listIds": [
+      2
+    ],
+    "source": "quiz-necesita-logopeda"
+  },
+  "events": [
+    {
+      "event": "delivered",
+      "messageId": "<202609302005.17549369922@smtp-relay.mailin.fr>",
+      "date": "2026-09-30T22:05:32.000+02:00"
+    },
+    {
+      "event": "requests",
+      "messageId": "<202609302005.17549369922@smtp-relay.mailin.fr>",
+      "date": "2026-09-30T22:05:31.413+02:00"
+    }
+  ],
+  "cleanup": {
+    "http": 204,
+    "listIds": [
+      7
+    ],
+    "blacklisted": true
+  },
+  "analyticsIngestion": "no verificado: sin acceso a Analytics"
+}

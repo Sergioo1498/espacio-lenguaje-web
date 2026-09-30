@@ -1,0 +1,95 @@
+{
+  "http": 200,
+  "deployments": [
+    {
+      "id": "dpl_6G2kEznzY6wyNdxZxUj17JFgsCPG",
+      "url": "https://espacio-lenguaje-bt7tjdcza-sergioo1498s-projects.vercel.app",
+      "state": "BUILDING",
+      "target": "production",
+      "created": 1790802800178,
+      "commit": "836a44111942837327fb6b8b06839ab1b658589a",
+      "message": "Cierra pruebas de atribución y ajusta informe Madrid y entrega privada"
+    },
+    {
+      "id": "dpl_22kTDKvapY1GvBQimfFUYiAut9w8",
+      "url": "https://espacio-lenguaje-ldnp3pi40-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790802393051,
+      "commit": "376b1cf2f32949ad55ebff329d4ece6a1caadaa3",
+      "message": "Devuelve 404 para artículos fuera del catálogo publicado"
+    },
+    {
+      "id": "dpl_2vGyQuNKdQagvdch17YBPqEGrhQC",
+      "url": "https://espacio-lenguaje-rfpvuh3h3-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790801855022,
+      "commit": "ddf46fdd92421f3dd215a5d6b44c17074363b99c",
+      "message": "Optimiza title y meta de sigmatismo y soplo con línea base y rollback"
+    },
+    {
+      "id": "dpl_AZRLZW5njiifxhWCsqJM7wPvTYme",
+      "url": "https://espacio-lenguaje-6izjsozgy-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790799725380,
+      "commit": "c46c4f8967460ac263ffa905f2a74400ef3675a4",
+      "message": "Prepara borrador de R fuerte y freebie de ocho páginas para Bea"
+    },
+    {
+      "id": "dpl_D84VrCNZEvqFSiMofuTMC4jB73BN",
+      "url": "https://espacio-lenguaje-3khlzc5n3-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790798739008,
+      "commit": "82eb00c6577afd8d17701ebac0d2958845c0e617",
+      "message": "Prepara Pack Profesional en test, vista previa y documentos privados de revisión"
+    },
+    {
+      "id": "dpl_4FViUpLCcA4sESYdtT5Lh1tewtKB",
+      "url": "https://espacio-lenguaje-286hrit1a-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1790797351548,
+      "commit": "01f48ea413ca4a6a5d22a6f2b28fdd79fe471a27",
+      "message": "Completa atribución de checkout y eventos del quiz; añade informe semanal"
+    },
+    {
+      "id": "dpl_BBFLjzYaDV4VRKcsBmWEjbAhusAv",
+      "url": "https://espacio-lenguaje-uoqihfoo8-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1789675416592,
+      "commit": "e144db3c784a7a1068fcf0640c20ee8308647a43",
+      "message": "Verify eight published Pinterest pins and three live samples"
+    },
+    {
+      "id": "dpl_9eaZCGyhNuiQpoPnv3iqaTJHKoiL",
+      "url": "https://espacio-lenguaje-pm57a8sy9-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1789632658911,
+      "commit": "f9e7c995f70b612f66643e29e30250361255d4d1",
+      "message": "Record live verification of Free Pinterest calendar"
+    },
+    {
+      "id": "dpl_Cv7owrPkdHmSd7vpAwbUWtDHc9gk",
+      "url": "https://espacio-lenguaje-6oionl9jp-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1789632536884,
+      "commit": "dab90e30bb82c9d7969850aa31301e513750f184",
+      "message": "Schedule Pinterest Free campaign at twenty pins per month"
+    },
+    {
+      "id": "dpl_F6Ns5b3iRrJruhzkfQMYMVQmWGSe",
+      "url": "https://espacio-lenguaje-lm13dml8a-sergioo1498s-projects.vercel.app",
+      "state": "READY",
+      "target": "production",
+      "created": 1789593004083,
+      "commit": "0426b20f37e922251a5ac008bd61ddb9072a1f17",
+      "message": "Prepare September 17 Pinterest calendar and record verified account setup"
+    }
+  ]
+}

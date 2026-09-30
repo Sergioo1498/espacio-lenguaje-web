@@ -1,0 +1,44 @@
+[
+  {
+    "File": "calendario-semanal.pdf",
+    "Bytes": 369569,
+    "SHA256": "61C0106958122327FBE66FFF1F500C9C2DE6B26A223CAC278ABDBA8240A03315",
+    "unchanged": true
+  },
+  {
+    "File": "cuaderno-estimulacion-0-3.pdf",
+    "Bytes": 4091365,
+    "SHA256": "37570BEF81317FBAD3FE4E17E7BADAC956888CC4CDA8C63C7E2BCD3257DCF0DB",
+    "unchanged": true
+  },
+  {
+    "File": "cuaderno-estimulacion-3-6.pdf",
+    "Bytes": 3609545,
+    "SHA256": "F87FFE380E51AEFCB2AD9B4F32E06626C680150DF4D9D6176D44E283CC78E318",
+    "unchanged": true
+  },
+  {
+    "File": "guia-dislexia.pdf",
+    "Bytes": 2236445,
+    "SHA256": "9FDEA8941E7F73967DDB2DA42B4AFD158864BF6902F432B7C1588B5BC19CE78B",
+    "unchanged": true
+  },
+  {
+    "File": "guia-tartamudez.pdf",
+    "Bytes": 2201035,
+    "SHA256": "E1A7E000B53F15BD2EF5480129738F954BEA8313257D4814ED936C8E23C34458",
+    "unchanged": true
+  },
+  {
+    "File": "kit-ejercicios-soplo.pdf",
+    "Bytes": 10956500,
+    "SHA256": "712B4F65BA5095D7672CCDC4F544F5DD9497DD10A0FDF60773EA4C3954AD8EF1",
+    "unchanged": true
+  },
+  {
+    "File": "pack-fichas-articulacion.pdf",
+    "Bytes": 1345168,
+    "SHA256": "5659D79760E66A5308B00435CB03514DC3E96046F84E5C7CADC92C24196F1D10",
+    "unchanged": true
+  }
+]

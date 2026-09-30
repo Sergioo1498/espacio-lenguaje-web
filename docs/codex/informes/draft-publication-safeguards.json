@@ -1,0 +1,34 @@
+[
+  {
+    "route": "/gracias/r-fuerte",
+    "http": 404
+  },
+  {
+    "route": "/gracias/praxias",
+    "http": 404
+  },
+  {
+    "route": "/blog/palabras-y-frases-con-r-fuerte",
+    "http": 404
+  },
+  {
+    "route": "/blog/fichas-praxias-bucofaciales-imprimir",
+    "http": 404
+  },
+  {
+    "route": "/downloads/productos/guia-uso-profesional.pdf",
+    "http": 404
+  },
+  {
+    "route": "/downloads/productos/licencia-profesional.pdf",
+    "http": 404
+  },
+  {
+    "route": "/downloads/listas-r-fuerte.pdf",
+    "http": 404
+  },
+  {
+    "route": "/downloads/fichas-praxias.pdf",
+    "http": 404
+  }
+]

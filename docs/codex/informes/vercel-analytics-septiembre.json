@@ -1,0 +1,328 @@
+{
+  "asOf": "2026-09-30T21:13:59.739Z",
+  "october": "No iniciado: fecha de ejecución 30-sep-2026",
+  "queries": {
+    "pageviews": {
+      "http": 200,
+      "data": {
+        "version": 1,
+        "query": {
+          "since": "2026-08-31T22:00:00.000Z",
+          "until": "2026-09-30T22:00:00.000Z",
+          "groupBy": [
+            "requestPath"
+          ],
+          "limit": 100
+        },
+        "data": [
+          {
+            "requestPath": "/blog/fichas-logopedia-gratis-imprimir",
+            "visitors": 362,
+            "pageviews": 468
+          },
+          {
+            "requestPath": "/blog/actividades-ninos-2-anos-lenguaje",
+            "visitors": 330,
+            "pageviews": 378
+          },
+          {
+            "requestPath": "/blog/ejercicios-para-la-r-fuerte",
+            "visitors": 308,
+            "pageviews": 352
+          },
+          {
+            "requestPath": "/blog/etapas-desarrollo-del-lenguaje",
+            "visitors": 216,
+            "pageviews": 270
+          },
+          {
+            "requestPath": "/blog/tel-trastorno-especifico-lenguaje",
+            "visitors": 153,
+            "pageviews": 183
+          },
+          {
+            "requestPath": "/blog/conciencia-fonologica-actividades",
+            "visitors": 125,
+            "pageviews": 146
+          },
+          {
+            "requestPath": "/recursos",
+            "visitors": 119,
+            "pageviews": 193
+          },
+          {
+            "requestPath": "/",
+            "visitors": 111,
+            "pageviews": 166
+          },
+          {
+            "requestPath": "/blog/praxias-bucofaciales-ninos",
+            "visitors": 105,
+            "pageviews": 124
+          },
+          {
+            "requestPath": "/blog/estimulacion-del-lenguaje-en-casa",
+            "visitors": 102,
+            "pageviews": 111
+          },
+          {
+            "requestPath": "/blog/ejercicios-de-soplo-para-ninos",
+            "visitors": 91,
+            "pageviews": 101
+          },
+          {
+            "requestPath": "/lp/guia-gratis",
+            "visitors": 89,
+            "pageviews": 102
+          },
+          {
+            "requestPath": "/blog/como-ensenar-la-r-a-un-nino",
+            "visitors": 70,
+            "pageviews": 82
+          },
+          {
+            "requestPath": "/descargar-guia",
+            "visitors": 60,
+            "pageviews": 86
+          },
+          {
+            "requestPath": "/blog/vocabulario-ninos-como-ampliar",
+            "visitors": 51,
+            "pageviews": 59
+          },
+          {
+            "requestPath": "/recursos/fichas-articulacion",
+            "visitors": 51,
+            "pageviews": 61
+          },
+          {
+            "requestPath": "/blog/juegos-para-estimular-el-habla",
+            "visitors": 50,
+            "pageviews": 61
+          },
+          {
+            "requestPath": "/blog/mi-hijo-no-pronuncia-la-s",
+            "visitors": 48,
+            "pageviews": 52
+          },
+          {
+            "requestPath": "/blog/mi-hijo-no-habla-cuando-preocuparse",
+            "visitors": 47,
+            "pageviews": 56
+          },
+          {
+            "requestPath": "/blog/a-que-edad-debe-hablar-un-nino",
+            "visitors": 45,
+            "pageviews": 50
+          },
+          {
+            "requestPath": "/recursos/cuaderno-3-6",
+            "visitors": 42,
+            "pageviews": 48
+          },
+          {
+            "requestPath": "/quiz/necesita-logopeda",
+            "visitors": 35,
+            "pageviews": 45
+          },
+          {
+            "requestPath": "/recursos/pack-completo",
+            "visitors": 31,
+            "pageviews": 35
+          },
+          {
+            "requestPath": "/blog/tartamudez-infantil-cuando-preocuparse",
+            "visitors": 30,
+            "pageviews": 32
+          },
+          {
+            "requestPath": "/recursos/cuaderno-0-3",
+            "visitors": 30,
+            "pageviews": 36
+          },
+          {
+            "requestPath": "/blog/dislalia-infantil-tipos",
+            "visitors": 25,
+            "pageviews": 29
+          },
+          {
+            "requestPath": "/blog/mi-hijo-de-3-anos-no-habla-bien",
+            "visitors": 23,
+            "pageviews": 26
+          },
+          {
+            "requestPath": "/recomendaciones",
+            "visitors": 20,
+            "pageviews": 30
+          },
+          {
+            "requestPath": "/blog",
+            "visitors": 16,
+            "pageviews": 49
+          },
+          {
+            "requestPath": "/blog/retraso-simple-del-lenguaje",
+            "visitors": 15,
+            "pageviews": 17
+          },
+          {
+            "requestPath": "/sobre-nosotros",
+            "visitors": 14,
+            "pageviews": 16
+          },
+          {
+            "requestPath": "/blog/bilinguismo-infantil-mitos-y-realidades",
+            "visitors": 13,
+            "pageviews": 14
+          },
+          {
+            "requestPath": "/blog/dislexia-en-ninos-como-detectarla",
+            "visitors": 13,
+            "pageviews": 13
+          },
+          {
+            "requestPath": "/blog/ejercicios-lenguaje-para-casa",
+            "visitors": 13,
+            "pageviews": 14
+          },
+          {
+            "requestPath": "/blog/frenillo-lingual-sintomas",
+            "visitors": 13,
+            "pageviews": 14
+          },
+          {
+            "requestPath": "/gracias/fichas-gratis",
+            "visitors": 11,
+            "pageviews": 11
+          },
+          {
+            "requestPath": "/recursos/guia-tartamudez",
+            "visitors": 11,
+            "pageviews": 12
+          },
+          {
+            "requestPath": "/blog/categoria/recursos",
+            "visitors": 10,
+            "pageviews": 29
+          },
+          {
+            "requestPath": "/recursos/kit-soplo",
+            "visitors": 10,
+            "pageviews": 11
+          },
+          {
+            "requestPath": "/blog/atencion-temprana-que-es",
+            "visitors": 8,
+            "pageviews": 8
+          },
+          {
+            "requestPath": "/blog/categoria/ejercicios",
+            "visitors": 7,
+            "pageviews": 8
+          },
+          {
+            "requestPath": "/cookies",
+            "visitors": 6,
+            "pageviews": 6
+          },
+          {
+            "requestPath": "/privacidad",
+            "visitors": 5,
+            "pageviews": 5
+          },
+          {
+            "requestPath": "/blog/logopedia-online-como-funciona",
+            "visitors": 4,
+            "pageviews": 4
+          },
+          {
+            "requestPath": "/compra-exitosa",
+            "visitors": 4,
+            "pageviews": 6
+          },
+          {
+            "requestPath": "/blog/categoria/desarrollo-del-lenguaje",
+            "visitors": 3,
+            "pageviews": 5
+          },
+          {
+            "requestPath": "/blog/categoria/estimulacion",
+            "visitors": 3,
+            "pageviews": 3
+          },
+          {
+            "requestPath": "/aviso-legal",
+            "visitors": 2,
+            "pageviews": 2
+          },
+          {
+            "requestPath": "/blog/categoria/senales-de-alerta",
+            "visitors": 2,
+            "pageviews": 2
+          },
+          {
+            "requestPath": "/contacto",
+            "visitors": 1,
+            "pageviews": 1
+          },
+          {
+            "requestPath": "/fichas-logopedia-gratis",
+            "visitors": 1,
+            "pageviews": 1
+          },
+          {
+            "requestPath": "/pinterest/index.html",
+            "visitors": 1,
+            "pageviews": 1
+          },
+          {
+            "requestPath": "/recursos/guia-dislexia",
+            "visitors": 1,
+            "pageviews": 1
+          },
+          {
+            "requestPath": "/recursos/pack-profesional",
+            "visitors": 1,
+            "pageviews": 1
+          }
+        ]
+      }
+    },
+    "leads": {
+      "http": 402,
+      "data": {
+        "error": {
+          "code": "payment_required",
+          "message": "Accessing Analytics custom events requires an Enterprise or Pro plan."
+        }
+      }
+    },
+    "descarga_pdf": {
+      "http": 402,
+      "data": {
+        "error": {
+          "code": "payment_required",
+          "message": "Accessing Analytics custom events requires an Enterprise or Pro plan."
+        }
+      }
+    },
+    "inicio_checkout": {
+      "http": 402,
+      "data": {
+        "error": {
+          "code": "payment_required",
+          "message": "Accessing Analytics custom events requires an Enterprise or Pro plan."
+        }
+      }
+    },
+    "compra": {
+      "http": 402,
+      "data": {
+        "error": {
+          "code": "payment_required",
+          "message": "Accessing Analytics custom events requires an Enterprise or Pro plan."
+        }
+      }
+    }
+  }
+}

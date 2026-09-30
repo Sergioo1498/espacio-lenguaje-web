@@ -26,6 +26,18 @@
     "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
     "publicFiles": 5,
     "privateAttachments": 2,
-    "checkoutCompleted": false
+    "checkoutCompleted": false,
+    "events": [
+      {
+        "event": "delivered",
+        "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:00:46.000+02:00"
+      },
+      {
+        "event": "requests",
+        "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
+        "date": "2026-09-30T22:00:44.948+02:00"
+      }
+    ]
   }
 }

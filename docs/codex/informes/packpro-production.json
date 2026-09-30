@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/recursos/pack-profesional",
+    "http": 200,
+    "noindex": true,
+    "containsProfessionalLink": false,
+    "containsProfessional": true
+  },
+  {
+    "path": "/recursos",
+    "http": 200,
+    "noindex": false,
+    "containsProfessionalLink": false,
+    "containsProfessional": false
+  },
+  {
+    "path": "/sitemap.xml",
+    "http": 200,
+    "noindex": false,
+    "containsProfessionalLink": false,
+    "containsProfessional": false
+  },
+  {
+    "path": "/api/checkout pack-profesional",
+    "http": 410
+  }
+]
