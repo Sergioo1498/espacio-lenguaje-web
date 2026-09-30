@@ -42,6 +42,9 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Only compiled public MDX articles may resolve; private drafts stay unavailable.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map((post) => ({ slug: post.slug }));
