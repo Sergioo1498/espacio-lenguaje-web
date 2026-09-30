@@ -1,0 +1,28 @@
+{
+  "id": 13354,
+  "source": "https://static.arasaac.org/pictograms/13354/13354_300.png",
+  "keywords": [
+    {
+      "keyword": "reír",
+      "type": 3,
+      "meaning": "intr. y prnl. Manifestar alegría con ciertos movimientos del rostro y sonidos característicos.",
+      "plural": "",
+      "hasLocution": true
+    },
+    {
+      "keyword": "sonreír",
+      "type": 3,
+      "meaning": "intr. Reírse un poco o levemente, y sin ruido. U. t. c. prnl.",
+      "plural": "",
+      "hasLocution": true
+    },
+    {
+      "keyword": "sonrisa",
+      "type": 2,
+      "meaning": "f. Acción y efecto de sonreír.",
+      "plural": "sonrisas",
+      "hasLocution": true
+    }
+  ],
+  "attribution": "Sergio Palao / ARASAAC / Gobierno de Aragón / CC BY-NC-SA"
+}
