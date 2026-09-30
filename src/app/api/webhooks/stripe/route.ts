@@ -190,7 +190,7 @@ export async function POST(request: Request) {
 
     if (productId && email) {
       const product = getProduct(productId);
-      if (product) {
+        if (product && !(product.testOnly && event.livemode)) {
         const addOnIds = (session.metadata?.addOnProductIds || '')
           .split(',')
           .map((s) => s.trim())

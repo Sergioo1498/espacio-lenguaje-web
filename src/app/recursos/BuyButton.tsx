@@ -23,12 +23,13 @@ export default function BuyButton({ productId, size = 'default', addOnProductIds
     // con ?utm_campaign=tripwire-fichas-pdf y así la atribución llega a Stripe.
     const campana =
       utmCampaign ?? new URLSearchParams(window.location.search).get('utm_campaign') ?? undefined;
-    track('inicio_checkout', { producto: productId, campana: campana ?? 'directo' });
+    const attribution = getTrafficAttribution();
+    track('inicio_checkout', { producto: productId, campana: campana ?? 'directo', ...attribution, ...(campana ? { utm_campaign: campana } : {}), referrer_path: window.location.pathname });
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productId, addOnProductIds, utmCampaign: campana, attribution: getTrafficAttribution(), referrerPath: window.location.pathname }),
+        body: JSON.stringify({ productId, addOnProductIds, utmCampaign: campana, attribution, referrerPath: window.location.pathname }),
       });
       const data = await res.json();
       if (data.url) {

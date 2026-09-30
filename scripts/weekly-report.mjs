@@ -2,8 +2,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import Stripe from 'stripe';
-import { getSearchConsoleClient, SITE_URL } from './_gsc-client.mjs';
-process.loadEnvFile?.('.env.local');
+import { gscQuery } from './_gsc-readonly.mjs';
+import { madridMidnightEpoch } from './_madrid-time.mjs';
+if(fs.existsSync('.env.local')) process.loadEnvFile?.('.env.local');
 const arg = name => { const i=process.argv.indexOf(name); return i<0?undefined:process.argv[i+1]; };
 const today=arg('--as-of') || new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Madrid'}).format(new Date());
 if(!/^\d{4}-\d{2}-\d{2}$/.test(today)) throw new Error('Invalid --as-of');
@@ -13,7 +14,7 @@ const md=(headers, rows)=>['| '+headers.join(' | ')+' |','| '+headers.map(()=>'-
 const group=(rows,key)=>Object.entries(rows.reduce((a,r)=>{const k=key(r)||'sin declarar';a[k]=(a[k]||0)+1;return a;},{})).sort((a,b)=>b[1]-a[1]);
 const sections=[`# Informe semanal · ${today}\n\nGenerado en modo solo lectura. Brevo y Stripe: ${shift(-7)}–${shift(-1)} (días completos Europe/Madrid). GSC: termina ${shift(-3)} por retraso habitual; no equivale a datos de hoy. AOV = ventas brutas / cobros exitosos; neto antes de comisiones.`];
 try {
- const sc=getSearchConsoleClient();
+ const sc={searchanalytics:{query:async({requestBody})=>({data:await gscQuery(requestBody)})}}; const SITE_URL='https://www.espaciolenguaje.com/';
  for(const days of [7,28]) {
   const requestBody={startDate:shift(-days-2),endDate:shift(-3),type:'web'};
   const [totals,pages]=await Promise.all([sc.searchanalytics.query({siteUrl:SITE_URL,requestBody}),sc.searchanalytics.query({siteUrl:SITE_URL,requestBody:{...requestBody,dimensions:['page'],rowLimit:5}})]);
@@ -34,13 +35,11 @@ try {
  const key=process.env.STRIPE_SECRET_KEY_LIVE_READONLY || process.env.STRIPE_SECRET_KEY;
  const snapshot=arg('--stripe-snapshot');
  let values;
- if(snapshot){const data=JSON.parse(fs.readFileSync(snapshot,'utf8'));if(data.livemode!==true||data.startDate!==shift(-7)||data.endDate!==shift(-1))throw new Error('Snapshot live o período no válido');values=data;}
+ if(snapshot){const data=JSON.parse(fs.readFileSync(snapshot,'utf8'));if(data.livemode!==true||data.complete!==true||data.startDate!==shift(-7)||data.endDate!==shift(-1))throw new Error('Snapshot live, completitud o período no válido');values=data;}
  else {
   if(!key||!key.startsWith('sk_live_')&&!key.startsWith('rk_live_'))throw new Error('Solo hay clave Stripe test; falta credencial live de lectura o snapshot verificado');
-  const stripe=new Stripe(key);const start=Math.floor(Date.parse(shift(-7)+'T00:00:00+02:00')/1000);const end=Math.floor(Date.parse(today+'T00:00:00+02:00')/1000);
-  // Derive real UTC boundary from Madrid timezone, including winter time.
-  const boundary=d=>{const noon=new Date(d+'T12:00:00Z');const offset=new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Madrid',timeZoneName:'shortOffset'}).formatToParts(noon).find(p=>p.type==='timeZoneName').value;return Math.floor(Date.parse(d+'T00:00:00'+(offset.includes('+2')?'+02:00':'+01:00'))/1000);};
-  void start;void end;
+  const stripe=new Stripe(key,{httpClient:Stripe.createFetchHttpClient()});
+  const boundary=madridMidnightEpoch;
   const charges=[];for await(const c of stripe.charges.list({created:{gte:boundary(shift(-7)),lt:boundary(today)},limit:100}))if(c.paid&&c.status==='succeeded')charges.push(c);
   const refunds=[];for await(const r of stripe.refunds.list({created:{gte:boundary(shift(-7)),lt:boundary(today)},limit:100}))if(r.status==='succeeded')refunds.push(r);
   const all=[...charges,...refunds];if(all.some(r=>r.currency!=='eur'))throw new Error('Monedas mixtas: requiere informe por moneda');
