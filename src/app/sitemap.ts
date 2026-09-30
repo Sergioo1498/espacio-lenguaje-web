@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const productUrls = products.map((product) => ({
+  const productUrls = products.filter(p => !p.testOnly).map((product) => ({
     url: `${baseUrl}/recursos/${product.id}`,
     lastModified: BUILD_TIME,
     changeFrequency: "monthly" as const,

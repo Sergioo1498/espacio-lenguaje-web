@@ -1,0 +1,31 @@
+{
+  "templates": [
+    {
+      "name": "nurturing-04b-pitch-profesional",
+      "templateId": 14
+    },
+    {
+      "name": "pack-profesional-presentacion-oct2026",
+      "templateId": 13
+    }
+  ],
+  "events": [
+    {
+      "event": "delivered",
+      "messageId": "<202609301958.83096581678@smtp-relay.mailin.fr>",
+      "date": "2026-09-30T21:58:52.000+02:00"
+    },
+    {
+      "event": "requests",
+      "messageId": "<202609301958.83096581678@smtp-relay.mailin.fr>",
+      "date": "2026-09-30T21:58:50.563+02:00"
+    }
+  ],
+  "delivery": {
+    "http": 201,
+    "messageId": "<202609302000.60361651507@smtp-relay.mailin.fr>",
+    "publicFiles": 5,
+    "privateAttachments": 2,
+    "checkoutCompleted": false
+  }
+}

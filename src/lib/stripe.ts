@@ -7,5 +7,5 @@ export function getStripeClient(): Stripe {
       'STRIPE_SECRET_KEY no configurada. Añade tu clave de Stripe en .env.local'
     );
   }
-  return new Stripe(key);
+  return new Stripe(key, key.startsWith('sk_test_') ? { httpClient: Stripe.createFetchHttpClient() } : undefined);
 }

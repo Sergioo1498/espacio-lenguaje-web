@@ -70,8 +70,8 @@ const productSchema = {
   name: 'Recursos de Logopedia Infantil',
   description: 'Material profesional de logopedia infantil descargable',
   url: 'https://www.espaciolenguaje.com/recursos',
-  numberOfItems: products.length,
-  itemListElement: products.map((p, i) => ({
+  numberOfItems: products.filter(p => !p.testOnly).length,
+  itemListElement: products.filter(p => !p.testOnly).map((p, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     item: {

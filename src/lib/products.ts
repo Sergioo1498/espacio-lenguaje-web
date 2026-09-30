@@ -5,6 +5,8 @@ export interface Product {
   price: number; // céntimos
   currency: string;
   stripePriceId: string;
+  stripeTestPriceId?: string;
+  testOnly?: boolean;
   file: string;
   files?: string[];
   image: string;
@@ -19,6 +21,17 @@ export interface Product {
 }
 
 export const products: Product[] = [
+  {
+    id: 'pack-profesional', name: 'Pack Profesional', description: 'Material de Espacio Lenguaje con guía y licencia profesional pendientes de revisión.',
+    price: 3490, currency: 'eur', stripePriceId: '', stripeTestPriceId: 'price_1ULTYnQW6wP4sOaTsMuWq4eX',
+    testOnly: true, disabled: true, disabledReason: 'En preparación: pendiente de revisión de Bea y revisión legal.',
+    file: 'multiple', files: [
+      '/downloads/productos/pack-fichas-articulacion.pdf', '/downloads/productos/cuaderno-estimulacion-0-3.pdf',
+      '/downloads/productos/cuaderno-estimulacion-3-6.pdf', '/downloads/productos/kit-ejercicios-soplo.pdf',
+      '/downloads/productos/calendario-semanal.pdf',
+      '/downloads/productos/guia-uso-profesional.pdf', '/downloads/productos/licencia-profesional.pdf',
+    ], image: '/images/producto-pack-completo.png', category: 'profesionales',
+  },
   {
     id: 'fichas-articulacion',
     name: 'Pack de Fichas de Articulación',

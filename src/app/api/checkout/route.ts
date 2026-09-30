@@ -26,7 +26,8 @@ export async function POST(request: Request) {
       );
     }
 
-    if (product.disabled) {
+    const isTest = process.env.STRIPE_SECRET_KEY?.startsWith('sk_test_') === true;
+    if ((product.testOnly && !isTest) || (product.disabled && !(product.testOnly && isTest))) {
       return NextResponse.json(
         { error: product.disabledReason || 'Este producto no está disponible temporalmente.' },
         { status: 410 }
@@ -37,13 +38,14 @@ export async function POST(request: Request) {
       ? addOnProductIds
           .filter((id): id is string => typeof id === 'string' && id !== productId)
           .map(getProduct)
-          .filter((p): p is NonNullable<ReturnType<typeof getProduct>> => Boolean(p))
+          .filter((p): p is NonNullable<ReturnType<typeof getProduct>> => Boolean(p) && !p!.disabled && !p!.testOnly)
       : [];
 
-    const lineItems = [product, ...addOns].map((p) => ({
-      price: p.stripePriceId,
+    // Live price IDs cannot be used in the separate test account. Live is unchanged.
+    const lineItems = [product, ...addOns].map((p) => isTest && p.stripeTestPriceId ? ({price: p.stripeTestPriceId, quantity: 1}) : isTest ? ({
+      price_data: { currency: p.currency, unit_amount: p.price, product_data: { name: p.name } },
       quantity: 1,
-    }));
+    }) : ({ price: p.stripePriceId, quantity: 1 }));
 
     const allFiles = [product, ...addOns].flatMap((p) =>
       p.file === 'multiple' && p.files ? p.files : [p.file]

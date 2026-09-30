@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import Stripe from 'stripe';
+process.loadEnvFile('.env.local');
+const key=process.env.STRIPE_SECRET_KEY_TEST||process.env.STRIPE_SECRET_KEY;
+if(!key?.startsWith('sk_test_'))throw Error('EXCLUSIVAMENTE STRIPE TEST');
+const stripe=new Stripe(key,{httpClient:Stripe.createFetchHttpClient()});
+const product=await stripe.products.create({name:'Pack Profesional — borrador de revisión',metadata:{productId:'pack-profesional',status:'draft-legal-and-bea-review'}},{idempotencyKey:'espaciolenguaje-pack-profesional-oct2026-product'});
+const price=await stripe.prices.create({product:product.id,currency:'eur',unit_amount:3490},{idempotencyKey:'espaciolenguaje-pack-profesional-oct2026-price'});
+const record={account:(await stripe.accounts.retrieve()).id,livemode:product.livemode,productId:product.id,priceId:price.id,unitAmount:price.unit_amount};
+if(record.livemode)throw Error('No es test');
+fs.writeFileSync('drafts/pack-profesional/stripe-test.json',JSON.stringify(record,null,2));console.log(record);

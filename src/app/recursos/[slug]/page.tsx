@@ -15,7 +15,7 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.id }));
+  return products.filter(p => !p.testOnly).map((p) => ({ slug: p.id }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
